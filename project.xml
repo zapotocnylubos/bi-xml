@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <name>BI-XML semestrální projekt</name>
+    <repository>https://github.com/zapotocnylubos/bi-xml</repository>
+
+    <author>
+        <firstname>Luboš</firstname>
+        <lastname>Zápotočný</lastname>
+        <email>zapotlub@cvut.cz</email>
+    </author>
+
+    <countries>
+        <country>
+            <name>Czechia</name>
+        </country>
+        <country>
+            <name>Italy</name>
+        </country>
+        <country>
+            <name>Greece</name>
+        </country>
+        <country>
+            <name>Egypt</name>
+        </country>
+    </countries>
+</project>
