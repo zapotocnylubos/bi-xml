@@ -190,10 +190,7 @@
                 <ref name="value"/>
                 <ref name="units"/>
               </element>
-              <element name="expenditures">
-                <ref name="value"/>
-                <ref name="units"/>
-              </element>
+              <ref name="expenditures"/>
               <ref name="date"/>
             </element>
             <element name="taxes_and_other_revenues">
@@ -715,8 +712,18 @@
               <text/>
             </element>
           </element>
-          <element name="military_adn_security">
-            <empty/>
+          <element name="military_and_security">
+            <ref name="expenditures"/>
+            <element name="service_age_and_obligation">
+              <element name="years_of_age">
+                <data type="integer"/>
+              </element>
+              <ref name="note"/>
+              <ref name="date"/>
+            </element>
+            <optional>
+              <ref name="note"/>
+            </optional>
           </element>
           <element name="transnational_issues">
             <oneOrMore>
@@ -831,6 +838,11 @@
               </element>
             </optional>
             <element name="ports_and_terminals">
+              <zeroOrMore>
+                <element name="river_ports">
+                  <text/>
+                </element>
+              </zeroOrMore>
               <optional>
                 <oneOrMore>
                   <element name="major_seaports">
@@ -863,18 +875,39 @@
                   </element>
                 </zeroOrMore>
               </choice>
-              <choice>
+              <optional>
                 <ref name="date"/>
-                <oneOrMore>
-                  <element name="river_ports">
-                    <text/>
-                  </element>
-                </oneOrMore>
-              </choice>
+              </optional>
             </element>
           </element>
         </choice>
       </oneOrMore>
+    </element>
+  </define>
+  <define name="expenditures">
+    <element name="expenditures">
+      <choice>
+        <group>
+          <oneOrMore>
+            <ref name="annual_values"/>
+          </oneOrMore>
+          <ref name="global_rank"/>
+        </group>
+        <group>
+          <ref name="value"/>
+          <ref name="units"/>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <text/>
+    </element>
+  </define>
+  <define name="date">
+    <element name="date">
+      <data type="NMTOKEN"/>
     </element>
   </define>
   <define name="total_subscriptions">
@@ -892,11 +925,6 @@
       <data type="integer"/>
     </element>
   </define>
-  <define name="date">
-    <element name="date">
-      <data type="NMTOKEN"/>
-    </element>
-  </define>
   <define name="total">
     <element name="total">
       <oneOrMore>
@@ -908,11 +936,6 @@
           <ref name="value"/>
         </choice>
       </oneOrMore>
-    </element>
-  </define>
-  <define name="note">
-    <element name="note">
-      <text/>
     </element>
   </define>
   <define name="etymology">
@@ -992,9 +1015,6 @@
   <define name="elevation">
     <element name="elevation">
       <optional>
-        <ref name="note"/>
-      </optional>
-      <optional>
         <choice>
           <element name="highest_point">
             <ref name="name"/>
@@ -1016,7 +1036,10 @@
         <ref name="value"/>
       </optional>
       <optional>
-        <ref name="units"/>
+        <choice>
+          <ref name="note"/>
+          <ref name="units"/>
+        </choice>
       </optional>
     </element>
   </define>
@@ -1027,10 +1050,6 @@
   </define>
   <define name="by_country">
     <element name="by_country">
-      <optional>
-        <ref name="name"/>
-        <ref name="percent"/>
-      </optional>
       <optional>
         <ref name="people"/>
       </optional>
@@ -1043,7 +1062,13 @@
         <ref name="date"/>
       </optional>
       <optional>
-        <ref name="note"/>
+        <choice>
+          <ref name="note"/>
+          <group>
+            <ref name="name"/>
+            <ref name="percent"/>
+          </group>
+        </choice>
       </optional>
     </element>
   </define>
@@ -1383,21 +1408,21 @@
       <optional>
         <choice>
           <ref name="bbl_per_day"/>
-          <ref name="cubic_metres"/>
           <ref name="kWh"/>
         </choice>
       </optional>
-      <choice>
-        <group>
-          <ref name="total_value"/>
-          <ref name="commodities"/>
-          <ref name="partners"/>
-        </group>
-        <group>
-          <ref name="global_rank"/>
-          <ref name="date"/>
-        </group>
-      </choice>
+      <optional>
+        <ref name="total_value"/>
+        <ref name="commodities"/>
+        <ref name="partners"/>
+      </optional>
+      <optional>
+        <ref name="cubic_metres"/>
+      </optional>
+      <optional>
+        <ref name="global_rank"/>
+        <ref name="date"/>
+      </optional>
     </element>
   </define>
   <define name="imports">
@@ -1559,19 +1584,14 @@
       <ref name="total"/>
     </element>
   </define>
-  <define name="cubic_metres">
-    <element name="cubic_metres">
+  <define name="bbl_per_day">
+    <element name="bbl_per_day">
       <data type="integer"/>
     </element>
   </define>
   <define name="kWh">
     <element name="kWh">
       <data type="decimal"/>
-    </element>
-  </define>
-  <define name="bbl_per_day">
-    <element name="bbl_per_day">
-      <data type="integer"/>
     </element>
   </define>
   <define name="total_value">
@@ -1597,6 +1617,11 @@
         <ref name="by_country"/>
       </oneOrMore>
       <ref name="date"/>
+    </element>
+  </define>
+  <define name="cubic_metres">
+    <element name="cubic_metres">
+      <data type="integer"/>
     </element>
   </define>
   <define name="urban">

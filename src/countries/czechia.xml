@@ -1548,7 +1548,41 @@ Decin</river_ports>
       <river_ports>Usti nad Labem (Elbe)</river_ports>
     </ports_and_terminals>
   </transportation>
-  <military_adn_security/>
+  <military_and_security>
+    <expenditures>
+      <annual_values>
+        <value>1.19</value>
+        <units>percent_of_gdp</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>1.13</value>
+        <units>percent_of_gdp</units>
+        <date>2018</date>
+      </annual_values>
+      <annual_values>
+        <value>1.04</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>0.96</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>1.03</value>
+        <units>percent_of_gdp</units>
+        <date>2015</date>
+      </annual_values>
+      <global_rank>109</global_rank>
+    </expenditures>
+    <service_age_and_obligation>
+      <years_of_age>18</years_of_age>
+      <note>18-28 years of age for male and female voluntary military service; no conscription</note>
+      <date>2012</date>
+    </service_age_and_obligation>
+  </military_and_security>
   <transnational_issues>
     <disputes>none</disputes>
     <refugees_and_iternally_displaced_persons>

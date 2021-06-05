@@ -1595,7 +1595,41 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
       <date>2017</date>
     </ports_and_terminals>
   </transportation>
-  <military_adn_security/>
+  <military_and_security>
+    <expenditures>
+      <annual_values>
+        <value>2.28</value>
+        <units>percent_of_gdp</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>2.48</value>
+        <units>percent_of_gdp</units>
+        <date>2018</date>
+      </annual_values>
+      <annual_values>
+        <value>2.34</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>2.38</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>2.3</value>
+        <units>percent_of_gdp</units>
+        <date>2015</date>
+      </annual_values>
+      <global_rank>41</global_rank>
+    </expenditures>
+    <service_age_and_obligation>
+      <years_of_age>19</years_of_age>
+      <note>19-45 years of age for compulsory military service; during wartime the law allows for recruitment beginning January of the year of inductee's 18th birthday, thus including 17 year olds; 18 years of age for volunteers; conscript service obligation is 1 year for the Army and 9 months for the Air Force and Navy; women are eligible for voluntary military service</note>
+      <date>2014</date>
+    </service_age_and_obligation>
+  </military_and_security>
   <transnational_issues>
     <disputes>Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Sea</disputes>
     <disputes>the mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy</disputes>

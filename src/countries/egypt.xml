@@ -1710,7 +1710,43 @@ Gulf of Suez - Suez</liquid_natural_gas_terminals_export>
       <date>2017</date>
     </ports_and_terminals>
   </transportation>
-  <military_adn_security/>
+  <military_and_security>
+    <expenditures>
+      <annual_values>
+        <value>1.2</value>
+        <units>percent_of_gdp</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>1.2</value>
+        <units>percent_of_gdp</units>
+        <date>2018</date>
+      </annual_values>
+      <annual_values>
+        <value>1.4</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>1.7</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>1.7</value>
+        <units>percent_of_gdp</units>
+        <date>2015</date>
+      </annual_values>
+      <global_rank>102</global_rank>
+    </expenditures>
+    <service_age_and_obligation>
+      <years_of_age>18</years_of_age>
+      <note>18-30 years of age for male conscript military service; service obligation - 18-36 months, followed by a 9-year reserve obligation; voluntary enlistment possible from age 15</note>
+      <date>2017</date>
+    </service_age_and_obligation>
+    <note>since 2011, the Egyptian Armed Forces, police, and other security forces have been actively engaged in counterinsurgency and counter-terrorism operations in the North Sinai governorate against several militant groups, particularly the Islamic State of Iraq and ash-Sham – Sinai Province; as of early 2020, Egypt reportedly had over 40,000 troops plus thousands of police and other security personnel deployed to the Sinai for internal security duties where more than 1,000 have been killed
+the military has a large stake in the civilian economy, including running businesses, producing consumer and industrial goods, importing commodities, and building and managing infrastructure projects, such as bridges, roads, hospitals, and housing developments (2020)</note>
+  </military_and_security>
   <transnational_issues>
     <disputes>Sudan claims but Egypt de facto administers security and economic development of Halaib region north of the 22nd parallel boundary</disputes>
     <disputes>Egypt no longer shows its administration of the Bir Tawil trapezoid in Sudan on its maps</disputes>

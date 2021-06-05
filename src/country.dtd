@@ -1,6 +1,5 @@
-<!ELEMENT country (#PCDATA|name|introduction|geography|people|government|economy|energy|communications|transportation|military_adn_security|transnational_issues)*>
-  <!ATTLIST country
-    id CDATA #IMPLIED>
+<!ELEMENT country (#PCDATA|name|introduction|geography|people|government|economy|energy|communications|transportation|military_and_security|transnational_issues)*>
+  <!ATTLIST country id CDATA #IMPLIED>
   <!ELEMENT name (#PCDATA)>
   <!ELEMENT introduction (background)*>
   <!ELEMENT background (#PCDATA)>
@@ -229,7 +228,7 @@
   <!ELEMENT highest_ten_percent (value|units)*>
   <!ELEMENT budget (revenues|expenditures|date)*>
   <!ELEMENT revenues (value|units)*>
-  <!ELEMENT expenditures (value|units)*>
+  <!ELEMENT expenditures (value|units|annual_values|global_rank)*>
   <!ELEMENT taxes_and_other_revenues (percent_of_gdp|global_rank|date)*>
   <!ELEMENT budget_surplus_or_deficit (percent_of_gdp|global_rank|date)*>
   <!ELEMENT public_debt (annual_values|global_rank|note)*>
@@ -296,7 +295,9 @@
   <!ELEMENT waterways (value|units|note|global_rank|date)*>
   <!ELEMENT ports_and_terminals (river_ports|major_seaports|oil_terminals|container_ports|liquid_natural_gas_terminals_import|date|liquid_natural_gas_terminals_export)*>
   <!ELEMENT river_ports (#PCDATA)>
-  <!ELEMENT military_adn_security (#PCDATA)>
+  <!ELEMENT military_and_security (expenditures|service_age_and_obligation|note)*>
+  <!ELEMENT service_age_and_obligation (years_of_age|note|date)*>
+  <!ELEMENT years_of_age (#PCDATA)>
   <!ELEMENT transnational_issues (disputes|refugees_and_iternally_displaced_persons|illicit_drugs|trafficking_in_persons)*>
   <!ELEMENT disputes (#PCDATA)>
   <!ELEMENT refugees_and_iternally_displaced_persons (stateless_persons|refugees|note|internally_displaced_persons)*>
