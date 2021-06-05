@@ -1,0 +1,1850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country id="italy">
+  <name>Italy</name>
+  <introduction>
+    <background>Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.</background>
+  </introduction>
+  <geography>
+    <location>Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia</location>
+    <geographic_coordinates>
+      <latitude>
+        <degrees>42</degrees>
+        <minutes>50</minutes>
+        <hemisphere>N</hemisphere>
+      </latitude>
+      <longitude>
+        <degrees>12</degrees>
+        <minutes>50</minutes>
+        <hemisphere>E</hemisphere>
+      </longitude>
+    </geographic_coordinates>
+    <map_references>Europe</map_references>
+    <area>
+      <total>
+        <value>301340</value>
+        <units>sq km</units>
+      </total>
+      <land>
+        <value>294140</value>
+        <units>sq km</units>
+      </land>
+      <water>
+        <value>7200</value>
+        <units>sq km</units>
+      </water>
+      <note>includes Sardinia and Sicily</note>
+      <global_rank>73</global_rank>
+      <comparative>almost twice the size of Georgia; slightly larger than Arizona</comparative>
+    </area>
+    <land_boundaries>
+      <total>
+        <value>1836.4</value>
+        <units>km</units>
+      </total>
+      <border_countries>
+        <country>Austria</country>
+        <border_length>
+          <value>404</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>France</country>
+        <border_length>
+          <value>476</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Holy See (Vatican City)</country>
+        <border_length>
+          <value>3.4</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>San Marino</country>
+        <border_length>
+          <value>37</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Slovenia</country>
+        <border_length>
+          <value>218</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Switzerland</country>
+        <border_length>
+          <value>698</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+    </land_boundaries>
+    <coastline>
+      <value>7600</value>
+      <units>km</units>
+    </coastline>
+    <maritime_claims>
+      <territorial_sea>
+        <value>12</value>
+        <units>nm</units>
+      </territorial_sea>
+      <continental_shelf>
+        <value>200</value>
+        <units>m</units>
+        <note>depth or to the depth of exploitation</note>
+      </continental_shelf>
+    </maritime_claims>
+    <climate>predominantly Mediterranean; alpine in far north; hot, dry in south</climate>
+    <terrain>mostly rugged and mountainous; some plains, coastal lowlands</terrain>
+    <elevation>
+      <mean_elevation>
+        <value>538</value>
+        <units>m</units>
+      </mean_elevation>
+      <lowest_point>
+        <name>Mediterranean Sea</name>
+        <elevation>
+          <value>0</value>
+          <units>m</units>
+        </elevation>
+      </lowest_point>
+      <highest_point>
+        <name>Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)</name>
+        <elevation>
+          <value>4748</value>
+          <units>m</units>
+        </elevation>
+      </highest_point>
+    </elevation>
+    <natural_resources>
+      <resources>coal</resources>
+      <resources>antimony</resources>
+      <resources>mercury</resources>
+      <resources>zinc</resources>
+      <resources>potash</resources>
+      <resources>marble</resources>
+      <resources>barite</resources>
+      <resources>asbestos</resources>
+      <resources>pumice</resources>
+      <resources>fluorspar</resources>
+      <resources>feldspar</resources>
+      <resources>pyrite</resources>
+      <resources>sulfur</resources>
+      <resources>natural gas</resources>
+      <resources>crude oil reserves</resources>
+      <resources>fish</resources>
+      <resources>arable land</resources>
+    </natural_resources>
+    <land_use>
+      <by_sector>
+        <agricultural_land_total>
+          <value>47.1</value>
+          <units>%</units>
+        </agricultural_land_total>
+        <arable_land>
+          <value>22.8</value>
+          <units>%</units>
+          <note>/</note>
+        </arable_land>
+        <permanent_crops>
+          <value>8.6</value>
+          <units>%</units>
+          <note>/</note>
+        </permanent_crops>
+        <permanent_pasture>
+          <value>15.7</value>
+          <units>%</units>
+        </permanent_pasture>
+        <forest>
+          <value>31.4</value>
+          <units>%</units>
+        </forest>
+        <other>
+          <value>21.5</value>
+          <units>%</units>
+        </other>
+      </by_sector>
+      <date>2011</date>
+    </land_use>
+    <irrigated_land>
+      <value>39500</value>
+      <units>sq km</units>
+      <date>2012</date>
+    </irrigated_land>
+    <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
+    <natural_hazards>
+      <description>regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding</description>
+      <type>hazard</type>
+    </natural_hazards>
+    <natural_hazards>
+      <description>land subsidence in Venice</description>
+      <type>hazard</type>
+    </natural_hazards>
+    <natural_hazards>
+      <description>significant volcanic activity; Etna (3,330 m), which is in eruption as of 2010, is Europe's most active volcano; flank eruptions pose a threat to nearby Sicilian villages; Etna, along with the famous Vesuvius, which remains a threat to the millions of nearby residents in the Bay of Naples area, have both been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; Stromboli, on its namesake island, has also been continuously active with moderate volcanic activity; other historically active volcanoes include Campi Flegrei, Ischia, Larderello, Pantelleria, Vulcano, and Vulsini</description>
+      <type>volcanism</type>
+    </natural_hazards>
+    <environment>
+      <current_issues>air pollution from industrial emissions such as sulfur dioxide</current_issues>
+      <current_issues>coastal and inland rivers polluted from industrial and agricultural effluents</current_issues>
+      <current_issues>acid rain damaging lakes</current_issues>
+      <current_issues>inadequate industrial waste treatment and disposal facilities</current_issues>
+      <international_agreements>
+        <party_to>Air Pollution</party_to>
+        <party_to>Air Pollution-Nitrogen Oxides</party_to>
+        <party_to>Air Pollution-Persistent Organic Pollutants</party_to>
+        <party_to>Air Pollution-Sulfur 85</party_to>
+        <party_to>Air Pollution-Sulfur 94</party_to>
+        <party_to>Air Pollution-Volatile Organic Compounds</party_to>
+        <party_to>Antarctic-Environmental Protocol</party_to>
+        <party_to>Antarctic-Marine Living Resources</party_to>
+        <party_to>Antarctic Seals</party_to>
+        <party_to>Antarctic Treaty</party_to>
+        <party_to>Biodiversity</party_to>
+        <party_to>Climate Change</party_to>
+        <party_to>Climate Change-Kyoto Protocol</party_to>
+        <party_to>Desertification</party_to>
+        <party_to>Endangered Species</party_to>
+        <party_to>Environmental Modification</party_to>
+        <party_to>Hazardous Wastes</party_to>
+        <party_to>Law of the Sea</party_to>
+        <party_to>Marine Dumping</party_to>
+        <party_to>Ozone Layer Protection</party_to>
+        <party_to>Ship Pollution</party_to>
+        <party_to>Tropical Timber 83</party_to>
+        <party_to>Tropical Timber 94</party_to>
+        <party_to>Wetlands</party_to>
+        <party_to>Whaling</party_to>
+        <signed_but_not_ratified/>
+      </international_agreements>
+    </environment>
+  </geography>
+  <people>
+    <population>
+      <total>62402659</total>
+      <global_rank>23</global_rank>
+      <date>2020-07-01</date>
+    </population>
+    <nationality>
+      <noun>Italian(s)</noun>
+      <adjective>Italian</adjective>
+    </nationality>
+    <ethnic_groups>
+      <ethnicity>
+        <name>Italian</name>
+        <note>includes small clusters of German-, French-, and Slovene-Italians in the north and Albanian-Italians and Greek-Italians in the south</note>
+      </ethnicity>
+    </ethnic_groups>
+    <languages>
+      <language>
+        <name>Italian</name>
+        <note>official</note>
+      </language>
+      <language>
+        <name>German</name>
+        <note>parts of Trentino-Alto Adige region are predominantly German speaking</note>
+      </language>
+      <language>
+        <name>French</name>
+        <note>small French-speaking minority in Valle d'Aosta region</note>
+      </language>
+      <language>
+        <name>Slovene</name>
+        <note>Slovene-speaking minority in the Trieste-Gorizia area</note>
+      </language>
+    </languages>
+    <religions>
+      <religion>
+        <name>Christian</name>
+        <percent>83.3</percent>
+        <note>overwhelmingly Roman Catholic with very small groups of Jehovah's Witnesses and Protestants</note>
+      </religion>
+      <religion>
+        <name>Muslim</name>
+        <percent>3.7</percent>
+      </religion>
+      <religion>
+        <name>unaffiliated</name>
+        <percent>12.4</percent>
+      </religion>
+      <religion>
+        <name>other</name>
+        <percent>0.6</percent>
+      </religion>
+      <date>2010</date>
+    </religions>
+    <dependency_ratios>
+      <ratios>
+        <total_dependency_ratio>
+          <value>57</value>
+          <units>%</units>
+        </total_dependency_ratio>
+        <youth_dependency_ratio>
+          <value>20.4</value>
+          <units>%</units>
+        </youth_dependency_ratio>
+        <elderly_dependency_ratio>
+          <value>36.6</value>
+          <units>%</units>
+        </elderly_dependency_ratio>
+        <potential_support_ratio>
+          <value>2.7</value>
+          <units>%</units>
+        </potential_support_ratio>
+      </ratios>
+      <date>2020</date>
+    </dependency_ratios>
+    <median_age>
+      <total>
+        <value>46.5</value>
+        <units>years</units>
+      </total>
+      <male>
+        <value>45.4</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>47.5</value>
+        <units>years</units>
+      </female>
+      <global_rank>5</global_rank>
+      <date>2020</date>
+    </median_age>
+    <population_growth_rate>
+      <growth_rate>0.11</growth_rate>
+      <global_rank>186</global_rank>
+      <date>2020</date>
+    </population_growth_rate>
+    <birth_rate>
+      <births_per_1000_population>8.4</births_per_1000_population>
+      <global_rank>218</global_rank>
+      <date>2020</date>
+    </birth_rate>
+    <death_rate>
+      <deaths_per_1000_population>10.7</deaths_per_1000_population>
+      <global_rank>27</global_rank>
+      <date>2020</date>
+    </death_rate>
+    <net_migration_rate>
+      <migrants_per_1000_population>3.2</migrants_per_1000_population>
+      <global_rank>36</global_rank>
+      <date>2020</date>
+    </net_migration_rate>
+    <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
+    <urbanization>
+      <urban_population>
+        <value>71</value>
+        <units>%</units>
+        <date>2020</date>
+      </urban_population>
+      <rate_of_urbanization>
+        <value>0.29</value>
+        <units>%</units>
+      </rate_of_urbanization>
+      <total_population_growth_rate_v._urban_population_growth_rate_2000_2030>PDF</total_population_growth_rate_v._urban_population_growth_rate_2000_2030>
+    </urbanization>
+    <major_urban_areas>
+      <places>
+        <place>Rome</place>
+        <population>4257000</population>
+        <is_capital>true</is_capital>
+      </places>
+      <places>
+        <place>Milan</place>
+        <population>3140000</population>
+      </places>
+      <places>
+        <place>Naples</place>
+        <population>2187000</population>
+      </places>
+      <places>
+        <place>Turin</place>
+        <population>1792000</population>
+      </places>
+      <places>
+        <place>Bergamo</place>
+        <population>892000</population>
+      </places>
+      <places>
+        <place>Palermo</place>
+        <population>851000</population>
+      </places>
+      <date>2020</date>
+    </major_urban_areas>
+    <mothers_mean_age_at_first_birth>
+      <age>31.1</age>
+      <date>2017</date>
+    </mothers_mean_age_at_first_birth>
+    <maternal_mortality_rate>
+      <deaths_per_100k_live_births>2</deaths_per_100k_live_births>
+      <global_rank>182</global_rank>
+      <date>2017</date>
+    </maternal_mortality_rate>
+    <infant_mortality_rate>
+      <total>
+        <value>3.2</value>
+        <units>deaths_per_1000_live_births</units>
+      </total>
+      <male>
+        <value>3.4</value>
+        <units>deaths_per_1000_live_births</units>
+      </male>
+      <female>
+        <value>3</value>
+        <units>deaths_per_1000_live_births</units>
+      </female>
+      <global_rank>212</global_rank>
+      <date>2020</date>
+    </infant_mortality_rate>
+    <life_expectancy_at_birth>
+      <total_population>
+        <value>82.5</value>
+        <units>years</units>
+      </total_population>
+      <male>
+        <value>79.8</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>85.3</value>
+        <units>years</units>
+      </female>
+      <global_rank>17</global_rank>
+      <date>2020</date>
+    </life_expectancy_at_birth>
+    <total_fertility_rate>
+      <children_born_per_woman>1.47</children_born_per_woman>
+      <global_rank>210</global_rank>
+      <date>2020</date>
+    </total_fertility_rate>
+    <contraceptive_prevalence_rate>
+      <value>65.1</value>
+      <units>%</units>
+      <note>percent of women aged 18-49</note>
+      <date>2013</date>
+    </contraceptive_prevalence_rate>
+    <physicians_density>
+      <physicians_per_1000_population>3.98</physicians_per_1000_population>
+      <date>2017</date>
+    </physicians_density>
+    <hospital_bed_density>
+      <beds_per_1000_population>3.2</beds_per_1000_population>
+      <date>2017</date>
+    </hospital_bed_density>
+    <drinking_water_source>
+      <improved>
+        <urban>
+          <value>100</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>100</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>100</value>
+          <units>percent of population</units>
+        </total>
+      </improved>
+      <unimproved>
+        <urban>
+          <value>0</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>0</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>0</value>
+          <units>percent of population</units>
+        </total>
+      </unimproved>
+      <date>2017</date>
+    </drinking_water_source>
+    <sanitation_facility_access>
+      <improved>
+        <urban>
+          <value>98.8</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>98.6</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>98.8</value>
+          <units>percent of population</units>
+        </total>
+      </improved>
+      <unimproved>
+        <urban>
+          <value>1.2</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>1.4</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>1.2</value>
+          <units>percent of population</units>
+        </total>
+      </unimproved>
+      <date>2017</date>
+    </sanitation_facility_access>
+    <hiv_aids>
+      <adult_prevalence_rate>
+        <percent_of_adults>0.3</percent_of_adults>
+        <global_rank>89</global_rank>
+        <date>2019</date>
+      </adult_prevalence_rate>
+      <people_living_with_hiv_aids>
+        <total>130000</total>
+        <global_rank>39</global_rank>
+        <date>2019</date>
+      </people_living_with_hiv_aids>
+      <deaths>
+        <total>1000</total>
+        <date>2019</date>
+      </deaths>
+    </hiv_aids>
+    <major_infectious_diseases>
+      <note>a new coronavirus is causing sustained community spread of respiratory illness (COVID-19) in Italy; sustained community spread means that people have been infected with the virus, but how or where they became infected is not known, and the spread is ongoing; illness with this virus has ranged from mild to severe with fatalities reported; as of 10 November 2020, Italy has reported a total of 902,490 cases of COVID-19 or 14,927 cumulative cases of COVID-19 per 1 million population with 679 cumulative deaths per 1 million population; the US Department of State has issued a Travel Advisory to reconsider travel to Italy due to the recent outbreak of COVID-19; the Centers for Disease Control and Prevention has also recommended postponing nonessential travel to Italy at this time and published additional guidance at https://wwwnc.cdc.gov/travel/notices/alert/coronavirus-italy; the US Department of Homeland Security has issued instructions requiring US passengers who have been in Italy to travel through select airports where the US Government has implemented enhanced screening procedures</note>
+      <date>2020</date>
+    </major_infectious_diseases>
+    <adult_obesity>
+      <percent_of_adults>19.9</percent_of_adults>
+      <global_rank>108</global_rank>
+      <date>2016</date>
+    </adult_obesity>
+    <education_expenditures>
+      <percent_of_gdp>3.8</percent_of_gdp>
+      <global_rank>113</global_rank>
+      <date>2016</date>
+    </education_expenditures>
+    <literacy>
+      <definition>age 15 and over can read and write</definition>
+      <total_population>
+        <value>99.2</value>
+        <units>%</units>
+      </total_population>
+      <male>
+        <value>99.4</value>
+        <units>%</units>
+      </male>
+      <female>
+        <value>99</value>
+        <units>%</units>
+      </female>
+      <date>2018</date>
+    </literacy>
+    <school_life_expectancy>
+      <total>
+        <value>16</value>
+        <units>years</units>
+      </total>
+      <male>
+        <value>16</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>17</value>
+        <units>years</units>
+      </female>
+      <date>2018</date>
+    </school_life_expectancy>
+    <youth_unemployment>
+      <total>
+        <value>32.2</value>
+        <units>%</units>
+      </total>
+      <male>
+        <value>30.4</value>
+        <units>%</units>
+      </male>
+      <female>
+        <value>34.8</value>
+        <units>%</units>
+      </female>
+      <global_rank>26</global_rank>
+      <date>2018</date>
+    </youth_unemployment>
+  </people>
+  <government>
+    <country_name>
+      <conventional_long_form>Italian Republic</conventional_long_form>
+      <conventional_short_form>Italy</conventional_short_form>
+      <local_long_form>Repubblica Italiana</local_long_form>
+      <local_short_form>Italia</local_short_form>
+      <former>Kingdom of Italy</former>
+      <etymology>derivation is unclear, but the Latin "Italia" may come from the Oscan "Viteliu" meaning "[Land] of Young Cattle" (the bull was a symbol of southern Italic tribes)</etymology>
+    </country_name>
+    <government_type>parliamentary republic</government_type>
+    <capital>
+      <name>Rome</name>
+      <geographic_coordinates>
+        <latitude>
+          <degrees>41</degrees>
+          <minutes>54</minutes>
+          <hemisphere>N</hemisphere>
+        </latitude>
+        <longitude>
+          <degrees>12</degrees>
+          <minutes>29</minutes>
+          <hemisphere>E</hemisphere>
+        </longitude>
+      </geographic_coordinates>
+      <time_difference>
+        <timezone>1</timezone>
+        <note>6 hours ahead of Washington, DC, during Standard Time</note>
+      </time_difference>
+      <daylight_saving_time>+1hr, begins last Sunday in March; ends last Sunday in October</daylight_saving_time>
+      <etymology>by tradition, named after Romulus, one of the legendary founders of the city and its first king</etymology>
+    </capital>
+    <administrative_divisions>
+      <name>regione) and 5 autonomous regions (regioni autonome</name>
+      <type/>
+    </administrative_divisions>
+    <administrative_divisions>
+      <name>singular - regione autonoma)</name>
+      <type/>
+    </administrative_divisions>
+    <independence>
+      <date>1861-03-17</date>
+    </independence>
+    <national_holidays>
+      <name>Republic Day</name>
+      <day>2 June</day>
+      <original_year>1946</original_year>
+    </national_holidays>
+    <constitution>
+      <history>previous 1848 (originally for the Kingdom of Sardinia and adopted by the Kingdom of Italy in 1861); latest enacted 22 December 1947, adopted 27 December 1947, entered into force 1 January 1948</history>
+      <amendments>proposed by both houses of Parliament; passage requires two successive debates and approval by absolute majority of each house on the second vote; a referendum is only required when requested by one fifth of the members of either house, by voter petition, or by five Regional Councils (elected legislative assemblies of the 15 first-level administrative regions and 5 autonomous regions of Italy); referendum not required if an amendment has been approved by a two-thirds majority in each house in the second vote; amended many times, last in 2012</amendments>
+      <note>a referendum held on 4 December 2016 on constitutional amendments was defeated</note>
+    </constitution>
+    <legal_system>civil law system; judicial review of legislation under certain conditions in Constitutional Court</legal_system>
+    <international_law_organization_participation>accepts compulsory ICJ jurisdiction with reservations</international_law_organization_participation>
+    <international_law_organization_participation>accepts ICCt jurisdiction</international_law_organization_participation>
+    <citizenship>
+      <citizenship_by_birth>no</citizenship_by_birth>
+      <citizenship_by_descent_only>at least one parent must be a citizen of Italy</citizenship_by_descent_only>
+      <dual_citizenship_recognized>yes</dual_citizenship_recognized>
+      <residency_requirement_for_naturalization>4 years for EU nationals, 5 years for refugees and specified exceptions, 10 years for all others</residency_requirement_for_naturalization>
+    </citizenship>
+    <suffrage>
+      <age>18</age>
+      <universal>true</universal>
+      <compulsory>false</compulsory>
+      <note>18 years of age; universal except in senatorial elections, where minimum age is 25</note>
+    </suffrage>
+    <executive_branch>
+      <chief_of_state>President Sergio MATTARELLA (since 3 February 2015)</chief_of_state>
+      <head_of_government>Prime Minister Giuseppe CONTE (since 1 June 2018); the prime minister's official title is President of the Council of Ministers; note - CONTE resigned on 20 August 2019 but returned as prime minister after PD and M5S agreed to form a new coalition government on 28 August 2019</head_of_government>
+      <cabinet>Council of Ministers proposed by the prime minister, known officially as the President of the Council of Ministers and locally as the Premier; nominated by the president; the current deputy prime ministers, known officially as vice-presidents of the Council of Ministers, are Matteo Salvini (L) and Luigi Di Maio (M5S) (since 1 June 2018)</cabinet>
+      <elections_appointments>president indirectly elected by an electoral college consisting of both houses of Parliament and 58 regional representatives for a 7-year term (no term limits); election last held on 31 January 2015 (next to be held in 2022); prime minister appointed by the president, confirmed by parliament</elections_appointments>
+      <election_results>Sergio MATTARELLA (independent) elected president; electoral college vote count in fourth round - 665 out of 1,009 (505-vote threshold)</election_results>
+    </executive_branch>
+    <legislative_branch>
+      <description>bicameral Parliament or Parlamento consists of: Senate or Senato della Repubblica (321 seats; 116 members directly elected in single-seat constituencies by simple majority vote, 193 members in multi-seat constituencies and 6 members in multi-seat constituencies abroad directly elected by party-list proportional representation vote to serve 5-year terms and 6 ex-officio members appointed by the president of the Republic to serve for life)
+Chamber of Deputies or Camera dei Deputati (630 seats; 629 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member from Valle d'Aosta elected by simple majority vote; members serve 5-year terms); note - a 29 March 2020 referendum on the proposed reduction of Parliament membership has been postponed indefinitely due to the COVID-19 pandemic</description>
+      <elections>Senate - last held on 4 March 2018 (next to be held in March 2023)
+Chamber of Deputies - last held on 4 March 2018 (next to be held in March 2023)</elections>
+      <election_results>Senate - percent of vote by party - center-right coalition 37.5% (L 17.6%, FI 14.4%, FdI 4.3%, UdC 1.2%), M5S 32.2%, center-left coalition (PD 19.1%, +E 2.3%, I 0.5%, CP 0.5%, SVP-PATT 0.4%), LeU 3.3%; seats by party - center-right coalition 77(L 37, FI 33, FdI 7), M5S 68, center-left coalition 44(PD 43, SVP-PATT 1), LeU 4; composition - men 208, women 113, percent of women 35.2%
+Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 17.4%, FI 14%, FdI 4.4%, UdC 1.3%), M5S 33%, center-left coalition 22.9% (PD 18.8%, E+ 2.6%, I 0.6%, CP 0.5%, SVP-PATT 0.4%); seats by party - center-right coalition 151 (L73, FI 59, FdI 19), M5S 133, center-left coalition 88 (PD 86, SVP 2), LeU 14; composition - men 405, women 225, percent of women 35.7%; note - total Parliament percent of women 35.5%</election_results>
+      <note>in October 2019, Italy's Parliament voted to reduce the number of Senate seats from 315 to 200 and the number of Chamber of Deputies seats from 630 to 400; the law is subject to a referendum to be held between 15 April and 15 June 2020; changes will be effective for the 2023 election if the law is adopted</note>
+    </legislative_branch>
+    <judicial_branch>
+      <highest_courts>Supreme Court of Cassation or Corte Suprema di Cassazione (consists of the first president (chief justice), deputy president, 54 justices presiding over 6 civil and 7 criminal divisions, and 288 judges; an additional 30 judges of lower courts serve as supporting judges; cases normally heard by 5-judge panels; more complex cases heard by 9-judge panels); Constitutional Court or Corte Costituzionale (consists of the court president and 14 judges)</highest_courts>
+      <judge_selection_and_term_of_office>Supreme Court judges appointed by the High Council of the Judiciary, headed by the president of the republic; judges may serve for life; Constitutional Court judges - 5 appointed by the president, 5 elected by Parliament, 5 elected by select higher courts; judges serve up to 9 years</judge_selection_and_term_of_office>
+      <subordinate_courts>various lower civil and criminal courts (primary and secondary tribunals and courts of appeal)</subordinate_courts>
+    </judicial_branch>
+    <political_parties_and_leaders>
+      <parties>
+        <name>Governing Coalition: Northern League</name>
+        <name_alternative>Lega</name_alternative>
+        <leaders>Matteo SALVINI</leaders>
+        <note>Lega Nord</note>
+      </parties>
+      <parties>
+        <name>Five Star Movement</name>
+        <name_alternative>M5S</name_alternative>
+        <leaders>Vito CRIMI</leaders>
+        <leaders>acting leader</leaders>
+      </parties>
+      <parties>
+        <name>Left-center-right opposition: Democratic Party</name>
+        <name_alternative>PD</name_alternative>
+        <leaders>Nicola ZINGARETTI</leaders>
+      </parties>
+      <parties>
+        <name>Forza Italia</name>
+        <name_alternative>FI</name_alternative>
+        <leaders>Silvio BERLUSCONI</leaders>
+      </parties>
+      <parties>
+        <name>Brothers of Italy</name>
+        <leaders>Giorgia MELONI</leaders>
+      </parties>
+      <parties>
+        <name>Free and Equal</name>
+        <name_alternative>LeU</name_alternative>
+        <leaders>Pietro GRASSO</leaders>
+        <note>Liberi e Uguali</note>
+      </parties>
+      <parties>
+        <name>More Europe</name>
+        <name_alternative>+EU</name_alternative>
+        <leaders>Emma BONINO</leaders>
+      </parties>
+      <parties>
+        <name>Popular Civic List</name>
+        <name_alternative>CP</name_alternative>
+        <leaders>Beatrice LORENZIN</leaders>
+      </parties>
+      <parties>
+        <name>Possible</name>
+        <leaders>Beatrice BRIGNONE</leaders>
+      </parties>
+      <parties>
+        <name>Us with Italy</name>
+        <leaders>Raffaele FITTO</leaders>
+      </parties>
+      <parties>
+        <name>South Tyrolean People's Party</name>
+        <name_alternative>SVP</name_alternative>
+        <leaders>Philipp ACHAMMER</leaders>
+      </parties>
+      <parties>
+        <name>Trentino Tyrolean Autonomist Party</name>
+        <name_alternative>PATT</name_alternative>
+        <leaders>Franco PANIZZA</leaders>
+        <leaders>secretary</leaders>
+        <note>Partito Autonomista Trentino Tirolese</note>
+      </parties>
+      <parties>
+        <name>Article One</name>
+        <name_alternative>Art.1-MDP</name_alternative>
+        <leaders>Roberto SPERANZA</leaders>
+      </parties>
+    </political_parties_and_leaders>
+    <international_organization_participation>
+      <organization>ADB </organization>
+      <note>nonregional member</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>AfDB </organization>
+      <note>nonregional member</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Arctic Council </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Australia Group</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>BIS</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>BSEC </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CBSS </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CDB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CE</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CEI</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CERN</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EAPC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EBRD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ECB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EIB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EITI </organization>
+      <note>implementing country</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EMU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ESA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>FAO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>FATF</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>G-7</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>G-8</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>G-10</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>G-20</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IADB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IAEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IBRD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICAO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICC </organization>
+      <note>national committees</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICCt</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICRM</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IDA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFAD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFRCS</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IGAD </organization>
+      <note>partners</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IHO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ILO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMF</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Interpol</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IOC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IOM</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IPU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ISO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITUC </organization>
+      <note>NGOs</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>LAIA </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>MIGA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>MINURSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>MINUSMA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NATO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NSG</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OAS </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OECD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OPCW</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OSCE</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Pacific Alliance </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Paris Club</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>PCA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>PIF </organization>
+      <note>partner</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Schengen Convention</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>SELEC </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>SICA </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UN</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNCTAD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNESCO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNHCR</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNIDO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNIFIL</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Union Latina</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNMOGIP</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNRWA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNTSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNWTO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UPU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WCO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WHO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WIPO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WMO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WTO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ZC</organization>
+    </international_organization_participation>
+    <diplomatic_representation>
+      <in_united_states>
+        <chief_of_mission>Ambassador Armando VARRICCHIO (since 2 March 2016)</chief_of_mission>
+        <chancery>3000 Whitehaven Street NW, Washington, DC 20008</chancery>
+        <telephone>[1] (202) 612-4400</telephone>
+        <fax>[1] (202) 518-2151</fax>
+        <consulates_general>Boston, Chicago, Detroit, Houston, Miami, New York, Los Angeles, Philadelphia, San Francisco</consulates_general>
+        <consulates>Charlotte (NC), Cleveland (OH), Detroit (MI), Hattiesburg (MS), Honolulu (HI), New Orleans, Newark (NJ), Norfolk (VA), Pittsburgh (PA), Portland (OR), Seattle</consulates>
+      </in_united_states>
+      <from_united_states>
+        <chief_of_mission>Ambassador Lewis EISENBERG (since 4 October 2017); note - also accredited to San Marino</chief_of_mission>
+        <telephone>[39] 06-4674-1</telephone>
+        <embassy>Via Vittorio Veneto 121, 00187-Rome</embassy>
+        <mailing_address>PSC 59, Box 100, APO AE 09624</mailing_address>
+        <fax>[39] 06-488-2672</fax>
+        <consulates_general>Florence, Milan, Naples</consulates_general>
+      </from_united_states>
+    </diplomatic_representation>
+    <flag_description>
+      <description>three equal vertical bands of green (hoist side), white, and red; design inspired by the French flag brought to Italy by Napoleon in 1797; colors are those of Milan (red and white) combined with the green uniform color of the Milanese civic guard</description>
+      <note>similar to the flag of Mexico, which is longer, uses darker shades of green and red, and has its coat of arms centered on the white band; Ireland, which is longer and is green (hoist side), white, and orange; also similar to the flag of the Cote d'Ivoire, which has the colors reversed - orange (hoist side), white, and green</note>
+    </flag_description>
+    <national_symbol>
+      <symbols>
+        <symbol>white</symbol>
+      </symbols>
+      <symbols>
+        <symbol>five-pointed star </symbol>
+        <note>Stella d'Italia</note>
+      </symbols>
+      <colors>
+        <color>red</color>
+      </colors>
+      <colors>
+        <color>white</color>
+      </colors>
+      <colors>
+        <color>green</color>
+      </colors>
+    </national_symbol>
+    <national_anthem>
+      <name>"Il Canto degli Italiani" (The Song of the Italians)</name>
+      <lyrics_music>Goffredo MAMELI/Michele NOVARO</lyrics_music>
+      <note>adopted 1946; the anthem, originally written in 1847, is also known as "L'Inno di Mameli" (Mameli's Hymn), and "Fratelli D'Italia" (Brothers of Italy)</note>
+      <audio_url>https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/IT.mp3?1538604755</audio_url>
+    </national_anthem>
+  </government>
+  <economy>
+    <overview>Italy’s economy comprises a developed industrial north, dominated by private companies, and a less-developed, highly subsidized, agricultural south, with a legacy of unemployment and underdevelopment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family-owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 17% of GDP. These activities are most common within the agriculture, construction, and service sectors.
+Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.</overview>
+    <gdp>
+      <purchasing_power_parity>
+        <annual_values>
+          <value>2317000000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>2282000000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <annual_values>
+          <value>2263000000000</value>
+          <units>USD</units>
+          <date>2015</date>
+        </annual_values>
+        <global_rank>12</global_rank>
+        <note>data are in 2017 dollars</note>
+      </purchasing_power_parity>
+      <official_exchange_rate>
+        <USD>1939000000000</USD>
+        <date>2017</date>
+      </official_exchange_rate>
+      <real_growth_rate>
+        <annual_values>
+          <value>0.34</value>
+          <units>%</units>
+          <date>2019</date>
+        </annual_values>
+        <annual_values>
+          <value>0.83</value>
+          <units>%</units>
+          <date>2018</date>
+        </annual_values>
+        <annual_values>
+          <value>1.73</value>
+          <units>%</units>
+          <date>2017</date>
+        </annual_values>
+        <global_rank>188</global_rank>
+      </real_growth_rate>
+      <per_capita_purchasing_power_parity>
+        <annual_values>
+          <value>38200</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>37600</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <annual_values>
+          <value>37200</value>
+          <units>USD</units>
+          <date>2015</date>
+        </annual_values>
+        <global_rank>50</global_rank>
+        <note>data are in 2017 dollars</note>
+      </per_capita_purchasing_power_parity>
+      <composition>
+        <by_end_use>
+          <end_uses>
+            <household_consumption>
+              <value>61</value>
+              <units>%</units>
+            </household_consumption>
+            <government_consumption>
+              <value>18.6</value>
+              <units>%</units>
+            </government_consumption>
+            <investment_in_fixed_capital>
+              <value>17.5</value>
+              <units>%</units>
+            </investment_in_fixed_capital>
+            <investment_in_inventories>
+              <value>-0.2</value>
+              <units>%</units>
+            </investment_in_inventories>
+            <exports_of_goods_and_services>
+              <value>31.4</value>
+              <units>%</units>
+            </exports_of_goods_and_services>
+            <imports_of_goods_and_services>
+              <value>-28.3</value>
+              <units>%</units>
+            </imports_of_goods_and_services>
+          </end_uses>
+          <date>2017</date>
+        </by_end_use>
+        <by_sector_of_origin>
+          <sectors>
+            <agriculture>
+              <value>2.1</value>
+              <units>%</units>
+            </agriculture>
+            <industry>
+              <value>23.9</value>
+              <units>%</units>
+            </industry>
+            <services>
+              <value>73.9</value>
+              <units>%</units>
+            </services>
+          </sectors>
+          <date>2017</date>
+        </by_sector_of_origin>
+      </composition>
+    </gdp>
+    <gross_national_saving>
+      <annual_values>
+        <value>20.3</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>19.7</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>18.8</value>
+        <units>percent_of_gdp</units>
+        <date>2015</date>
+      </annual_values>
+      <global_rank>95</global_rank>
+    </gross_national_saving>
+    <agriculture_products>
+      <products>fruits</products>
+      <products>vegetables</products>
+      <products>grapes</products>
+      <products>potatoes</products>
+      <products>sugar beets</products>
+      <products>soybeans</products>
+      <products>grain</products>
+      <products>olives</products>
+      <products>beef</products>
+      <products>dairy products</products>
+      <products>fish</products>
+    </agriculture_products>
+    <industries>
+      <industries>tourism</industries>
+      <industries>machinery</industries>
+      <industries>iron</industries>
+      <industries>steel</industries>
+      <industries>chemicals</industries>
+      <industries>food processing</industries>
+      <industries>textiles</industries>
+      <industries>motor vehicles</industries>
+      <industries>clothing</industries>
+      <industries>footwear</industries>
+      <industries>ceramics</industries>
+    </industries>
+    <industrial_production_growth_rate>
+      <annual_percentage_increase>2.1</annual_percentage_increase>
+      <global_rank>128</global_rank>
+      <date>2017</date>
+    </industrial_production_growth_rate>
+    <labor_force>
+      <total_size>
+        <total_people>22920000</total_people>
+        <global_rank>23</global_rank>
+        <date>2020</date>
+      </total_size>
+      <by_occupation>
+        <occupation>
+          <agriculture>
+            <value>3.9</value>
+            <units>%</units>
+          </agriculture>
+          <industry>
+            <value>28.3</value>
+            <units>%</units>
+          </industry>
+          <services>
+            <value>67.8</value>
+            <units>%</units>
+          </services>
+        </occupation>
+        <date>2011</date>
+      </by_occupation>
+    </labor_force>
+    <unemployment_rate>
+      <annual_values>
+        <value>9.88</value>
+        <units>%</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>10.63</value>
+        <units>%</units>
+        <date>2018</date>
+      </annual_values>
+      <global_rank>145</global_rank>
+    </unemployment_rate>
+    <population_below_poverty_line>
+      <value>29.9</value>
+      <units>%</units>
+      <date>2012</date>
+    </population_below_poverty_line>
+    <household_income_by_percentage_share>
+      <lowest_ten_percent>
+        <value>2.3</value>
+        <units>%</units>
+      </lowest_ten_percent>
+      <highest_ten_percent>
+        <value>26.8</value>
+        <units>%</units>
+      </highest_ten_percent>
+      <date>2000</date>
+    </household_income_by_percentage_share>
+    <budget>
+      <revenues>
+        <value>903300000000</value>
+        <units>USD</units>
+      </revenues>
+      <expenditures>
+        <value>948100000000</value>
+        <units>USD</units>
+      </expenditures>
+      <date>2017</date>
+    </budget>
+    <taxes_and_other_revenues>
+      <percent_of_gdp>46.6</percent_of_gdp>
+      <global_rank>20</global_rank>
+      <date>2017</date>
+    </taxes_and_other_revenues>
+    <budget_surplus_or_deficit>
+      <percent_of_gdp>-2.3</percent_of_gdp>
+      <global_rank>111</global_rank>
+      <date>2017</date>
+    </budget_surplus_or_deficit>
+    <public_debt>
+      <annual_values>
+        <value>131.8</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>132</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <global_rank>5</global_rank>
+      <note>Italy reports its data on public debt according to guidelines set out in the Maastricht Treaty; general government gross debt is defined in the Maastricht Treaty as consolidated general government gross debt at nominal value, outstanding at the end of the year, in the following categories of government liabilities (as defined in ESA95): currency and deposits (AF.2), securities other than shares excluding financial derivatives (AF.3, excluding AF.34), and loans (AF.4); the general government sector comprises central, state, and local government and social security funds</note>
+    </public_debt>
+    <fiscal_year>
+      <start>1 January</start>
+      <end>31 December</end>
+    </fiscal_year>
+    <inflation_rate>
+      <annual_values>
+        <value>1.3</value>
+        <units>%</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>-0.1</value>
+        <units>%</units>
+        <date>2016</date>
+      </annual_values>
+      <global_rank>68</global_rank>
+    </inflation_rate>
+    <current_account_balance>
+      <annual_values>
+        <value>59517000000</value>
+        <units>USD</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>51735000000</value>
+        <units>USD</units>
+        <date>2018</date>
+      </annual_values>
+      <global_rank>10</global_rank>
+    </current_account_balance>
+    <exports>
+      <total_value>
+        <annual_values>
+          <value>496300000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>454100000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <global_rank>9</global_rank>
+      </total_value>
+      <commodities>
+        <by_commodity>engineering products</by_commodity>
+        <by_commodity>textiles</by_commodity>
+        <by_commodity>clothing</by_commodity>
+        <by_commodity>production machinery</by_commodity>
+        <by_commodity>motor vehicles</by_commodity>
+        <by_commodity>transport equipment</by_commodity>
+        <by_commodity>chemicals</by_commodity>
+        <by_commodity>foodstuffs</by_commodity>
+        <by_commodity>beverages</by_commodity>
+        <by_commodity>tobacco</by_commodity>
+        <by_commodity>minerals</by_commodity>
+        <by_commodity>nonferrous metals</by_commodity>
+      </commodities>
+      <partners>
+        <by_country>
+          <name>Germany</name>
+          <percent>12.5</percent>
+        </by_country>
+        <by_country>
+          <name>France</name>
+          <percent>10.3</percent>
+        </by_country>
+        <by_country>
+          <name>US</name>
+          <percent>9</percent>
+        </by_country>
+        <by_country>
+          <name>Spain</name>
+          <percent>5.2</percent>
+        </by_country>
+        <by_country>
+          <name>UK</name>
+          <percent>5.2</percent>
+        </by_country>
+        <by_country>
+          <name>Switzerland</name>
+          <percent>4.6</percent>
+        </by_country>
+        <date>2017</date>
+      </partners>
+    </exports>
+    <imports>
+      <total_value>
+        <annual_values>
+          <value>432900000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>389800000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <global_rank>13</global_rank>
+      </total_value>
+      <commodities>
+        <by_commodity>engineering products</by_commodity>
+        <by_commodity>chemicals</by_commodity>
+        <by_commodity>transport equipment</by_commodity>
+        <by_commodity>energy products</by_commodity>
+        <by_commodity>minerals</by_commodity>
+        <by_commodity>nonferrous metals</by_commodity>
+        <by_commodity>textiles</by_commodity>
+        <by_commodity>clothing</by_commodity>
+        <by_commodity>food</by_commodity>
+        <by_commodity>beverages</by_commodity>
+        <by_commodity>tobacco</by_commodity>
+      </commodities>
+      <partners>
+        <by_country>
+          <name>Germany</name>
+          <percent>16.3</percent>
+        </by_country>
+        <by_country>
+          <name>France</name>
+          <percent>8.8</percent>
+        </by_country>
+        <by_country>
+          <name>China</name>
+          <percent>7.1</percent>
+        </by_country>
+        <by_country>
+          <name>Netherlands</name>
+          <percent>5.6</percent>
+        </by_country>
+        <by_country>
+          <name>Spain</name>
+          <percent>5.3</percent>
+        </by_country>
+        <by_country>
+          <name>Belgium</name>
+          <percent>4.5</percent>
+        </by_country>
+        <date>2017</date>
+      </partners>
+    </imports>
+    <reserves_of_foreign_exchange_and_gold>
+      <annual_values>
+        <value>151200000000</value>
+        <units>USD</units>
+        <date>2017-12-31</date>
+      </annual_values>
+      <annual_values>
+        <value>130600000000</value>
+        <units>USD</units>
+        <date>2015-12-31</date>
+      </annual_values>
+      <global_rank>16</global_rank>
+    </reserves_of_foreign_exchange_and_gold>
+    <external_debt>
+      <annual_values>
+        <value>2444000000000</value>
+        <units>USD</units>
+        <date>2016-03-31</date>
+      </annual_values>
+      <annual_values>
+        <value>2300000000000</value>
+        <units>USD</units>
+        <date>2015-03-31</date>
+      </annual_values>
+      <global_rank>9</global_rank>
+    </external_debt>
+    <exchange_rates>
+      <annual_values>
+        <value>0.885</value>
+        <units>USD</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>0.903</value>
+        <units>USD</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>0.9214</value>
+        <units>USD</units>
+        <date>2015</date>
+      </annual_values>
+      <annual_values>
+        <value>0.885</value>
+        <units>USD</units>
+        <date>2014</date>
+      </annual_values>
+      <annual_values>
+        <value>0.7634</value>
+        <units>USD</units>
+        <date>2013</date>
+      </annual_values>
+      <note>euros (EUR) per US dollar</note>
+    </exchange_rates>
+  </economy>
+  <energy>
+    <electricity>
+      <access>
+        <total_electrification>
+          <value>100</value>
+          <units>%</units>
+        </total_electrification>
+        <date>2020</date>
+      </access>
+      <production>
+        <kWh>275300000000</kWh>
+        <global_rank>14</global_rank>
+        <date>2016</date>
+      </production>
+      <consumption>
+        <kWh>293500000000</kWh>
+        <global_rank>13</global_rank>
+        <date>2016</date>
+      </consumption>
+      <exports>
+        <kWh>6155000000</kWh>
+        <global_rank>30</global_rank>
+        <date>2016</date>
+      </exports>
+      <imports>
+        <kWh>43180000000</kWh>
+        <global_rank>2</global_rank>
+        <date>2016</date>
+      </imports>
+      <installed_generating_capacity>
+        <kW>114200000</kW>
+        <global_rank>10</global_rank>
+        <date>2016</date>
+      </installed_generating_capacity>
+      <by_source>
+        <fossil_fuels>
+          <percent>54</percent>
+          <global_rank>143</global_rank>
+          <date>2016</date>
+        </fossil_fuels>
+        <nuclear_fuels>
+          <percent>0</percent>
+          <global_rank>114</global_rank>
+          <date>2017</date>
+        </nuclear_fuels>
+        <hydroelectric_plants>
+          <percent>14</percent>
+          <global_rank>106</global_rank>
+          <date>2017</date>
+        </hydroelectric_plants>
+        <other_renewable_sources>
+          <percent>32</percent>
+          <global_rank>14</global_rank>
+          <date>2017</date>
+        </other_renewable_sources>
+      </by_source>
+    </electricity>
+    <crude_oil>
+      <production>
+        <bbl_per_day>90000</bbl_per_day>
+        <global_rank>44</global_rank>
+        <date>2018</date>
+      </production>
+      <exports>
+        <bbl_per_day>13790</bbl_per_day>
+        <global_rank>57</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <bbl_per_day>1341000</bbl_per_day>
+        <global_rank>7</global_rank>
+        <date>2017</date>
+      </imports>
+      <proved_reserves>
+        <bbl>487800000</bbl>
+        <global_rank>45</global_rank>
+        <date>2018-01-01</date>
+      </proved_reserves>
+    </crude_oil>
+    <refined_petroleum_products>
+      <production>
+        <bbl_per_day>1607000</bbl_per_day>
+        <global_rank>12</global_rank>
+        <date>2017</date>
+      </production>
+      <consumption>
+        <bbl_per_day>1236000</bbl_per_day>
+        <global_rank>19</global_rank>
+        <date>2017</date>
+      </consumption>
+      <exports>
+        <bbl_per_day>615900</bbl_per_day>
+        <global_rank>13</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <bbl_per_day>422500</bbl_per_day>
+        <global_rank>19</global_rank>
+        <date>2017</date>
+      </imports>
+    </refined_petroleum_products>
+    <natural_gas>
+      <production>
+        <cubic_metres>5550000000</cubic_metres>
+        <global_rank>50</global_rank>
+        <date>2017</date>
+      </production>
+      <consumption>
+        <cubic_metres>75150000000</cubic_metres>
+        <global_rank>11</global_rank>
+        <date>2017</date>
+      </consumption>
+      <exports>
+        <cubic_metres>271800000</cubic_metres>
+        <global_rank>44</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <cubic_metres>69660000000</cubic_metres>
+        <global_rank>5</global_rank>
+        <date>2017</date>
+      </imports>
+      <proved_reserves>
+        <cubic_metres>38110000000</cubic_metres>
+        <global_rank>65</global_rank>
+        <date>2018-01-01</date>
+      </proved_reserves>
+    </natural_gas>
+    <carbon_dioxide_emissions_from_consumption_of_energy>
+      <megatonnes>351000000</megatonnes>
+      <global_rank>20</global_rank>
+      <date>2017</date>
+    </carbon_dioxide_emissions_from_consumption_of_energy>
+  </energy>
+  <communications>
+    <telephones>
+      <fixed_lines>
+        <total_subscriptions>20196475</total_subscriptions>
+        <subscriptions_per_one_hundred_inhabitants>32.4</subscriptions_per_one_hundred_inhabitants>
+        <global_rank>14</global_rank>
+        <date>2019</date>
+      </fixed_lines>
+      <mobile_cellular>
+        <total_subscriptions>82955151</total_subscriptions>
+        <subscriptions_per_one_hundred_inhabitants>133.08</subscriptions_per_one_hundred_inhabitants>
+        <global_rank>19</global_rank>
+        <date>2019</date>
+      </mobile_cellular>
+    </telephones>
+    <broadcast_media>two Italian media giants dominate - the publicly owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately owned Mediaset with 3 national terrestrial stations; a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations</broadcast_media>
+    <internet>
+      <country_code>.it</country_code>
+      <users>
+        <total>46305301</total>
+        <percent_of_population>74.39</percent_of_population>
+        <global_rank>19</global_rank>
+        <date>2018-07-01</date>
+      </users>
+    </internet>
+  </communications>
+  <transportation>
+    <pipelines>
+      <by_type>
+        <type>gas</type>
+        <length>20223</length>
+        <units>km</units>
+      </by_type>
+      <by_type>
+        <type>oil</type>
+        <length>1393</length>
+        <units>km</units>
+      </by_type>
+      <by_type>
+        <type>refined products</type>
+        <length>1574</length>
+        <units>km</units>
+      </by_type>
+      <date>2013</date>
+    </pipelines>
+    <railways>
+      <total>
+        <length>20182</length>
+        <units>km</units>
+      </total>
+      <standard_gauge>
+        <length>18770.1</length>
+        <electrified>12893.6</electrified>
+        <units>km
+1.435-m</units>
+        <gauge>gauge</gauge>
+      </standard_gauge>
+      <narrow_gauge>
+        <length>122.3</length>
+        <electrified>151.3</electrified>
+        <units>km
+1.000-m</units>
+        <gauge>gauge</gauge>
+      </narrow_gauge>
+      <global_rank>15</global_rank>
+      <date>2014</date>
+    </railways>
+    <roadways>
+      <total>
+        <value>487700</value>
+        <units>km</units>
+      </total>
+      <paved>
+        <value>487700</value>
+        <units>km</units>
+        <note>includes 6,700 km of expressways</note>
+      </paved>
+      <global_rank>15</global_rank>
+      <date>2007</date>
+    </roadways>
+    <waterways>
+      <value>2400</value>
+      <units>km</units>
+      <note>used for commercial traffic; of limited overall value compared to road and rail</note>
+      <global_rank>36</global_rank>
+      <date>2012</date>
+    </waterways>
+    <merchant_marine>
+      <total>1353</total>
+      <by_type>
+        <type>bulk carrier</type>
+        <count>48</count>
+      </by_type>
+      <by_type>
+        <type>container ship</type>
+        <count>9</count>
+      </by_type>
+      <by_type>
+        <type>general cargo</type>
+        <count>116</count>
+      </by_type>
+      <by_type>
+        <type>oil tanker</type>
+        <count>120</count>
+      </by_type>
+      <by_type>
+        <type>other</type>
+        <count>1060</count>
+      </by_type>
+      <global_rank>21</global_rank>
+      <date>2019</date>
+    </merchant_marine>
+    <ports_and_terminals>
+      <major_seaports>Augusta</major_seaports>
+      <major_seaports>Cagliari</major_seaports>
+      <major_seaports>Genoa</major_seaports>
+      <major_seaports>Livorno</major_seaports>
+      <major_seaports>Taranto</major_seaports>
+      <major_seaports>Trieste</major_seaports>
+      <major_seaports>Venice</major_seaports>
+      <oil_terminals>Melilli (Santa Panagia) oil terminal</oil_terminals>
+      <oil_terminals>Sarroch oil terminal</oil_terminals>
+      <container_ports>
+        <place>Genoa</place>
+        <twenty_foot_equivalent_units>2622200</twenty_foot_equivalent_units>
+      </container_ports>
+      <container_ports>
+        <place>Gioia Tauro</place>
+        <twenty_foot_equivalent_units>2448600</twenty_foot_equivalent_units>
+      </container_ports>
+      <liquid_natural_gas_terminals_import>La Spezia</liquid_natural_gas_terminals_import>
+      <liquid_natural_gas_terminals_import>Panigaglia</liquid_natural_gas_terminals_import>
+      <liquid_natural_gas_terminals_import>Porto Levante</liquid_natural_gas_terminals_import>
+      <date>2017</date>
+    </ports_and_terminals>
+  </transportation>
+  <military_adn_security/>
+  <transnational_issues>
+    <disputes>Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa</disputes>
+    <refugees_and_iternally_displaced_persons>
+      <refugees>
+        <by_country>
+          <people>25241</people>
+          <country_of_origin>Nigeria</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>20063</people>
+          <country_of_origin>Pakistan</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>17849</people>
+          <country_of_origin>Afghanistan</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>15842</people>
+          <country_of_origin>Mali</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>14029</people>
+          <country_of_origin>Somalia</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>12968</people>
+          <country_of_origin>Gambia</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>8974</people>
+          <country_of_origin>Bangladesh</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>7659</people>
+          <country_of_origin>Cote d'Ivoire</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>7644</people>
+          <country_of_origin>Senegal</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>7118</people>
+          <country_of_origin>Eritrea</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>6995</people>
+          <country_of_origin>Iraq</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>6353</people>
+          <country_of_origin>Ukraine</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>5953</people>
+          <country_of_origin>Ghana</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>note - estimate for Ukraine represents asylum applicants since the beginning of the Ukraine crisis in 2014 to July 2018</people>
+        </by_country>
+        <date>2019</date>
+      </refugees>
+      <stateless_persons>
+        <people>15822</people>
+        <date>2019</date>
+      </stateless_persons>
+      <note>520,474 estimated refugee and migrant arrivals by sea (January 2015-November 2020), hosts an estimated 96,862 migrants and asylum seekers as of the end of October 2019; 23,370 arrivals in 2018</note>
+    </refugees_and_iternally_displaced_persons>
+    <illicit_drugs>
+      <note>important gateway for and consumer of Latin American cocaine and Southwest Asian heroin entering the European market; money laundering by organized crime and from smuggling</note>
+    </illicit_drugs>
+  </transnational_issues>
+</country>

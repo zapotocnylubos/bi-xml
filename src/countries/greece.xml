@@ -1,0 +1,1628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<country id="greece">
+  <name>Greece</name>
+  <introduction>
+    <background>Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and the third in 2015 with the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.</background>
+  </introduction>
+  <geography>
+    <location>Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey</location>
+    <geographic_coordinates>
+      <latitude>
+        <degrees>39</degrees>
+        <minutes>0</minutes>
+        <hemisphere>N</hemisphere>
+      </latitude>
+      <longitude>
+        <degrees>22</degrees>
+        <minutes>0</minutes>
+        <hemisphere>E</hemisphere>
+      </longitude>
+    </geographic_coordinates>
+    <map_references>Europe</map_references>
+    <area>
+      <total>
+        <value>131957</value>
+        <units>sq km</units>
+      </total>
+      <land>
+        <value>130647</value>
+        <units>sq km</units>
+      </land>
+      <water>
+        <value>1310</value>
+        <units>sq km</units>
+      </water>
+      <global_rank>98</global_rank>
+      <comparative>slightly smaller than Alabama</comparative>
+    </area>
+    <land_boundaries>
+      <total>
+        <value>1110</value>
+        <units>km</units>
+      </total>
+      <border_countries>
+        <country>Albania</country>
+        <border_length>
+          <value>212</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Bulgaria</country>
+        <border_length>
+          <value>472</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Macedonia</country>
+        <border_length>
+          <value>234</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+      <border_countries>
+        <country>Turkey</country>
+        <border_length>
+          <value>192</value>
+          <units>km</units>
+        </border_length>
+      </border_countries>
+    </land_boundaries>
+    <coastline>
+      <value>13676</value>
+      <units>km</units>
+    </coastline>
+    <maritime_claims>
+      <territorial_sea>
+        <value>12</value>
+        <units>nm</units>
+      </territorial_sea>
+      <continental_shelf>
+        <value>200</value>
+        <units>m</units>
+        <note>depth or to the depth of exploitation</note>
+      </continental_shelf>
+    </maritime_claims>
+    <climate>temperate; mild, wet winters; hot, dry summers</climate>
+    <terrain>mountainous with ranges extending into the sea as peninsulas or chains of islands</terrain>
+    <elevation>
+      <mean_elevation>
+        <value>498</value>
+        <units>m</units>
+      </mean_elevation>
+      <lowest_point>
+        <name>Mediterranean Sea</name>
+        <elevation>
+          <value>0</value>
+          <units>m</units>
+        </elevation>
+      </lowest_point>
+      <highest_point>
+        <name>Mount Olympus</name>
+        <elevation>
+          <value>2917</value>
+        </elevation>
+      </highest_point>
+      <note>Mount Olympus actually has 52 peaks but its highest point, Mytikas (meaning "nose"), rises to 2,917 meters; in Greek mythology, Olympus' Mytikas peak was the home of the Greek gods</note>
+    </elevation>
+    <natural_resources>
+      <resources>lignite</resources>
+      <resources>petroleum</resources>
+      <resources>iron ore</resources>
+      <resources>bauxite</resources>
+      <resources>lead</resources>
+      <resources>zinc</resources>
+      <resources>nickel</resources>
+      <resources>magnesite</resources>
+      <resources>marble</resources>
+      <resources>salt</resources>
+      <resources>hydropower potential</resources>
+    </natural_resources>
+    <land_use>
+      <by_sector>
+        <agricultural_land_total>
+          <value>63.4</value>
+          <units>%</units>
+        </agricultural_land_total>
+        <arable_land>
+          <value>19.7</value>
+          <units>%</units>
+          <note>/</note>
+        </arable_land>
+        <permanent_crops>
+          <value>8.9</value>
+          <units>%</units>
+          <note>/</note>
+        </permanent_crops>
+        <permanent_pasture>
+          <value>34.8</value>
+          <units>%</units>
+        </permanent_pasture>
+        <forest>
+          <value>30.5</value>
+          <units>%</units>
+        </forest>
+        <other>
+          <value>6.1</value>
+          <units>%</units>
+        </other>
+      </by_sector>
+      <date>2011</date>
+    </land_use>
+    <irrigated_land>
+      <value>15550</value>
+      <units>sq km</units>
+      <date>2012</date>
+    </irrigated_land>
+    <population_distribution>one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</population_distribution>
+    <natural_hazards>
+      <description>severe earthquakes</description>
+      <type>hazard</type>
+    </natural_hazards>
+    <natural_hazards>
+      <description>Santorini (367 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; although there have been very few eruptions in recent centuries, Methana and Nisyros in the Aegean are classified as historically active</description>
+      <type>volcanism</type>
+    </natural_hazards>
+    <environment>
+      <current_issues>air pollution</current_issues>
+      <current_issues>air emissions from transport and electricity power stations</current_issues>
+      <current_issues>water pollution</current_issues>
+      <current_issues>degradation of coastal zones</current_issues>
+      <current_issues>loss of biodiversity in terrestrial and marine ecosystems</current_issues>
+      <current_issues>increasing municipal and industrial waste</current_issues>
+      <international_agreements>
+        <party_to>Air Pollution</party_to>
+        <party_to>Air Pollution-Nitrogen Oxides</party_to>
+        <party_to>Air Pollution-Sulfur 94</party_to>
+        <party_to>Antarctic-Environmental Protocol</party_to>
+        <party_to>Antarctic-Marine Living Resources</party_to>
+        <party_to>Antarctic Treaty</party_to>
+        <party_to>Biodiversity</party_to>
+        <party_to>Climate Change</party_to>
+        <party_to>Climate Change-Kyoto Protocol</party_to>
+        <party_to>Desertification</party_to>
+        <party_to>Endangered Species</party_to>
+        <party_to>Environmental Modification</party_to>
+        <party_to>Hazardous Wastes</party_to>
+        <party_to>Law of the Sea</party_to>
+        <party_to>Marine Dumping</party_to>
+        <party_to>Ozone Layer Protection</party_to>
+        <party_to>Ship Pollution</party_to>
+        <party_to>Tropical Timber 83</party_to>
+        <party_to>Tropical Timber 94</party_to>
+        <party_to>Wetlands</party_to>
+        <signed_but_not_ratified>Air Pollution-Persistent Organic Pollutants</signed_but_not_ratified>
+        <signed_but_not_ratified>Air Pollution-Volatile Organic Compounds</signed_but_not_ratified>
+      </international_agreements>
+    </environment>
+  </geography>
+  <people>
+    <population>
+      <total>10607051</total>
+      <global_rank>86</global_rank>
+      <date>2020-07-01</date>
+    </population>
+    <nationality>
+      <noun>Greek(s)</noun>
+      <adjective>Greek</adjective>
+    </nationality>
+    <ethnic_groups>
+      <ethnicity>
+        <name>Greek</name>
+        <percent>91.6</percent>
+      </ethnicity>
+      <ethnicity>
+        <name>Albanian</name>
+        <percent>4.4</percent>
+      </ethnicity>
+      <ethnicity>
+        <name>other</name>
+        <percent>4</percent>
+      </ethnicity>
+      <note>data represent citizenship; Greece does not collect data on ethnicity</note>
+      <date>2011</date>
+    </ethnic_groups>
+    <languages>
+      <language>
+        <name>Greek</name>
+        <percent>99</percent>
+        <note>official</note>
+      </language>
+      <language>
+        <name>other</name>
+        <percent>1</percent>
+        <note>includes English and French</note>
+      </language>
+    </languages>
+    <religions>
+      <religion>
+        <name>Greek Orthodox</name>
+        <note>official</note>
+      </religion>
+      <date>2015</date>
+    </religions>
+    <dependency_ratios>
+      <ratios>
+        <total_dependency_ratio>
+          <value>56.1</value>
+          <units>%</units>
+        </total_dependency_ratio>
+        <youth_dependency_ratio>
+          <value>21.3</value>
+          <units>%</units>
+        </youth_dependency_ratio>
+        <elderly_dependency_ratio>
+          <value>34.8</value>
+          <units>%</units>
+        </elderly_dependency_ratio>
+        <potential_support_ratio>
+          <value>2.9</value>
+          <units>%</units>
+        </potential_support_ratio>
+      </ratios>
+      <date>2020</date>
+    </dependency_ratios>
+    <median_age>
+      <total>
+        <value>45.3</value>
+        <units>years</units>
+      </total>
+      <male>
+        <value>43.7</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>46.8</value>
+        <units>years</units>
+      </female>
+      <global_rank>9</global_rank>
+      <date>2020</date>
+    </median_age>
+    <population_growth_rate>
+      <growth_rate>-0.31</growth_rate>
+      <global_rank>220</global_rank>
+      <date>2020</date>
+    </population_growth_rate>
+    <birth_rate>
+      <births_per_1000_population>7.8</births_per_1000_population>
+      <global_rank>225</global_rank>
+      <date>2020</date>
+    </birth_rate>
+    <death_rate>
+      <deaths_per_1000_population>12</deaths_per_1000_population>
+      <global_rank>17</global_rank>
+      <date>2020</date>
+    </death_rate>
+    <net_migration_rate>
+      <migrants_per_1000_population>0.9</migrants_per_1000_population>
+      <global_rank>61</global_rank>
+      <date>2020</date>
+    </net_migration_rate>
+    <population_distribution>one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</population_distribution>
+    <urbanization>
+      <urban_population>
+        <value>79.7</value>
+        <units>%</units>
+        <date>2020</date>
+      </urban_population>
+      <rate_of_urbanization>
+        <value>0.22</value>
+        <units>%</units>
+      </rate_of_urbanization>
+      <total_population_growth_rate_v._urban_population_growth_rate_2000_2030>PDF</total_population_growth_rate_v._urban_population_growth_rate_2000_2030>
+    </urbanization>
+    <major_urban_areas>
+      <places>
+        <place>Athens</place>
+        <population>3153000</population>
+        <is_capital>true</is_capital>
+      </places>
+      <places>
+        <place>Thessaloniki</place>
+        <population>812000</population>
+      </places>
+      <date>2020</date>
+    </major_urban_areas>
+    <mothers_mean_age_at_first_birth>
+      <age>29.9</age>
+      <date>2017</date>
+    </mothers_mean_age_at_first_birth>
+    <maternal_mortality_rate>
+      <deaths_per_100k_live_births>3</deaths_per_100k_live_births>
+      <global_rank>178</global_rank>
+      <date>2017</date>
+    </maternal_mortality_rate>
+    <infant_mortality_rate>
+      <total>
+        <value>3.7</value>
+        <units>deaths_per_1000_live_births</units>
+      </total>
+      <male>
+        <value>4</value>
+        <units>deaths_per_1000_live_births</units>
+      </male>
+      <female>
+        <value>3.3</value>
+        <units>deaths_per_1000_live_births</units>
+      </female>
+      <global_rank>194</global_rank>
+      <date>2020</date>
+    </infant_mortality_rate>
+    <life_expectancy_at_birth>
+      <total_population>
+        <value>81.1</value>
+        <units>years</units>
+      </total_population>
+      <male>
+        <value>78.5</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>83.8</value>
+        <units>years</units>
+      </female>
+      <global_rank>38</global_rank>
+      <date>2020</date>
+    </life_expectancy_at_birth>
+    <total_fertility_rate>
+      <children_born_per_woman>1.38</children_born_per_woman>
+      <global_rank>217</global_rank>
+      <date>2020</date>
+    </total_fertility_rate>
+    <physicians_density>
+      <physicians_per_1000_population>5.48</physicians_per_1000_population>
+      <date>2017</date>
+    </physicians_density>
+    <hospital_bed_density>
+      <beds_per_1000_population>4.2</beds_per_1000_population>
+      <date>2017</date>
+    </hospital_bed_density>
+    <drinking_water_source>
+      <improved>
+        <urban>
+          <value>100</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>100</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>100</value>
+          <units>percent of population</units>
+        </total>
+      </improved>
+      <unimproved>
+        <urban>
+          <value>0</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>0</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>0</value>
+          <units>percent of population</units>
+        </total>
+      </unimproved>
+      <date>2017</date>
+    </drinking_water_source>
+    <sanitation_facility_access>
+      <improved>
+        <urban>
+          <value>100</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>100</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>100</value>
+          <units>percent of population</units>
+        </total>
+      </improved>
+      <unimproved>
+        <urban>
+          <value>0</value>
+          <units>percent of population</units>
+        </urban>
+        <rural>
+          <value>0</value>
+          <units>percent of population</units>
+        </rural>
+        <total>
+          <value>0</value>
+          <units>percent of population</units>
+        </total>
+      </unimproved>
+      <date>2017</date>
+    </sanitation_facility_access>
+    <hiv_aids>
+      <adult_prevalence_rate>
+        <percent_of_adults>0.2</percent_of_adults>
+        <global_rank>97</global_rank>
+        <date>2017</date>
+      </adult_prevalence_rate>
+      <people_living_with_hiv_aids>
+        <total>14000</total>
+        <global_rank>93</global_rank>
+        <date>2017</date>
+      </people_living_with_hiv_aids>
+      <deaths>
+        <total>100</total>
+        <date>2017</date>
+      </deaths>
+    </hiv_aids>
+    <adult_obesity>
+      <percent_of_adults>24.9</percent_of_adults>
+      <global_rank>54</global_rank>
+      <date>2016</date>
+    </adult_obesity>
+    <literacy>
+      <definition>age 15 and over can read and write</definition>
+      <total_population>
+        <value>97.7</value>
+        <units>%</units>
+      </total_population>
+      <male>
+        <value>98.5</value>
+        <units>%</units>
+      </male>
+      <female>
+        <value>96.9</value>
+        <units>%</units>
+      </female>
+      <date>2015</date>
+    </literacy>
+    <school_life_expectancy>
+      <total>
+        <value>20</value>
+        <units>years</units>
+      </total>
+      <male>
+        <value>20</value>
+        <units>years</units>
+      </male>
+      <female>
+        <value>20</value>
+        <units>years</units>
+      </female>
+      <date>2018</date>
+    </school_life_expectancy>
+    <youth_unemployment>
+      <total>
+        <value>39.9</value>
+        <units>%</units>
+      </total>
+      <male>
+        <value>36.4</value>
+        <units>%</units>
+      </male>
+      <female>
+        <value>43.9</value>
+        <units>%</units>
+      </female>
+      <global_rank>11</global_rank>
+      <date>2018</date>
+    </youth_unemployment>
+  </people>
+  <government>
+    <country_name>
+      <conventional_long_form>Hellenic Republic</conventional_long_form>
+      <conventional_short_form>Greece</conventional_short_form>
+      <local_long_form>Elliniki Dimokratia</local_long_form>
+      <local_short_form>Ellas or Ellada</local_short_form>
+      <former>Hellenic State, Kingdom of Greece</former>
+      <etymology>the English name derives from the Roman (Latin) designation "Graecia," meaning "Land of the Greeks"; the Greeks call their country "Hellas" or "Ellada"</etymology>
+    </country_name>
+    <government_type>parliamentary republic</government_type>
+    <capital>
+      <name>Athens</name>
+      <geographic_coordinates>
+        <latitude>
+          <degrees>37</degrees>
+          <minutes>59</minutes>
+          <hemisphere>N</hemisphere>
+        </latitude>
+        <longitude>
+          <degrees>23</degrees>
+          <minutes>44</minutes>
+          <hemisphere>E</hemisphere>
+        </longitude>
+      </geographic_coordinates>
+      <time_difference>
+        <timezone>2</timezone>
+        <note>7 hours ahead of Washington, DC, during Standard Time</note>
+      </time_difference>
+      <daylight_saving_time>+1hr, begins last Sunday in March; ends last Sunday in October</daylight_saving_time>
+      <etymology>Athens is the oldest European capital city; according to tradition, the city is named after Athena, the Greek goddess of wisdom; in actuality, the appellation probably derives from a lost name in a pre-Hellenic language</etymology>
+    </capital>
+    <administrative_divisions>
+      <name>perifereia) and 1 autonomous monastic state</name>
+      <type/>
+    </administrative_divisions>
+    <independence>
+      <date>1830-02-03</date>
+      <note>from the Ottoman Empire; note - 25 March 1821, outbreak of the national revolt against the Ottomans; 3 February 1830, signing of the London Protocol recognizing Greek independence by Great Britain, France, and Russia</note>
+    </independence>
+    <national_holidays>
+      <name>Independence Day</name>
+      <day>25 March</day>
+      <original_year>1821</original_year>
+    </national_holidays>
+    <constitution>
+      <history>many previous; latest entered into force 11 June 1975</history>
+      <amendments>proposed by at least 50 members of Parliament and agreed by three-fifths majority vote in two separate ballots at least 30 days apart; passage requires absolute majority vote by the next elected Parliament; entry into force finalized through a "special parliamentary resolution"; articles on human rights and freedoms and the form of government cannot be amended; amended 1986, 2001, 2008</amendments>
+    </constitution>
+    <legal_system>civil legal system based on Roman law</legal_system>
+    <international_law_organization_participation>accepts compulsory ICJ jurisdiction with reservations</international_law_organization_participation>
+    <international_law_organization_participation>accepts ICCt jurisdiction</international_law_organization_participation>
+    <citizenship>
+      <citizenship_by_birth>no</citizenship_by_birth>
+      <citizenship_by_descent_only>at least one parent must be a citizen of Greece</citizenship_by_descent_only>
+      <dual_citizenship_recognized>yes</dual_citizenship_recognized>
+      <residency_requirement_for_naturalization>10 years</residency_requirement_for_naturalization>
+    </citizenship>
+    <suffrage>
+      <age>17</age>
+      <universal>true</universal>
+      <compulsory>true</compulsory>
+    </suffrage>
+    <executive_branch>
+      <chief_of_state>President Ekaterini SAKELLAROPOULOU (since 13 March 2020)</chief_of_state>
+      <head_of_government>Prime Minister Kyriakos MITSOTAKIS (since 8 July 2019)</head_of_government>
+      <cabinet>Cabinet appointed by the president on the recommendation of the prime minister</cabinet>
+      <elections_appointments>president elected by Hellenic Parliament for a 5-year term (eligible for a second term); election last held on 22 January 2020 (next to be held by February 2025); president appoints as prime minister the leader of the majority party or coalition in the Hellenic Parliament</elections_appointments>
+      <election_results>Katerina SAKELLAROPOULOU (independent) elected president by Parliament - 261 of 300 votes; note - SAKELLAROPOULOU is Greece's first woman president</election_results>
+    </executive_branch>
+    <legislative_branch>
+      <description>unicameral Hellenic Parliament or Vouli ton Ellinon (300 seats; 280 members in multi-seat constituencies and 12 members in a single nationwide constituency directly elected by open party-list proportional representation vote; 8 members in single-seat constituencies elected by simple majority vote; members serve up to 4 years);  note - only parties surpassing a 3% threshold are entitled to parliamentary seats; parties need 10 seats to become formal parliamentary groups but can retain that status if the party participated in the last election and received the minimum 3% threshold</description>
+      <elections>last held on 7 July 2019 (next to be held by July 2023)</elections>
+      <election_results>percent of vote by party - ND 39.9%, SYRIZA 31.5%, KINAL 8.1%, KKE 5.3%, Greek Solution 3.7%, MeRA25 3.4%, other 8.1%; seats by party - ND 158, SYRIZA 86, KINAL 22, KKE 15, Greek Solution 10, MeRA25 9; composition - men 244, women 56, percent of women 18.7%</election_results>
+    </legislative_branch>
+    <judicial_branch>
+      <highest_courts>Supreme Civil and Criminal Court or Areios Pagos (consists of 56 judges, including the court presidents); Council of State (supreme administrative court) (consists of the president, 7 vice presidents, 42 privy councilors, 48 associate councilors and 50 reporting judges, organized into six 5- and 7-member chambers; Court of Audit (government audit and enforcement) consists of the president, 5 vice presidents, 20 councilors, and 90 associate and reporting judges</highest_courts>
+      <judge_selection_and_term_of_office>Supreme Court judges appointed by presidential decree on the advice of the Supreme Judicial Council (SJC), which includes the president of the Supreme Court, other judges, and the prosecutor of the Supreme Court; judges appointed for life following a 2-year probationary period; Council of State president appointed by the Greek Cabinet to serve a 4-year term; other judge appointments and tenure NA; Court of Audit president appointed by decree of the president of the republic on the advice of the SJC; court president serves a 4-year term or until age 67; tenure of vice presidents, councilors, and judges NA</judge_selection_and_term_of_office>
+      <subordinate_courts>Courts of Appeal and Courts of First Instance (district courts)</subordinate_courts>
+    </judicial_branch>
+    <political_parties_and_leaders>
+      <parties>
+        <name>Anticapitalist Left Cooperation for the Overthrow</name>
+        <name_alternative>ANTARSYA</name_alternative>
+        <leaders>collective leadership</leaders>
+      </parties>
+      <parties>
+        <name>Coalition of the Radical Left</name>
+        <name_alternative>SYRIZA</name_alternative>
+        <leaders>Alexios  TSIPRAS</leaders>
+        <note>Alexis</note>
+      </parties>
+      <parties>
+        <name>Communist Party of Greece</name>
+        <name_alternative>KKE</name_alternative>
+        <leaders>Dimitrios KOUTSOUMBAS</leaders>
+      </parties>
+      <parties>
+        <name>Democratic Left</name>
+        <name_alternative>DIMAR</name_alternative>
+        <leaders>Athanasios  THEOCHAROPOULOS</leaders>
+        <note>Thanasis</note>
+      </parties>
+      <parties>
+        <name>European Realistic Disobedience Front</name>
+        <name_alternative>MeRA25</name_alternative>
+        <leaders>Yanis VAROUFAKIS</leaders>
+      </parties>
+      <parties>
+        <name>Greek Solution</name>
+        <leaders>Kyriakos VELOPOULOS</leaders>
+      </parties>
+      <parties>
+        <name>Independent Greeks</name>
+        <name_alternative>ANEL</name_alternative>
+        <leaders>Panagiotis  KAMMENOS</leaders>
+        <note>Panos</note>
+      </parties>
+      <parties>
+        <name>Movement for Change</name>
+        <name_alternative>KINAL�</name_alternative>
+        <leaders>Foteini  GENIMMATA</leaders>
+        <note>Fofi</note>
+      </parties>
+      <parties>
+        <name>New Democracy</name>
+        <name_alternative>ND</name_alternative>
+        <leaders>Kyriakos MITSOTAKIS</leaders>
+      </parties>
+      <parties>
+        <name>People's Association-Golden Dawn</name>
+        <leaders>Nikolaos MICHALOLIAKOS</leaders>
+      </parties>
+      <parties>
+        <name>Popular Unity</name>
+        <name_alternative>LAE</name_alternative>
+        <leaders>Panagiotis LAFAZANIS</leaders>
+      </parties>
+      <parties>
+        <name>The River </name>
+        <leaders>Stavros THEODORAKIS</leaders>
+        <note>To Potami</note>
+      </parties>
+      <parties>
+        <name>Union of Centrists</name>
+        <name_alternative>EK</name_alternative>
+        <leaders>Vasileios  LEVENTIS</leaders>
+        <note>Vasilis</note>
+      </parties>
+    </political_parties_and_leaders>
+    <international_organization_participation>
+      <organization>Australia Group</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>BIS</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>BSEC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CE</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>CERN</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EAPC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EBRD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ECB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EIB</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EMU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ESA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>EU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>FAO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>FATF</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IAEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IBRD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICAO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICC </organization>
+      <note>national committees</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICCt</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ICRM</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IDA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFAD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IFRCS</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IGAD </organization>
+      <note>partners</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IHO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ILO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMF</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IMSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Interpol</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IOC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IOM</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>IPU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ISO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITSO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ITUC </organization>
+      <note>NGOs</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>MIGA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NATO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NEA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>NSG</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OAS </organization>
+      <note>observer</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OECD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OIF</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OPCW</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>OSCE</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>PCA</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>Schengen Convention</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>SELEC</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UN</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNCTAD</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNESCO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNHCR</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNIDO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNIFIL</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UNWTO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>UPU</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WCO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WFTU </organization>
+      <note>NGOs</note>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WHO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WIPO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WMO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>WTO</organization>
+    </international_organization_participation>
+    <international_organization_participation>
+      <organization>ZC</organization>
+    </international_organization_participation>
+    <diplomatic_representation>
+      <in_united_states>
+        <chief_of_mission>Ambassador Theocharis LALAKOS (since 27 June 2016)</chief_of_mission>
+        <chancery>2217 Massachusetts Avenue NW, Washington, DC 20008</chancery>
+        <telephone>[1] (202) 939-1300</telephone>
+        <fax>[1] (202) 939-1324</fax>
+        <consulates_general>Boston, Chicago, Los Angeles, New York, Tampa (FL), San Francisco</consulates_general>
+        <consulates>Atlanta, Houston</consulates>
+      </in_united_states>
+      <from_united_states>
+        <chief_of_mission>Ambassador Geoffrey R. PYATT (since 24 October 2016)</chief_of_mission>
+        <telephone>[30] (210) 721-2951</telephone>
+        <embassy>91 Vasillisis Sophias Avenue, 10160 Athens</embassy>
+        <mailing_address>PSC 108, APO AE 09842-0108</mailing_address>
+        <fax>[30] (210) 645-6282</fax>
+        <consulates_general>Thessaloniki</consulates_general>
+      </from_united_states>
+    </diplomatic_representation>
+    <flag_description>
+      <description>nine equal horizontal stripes of blue alternating with white; a blue square bearing a white cross appears in the upper hoist-side corner; the cross symbolizes Greek Orthodoxy, the established religion of the country; there is no agreed upon meaning for the nine stripes or for the colors</description>
+      <note>Greek legislation states that the flag colors are cyan and white, but cyan can mean "blue" in Greek, so the exact shade of blue has never been set and has varied from a light to a dark blue over time; in general, the hue of blue normally encountered is a form of azure</note>
+    </flag_description>
+    <national_symbol>
+      <symbols>
+        <symbol>Greek cross </symbol>
+        <note>white cross on blue field, arms equal length</note>
+      </symbols>
+      <colors>
+        <color>blue</color>
+      </colors>
+      <colors>
+        <color>white</color>
+      </colors>
+    </national_symbol>
+    <national_anthem>
+      <name>"Ymnos eis tin Eleftherian" (Hymn to Liberty)</name>
+      <lyrics_music>Dionysios SOLOMOS/Nikolaos MANTZAROS</lyrics_music>
+      <note>adopted 1864; the anthem is based on a 158-stanza poem by the same name, which was inspired by the Greek Revolution of 1821 against the Ottomans (only the first two stanzas are used); Cyprus also uses "Hymn to Liberty" as its anthem</note>
+      <audio_url>https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/GR.mp3?1538604754</audio_url>
+    </national_anthem>
+  </government>
+  <economy>
+    <overview>Greece has a capitalist economy with a public sector accounting for about 40% of GDP and with per capita GDP about two-thirds that of the leading euro-zone economies. Tourism provides 18% of GDP. Immigrants make up nearly one-fifth of the work force, mainly in agricultural and unskilled jobs. Greece is a major beneficiary of EU aid, equal to about 3.3% of annual GDP.
+The Greek economy averaged growth of about 4% per year between 2003 and 2007, but the economy went into recession in 2009 as a result of the world financial crisis, tightening credit conditions, and Athens' failure to address a growing budget deficit. By 2013, the economy had contracted 26%, compared with the pre-crisis level of 2007. Greece met the EU's Growth and Stability Pact budget deficit criterion of no more than 3% of GDP in 2007-08, but violated it in 2009, when the deficit reached 15% of GDP. Deteriorating public finances, inaccurate and misreported statistics, and consistent underperformance on reforms prompted major credit rating agencies to downgrade Greece's international debt rating in late 2009 and led the country into a financial crisis. Under intense pressure from the EU and international market participants, the government accepted a bailout program that called on Athens to cut government spending, decrease tax evasion, overhaul the civil-service, health-care, and pension systems, and reform the labor and product markets. Austerity measures reduced the deficit to 1.3% in 2017. Successive Greek governments, however, failed to push through many of the most unpopular reforms in the face of widespread political opposition, including from the country's powerful labor unions and the general public.
+In April 2010, a leading credit agency assigned Greek debt its lowest possible credit rating, and in May 2010, the IMF and euro-zone governments provided Greece emergency short- and medium-term loans worth $147 billion so that the country could make debt repayments to creditors. Greece, however, struggled to meet the targets set by the EU and the IMF, especially after Eurostat - the EU's statistical office - revised upward Greece's deficit and debt numbers for 2009 and 2010. European leaders and the IMF agreed in October 2011 to provide Athens a second bailout package of $169 billion. The second deal called for holders of Greek government bonds to write down a significant portion of their holdings to try to alleviate Greece’s government debt burden. However, Greek banks, saddled with a significant portion of sovereign debt, were adversely affected by the write down and $60 billion of the second bailout package was set aside to ensure the banking system was adequately capitalized.
+In 2014, the Greek economy began to turn the corner on the recession. Greece achieved three significant milestones: balancing the budget - not including debt repayments; issuing government debt in financial markets for the first time since 2010; and generating 0.7% GDP growth — the first economic expansion since 2007.
+Despite the nascent recovery, widespread discontent with austerity measures helped propel the far-left Coalition of the Radical Left (SYRIZA) party into government in national legislative elections in January 2015. Between January and July 2015, frustrations grew between the SYRIZA-led government and Greece’s EU and IMF creditors over the implementation of bailout measures and disbursement of funds. The Greek government began running up significant arrears to suppliers, while Greek banks relied on emergency lending, and Greece’s future in the euro zone was called into question. To stave off a collapse of the banking system, Greece imposed capital controls in June 2015, then became the first developed nation to miss a loan payment to the IMF, rattling international financial markets. Unable to reach an agreement with creditors, Prime Minister Alexios TSIPRAS held a nationwide referendum on 5 July on whether to accept the terms of Greece’s bailout, campaigning for the ultimately successful "no" vote. The TSIPRAS government subsequently agreed, however, to a new $96 billion bailout in order to avert Greece’s exit from the monetary bloc. On 20 August 2015, Greece signed its third bailout, allowing it to cover significant debt payments to its EU and IMF creditors and to ensure the banking sector retained access to emergency liquidity. The TSIPRAS government — which retook office on 20 September 2015 after calling new elections in late August — successfully secured disbursal of two delayed tranches of bailout funds. Despite the economic turmoil, Greek GDP did not contract as sharply as feared, boosted in part by a strong tourist season.
+In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic reforms, a massive non-performing loan problem, and ongoing uncertainty regarding the political direction of the country hold the economy back. Some estimates put Greece’s black market at 20- to 25% of GDP, as more people have stopped reporting their income to avoid paying taxes that, in some cases, have risen to 70% of an individual’s gross income.</overview>
+    <gdp>
+      <purchasing_power_parity>
+        <annual_values>
+          <value>299300000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>295300000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <annual_values>
+          <value>296000000000</value>
+          <units>USD</units>
+          <date>2015</date>
+        </annual_values>
+        <global_rank>56</global_rank>
+        <note>data are in 2017 dollars</note>
+      </purchasing_power_parity>
+      <official_exchange_rate>
+        <USD>200700000000</USD>
+        <date>2017</date>
+      </official_exchange_rate>
+      <real_growth_rate>
+        <annual_values>
+          <value>1.87</value>
+          <units>%</units>
+          <date>2019</date>
+        </annual_values>
+        <annual_values>
+          <value>1.91</value>
+          <units>%</units>
+          <date>2018</date>
+        </annual_values>
+        <annual_values>
+          <value>1.44</value>
+          <units>%</units>
+          <date>2017</date>
+        </annual_values>
+        <global_rank>145</global_rank>
+      </real_growth_rate>
+      <per_capita_purchasing_power_parity>
+        <annual_values>
+          <value>27800</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>27400</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <annual_values>
+          <value>27300</value>
+          <units>USD</units>
+          <date>2015</date>
+        </annual_values>
+        <global_rank>75</global_rank>
+        <note>data are in 2017 dollars</note>
+      </per_capita_purchasing_power_parity>
+      <composition>
+        <by_end_use>
+          <end_uses>
+            <household_consumption>
+              <value>69.6</value>
+              <units>%</units>
+            </household_consumption>
+            <government_consumption>
+              <value>20.1</value>
+              <units>%</units>
+            </government_consumption>
+            <investment_in_fixed_capital>
+              <value>12.5</value>
+              <units>%</units>
+            </investment_in_fixed_capital>
+            <investment_in_inventories>
+              <value>-1</value>
+              <units>%</units>
+            </investment_in_inventories>
+            <exports_of_goods_and_services>
+              <value>33.4</value>
+              <units>%</units>
+            </exports_of_goods_and_services>
+            <imports_of_goods_and_services>
+              <value>-34.7</value>
+              <units>%</units>
+            </imports_of_goods_and_services>
+          </end_uses>
+          <date>2017</date>
+        </by_end_use>
+        <by_sector_of_origin>
+          <sectors>
+            <agriculture>
+              <value>4.1</value>
+              <units>%</units>
+            </agriculture>
+            <industry>
+              <value>16.9</value>
+              <units>%</units>
+            </industry>
+            <services>
+              <value>79.1</value>
+              <units>%</units>
+            </services>
+          </sectors>
+          <date>2017</date>
+        </by_sector_of_origin>
+      </composition>
+    </gdp>
+    <gross_national_saving>
+      <annual_values>
+        <value>10.9</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>9.5</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>9.6</value>
+        <units>percent_of_gdp</units>
+        <date>2015</date>
+      </annual_values>
+      <global_rank>159</global_rank>
+    </gross_national_saving>
+    <agriculture_products>
+      <products>wheat</products>
+      <products>corn</products>
+      <products>barley</products>
+      <products>sugar beets</products>
+      <products>olives</products>
+      <products>tomatoes</products>
+      <products>wine</products>
+      <products>tobacco</products>
+      <products>potatoes</products>
+      <products>beef</products>
+      <products>dairy products</products>
+    </agriculture_products>
+    <industries>
+      <industries>tourism</industries>
+      <industries>food</industries>
+      <industries>tobacco processing</industries>
+      <industries>textiles</industries>
+      <industries>chemicals</industries>
+      <industries>metal products</industries>
+      <industries>mining</industries>
+      <industries>petroleum</industries>
+    </industries>
+    <industrial_production_growth_rate>
+      <annual_percentage_increase>3.5</annual_percentage_increase>
+      <global_rank>85</global_rank>
+      <date>2017</date>
+    </industrial_production_growth_rate>
+    <labor_force>
+      <total_size>
+        <total_people>4000000</total_people>
+        <global_rank>90</global_rank>
+        <date>2020</date>
+      </total_size>
+      <by_occupation>
+        <occupation>
+          <agriculture>
+            <value>12.6</value>
+            <units>%</units>
+          </agriculture>
+          <industry>
+            <value>15</value>
+            <units>%</units>
+          </industry>
+          <services>
+            <value>72.4</value>
+            <units>%</units>
+          </services>
+        </occupation>
+        <date>2015-10-30</date>
+      </by_occupation>
+    </labor_force>
+    <unemployment_rate>
+      <annual_values>
+        <value>17.3</value>
+        <units>%</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>19.34</value>
+        <units>%</units>
+        <date>2018</date>
+      </annual_values>
+      <global_rank>182</global_rank>
+    </unemployment_rate>
+    <population_below_poverty_line>
+      <value>36</value>
+      <units>%</units>
+      <date>2014</date>
+    </population_below_poverty_line>
+    <household_income_by_percentage_share>
+      <lowest_ten_percent>
+        <value>1.7</value>
+        <units>%</units>
+      </lowest_ten_percent>
+      <highest_ten_percent>
+        <value>26.7</value>
+        <units>%</units>
+      </highest_ten_percent>
+      <date>2015</date>
+    </household_income_by_percentage_share>
+    <budget>
+      <revenues>
+        <value>97990000000</value>
+        <units>USD</units>
+      </revenues>
+      <expenditures>
+        <value>96350000000</value>
+        <units>USD</units>
+      </expenditures>
+      <date>2017</date>
+    </budget>
+    <taxes_and_other_revenues>
+      <percent_of_gdp>48.8</percent_of_gdp>
+      <global_rank>17</global_rank>
+      <date>2017</date>
+    </taxes_and_other_revenues>
+    <budget_surplus_or_deficit>
+      <percent_of_gdp>0.8</percent_of_gdp>
+      <global_rank>36</global_rank>
+      <date>2017</date>
+    </budget_surplus_or_deficit>
+    <public_debt>
+      <annual_values>
+        <value>181.8</value>
+        <units>percent_of_gdp</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>183.5</value>
+        <units>percent_of_gdp</units>
+        <date>2016</date>
+      </annual_values>
+      <global_rank>2</global_rank>
+    </public_debt>
+    <fiscal_year>
+      <start>1 January</start>
+      <end>31 December</end>
+    </fiscal_year>
+    <inflation_rate>
+      <annual_values>
+        <value>1.1</value>
+        <units>%</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>0</value>
+        <units>%</units>
+        <date>2016</date>
+      </annual_values>
+      <global_rank>59</global_rank>
+    </inflation_rate>
+    <current_account_balance>
+      <annual_values>
+        <value>-3114000000</value>
+        <units>USD</units>
+        <date>2019</date>
+      </annual_values>
+      <annual_values>
+        <value>-6245000000</value>
+        <units>USD</units>
+        <date>2018</date>
+      </annual_values>
+      <global_rank>175</global_rank>
+    </current_account_balance>
+    <exports>
+      <total_value>
+        <annual_values>
+          <value>31540000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>27100000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <global_rank>63</global_rank>
+      </total_value>
+      <commodities>
+        <by_commodity>food</by_commodity>
+        <by_commodity>beverages</by_commodity>
+        <by_commodity>manufactured goods</by_commodity>
+        <by_commodity>petroleum products</by_commodity>
+        <by_commodity>chemicals</by_commodity>
+        <by_commodity>textiles</by_commodity>
+      </commodities>
+      <partners>
+        <by_country>
+          <name>Italy</name>
+          <percent>10.6</percent>
+        </by_country>
+        <by_country>
+          <name>Germany</name>
+          <percent>7.1</percent>
+        </by_country>
+        <by_country>
+          <name>Turkey</name>
+          <percent>6.8</percent>
+        </by_country>
+        <by_country>
+          <name>Cyprus</name>
+          <percent>6.5</percent>
+        </by_country>
+        <by_country>
+          <name>Bulgaria</name>
+          <percent>4.9</percent>
+        </by_country>
+        <by_country>
+          <name>Lebanon</name>
+          <percent>4.3</percent>
+        </by_country>
+        <date>2017</date>
+      </partners>
+    </exports>
+    <imports>
+      <total_value>
+        <annual_values>
+          <value>52270000000</value>
+          <units>USD</units>
+          <date>2017</date>
+        </annual_values>
+        <annual_values>
+          <value>45450000000</value>
+          <units>USD</units>
+          <date>2016</date>
+        </annual_values>
+        <global_rank>52</global_rank>
+      </total_value>
+      <commodities>
+        <by_commodity>machinery</by_commodity>
+        <by_commodity>transport equipment</by_commodity>
+        <by_commodity>fuels</by_commodity>
+        <by_commodity>chemicals</by_commodity>
+      </commodities>
+      <partners>
+        <by_country>
+          <name>Germany</name>
+          <percent>10.4</percent>
+        </by_country>
+        <by_country>
+          <name>Italy</name>
+          <percent>8.2</percent>
+        </by_country>
+        <by_country>
+          <name>Russia</name>
+          <percent>6.8</percent>
+        </by_country>
+        <by_country>
+          <name>Iraq</name>
+          <percent>6.3</percent>
+        </by_country>
+        <by_country>
+          <name>South Korea</name>
+          <percent>6.1</percent>
+        </by_country>
+        <by_country>
+          <name>China</name>
+          <percent>5.4</percent>
+        </by_country>
+        <by_country>
+          <name>Netherlands</name>
+          <percent>5.3</percent>
+        </by_country>
+        <by_country>
+          <name>France</name>
+          <percent>4.3</percent>
+        </by_country>
+        <date>2017</date>
+      </partners>
+    </imports>
+    <reserves_of_foreign_exchange_and_gold>
+      <annual_values>
+        <value>7807000000</value>
+        <units>USD</units>
+        <date>2017-12-31</date>
+      </annual_values>
+      <annual_values>
+        <value>6026000000</value>
+        <units>USD</units>
+        <date>2015-12-31</date>
+      </annual_values>
+      <global_rank>80</global_rank>
+    </reserves_of_foreign_exchange_and_gold>
+    <external_debt>
+      <annual_values>
+        <value>506600000000</value>
+        <units>USD</units>
+        <date>2016-03-31</date>
+      </annual_values>
+      <annual_values>
+        <value>468200000000</value>
+        <units>USD</units>
+        <date>2015-03-31</date>
+      </annual_values>
+      <global_rank>23</global_rank>
+    </external_debt>
+    <exchange_rates>
+      <annual_values>
+        <value>0.885</value>
+        <units>USD</units>
+        <date>2017</date>
+      </annual_values>
+      <annual_values>
+        <value>0.903</value>
+        <units>USD</units>
+        <date>2016</date>
+      </annual_values>
+      <annual_values>
+        <value>0.9214</value>
+        <units>USD</units>
+        <date>2015</date>
+      </annual_values>
+      <annual_values>
+        <value>0.885</value>
+        <units>USD</units>
+        <date>2014</date>
+      </annual_values>
+      <annual_values>
+        <value>0.7634</value>
+        <units>USD</units>
+        <date>2013</date>
+      </annual_values>
+      <note>euros (EUR) per US dollar</note>
+    </exchange_rates>
+  </economy>
+  <energy>
+    <electricity>
+      <access>
+        <total_electrification>
+          <value>100</value>
+          <units>%</units>
+        </total_electrification>
+        <date>2020</date>
+      </access>
+      <production>
+        <kWh>52050000000</kWh>
+        <global_rank>53</global_rank>
+        <date>2016</date>
+      </production>
+      <consumption>
+        <kWh>56890000000</kWh>
+        <global_rank>45</global_rank>
+        <date>2016</date>
+      </consumption>
+      <exports>
+        <kWh>1036999999.9999999</kWh>
+        <global_rank>58</global_rank>
+        <date>2016</date>
+      </exports>
+      <imports>
+        <kWh>9833000000</kWh>
+        <global_rank>27</global_rank>
+        <date>2016</date>
+      </imports>
+      <installed_generating_capacity>
+        <kW>19170000</kW>
+        <global_rank>46</global_rank>
+        <date>2016</date>
+      </installed_generating_capacity>
+      <by_source>
+        <fossil_fuels>
+          <percent>57</percent>
+          <global_rank>137</global_rank>
+          <date>2016</date>
+        </fossil_fuels>
+        <nuclear_fuels>
+          <percent>0</percent>
+          <global_rank>98</global_rank>
+          <date>2017</date>
+        </nuclear_fuels>
+        <hydroelectric_plants>
+          <percent>14</percent>
+          <global_rank>105</global_rank>
+          <date>2017</date>
+        </hydroelectric_plants>
+        <other_renewable_sources>
+          <percent>29</percent>
+          <global_rank>19</global_rank>
+          <date>2017</date>
+        </other_renewable_sources>
+      </by_source>
+    </electricity>
+    <crude_oil>
+      <production>
+        <bbl_per_day>4100</bbl_per_day>
+        <global_rank>80</global_rank>
+        <date>2018</date>
+      </production>
+      <exports>
+        <bbl_per_day>3229</bbl_per_day>
+        <global_rank>67</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <bbl_per_day>484300</bbl_per_day>
+        <global_rank>20</global_rank>
+        <date>2017</date>
+      </imports>
+      <proved_reserves>
+        <bbl>10000000</bbl>
+        <global_rank>90</global_rank>
+        <date>2018-01-01</date>
+      </proved_reserves>
+    </crude_oil>
+    <refined_petroleum_products>
+      <production>
+        <bbl_per_day>655400</bbl_per_day>
+        <global_rank>28</global_rank>
+        <date>2017</date>
+      </production>
+      <consumption>
+        <bbl_per_day>304100</bbl_per_day>
+        <global_rank>43</global_rank>
+        <date>2017</date>
+      </consumption>
+      <exports>
+        <bbl_per_day>371900</bbl_per_day>
+        <global_rank>22</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <bbl_per_day>192200</bbl_per_day>
+        <global_rank>35</global_rank>
+        <date>2017</date>
+      </imports>
+    </refined_petroleum_products>
+    <natural_gas>
+      <production>
+        <cubic_metres>8000000</cubic_metres>
+        <global_rank>93</global_rank>
+        <date>2017</date>
+      </production>
+      <consumption>
+        <cubic_metres>4927000000</cubic_metres>
+        <global_rank>61</global_rank>
+        <date>2017</date>
+      </consumption>
+      <exports>
+        <cubic_metres>0</cubic_metres>
+        <global_rank>112</global_rank>
+        <date>2017</date>
+      </exports>
+      <imports>
+        <cubic_metres>4984000000</cubic_metres>
+        <global_rank>36</global_rank>
+        <date>2017</date>
+      </imports>
+      <proved_reserves>
+        <cubic_metres>991100000</cubic_metres>
+        <global_rank>100</global_rank>
+        <date>2018-01-01</date>
+      </proved_reserves>
+    </natural_gas>
+    <carbon_dioxide_emissions_from_consumption_of_energy>
+      <megatonnes>69370000</megatonnes>
+      <global_rank>51</global_rank>
+      <date>2017</date>
+    </carbon_dioxide_emissions_from_consumption_of_energy>
+  </energy>
+  <communications>
+    <telephones>
+      <fixed_lines>
+        <total_subscriptions>5080386</total_subscriptions>
+        <subscriptions_per_one_hundred_inhabitants>47.75</subscriptions_per_one_hundred_inhabitants>
+        <global_rank>29</global_rank>
+        <date>2019</date>
+      </fixed_lines>
+      <mobile_cellular>
+        <total_subscriptions>12070571</total_subscriptions>
+        <subscriptions_per_one_hundred_inhabitants>113.45</subscriptions_per_one_hundred_inhabitants>
+        <global_rank>75</global_rank>
+        <date>2019</date>
+      </mobile_cellular>
+    </telephones>
+    <broadcast_media>broadcast media dominated by the private sector; roughly 150 private TV channels, about 10 of which broadcast nationwide; 1 government-owned terrestrial TV channel with national coverage; 3 privately owned satellite channels; multi-channel satellite and cable TV services available; upwards of 1,500 radio stations, all of them privately owned; government-owned broadcaster has 2 national radio stations</broadcast_media>
+    <internet>
+      <country_code>.gr</country_code>
+      <users>
+        <total>7783381</total>
+        <percent_of_population>72.95</percent_of_population>
+        <global_rank>61</global_rank>
+        <date>2018-07-01</date>
+      </users>
+    </internet>
+  </communications>
+  <transportation>
+    <pipelines>
+      <by_type>
+        <type>gas</type>
+        <length>1329</length>
+        <units>km</units>
+      </by_type>
+      <by_type>
+        <type>oil</type>
+        <length>94</length>
+        <units>km</units>
+      </by_type>
+      <date>2013</date>
+    </pipelines>
+    <railways>
+      <total>
+        <length>2548</length>
+        <units>km</units>
+      </total>
+      <standard_gauge>
+        <length>1565</length>
+        <electrified>764</electrified>
+        <units>km
+1.435-m</units>
+        <gauge>gauge</gauge>
+      </standard_gauge>
+      <narrow_gauge>
+        <length>961</length>
+        <units>km
+1.000-m</units>
+        <gauge>gauge</gauge>
+      </narrow_gauge>
+      <global_rank>67</global_rank>
+      <date>2014</date>
+    </railways>
+    <roadways>
+      <total>
+        <value>117000</value>
+        <units>km</units>
+      </total>
+      <global_rank>42</global_rank>
+      <date>2018</date>
+    </roadways>
+    <waterways>
+      <value>6</value>
+      <units>km</units>
+      <note>the 6-km-long Corinth Canal crosses the Isthmus of Corinth; it shortens a sea voyage by 325 km</note>
+      <global_rank>106</global_rank>
+      <date>2012</date>
+    </waterways>
+    <merchant_marine>
+      <total>1308</total>
+      <by_type>
+        <type>bulk carrier</type>
+        <count>180</count>
+      </by_type>
+      <by_type>
+        <type>container ship</type>
+        <count>6</count>
+      </by_type>
+      <by_type>
+        <type>general cargo</type>
+        <count>95</count>
+      </by_type>
+      <by_type>
+        <type>oil tanker</type>
+        <count>375</count>
+      </by_type>
+      <by_type>
+        <type>other</type>
+        <count>652</count>
+      </by_type>
+      <global_rank>22</global_rank>
+      <date>2019</date>
+    </merchant_marine>
+    <ports_and_terminals>
+      <major_seaports>Aspropyrgos</major_seaports>
+      <major_seaports>Pachi</major_seaports>
+      <major_seaports>Piraeus</major_seaports>
+      <major_seaports>Thessaloniki</major_seaports>
+      <oil_terminals>Agioi Theodoroi</oil_terminals>
+      <container_ports>
+        <place>Piraeus</place>
+        <twenty_foot_equivalent_units>4145079</twenty_foot_equivalent_units>
+      </container_ports>
+      <liquid_natural_gas_terminals_import>Revithoussa</liquid_natural_gas_terminals_import>
+      <date>2017</date>
+    </ports_and_terminals>
+  </transportation>
+  <military_adn_security/>
+  <transnational_issues>
+    <disputes>Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Sea</disputes>
+    <disputes>the mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy</disputes>
+    <refugees_and_iternally_displaced_persons>
+      <refugees>
+        <by_country>
+          <people>26696</people>
+          <country_of_origin>Syria</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>17685</people>
+          <country_of_origin>Afghanistan</country_of_origin>
+        </by_country>
+        <by_country>
+          <people>9614</people>
+          <country_of_origin>Afghanistan</country_of_origin>
+        </by_country>
+        <date>2019</date>
+      </refugees>
+      <stateless_persons>
+        <people>4734</people>
+        <date>2019</date>
+      </stateless_persons>
+      <note>1,203,437 estimated refugee and migrant arrivals (January 2015-November 2020), as of the end of December 2019, an estimated 112,300 migrants and refugees were stranded in Greece since 2015-16; 50,215 migrant arrivals in 2018</note>
+    </refugees_and_iternally_displaced_persons>
+    <illicit_drugs>
+      <note>a gateway to Europe for traffickers smuggling cannabis and heroin from the Middle East and Southwest Asia to the West and precursor chemicals to the East; some South American cocaine transits or is consumed in Greece; money laundering related to drug trafficking and organized crime</note>
+    </illicit_drugs>
+  </transnational_issues>
+</country>
