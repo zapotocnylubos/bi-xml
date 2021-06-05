@@ -1,0 +1,1614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar ns="" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <element name="countries">
+      <oneOrMore>
+        <ref name="country"/>
+      </oneOrMore>
+    </element>
+  </start>
+  <define name="country">
+    <element name="country">
+      <optional>
+        <attribute name="id">
+          <data type="NCName"/>
+        </attribute>
+      </optional>
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="name"/>
+          <ref name="people"/>
+          <element name="communications">
+            <element name="telephones">
+              <element name="fixed_lines">
+                <ref name="total_subscriptions"/>
+                <ref name="subscriptions_per_one_hundred_inhabitants"/>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+              <element name="mobile_cellular">
+                <ref name="total_subscriptions"/>
+                <ref name="subscriptions_per_one_hundred_inhabitants"/>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+            </element>
+            <element name="broadcast_media">
+              <text/>
+            </element>
+            <element name="internet">
+              <element name="country_code">
+                <data type="NMTOKEN"/>
+              </element>
+              <element name="users">
+                <ref name="total"/>
+                <element name="percent_of_population">
+                  <data type="decimal"/>
+                </element>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+            </element>
+            <optional>
+              <ref name="note"/>
+            </optional>
+          </element>
+          <element name="economy">
+            <element name="overview">
+              <text/>
+            </element>
+            <element name="gdp">
+              <element name="purchasing_power_parity">
+                <oneOrMore>
+                  <ref name="annual_values"/>
+                </oneOrMore>
+                <ref name="global_rank"/>
+                <ref name="note"/>
+              </element>
+              <element name="official_exchange_rate">
+                <element name="USD">
+                  <data type="integer"/>
+                </element>
+                <ref name="date"/>
+              </element>
+              <element name="real_growth_rate">
+                <oneOrMore>
+                  <ref name="annual_values"/>
+                </oneOrMore>
+                <ref name="global_rank"/>
+              </element>
+              <element name="per_capita_purchasing_power_parity">
+                <oneOrMore>
+                  <ref name="annual_values"/>
+                </oneOrMore>
+                <ref name="global_rank"/>
+                <ref name="note"/>
+              </element>
+              <element name="composition">
+                <element name="by_end_use">
+                  <element name="end_uses">
+                    <element name="household_consumption">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                    <element name="government_consumption">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                    <element name="investment_in_fixed_capital">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                    <element name="investment_in_inventories">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                    <element name="exports_of_goods_and_services">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                    <element name="imports_of_goods_and_services">
+                      <ref name="value"/>
+                      <ref name="units"/>
+                    </element>
+                  </element>
+                  <ref name="date"/>
+                </element>
+                <element name="by_sector_of_origin">
+                  <element name="sectors">
+                    <ref name="agriculture"/>
+                    <ref name="industry"/>
+                    <ref name="services"/>
+                  </element>
+                  <ref name="date"/>
+                </element>
+              </element>
+            </element>
+            <element name="gross_national_saving">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <element name="agriculture_products">
+              <oneOrMore>
+                <element name="products">
+                  <text/>
+                </element>
+              </oneOrMore>
+            </element>
+            <ref name="industries"/>
+            <element name="industrial_production_growth_rate">
+              <element name="annual_percentage_increase">
+                <data type="decimal"/>
+              </element>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="labor_force">
+              <element name="total_size">
+                <element name="total_people">
+                  <data type="integer"/>
+                </element>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+              <element name="by_occupation">
+                <element name="occupation">
+                  <ref name="agriculture"/>
+                  <ref name="industry"/>
+                  <ref name="services"/>
+                </element>
+                <ref name="date"/>
+              </element>
+            </element>
+            <element name="unemployment_rate">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <element name="population_below_poverty_line">
+              <ref name="value"/>
+              <ref name="units"/>
+              <ref name="date"/>
+            </element>
+            <element name="household_income_by_percentage_share">
+              <element name="lowest_ten_percent">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="highest_ten_percent">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <ref name="date"/>
+            </element>
+            <element name="budget">
+              <element name="revenues">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="expenditures">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <ref name="date"/>
+            </element>
+            <element name="taxes_and_other_revenues">
+              <ref name="percent_of_gdp"/>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="budget_surplus_or_deficit">
+              <ref name="percent_of_gdp"/>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="public_debt">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <element name="fiscal_year">
+              <element name="start">
+                <text/>
+              </element>
+              <element name="end">
+                <text/>
+              </element>
+            </element>
+            <element name="inflation_rate">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <element name="current_account_balance">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <ref name="exports"/>
+            <ref name="imports"/>
+            <element name="reserves_of_foreign_exchange_and_gold">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <element name="external_debt">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="global_rank"/>
+            </element>
+            <element name="exchange_rates">
+              <oneOrMore>
+                <ref name="annual_values"/>
+              </oneOrMore>
+              <ref name="note"/>
+            </element>
+          </element>
+          <element name="energy">
+            <element name="electricity">
+              <element name="access">
+                <element name="total_electrification">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+                <ref name="date"/>
+              </element>
+              <ref name="production"/>
+              <ref name="consumption"/>
+              <ref name="exports"/>
+              <ref name="imports"/>
+              <element name="installed_generating_capacity">
+                <element name="kW">
+                  <data type="integer"/>
+                </element>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+              <element name="by_source">
+                <element name="fossil_fuels">
+                  <ref name="percent"/>
+                  <ref name="global_rank"/>
+                  <ref name="date"/>
+                </element>
+                <element name="nuclear_fuels">
+                  <ref name="percent"/>
+                  <ref name="global_rank"/>
+                  <ref name="date"/>
+                </element>
+                <element name="hydroelectric_plants">
+                  <ref name="percent"/>
+                  <ref name="global_rank"/>
+                  <ref name="date"/>
+                </element>
+                <element name="other_renewable_sources">
+                  <ref name="percent"/>
+                  <ref name="global_rank"/>
+                  <ref name="date"/>
+                </element>
+              </element>
+            </element>
+            <element name="crude_oil">
+              <ref name="production"/>
+              <ref name="exports"/>
+              <ref name="imports"/>
+              <ref name="proved_reserves"/>
+            </element>
+            <element name="refined_petroleum_products">
+              <ref name="production"/>
+              <ref name="consumption"/>
+              <ref name="exports"/>
+              <ref name="imports"/>
+            </element>
+            <element name="natural_gas">
+              <ref name="production"/>
+              <ref name="consumption"/>
+              <ref name="exports"/>
+              <ref name="imports"/>
+              <ref name="proved_reserves"/>
+            </element>
+            <element name="carbon_dioxide_emissions_from_consumption_of_energy">
+              <element name="megatonnes">
+                <data type="integer"/>
+              </element>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+          </element>
+          <element name="geography">
+            <element name="location">
+              <text/>
+            </element>
+            <ref name="geographic_coordinates"/>
+            <element name="map_references">
+              <data type="NCName"/>
+            </element>
+            <element name="area">
+              <ref name="total"/>
+              <element name="land">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="water">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <optional>
+                <ref name="note"/>
+              </optional>
+              <ref name="global_rank"/>
+              <element name="comparative">
+                <text/>
+              </element>
+            </element>
+            <element name="land_boundaries">
+              <ref name="total"/>
+              <oneOrMore>
+                <element name="border_countries">
+                  <ref name="country"/>
+                  <element name="border_length">
+                    <ref name="value"/>
+                    <ref name="units"/>
+                  </element>
+                </element>
+              </oneOrMore>
+            </element>
+            <element name="coastline">
+              <ref name="value"/>
+              <ref name="units"/>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <optional>
+              <element name="maritime_claims">
+                <element name="territorial_sea">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+                <optional>
+                  <element name="exclusive_economic_zone">
+                    <ref name="value"/>
+                    <ref name="units"/>
+                    <ref name="note"/>
+                  </element>
+                  <element name="contiguous_zone">
+                    <ref name="value"/>
+                    <ref name="units"/>
+                  </element>
+                </optional>
+                <element name="continental_shelf">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                  <optional>
+                    <ref name="note"/>
+                  </optional>
+                </element>
+              </element>
+            </optional>
+            <element name="climate">
+              <text/>
+            </element>
+            <element name="terrain">
+              <text/>
+            </element>
+            <ref name="elevation"/>
+            <element name="natural_resources">
+              <oneOrMore>
+                <element name="resources">
+                  <text/>
+                </element>
+              </oneOrMore>
+            </element>
+            <element name="land_use">
+              <element name="by_sector">
+                <element name="agricultural_land_total">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+                <element name="arable_land">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                  <ref name="note"/>
+                </element>
+                <element name="permanent_crops">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                  <ref name="note"/>
+                </element>
+                <element name="permanent_pasture">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+                <element name="forest">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+                <element name="other">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+              </element>
+              <ref name="date"/>
+            </element>
+            <element name="irrigated_land">
+              <ref name="value"/>
+              <ref name="units"/>
+              <ref name="date"/>
+            </element>
+            <ref name="population_distribution"/>
+            <oneOrMore>
+              <element name="natural_hazards">
+                <ref name="description"/>
+                <ref name="type"/>
+              </element>
+            </oneOrMore>
+            <element name="environment">
+              <oneOrMore>
+                <element name="current_issues">
+                  <text/>
+                </element>
+              </oneOrMore>
+              <element name="international_agreements">
+                <oneOrMore>
+                  <element name="party_to">
+                    <text/>
+                  </element>
+                </oneOrMore>
+                <oneOrMore>
+                  <element name="signed_but_not_ratified">
+                    <text/>
+                  </element>
+                </oneOrMore>
+              </element>
+            </element>
+          </element>
+          <element name="government">
+            <element name="country_name">
+              <element name="conventional_long_form">
+                <text/>
+              </element>
+              <element name="conventional_short_form">
+                <data type="NCName"/>
+              </element>
+              <element name="local_long_form">
+                <text/>
+              </element>
+              <element name="local_short_form">
+                <text/>
+              </element>
+              <optional>
+                <element name="former">
+                  <text/>
+                </element>
+              </optional>
+              <ref name="etymology"/>
+            </element>
+            <element name="government_type">
+              <text/>
+            </element>
+            <element name="capital">
+              <ref name="name"/>
+              <ref name="geographic_coordinates"/>
+              <element name="time_difference">
+                <element name="timezone">
+                  <data type="integer"/>
+                </element>
+                <ref name="note"/>
+              </element>
+              <optional>
+                <element name="daylight_saving_time">
+                  <text/>
+                </element>
+              </optional>
+              <ref name="etymology"/>
+            </element>
+            <zeroOrMore>
+              <element name="administrative_divisions">
+                <ref name="name"/>
+                <ref name="type"/>
+              </element>
+            </zeroOrMore>
+            <element name="independence">
+              <ref name="date"/>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <element name="national_holidays">
+              <ref name="name"/>
+              <element name="day">
+                <text/>
+              </element>
+              <element name="original_year">
+                <data type="integer"/>
+              </element>
+            </element>
+            <element name="constitution">
+              <element name="history">
+                <text/>
+              </element>
+              <element name="amendments">
+                <text/>
+              </element>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <element name="legal_system">
+              <text/>
+            </element>
+            <oneOrMore>
+              <element name="international_law_organization_participation">
+                <text/>
+              </element>
+            </oneOrMore>
+            <element name="citizenship">
+              <element name="citizenship_by_birth">
+                <data type="NCName"/>
+              </element>
+              <element name="citizenship_by_descent_only">
+                <text/>
+              </element>
+              <element name="dual_citizenship_recognized">
+                <text/>
+              </element>
+              <element name="residency_requirement_for_naturalization">
+                <text/>
+              </element>
+            </element>
+            <element name="suffrage">
+              <ref name="age"/>
+              <element name="universal">
+                <data type="boolean"/>
+              </element>
+              <element name="compulsory">
+                <data type="boolean"/>
+              </element>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <element name="executive_branch">
+              <element name="chief_of_state">
+                <text/>
+              </element>
+              <element name="head_of_government">
+                <text/>
+              </element>
+              <element name="cabinet">
+                <text/>
+              </element>
+              <element name="elections_appointments">
+                <text/>
+              </element>
+              <ref name="election_results"/>
+            </element>
+            <element name="legislative_branch">
+              <ref name="description"/>
+              <element name="elections">
+                <text/>
+              </element>
+              <ref name="election_results"/>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <element name="judicial_branch">
+              <element name="highest_courts">
+                <text/>
+              </element>
+              <element name="judge_selection_and_term_of_office">
+                <text/>
+              </element>
+              <element name="subordinate_courts">
+                <text/>
+              </element>
+            </element>
+            <element name="political_parties_and_leaders">
+              <oneOrMore>
+                <element name="parties">
+                  <ref name="name"/>
+                  <optional>
+                    <element name="name_alternative">
+                      <text/>
+                    </element>
+                  </optional>
+                  <zeroOrMore>
+                    <element name="leaders">
+                      <text/>
+                    </element>
+                  </zeroOrMore>
+                  <optional>
+                    <ref name="note"/>
+                  </optional>
+                </element>
+              </oneOrMore>
+            </element>
+            <oneOrMore>
+              <element name="international_organization_participation">
+                <element name="organization">
+                  <text/>
+                </element>
+                <optional>
+                  <ref name="note"/>
+                </optional>
+              </element>
+            </oneOrMore>
+            <element name="diplomatic_representation">
+              <element name="in_united_states">
+                <ref name="chief_of_mission"/>
+                <element name="chancery">
+                  <text/>
+                </element>
+                <ref name="telephone"/>
+                <ref name="fax"/>
+                <ref name="consulates_general"/>
+                <optional>
+                  <element name="consulates">
+                    <text/>
+                  </element>
+                </optional>
+              </element>
+              <element name="from_united_states">
+                <ref name="chief_of_mission"/>
+                <ref name="telephone"/>
+                <element name="embassy">
+                  <text/>
+                </element>
+                <element name="mailing_address">
+                  <text/>
+                </element>
+                <ref name="fax"/>
+                <optional>
+                  <ref name="consulates_general"/>
+                </optional>
+              </element>
+            </element>
+            <element name="flag_description">
+              <ref name="description"/>
+              <ref name="note"/>
+            </element>
+            <element name="national_symbol">
+              <oneOrMore>
+                <element name="symbols">
+                  <element name="symbol">
+                    <text/>
+                  </element>
+                  <optional>
+                    <ref name="note"/>
+                  </optional>
+                </element>
+              </oneOrMore>
+              <oneOrMore>
+                <element name="colors">
+                  <element name="color">
+                    <data type="NCName"/>
+                  </element>
+                </element>
+              </oneOrMore>
+            </element>
+            <element name="national_anthem">
+              <ref name="name"/>
+              <element name="lyrics_music">
+                <text/>
+              </element>
+              <ref name="note"/>
+              <element name="audio_url">
+                <data type="anyURI"/>
+              </element>
+            </element>
+          </element>
+          <element name="introduction">
+            <element name="background">
+              <text/>
+            </element>
+          </element>
+          <element name="military_adn_security">
+            <empty/>
+          </element>
+          <element name="transnational_issues">
+            <oneOrMore>
+              <element name="disputes">
+                <text/>
+              </element>
+            </oneOrMore>
+            <element name="refugees_and_iternally_displaced_persons">
+              <optional>
+                <element name="refugees">
+                  <oneOrMore>
+                    <ref name="by_country"/>
+                  </oneOrMore>
+                  <ref name="date"/>
+                </element>
+              </optional>
+              <optional>
+                <element name="internally_displaced_persons">
+                  <ref name="people"/>
+                  <ref name="date"/>
+                </element>
+              </optional>
+              <element name="stateless_persons">
+                <ref name="people"/>
+                <ref name="date"/>
+              </element>
+              <optional>
+                <ref name="note"/>
+              </optional>
+            </element>
+            <optional>
+              <element name="trafficking_in_persons">
+                <element name="current_situation">
+                  <text/>
+                </element>
+                <element name="tier_rating">
+                  <text/>
+                </element>
+              </element>
+            </optional>
+            <element name="illicit_drugs">
+              <ref name="note"/>
+            </element>
+          </element>
+          <element name="transportation">
+            <element name="pipelines">
+              <oneOrMore>
+                <ref name="by_type"/>
+              </oneOrMore>
+              <ref name="date"/>
+            </element>
+            <element name="railways">
+              <ref name="total"/>
+              <element name="standard_gauge">
+                <ref name="length"/>
+                <ref name="electrified"/>
+                <ref name="units"/>
+                <ref name="gauge"/>
+              </element>
+              <optional>
+                <element name="narrow_gauge">
+                  <ref name="length"/>
+                  <optional>
+                    <ref name="electrified"/>
+                  </optional>
+                  <ref name="units"/>
+                  <optional>
+                    <ref name="gauge"/>
+                  </optional>
+                </element>
+              </optional>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="roadways">
+              <ref name="total"/>
+              <optional>
+                <element name="paved">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                  <optional>
+                    <ref name="note"/>
+                  </optional>
+                </element>
+              </optional>
+              <optional>
+                <element name="unpaved">
+                  <ref name="value"/>
+                  <ref name="units"/>
+                </element>
+              </optional>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="waterways">
+              <ref name="value"/>
+              <ref name="units"/>
+              <ref name="note"/>
+              <ref name="global_rank"/>
+              <optional>
+                <ref name="date"/>
+              </optional>
+            </element>
+            <optional>
+              <element name="merchant_marine">
+                <ref name="total"/>
+                <oneOrMore>
+                  <ref name="by_type"/>
+                </oneOrMore>
+                <ref name="global_rank"/>
+                <ref name="date"/>
+              </element>
+            </optional>
+            <element name="ports_and_terminals">
+              <optional>
+                <oneOrMore>
+                  <element name="major_seaports">
+                    <text/>
+                  </element>
+                </oneOrMore>
+                <oneOrMore>
+                  <element name="oil_terminals">
+                    <text/>
+                  </element>
+                </oneOrMore>
+                <oneOrMore>
+                  <element name="container_ports">
+                    <ref name="place"/>
+                    <element name="twenty_foot_equivalent_units">
+                      <data type="integer"/>
+                    </element>
+                  </element>
+                </oneOrMore>
+              </optional>
+              <choice>
+                <zeroOrMore>
+                  <element name="liquid_natural_gas_terminals_import">
+                    <text/>
+                  </element>
+                </zeroOrMore>
+                <zeroOrMore>
+                  <element name="liquid_natural_gas_terminals_export">
+                    <text/>
+                  </element>
+                </zeroOrMore>
+              </choice>
+              <choice>
+                <ref name="date"/>
+                <oneOrMore>
+                  <element name="river_ports">
+                    <text/>
+                  </element>
+                </oneOrMore>
+              </choice>
+            </element>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="total_subscriptions">
+    <element name="total_subscriptions">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="subscriptions_per_one_hundred_inhabitants">
+    <element name="subscriptions_per_one_hundred_inhabitants">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="global_rank">
+    <element name="global_rank">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="date">
+    <element name="date">
+      <data type="NMTOKEN"/>
+    </element>
+  </define>
+  <define name="total">
+    <element name="total">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="length"/>
+          <ref name="note"/>
+          <ref name="units"/>
+          <ref name="value"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="note">
+    <element name="note">
+      <text/>
+    </element>
+  </define>
+  <define name="etymology">
+    <element name="etymology">
+      <text/>
+    </element>
+  </define>
+  <define name="name">
+    <element name="name">
+      <text/>
+    </element>
+  </define>
+  <define name="geographic_coordinates">
+    <element name="geographic_coordinates">
+      <element name="latitude">
+        <ref name="degrees"/>
+        <ref name="minutes"/>
+        <ref name="hemisphere"/>
+      </element>
+      <element name="longitude">
+        <ref name="degrees"/>
+        <ref name="minutes"/>
+        <ref name="hemisphere"/>
+      </element>
+    </element>
+  </define>
+  <define name="type">
+    <element name="type">
+      <text/>
+    </element>
+  </define>
+  <define name="age">
+    <element name="age">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="election_results">
+    <element name="election_results">
+      <text/>
+    </element>
+  </define>
+  <define name="description">
+    <element name="description">
+      <text/>
+    </element>
+  </define>
+  <define name="chief_of_mission">
+    <element name="chief_of_mission">
+      <text/>
+    </element>
+  </define>
+  <define name="telephone">
+    <element name="telephone">
+      <text/>
+    </element>
+  </define>
+  <define name="fax">
+    <element name="fax">
+      <text/>
+    </element>
+  </define>
+  <define name="consulates_general">
+    <element name="consulates_general">
+      <text/>
+    </element>
+  </define>
+  <define name="value">
+    <element name="value">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="units">
+    <element name="units">
+      <text/>
+    </element>
+  </define>
+  <define name="elevation">
+    <element name="elevation">
+      <optional>
+        <ref name="note"/>
+      </optional>
+      <optional>
+        <choice>
+          <element name="highest_point">
+            <ref name="name"/>
+            <ref name="elevation"/>
+          </element>
+          <group>
+            <element name="mean_elevation">
+              <ref name="value"/>
+              <ref name="units"/>
+            </element>
+            <element name="lowest_point">
+              <ref name="name"/>
+              <ref name="elevation"/>
+            </element>
+          </group>
+        </choice>
+      </optional>
+      <optional>
+        <ref name="value"/>
+      </optional>
+      <optional>
+        <ref name="units"/>
+      </optional>
+    </element>
+  </define>
+  <define name="population_distribution">
+    <element name="population_distribution">
+      <text/>
+    </element>
+  </define>
+  <define name="by_country">
+    <element name="by_country">
+      <optional>
+        <ref name="name"/>
+        <ref name="percent"/>
+      </optional>
+      <optional>
+        <ref name="people"/>
+      </optional>
+      <optional>
+        <element name="country_of_origin">
+          <text/>
+        </element>
+      </optional>
+      <optional>
+        <ref name="date"/>
+      </optional>
+      <optional>
+        <ref name="note"/>
+      </optional>
+    </element>
+  </define>
+  <define name="people">
+    <element name="people">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="population"/>
+          <ref name="population_distribution"/>
+          <element name="adult_obesity">
+            <ref name="percent_of_adults"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="birth_rate">
+            <element name="births_per_1000_population">
+              <data type="decimal"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="contraceptive_prevalence_rate">
+            <ref name="value"/>
+            <ref name="units"/>
+            <optional>
+              <ref name="note"/>
+            </optional>
+            <ref name="date"/>
+          </element>
+          <element name="death_rate">
+            <element name="deaths_per_1000_population">
+              <data type="decimal"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="demographic_profile">
+            <text/>
+          </element>
+          <element name="dependency_ratios">
+            <element name="ratios">
+              <element name="total_dependency_ratio">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="youth_dependency_ratio">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="elderly_dependency_ratio">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+              <element name="potential_support_ratio">
+                <ref name="value"/>
+                <ref name="units"/>
+              </element>
+            </element>
+            <ref name="date"/>
+          </element>
+          <element name="drinking_water_source">
+            <ref name="improved"/>
+            <ref name="unimproved"/>
+            <ref name="date"/>
+          </element>
+          <element name="education_expenditures">
+            <ref name="percent_of_gdp"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="ethnic_groups">
+            <oneOrMore>
+              <element name="ethnicity">
+                <ref name="name"/>
+                <choice>
+                  <ref name="note"/>
+                  <ref name="percent"/>
+                </choice>
+              </element>
+            </oneOrMore>
+            <optional>
+              <ref name="note"/>
+            </optional>
+            <optional>
+              <ref name="date"/>
+            </optional>
+          </element>
+          <element name="hiv_aids">
+            <element name="adult_prevalence_rate">
+              <ref name="percent_of_adults"/>
+              <optional>
+                <ref name="global_rank"/>
+              </optional>
+              <ref name="date"/>
+            </element>
+            <element name="people_living_with_hiv_aids">
+              <ref name="total"/>
+              <ref name="global_rank"/>
+              <ref name="date"/>
+            </element>
+            <element name="deaths">
+              <ref name="total"/>
+              <ref name="date"/>
+            </element>
+          </element>
+          <element name="hospital_bed_density">
+            <element name="beds_per_1000_population">
+              <data type="decimal"/>
+            </element>
+            <ref name="date"/>
+          </element>
+          <element name="infant_mortality_rate">
+            <ref name="total"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="languages">
+            <oneOrMore>
+              <element name="language">
+                <ref name="name"/>
+                <optional>
+                  <ref name="percent"/>
+                </optional>
+                <optional>
+                  <ref name="note"/>
+                </optional>
+              </element>
+            </oneOrMore>
+          </element>
+          <element name="life_expectancy_at_birth">
+            <ref name="total_population"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="literacy">
+            <element name="definition">
+              <text/>
+            </element>
+            <ref name="total_population"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="date"/>
+          </element>
+          <element name="major_infectious_diseases">
+            <optional>
+              <element name="degree_of_risk">
+                <data type="NCName"/>
+              </element>
+              <oneOrMore>
+                <element name="food_or_waterborne_diseases">
+                  <text/>
+                </element>
+              </oneOrMore>
+              <element name="water_contact_diseases">
+                <data type="NCName"/>
+              </element>
+            </optional>
+            <ref name="note"/>
+            <ref name="date"/>
+          </element>
+          <element name="major_urban_areas">
+            <oneOrMore>
+              <element name="places">
+                <ref name="place"/>
+                <ref name="population"/>
+                <optional>
+                  <element name="is_capital">
+                    <data type="boolean"/>
+                  </element>
+                </optional>
+              </element>
+            </oneOrMore>
+            <ref name="date"/>
+          </element>
+          <element name="maternal_mortality_rate">
+            <element name="deaths_per_100k_live_births">
+              <data type="integer"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="median_age">
+            <ref name="total"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="mothers_mean_age_at_first_birth">
+            <ref name="age"/>
+            <ref name="date"/>
+          </element>
+          <element name="nationality">
+            <element name="noun">
+              <text/>
+            </element>
+            <element name="adjective">
+              <data type="NCName"/>
+            </element>
+          </element>
+          <element name="net_migration_rate">
+            <element name="migrants_per_1000_population">
+              <data type="decimal"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="physicians_density">
+            <element name="physicians_per_1000_population">
+              <data type="decimal"/>
+            </element>
+            <ref name="date"/>
+          </element>
+          <element name="population_growth_rate">
+            <element name="growth_rate">
+              <data type="decimal"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="religions">
+            <oneOrMore>
+              <element name="religion">
+                <ref name="name"/>
+                <optional>
+                  <ref name="percent"/>
+                </optional>
+                <optional>
+                  <ref name="note"/>
+                </optional>
+              </element>
+            </oneOrMore>
+            <optional>
+              <element name="m_e_n_a_religious_affiliation">
+                <data type="NCName"/>
+              </element>
+            </optional>
+            <ref name="date"/>
+          </element>
+          <element name="sanitation_facility_access">
+            <ref name="improved"/>
+            <ref name="unimproved"/>
+            <ref name="date"/>
+          </element>
+          <element name="school_life_expectancy">
+            <ref name="total"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="date"/>
+          </element>
+          <element name="total_fertility_rate">
+            <element name="children_born_per_woman">
+              <data type="decimal"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="underweight_children">
+            <element name="percent_of_children_under_the_age_of_five">
+              <data type="integer"/>
+            </element>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+          <element name="urbanization">
+            <element name="urban_population">
+              <ref name="value"/>
+              <ref name="units"/>
+              <ref name="date"/>
+            </element>
+            <element name="rate_of_urbanization">
+              <ref name="value"/>
+              <ref name="units"/>
+            </element>
+            <element name="total_population_growth_rate_v._urban_population_growth_rate_2000_2030">
+              <data type="NCName"/>
+            </element>
+          </element>
+          <element name="youth_unemployment">
+            <ref name="total"/>
+            <ref name="male"/>
+            <ref name="female"/>
+            <ref name="global_rank"/>
+            <ref name="date"/>
+          </element>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="annual_values">
+    <element name="annual_values">
+      <ref name="value"/>
+      <ref name="units"/>
+      <ref name="date"/>
+    </element>
+  </define>
+  <define name="agriculture">
+    <element name="agriculture">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="industry">
+    <element name="industry">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="services">
+    <element name="services">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="industries">
+    <element name="industries">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="industries"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="percent_of_gdp">
+    <element name="percent_of_gdp">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="exports">
+    <element name="exports">
+      <optional>
+        <choice>
+          <ref name="bbl_per_day"/>
+          <ref name="cubic_metres"/>
+          <ref name="kWh"/>
+        </choice>
+      </optional>
+      <choice>
+        <group>
+          <ref name="total_value"/>
+          <ref name="commodities"/>
+          <ref name="partners"/>
+        </group>
+        <group>
+          <ref name="global_rank"/>
+          <ref name="date"/>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="imports">
+    <element name="imports">
+      <optional>
+        <choice>
+          <ref name="bbl_per_day"/>
+          <ref name="cubic_metres"/>
+          <ref name="kWh"/>
+        </choice>
+      </optional>
+      <choice>
+        <group>
+          <ref name="total_value"/>
+          <ref name="commodities"/>
+          <ref name="partners"/>
+        </group>
+        <group>
+          <ref name="global_rank"/>
+          <ref name="date"/>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="production">
+    <element name="production">
+      <choice>
+        <ref name="bbl_per_day"/>
+        <ref name="cubic_metres"/>
+        <ref name="kWh"/>
+      </choice>
+      <ref name="global_rank"/>
+      <ref name="date"/>
+    </element>
+  </define>
+  <define name="consumption">
+    <element name="consumption">
+      <choice>
+        <ref name="bbl_per_day"/>
+        <ref name="cubic_metres"/>
+        <ref name="kWh"/>
+      </choice>
+      <ref name="global_rank"/>
+      <ref name="date"/>
+    </element>
+  </define>
+  <define name="percent">
+    <element name="percent">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="proved_reserves">
+    <element name="proved_reserves">
+      <choice>
+        <ref name="cubic_metres"/>
+        <element name="bbl">
+          <data type="integer"/>
+        </element>
+      </choice>
+      <ref name="global_rank"/>
+      <ref name="date"/>
+    </element>
+  </define>
+  <define name="by_type">
+    <element name="by_type">
+      <ref name="type"/>
+      <choice>
+        <element name="count">
+          <data type="integer"/>
+        </element>
+        <group>
+          <ref name="length"/>
+          <ref name="units"/>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="length">
+    <element name="length">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="electrified">
+    <element name="electrified">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="gauge">
+    <element name="gauge">
+      <data type="NCName"/>
+    </element>
+  </define>
+  <define name="place">
+    <element name="place">
+      <text/>
+    </element>
+  </define>
+  <define name="degrees">
+    <element name="degrees">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="minutes">
+    <element name="minutes">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="hemisphere">
+    <element name="hemisphere">
+      <data type="NCName"/>
+    </element>
+  </define>
+  <define name="percent_of_adults">
+    <element name="percent_of_adults">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="male">
+    <element name="male">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="female">
+    <element name="female">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="population">
+    <element name="population">
+      <oneOrMore>
+        <choice>
+          <text/>
+          <ref name="date"/>
+          <ref name="global_rank"/>
+          <ref name="total"/>
+        </choice>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="total_population">
+    <element name="total_population">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="improved">
+    <element name="improved">
+      <ref name="urban"/>
+      <ref name="rural"/>
+      <ref name="total"/>
+    </element>
+  </define>
+  <define name="unimproved">
+    <element name="unimproved">
+      <ref name="urban"/>
+      <ref name="rural"/>
+      <ref name="total"/>
+    </element>
+  </define>
+  <define name="cubic_metres">
+    <element name="cubic_metres">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="kWh">
+    <element name="kWh">
+      <data type="decimal"/>
+    </element>
+  </define>
+  <define name="bbl_per_day">
+    <element name="bbl_per_day">
+      <data type="integer"/>
+    </element>
+  </define>
+  <define name="total_value">
+    <element name="total_value">
+      <oneOrMore>
+        <ref name="annual_values"/>
+      </oneOrMore>
+      <ref name="global_rank"/>
+    </element>
+  </define>
+  <define name="commodities">
+    <element name="commodities">
+      <oneOrMore>
+        <element name="by_commodity">
+          <text/>
+        </element>
+      </oneOrMore>
+    </element>
+  </define>
+  <define name="partners">
+    <element name="partners">
+      <oneOrMore>
+        <ref name="by_country"/>
+      </oneOrMore>
+      <ref name="date"/>
+    </element>
+  </define>
+  <define name="urban">
+    <element name="urban">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+  <define name="rural">
+    <element name="rural">
+      <ref name="value"/>
+      <ref name="units"/>
+    </element>
+  </define>
+</grammar>
