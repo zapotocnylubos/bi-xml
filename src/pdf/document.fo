@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
+         language="en"
+         font-family="Times New Roman, serif">
+   <fo:layout-master-set>
+      <fo:simple-page-master master-name="bi-xml" margin="1in">
+         <fo:region-body/>
+         <fo:region-after extent="6mm"/>
+      </fo:simple-page-master>
+   </fo:layout-master-set>
+   <fo:page-sequence master-reference="bi-xml">
+      <fo:static-content flow-name="xsl-region-after">
+         <fo:block>Page <fo:page-number/>
+         </fo:block>
+      </fo:static-content>
+      <fo:flow flow-name="xsl-region-body">
+         <fo:block>
+            <fo:block font-size="24pt" font-weight="bold">Countries:</fo:block>
+            <fo:block>
+               <fo:basic-link internal-destination="czechia">Czechia</fo:basic-link>
+            </fo:block>
+            <fo:block>
+               <fo:basic-link internal-destination="italy">Italy</fo:basic-link>
+            </fo:block>
+            <fo:block>
+               <fo:basic-link internal-destination="greece">Greece</fo:basic-link>
+            </fo:block>
+            <fo:block>
+               <fo:basic-link internal-destination="egypt">Egypt</fo:basic-link>
+            </fo:block>
+         </fo:block>
+         <fo:block break-before="page">
+            <fo:block id="czechia">Czechia</fo:block>
+         </fo:block>
+         <fo:block break-before="page">
+            <fo:block id="italy">Italy</fo:block>
+         </fo:block>
+         <fo:block break-before="page">
+            <fo:block id="greece">Greece</fo:block>
+         </fo:block>
+         <fo:block break-before="page">
+            <fo:block id="egypt">Egypt</fo:block>
+         </fo:block>
+      </fo:flow>
+   </fo:page-sequence>
+</fo:root>
