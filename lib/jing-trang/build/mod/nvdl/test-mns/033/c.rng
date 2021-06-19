@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/ns/mns">
+  <validate ns="" schema="a.rng" prune="elements">
+    <context useMode="anythingGoes">
+      <element name="a">
+        <element name="b"/>
+      </element>
+    </context>
+  </validate>
+  <lax inModes="anythingGoes"/>
+</rules>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<constraints xmlns="http://www.thaiopensource.com/validate/picl">
+ <constraint key=".//@id" ref=".//@idref"/>
+</constraints>

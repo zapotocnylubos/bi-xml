@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Ant test</td><td class="numi">1</td><td class="numi">13</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Ant test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.thaiopensource.xml.infer.TestInferHandler<td><a href="#m1">testTypeInferenceForAttribute</a></td><td class="numi">13</td><td class="numi">871</td></tr>
+</table>
+<h1>Ant test</h1>
+<a id="m1"></a><h2>com.thaiopensource.xml.infer.TestInferHandler:testTypeInferenceForAttribute</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="1.1"/>
+  <element att="0.3"/>
+  <element att="90"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">decimal</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="x:a"/>
+  <element att="_b-c.32"/>
+  <element att="test"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">NMTOKEN</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="0FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB7"/>
+  <element att="AFB7"/>
+  <element att="DF"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">hexBinary</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="P364D"/>
+  <element att="P1347Y"/>
+  <element att="-P1347M"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">duration</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="12:23:00"/>
+  <element att="10:01:11-05:00"/>
+  <element att="09:01:07Z"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">time</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="1.23E100"/>
+  <element att="2"/>
+  <element att="2.34"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">double</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="http://www.example.com"/>
+  <element att="test#a10"/>
+  <element att="ftp://server/path/to/file.xml"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">anyURI</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="test"/>
+  <element att="x"/>
+  <element att="y"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">NCName</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="2010-01-20T08:00:10"/>
+  <element att="2012-02-01T10:00:03-05:00"/>
+  <element att="2010-01-20T12:00:00Z"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">dateTime</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="2012-10-09"/>
+  <element att="2010-02-01"/>
+  <element att="2009-10-10"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">date</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF"/>
+  <element att="AABBCCDDEEFFAA=="/>
+  <element att="AABBCCDDEEAAAAAA"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">base64Binary</td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="1"/>
+  <element att="2"/>
+  <element att="3"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">integer</td>
+</tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><sample>
+  <element att="true"/>
+  <element att="false"/>
+  <element att="true"/>
+</sample></td>
+<td style="padding-left:.5em;padding-right:2em">boolean</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

@@ -1,0 +1,7 @@
+
+start = element foo { int|double|float }
+
+int = attribute type { "int" }, xsd:int
+double = attribute type { "double" }, xsd:double
+float = attribute type { "float" }, xsd:float
+

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/ns/mns" xmlns:x="http://example.com" x:foo="stuff">
+  <x:bar/>
+  <validate ns="" schema="a.rng" x:att="val">
+    <x:foo>
+      <validate/>
+    </x:foo>
+  </validate>
+  <x:baz/>
+</rules>

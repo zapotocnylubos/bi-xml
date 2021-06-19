@@ -1,0 +1,2 @@
+
+foo = xsd:integer "1" | xsd:integer "2"

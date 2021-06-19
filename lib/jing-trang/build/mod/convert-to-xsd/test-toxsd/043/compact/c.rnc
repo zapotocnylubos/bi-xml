@@ -1,0 +1,6 @@
+element foo {
+  attribute xml:lang { xsd:language }
+}
+| element bar {
+  attribute xml:lang { xsd:language }
+}

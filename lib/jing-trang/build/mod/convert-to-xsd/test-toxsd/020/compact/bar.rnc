@@ -1,0 +1,3 @@
+
+bar = element bar { empty }
+baz = element baz { empty }

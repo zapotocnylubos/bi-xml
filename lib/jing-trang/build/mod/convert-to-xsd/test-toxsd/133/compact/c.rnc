@@ -1,0 +1,2 @@
+
+c = element x { xsd:int { maxInclusive = "72" } } | element y { xsd:int }

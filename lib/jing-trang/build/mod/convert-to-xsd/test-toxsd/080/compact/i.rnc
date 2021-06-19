@@ -1,0 +1,2 @@
+
+start = grammar { start = element foo { empty } }

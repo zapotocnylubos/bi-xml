@@ -1,0 +1,4 @@
+
+element foo {
+  string - ("x" >> x[]) >> y[]
+}

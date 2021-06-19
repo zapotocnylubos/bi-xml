@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:attributeGroup ref="eg1"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="eg1">
+    <xs:anyAttribute namespace="http://www.example.com/1 http://www.example.com/2" processContents="skip"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="eg2">
+    <xs:anyAttribute namespace="http://www.example.com/2" processContents="skip"/>
+  </xs:attributeGroup>
+</xs:schema>

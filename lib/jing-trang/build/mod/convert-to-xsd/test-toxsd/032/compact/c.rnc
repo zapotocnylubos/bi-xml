@@ -1,0 +1,4 @@
+
+x = element x { empty }
+
+include "example.rnc"

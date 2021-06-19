@@ -1,0 +1,2 @@
+
+div { start = element foo { empty } }

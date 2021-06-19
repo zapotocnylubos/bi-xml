@@ -1,0 +1,4 @@
+
+namespace xmlns = "http://www.example.com"
+[ xmlns:x = "foo" ]
+element foo { empty }

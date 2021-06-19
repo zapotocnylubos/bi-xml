@@ -1,0 +1,4 @@
+
+atts &= attribute foo { text }
+atts = attribute bar { text }
+atts &= attribute baz { text }

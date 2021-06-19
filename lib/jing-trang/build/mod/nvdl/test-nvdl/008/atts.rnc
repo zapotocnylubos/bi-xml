@@ -1,0 +1,4 @@
+
+namespace a = "http://www.example.org/a"
+attribute a:x { text },
+attribute a:y { text }

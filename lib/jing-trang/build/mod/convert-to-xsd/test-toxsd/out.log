@@ -1,0 +1,37 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/104/compact/i.rnc:2:24: error: "zeroOrMore" can contain typed data only inside a list
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/103/compact/i.rnc:2:24: error: grouping data is only allowed inside list
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/102/compact/i.rnc:2:29: error: restriction violation: "start" contains "optional"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/079/compact/i.rnc:2:13: error: syntax error
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/077/compact/i.rnc:3:28: error: illegal recursion through pattern "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/083/compact/i.rnc:2:15: error: datatype library "http://www.w3.org/2001/XMLSchema-datatypes" does not have a datatype "no-such-datatype"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/083/compact/i.rnc:3:30: error: invalid parameter: unrecognized parameter "pattrn"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/083/compact/i.rnc:4:30: error: invalid parameter: "length" parameter must be non negative integer
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/084/compact/bad.rnc:2:23: error: datatype library "http://www.w3.org/2001/XMLSchema-datatypes" does not have a datatype "gdday-bruce"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/085/compact/bad.rnc:2:1: error: syntax error
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/076/compact/i.rnc:3:28: error: illegal recursion through pattern "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/078/compact/i.rnc:2:23: error: reference to undefined pattern "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/078/compact/i.rnc:3:19: error: reference to undefined pattern "z"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/062/compact/c.rnc:3:15: warning: cannot convert datatype library "http://x.org"; using datatype "string"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/054/compact/c.rnc:2:15: warning: cannot represent required wildcard attribute; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/098/compact/i.rnc:2:23: error: restriction violation: "attribute" contains "attribute"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/099/compact/i.rnc:2:28: error: "group" cannot combine typed data with text or elements
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/055/compact/c.rnc:5:18: warning: cannot represent restriction on value of attributes matching wildcard; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/110/compact/c.rnc:2:15: warning: cannot represent restriction on value of attributes matching wildcard; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/109/compact/c.rnc:4:3: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/100/compact/i.rnc:2:15: error: typed data cannot be combined with "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/107/compact/c.rnc:2:38: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/106/compact/c.rnc:2:38: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/101/compact/i.rnc:2:9: error: restriction violation: "start" contains "attribute"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/108/compact/c.rnc:2:38: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/045/compact/c.rnc:2:33: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/087/compact/i.rnc:4:1: error: multiple definitions of "inline" without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/080/compact/i.rnc:2:9: error: sorry, nested grammars are not yet supported
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/016/compact/c.rnc:3:36: warning: choice between attributes and children cannot be represented; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/081/compact/i.rnc:2:30: error: parent reference with no applicable grammar
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/086/compact/bad.rnc:2:23: error: datatype library "http://www.w3.org/2001/XMLSchema-datatypes" does not have a datatype "gdday-bruce"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/088/compact/i.rnc:4:1: error: inconsistent "combine" attributes for definition of "inline"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/093/compact/foo.rnc:2:1: error: infinite loop including URI "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/093/compact/foo.rnc"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/094/compact/i.rnc:3:1: error: sorry, not supported: URI "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/094/compact/foo.rnc" included more than once
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/112/compact/i.rnc:2:25: error: "attribute" using "anyName" must be repeated
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/114/compact/c.rnc:2:38: warning: cannot represent an optional group of attributes; approximating
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/convert-to-xsd/test-toxsd/113/compact/c.rnc:2:15: warning: cannot represent required wildcard attribute; approximating

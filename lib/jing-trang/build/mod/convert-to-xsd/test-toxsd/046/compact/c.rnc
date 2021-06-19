@@ -1,0 +1,4 @@
+
+start = element foo { atts } | element bar { atts? }
+atts = attribute a1 { text }, more-atts
+more-atts = attribute a2 { text }?

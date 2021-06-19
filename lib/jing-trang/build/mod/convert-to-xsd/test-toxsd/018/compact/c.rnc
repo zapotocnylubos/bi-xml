@@ -1,0 +1,5 @@
+
+start = root
+root = foo|bar
+foo = element foo { empty }
+bar = element bar { empty }

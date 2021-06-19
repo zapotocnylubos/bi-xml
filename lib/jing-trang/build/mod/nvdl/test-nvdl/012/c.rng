@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0">
+  <namespace ns="http://example.com/ns/0">
+    <validate schema="root.rnc" schemaType="application/x-rnc"/>
+  </namespace>
+  <namespace ns="http://example.com/ns/1" match="attributes">
+    <validate schema="atts1.xsd"/>
+  </namespace>
+  <namespace ns="http://example.com/ns/2" match="attributes">
+    <validate schema="atts2.xsd"/>
+  </namespace>
+</rules>

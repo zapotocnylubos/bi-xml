@@ -1,0 +1,3 @@
+
+start = element foo { attribute * { x }* }
+x = xsd:normalizedString

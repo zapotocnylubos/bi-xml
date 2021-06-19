@@ -1,0 +1,4 @@
+
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+[rng:foo = "val"]
+element foo { empty }

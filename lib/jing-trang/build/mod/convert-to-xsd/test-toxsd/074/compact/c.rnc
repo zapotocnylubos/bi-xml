@@ -1,0 +1,6 @@
+
+namespace xs = "http://www.example.com"
+
+element foo {
+  xsd:QName "xs:xyzzy"
+}

@@ -1,0 +1,27 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/012/6.i.xml:2:90: error: cvc-datatype-valid.1.2.1: 'jing' is not a valid value for 'boolean'.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/012/6.i.xml:2:90: error: cvc-attribute.3: The value 'jing' of attribute 'n1:bool' on element 'owner' is not valid with respect to its type, 'boolean'.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/012/5.i.xml:2:95: error: element "rot" not allowed anywhere; expected element "root"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/007/4.i.xml:3:20: error: attributes from namespace "http://www.example.org/b" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/009/4.i.xml:2:7: error: elements from namespace "" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/009/5.i.xml:5:7: error: elements from namespace "" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/008/4.i.xml:2:52: error: element "owner" missing required attribute "a:y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/008/3.i.xml:2:72: error: found attribute "a:z", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/008/5.i.xml:2:52: error: element "owner" missing required attribute "a:x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/008/7.i.xml:3:52: error: element "owner" missing required attribute "a:y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/001/i.rng:2:14: fatal: root element of schema must have a namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/006/2.i.xml:8:7: error: element "body" not allowed yet; missing required element "head"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/006/5.i.xml:10:16: error: element "v:windows" not allowed anywhere; expected the element end-tag, text or element "a", "abbr", "acronym", "br", "cite", "code", "dfn", "em", "img", "kbd", "q", "samp", "span", "strong" or "var"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/006/5.i.xml:10:36: error: element "v:windows" not allowed anywhere; expected the element end-tag, text or element "a", "abbr", "acronym", "br", "cite", "code", "dfn", "em", "img", "kbd", "q", "samp", "span", "strong" or "var"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/011/4.i.xml:13:14: error: cvc-complex-type.2.4.a: Invalid content was found starting with element 'env:Header'. One of '{WC[##other:"http://schemas.xmlsoap.org/soap/envelope/"]}' is expected.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/011/3.i.xml:2:7: error: elements from namespace "" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/010/3.i.xml:2:52: error: attributes from namespace "http://www.example.org/c" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/010/5.i.xml:2:15: error: attributes from namespace "" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/003/i.rng:4:33: error: mode "bar" directly or indirectly extends itself
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/004/2.i.xml:2:38: error: elements from namespace "http://www.example.org" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/004/1.i.xml:2:7: error: elements from namespace "" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/005/6.i.xml:3:67: error: element "rdf:RDF" not allowed anywhere; expected element "head"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/005/4.i.xml:2:67: error: elements from namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/005/3.i.xml:2:41: error: elements from namespace "http://example.org" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/005/5.i.xml:4:81: error: element "rdf:RDF" not allowed anywhere; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/002/4.i.xml:3:40: error: elements from namespace "http://www.example.org/c" are not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-nrl/002/5.i.xml:2:40: error: elements from namespace "http://www.example.org/c" are not allowed

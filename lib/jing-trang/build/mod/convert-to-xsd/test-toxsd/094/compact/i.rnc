@@ -1,0 +1,3 @@
+
+include "foo.rnc"
+include "foo.rnc"

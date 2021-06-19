@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns:eg="http://www.example.com" xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <eg:foo>xyzzy</eg:foo>
+    <element name="foo">
+      <empty/>
+    </element>
+  </start>
+</grammar>

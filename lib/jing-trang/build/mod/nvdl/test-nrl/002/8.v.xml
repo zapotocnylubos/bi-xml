@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<foo xmlns="http://www.example.org/a" xmlns:c="http://www.example.org/c" att1="val2" c:att2="val2"/>

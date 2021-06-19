@@ -1,0 +1,131 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/015/1.i.xml:3: error: report:
+  Atrribute name is forbidden in element AAA
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/015/1.i.xml:5: error: report:
+  Atrribute color is forbidden in element CCC
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/012/3.i.xml:4: error: report:
+  There is too much letters in the abbreviation
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/012/1.i.xml:4: error: report:
+  There is not enough letters in the abbreviation
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/013/2.i.xml:3: error: assertion failed:
+  The values do not sum to 100%.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/013/1.i.xml:3: error: assertion failed:
+  The values do not sum to 100%.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/014/1.i.xml:7: error: assertion failed:
+  Element CCC must not be a child of element AAA
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/014/1.i.xml:11: error: assertion failed:
+  Element CCC must not be a child of element EEE
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/007/2.i.xml:3: error: assertion failed:
+  The AAA value is not an integer.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/007/4.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/007/3.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/007/1.i.xml:3: error: assertion failed:
+  The AAA value is not an integer.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/007/5.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/009/2.i.xml:4: error: report:
+  Attribute id is used in wrong context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/009/3.i.xml:7: error: report:
+  Attribute id is missing
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/008/2.i.xml:3: error: report:
+  Some BBB are missing
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/008/3.i.xml:3: error: assertion failed:
+  Some AAA are missing
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/008/1.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/2.i.xml:3: error: assertion failed:
+  BBB element is missing.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/2.i.xml:3: error: assertion failed:
+  AAA misses attribute name.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/2.i.xml:3: error: assertion failed:
+  BBB element is missing.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/2.i.xml:3: error: assertion failed:
+  AAA misses attribute name.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/1.i.xml:3: error: report:
+  BBB element is present.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/1.i.xml:3: error: assertion failed:
+  AAA misses attribute name.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/1.i.xml:3: error: report:
+  BBB element is present.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/001/1.i.xml:3: error: assertion failed:
+  AAA misses attribute name.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/006/2.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/006/3.i.xml:3: error: assertion failed:
+  The AAA value is not permitted.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/006/1.i.xml:3: error: report:
+  O.K.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/020/i.rng:4:5: error: element "pattern" missing required attribute "name"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/018/1.i.xml:5: error: assertion failed:
+  The word at the beginning of sentence is not listed in XML 1.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/018/1.i.xml:7: error: assertion failed:
+  The word at the beginning of sentence is not listed in XML 1.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/011/2.i.xml:4: error: assertion failed:
+  The element must not have an isolated bbb attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/011/3.i.xml:4: error: assertion failed:
+  The element must not have an isolated aaa attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/016/1.i.xml:5: error: assertion failed:
+  An element of type catowner should have a pet attribute.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/016/1.i.xml:6: error: assertion failed:
+  An element of type catowner should have a pet attribute that should contain a unique identifier.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/016/1.i.xml:6: error: assertion failed:
+  An element of type catowner should have a pet attribute that should contain the unique identifier for a cat.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/016/1.i.xml:7: error: assertion failed:
+  An element of type catowner should have a pet attribute that should contain the unique identifier for a cat.
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/017/1.i.xml:5: error: assertion failed:
+  The author is not in the database
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/010/2.i.xml:3: error: report:
+  Text in element AAA must not contain character @
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/010/2.i.xml:4: error: report:
+  Text in element BBB must not contain character @
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/010/2.i.xml:5: error: report:
+  Text in element CCC must not contain character @
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/010/3.i.xml:3: error: report:
+  Text in element AAA must not contain character @
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/019/i.rng:4: error: Error in expression foo bar: Unexpected token <name> beyond end of pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/019/i.rng:4: error: Error in expression foo bar: Unexpected token <name> beyond end of pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/003/1.i.xml:5: error: assertion failed:
+  attribute name is not present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/003/1.i.xml:6: error: assertion failed:
+  attribute name is not present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/003/1.i.xml:8: error: report:
+  attribute name is present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/003/1.i.xml:9: error: report:
+  attribute name is present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/004/2.i.xml:4: error: assertion failed:
+  Root element is XXX, not AAA
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/004/1.i.xml:3: error: report:
+  Root element is AAA
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/2.i.xml:5: error: assertion failed:
+  Source contains an empty element CCC
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/2.i.xml:5: error: report:
+  [1]An element CCC does not contain any child element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/2.i.xml:5: error: assertion failed:
+  [2]An element CCC does not contain any child element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/3.i.xml:5: error: assertion failed:
+  Source contains an empty element CCC
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/3.i.xml:5: error: report:
+  [1]An element CCC does not contain any text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/3.i.xml:5: error: assertion failed:
+  [2]An element CCC does not contain any text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/1.i.xml:5: error: assertion failed:
+  Source contains an empty element CCC
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/1.i.xml:5: error: report:
+  [1]An element CCC does not contain any text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/1.i.xml:5: error: assertion failed:
+  [2]An element CCC does not contain any text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/1.i.xml:5: error: report:
+  [1]An element CCC does not contain any child element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/005/1.i.xml:5: error: assertion failed:
+  [2]An element CCC does not contain any child element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/002/2.i.xml:3: error: assertion failed:
+  CCC element is not present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/002/2.i.xml:3: error: assertion failed:
+  CCC element is not present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/002/2.i.xml:3: error: assertion failed:
+  There is an extra element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/002/1.i.xml:3: error: assertion failed:
+  CCC element is not present
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/schematron/test-old-saxon/002/1.i.xml:3: error: assertion failed:
+  CCC element is not present

@@ -1,0 +1,3 @@
+
+bar = element bar { foo }
+foo = attribute foo { xsd:double } | element foo { xsd:double }

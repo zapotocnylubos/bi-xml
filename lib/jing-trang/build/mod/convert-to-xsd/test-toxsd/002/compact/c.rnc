@@ -1,0 +1,2 @@
+
+foo = xsd:token { minLength = "2" maxLength = "17" }

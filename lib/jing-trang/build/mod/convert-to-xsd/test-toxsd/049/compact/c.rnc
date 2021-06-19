@@ -1,0 +1,10 @@
+element foo {
+  xsd:string { pattern = "[a-zA-Z]+" }
+}
+| element bar {
+  xsd:string {
+    pattern = "[a-zA-Z]+"
+    pattern = "[^zZ]*"
+    pattern = "[^aA]*"
+  }
+}

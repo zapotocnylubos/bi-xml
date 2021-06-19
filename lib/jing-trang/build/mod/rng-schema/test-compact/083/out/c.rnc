@@ -1,0 +1,4 @@
+xsd:string {
+  # short
+  maxLength = "2"
+}

@@ -1,0 +1,758 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>TestNG:  Unit Test</title>
+<style type="text/css">
+table caption,table.info_table,table.param,table.passed,table.failed {margin-bottom:10px;border:1px solid #000099;border-collapse:collapse;empty-cells:show;}
+table.info_table td,table.info_table th,table.param td,table.param th,table.passed td,table.passed th,table.failed td,table.failed th {
+border:1px solid #000099;padding:.25em .5em .25em .5em
+}
+table.param th {vertical-align:bottom}
+td.numi,th.numi,td.numi_attn {
+text-align:right
+}
+tr.total td {font-weight:bold}
+table caption {
+text-align:center;font-weight:bold;
+}
+table.passed tr.stripe td,table tr.passedodd td {background-color: #00AA00;}
+table.passed td,table tr.passedeven td {background-color: #33FF33;}
+table.passed tr.stripe td,table tr.skippedodd td {background-color: #cccccc;}
+table.passed td,table tr.skippedodd td {background-color: #dddddd;}
+table.failed tr.stripe td,table tr.failedodd td,table.param td.numi_attn {background-color: #FF3333;}
+table.failed td,table tr.failedeven td,table.param tr.stripe td.numi_attn {background-color: #DD0000;}
+tr.stripe td,tr.stripe th {background-color: #E6EBF9;}
+p.totop {font-size:85%;text-align:center;border-bottom:2px black solid}
+div.shootout {padding:2em;border:3px #4854A8 solid}
+</style>
+</head>
+<body>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
+<tr><td style="text-align:left;padding-right:2em">Ant test</td><td class="numi">34</td><td class="numi">38</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0,9 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+</table>
+<a id="summary"></a>
+<table cellspacing=0 cellpadding=0 class="passed">
+<tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Time<br/>(Msecs)</th></tr>
+<tr><th colspan="4">Ant test &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="17">com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest<td><a href="#m1">testErrorHandlerNoThrow</a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m2">testErrorHandlerThrowRuntime</a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m3">testErrorHandlerThrowSAX</a></td><td class="numi">1</td><td class="numi">652</td></tr><tr class="passedodd"><td><a href="#m4">testFeatureInheritance</a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedodd"><td><a href="#m5">testInstanceResourceResolver</a></td><td class="numi">1</td><td class="numi">13</td></tr><tr class="passedodd"><td><a href="#m6">testIsSchemaLanguageSupported</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m7">testNewSchemaNoArgs</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m8">testNullGetFeature</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m9">testNullSetFeature</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m10">testSchemaResourceResolver</a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedodd"><td><a href="#m11">testSupportedFeatures</a></td><td class="numi">1</td><td class="numi">12</td></tr><tr class="passedodd"><td><a href="#m12">testUnrecognizedGetFeature</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m13">testUnrecognizedGetProperty</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m14">testUnrecognizedSetFeature</a></td><td class="numi">1</td><td class="numi">1</td></tr><tr class="passedodd"><td><a href="#m15">testUnrecognizedSetProperty</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedodd"><td><a href="#m16">testValidCharStream</a></td><td class="numi">2</td><td class="numi">10</td></tr><tr class="passedodd"><td><a href="#m17">testValidFile</a></td><td class="numi">2</td><td class="numi">12</td></tr>
+<tr class="passedeven"><td rowspan="17">com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest<td><a href="#m18">testErrorHandlerNoThrow</a></td><td class="numi">1</td><td class="numi">11</td></tr><tr class="passedeven"><td><a href="#m19">testErrorHandlerThrowRuntime</a></td><td class="numi">1</td><td class="numi">7</td></tr><tr class="passedeven"><td><a href="#m20">testErrorHandlerThrowSAX</a></td><td class="numi">1</td><td class="numi">95</td></tr><tr class="passedeven"><td><a href="#m21">testFeatureInheritance</a></td><td class="numi">1</td><td class="numi">2</td></tr><tr class="passedeven"><td><a href="#m22">testInstanceResourceResolver</a></td><td class="numi">1</td><td class="numi">4</td></tr><tr class="passedeven"><td><a href="#m23">testIsSchemaLanguageSupported</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m24">testNewSchemaNoArgs</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m25">testNullGetFeature</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m26">testNullSetFeature</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m27">testSchemaResourceResolver</a></td><td class="numi">1</td><td class="numi">8</td></tr><tr class="passedeven"><td><a href="#m28">testSupportedFeatures</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m29">testUnrecognizedGetFeature</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m30">testUnrecognizedGetProperty</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m31">testUnrecognizedSetFeature</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m32">testUnrecognizedSetProperty</a></td><td class="numi">1</td><td class="numi">0</td></tr><tr class="passedeven"><td><a href="#m33">testValidCharStream</a></td><td class="numi">2</td><td class="numi">27</td></tr><tr class="passedeven"><td><a href="#m34">testValidFile</a></td><td class="numi">2</td><td class="numi">56</td></tr>
+</table>
+<h1>Ant test</h1>
+<a id="m1"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testErrorHandlerNoThrow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m2"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testErrorHandlerThrowRuntime</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+<br/>at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+<br/>at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m3"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testErrorHandlerThrowSAX</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+<br/>at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+<br/>at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m4"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testFeatureInheritance</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">http://javax.xml.XMLConstants/feature/secure-processing</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m5"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testInstanceResourceResolver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m6"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testIsSchemaLanguageSupported</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m7"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testNewSchemaNoArgs</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m8"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testNullGetFeature</h2>
+<div style="padding-left:3em">
+<p>the name parameter is null</p>
+java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+<br/>at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m9"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testNullSetFeature</h2>
+<div style="padding-left:3em">
+<p>the name parameter is null</p>
+java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+<br/>at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m10"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testSchemaResourceResolver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m11"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testSupportedFeatures</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">http://javax.xml.XMLConstants/feature/secure-processing</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m12"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testUnrecognizedGetFeature</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/features/no-such-feature</p>
+java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+<br/>at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m13"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testUnrecognizedGetProperty</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/properties/no-such-property</p>
+java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m14"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testUnrecognizedSetFeature</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/features/no-such-feature</p>
+java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+<br/>at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m15"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testUnrecognizedSetProperty</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/properties-no-such-property</p>
+java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m16"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testValidCharStream</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">element doc {attribute att { text }}</td>
+<td style="padding-left:.5em;padding-right:2em"><doc att='val'/></td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em">element doc {empty}</td>
+<td style="padding-left:.5em;padding-right:2em"><doc/></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m17"></a><h2>com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest:testValidFile</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">element doc {attribute att { text }}</td>
+<td style="padding-left:.5em;padding-right:2em"><doc att='val'/></td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em">element doc {empty}</td>
+<td style="padding-left:.5em;padding-right:2em"><doc/></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m18"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testErrorHandlerNoThrow</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m19"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testErrorHandlerThrowRuntime</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+<br/>at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+<br/>at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m20"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testErrorHandlerThrowSAX</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+<br/>at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+<br/>at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+<br/>at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+<br/>at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+<br/>at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m21"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testFeatureInheritance</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">http://javax.xml.XMLConstants/feature/secure-processing</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m22"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testInstanceResourceResolver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m23"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testIsSchemaLanguageSupported</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m24"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testNewSchemaNoArgs</h2>
+<div style="padding-left:3em">
+<p>null</p>
+com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m25"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testNullGetFeature</h2>
+<div style="padding-left:3em">
+<p>the name parameter is null</p>
+java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+<br/>at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m26"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testNullSetFeature</h2>
+<div style="padding-left:3em">
+<p>the name parameter is null</p>
+java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+<br/>at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m27"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testSchemaResourceResolver</h2>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m28"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testSupportedFeatures</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em">http://javax.xml.XMLConstants/feature/secure-processing</td>
+<td style="padding-left:.5em;padding-right:2em">false</td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m29"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testUnrecognizedGetFeature</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/features/no-such-feature</p>
+java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+<br/>at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m30"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testUnrecognizedGetProperty</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/properties/no-such-property</p>
+java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m31"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testUnrecognizedSetFeature</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/features/no-such-feature</p>
+java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+<br/>at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m32"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testUnrecognizedSetProperty</h2>
+<div style="padding-left:3em">
+<p>http://thaiopensource.com/properties-no-such-property</p>
+java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+<br/>at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+<br/>at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+<br/>at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+<br/>at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+<br/>at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+<br/>at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+<br/>at org.testng.TestRunner.privateRun(TestRunner.java:582)
+<br/>at org.testng.TestRunner.run(TestRunner.java:477)
+<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+<br/>at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+<br/>at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+<br/>at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+<br/>at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+<br/>at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+<br/>at org.testng.TestNG.run(TestNG.java:708)
+<br/>at org.testng.TestNG.privateMain(TestNG.java:860)
+<br/>at org.testng.TestNG.main(TestNG.java:833)
+<br/>1 lines not shown
+</div>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m33"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testValidCharStream</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element></td>
+<td style="padding-left:.5em;padding-right:2em"><doc att='val'/></td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element></td>
+<td style="padding-left:.5em;padding-right:2em"><doc/></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+<a id="m34"></a><h2>com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest:testValidFile</h2>
+<table cellspacing=0 cellpadding=0 class="param">
+<tr><th style="padding-left:1em;padding-right:1em">Parameter #1</th><th style="padding-left:1em;padding-right:1em">Parameter #2</th></tr>
+<tr><td style="padding-left:.5em;padding-right:2em"><element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element></td>
+<td style="padding-left:.5em;padding-right:2em"><doc att='val'/></td>
+</tr>
+<tr class="stripe"><td style="padding-left:.5em;padding-right:2em"><element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element></td>
+<td style="padding-left:.5em;padding-right:2em"><doc/></td>
+</tr>
+</table>
+<p class="totop"><a href="#summary">back to summary</a></p>
+</body></html>

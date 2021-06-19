@@ -1,0 +1,597 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/8.i.xml:2:36: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/6.i.xml:2:7: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/6.i.xml:2:13: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/135/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/307/i.rng:5:25: error: a data pattern must not exclude a list pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//list)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/338/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/300/i.rng:5:11: error: a list pattern must not contain an attribute pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/132/2.i.xml:2:17: error: attribute "lang" not allowed here; expected attribute "xml:lang"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/132/2.i.xml:2:17: error: element "foo" missing required attribute "xml:lang"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/104/2.i.xml:2:7: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/309/i.rng:5:25: error: a data pattern must not exclude an interleaved group (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//interleave)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/103/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/168/i.rng:3:14: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/365/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/157/i.rng:8:26: error: "except" in "nsName" contains "nsName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/150/2.i.xml:1:45: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/362/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/159/i.rng:8:21: error: "except" in "nsName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/166/i.rng:9:29: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/192/i.rng:18:39: error: conflicting values of "combine" attribute for definition of "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/195/4.i.xml:2:34: error: element "bar2" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/353/2.i.xml:2:23: error: attribute "x" not allowed here; expected attribute "bar" or "baz" or an attribute from another namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/353/2.i.xml:2:23: error: element "foo" missing one or more required attributes; expected attribute "bar" or an attribute from another namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/161/i.rng:12:12: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/161/i.rng:13:16: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/102/i.rng:2:72: error: fragment identifier ignored in value of "href" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/105/x:2:68: error: recursive inclusion of URL "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/105/x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/337/i.rng:2:65: error: group of "string" or "data" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/308/i.rng:5:25: error: a data pattern must not exclude a group (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//group)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/133/2.i.xml:2:7: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/301/i.rng:5:11: error: a list pattern must not contain a text pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//text)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/306/i.rng:5:25: error: a data pattern must not exclude a text pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//text)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/8.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/2.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/2.i.xml:2:36: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/2.i.xml:2:42: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/6.i.xml:2:7: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/6.i.xml:2:13: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/134/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/339/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/160/i.rng:9:16: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/160/i.rng:10:13: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/352/i.rng:2:65: error: duplicate attribute "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/194/4.i.xml:2:34: error: element "bar2" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/158/i.rng:7:19: error: "except" in "nsName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/158/i.rng:8:16: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/193/i.rng:4:34: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/193/i.rng:9:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/193/i.rng:14:38: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/193/i.rng:14:38: error: conflicting values of "combine" attribute for definition of start
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/167/i.rng:3:33: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/363/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/151/6.i.xml:1:56: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/151/5.i.xml:1:45: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/169/i.rng:3:14: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/156/i.rng:7:24: error: "except" in "nsName" contains "nsName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/156/i.rng:8:16: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/364/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/024/i.rng:3:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/216/1.i.xml:2:7: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/2.i.xml:2:12: error: element "baz" not allowed yet; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/2.i.xml:2:18: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/6.i.xml:2:12: error: element "baz" not allowed yet; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/4.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/3.i.xml:2:24: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/3.i.xml:2:30: error: element "baz" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/229/5.i.xml:2:18: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/211/i.rng:5:24: error: bad recursive reference to pattern "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/023/i.rng:3:19: error: found "key" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/023/i.rng:6:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/227/6.i.xml:2:16: error: element "foo" missing required attribute "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/227/4.i.xml:2:16: error: element "foo" missing one or more required attributes; expected attribute "bar2" or "bar3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/227/3.i.xml:2:7: error: element "foo" missing required attribute "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/227/5.i.xml:2:16: error: element "foo" missing required attribute "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/227/7.i.xml:2:34: error: found attribute "bar3", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/015/i.rng:7:19: error: found "empty" element but expected empty content
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/218/2.i.xml:2:38: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/012/i.rng:4:13: error: found "empty" element but expected empty content
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/220/2.i.xml:2:38: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/220/1.i.xml:2:7: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/079/i.rng:2:100: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/280/3.i.xml:2:15: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/274/6.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/274/5.i.xml:1:45: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/046/i.rng:8:11: error: missing "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/041/i.rng:4:13: error: missing "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/273/4.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/287/i.rng:5:27: error: an attribute pattern must not contain an attribute pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path attribute//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/048/i.rng:6:21: error: missing "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/077/i.rng:4:22: error: "x y" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/077/i.rng:6:22: error: "x y" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/245/4.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/245/5.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/245/5.i.xml:2:12: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/245/5.i.xml:2:13: error: text not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/245/5.i.xml:2:19: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/083/i.rng:5:13: error: "attribute" pattern must contain at most one pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/289/i.rng:4:23: error: a group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//group//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/084/i.rng:6:13: error: "attribute" pattern must contain at most one pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/242/6.i.xml:2:13: error: text not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/242/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/070/i.rng:2:63: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/221/2.i.xml:2:7: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/221/1.i.xml:2:7: error: element "bar" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/013/i.rng:6:15: error: found "empty" element but expected empty content
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/014/i.rng:5:15: error: found "empty" element but expected empty content
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/226/6.i.xml:2:13: error: element "bar3" not allowed yet; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/226/4.i.xml:2:7: error: element "foo" incomplete; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/226/3.i.xml:2:19: error: element "foo" incomplete; expected element "bar2" or "bar3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/226/5.i.xml:2:13: error: element "bar2" not allowed yet; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/226/7.i.xml:2:27: error: element "bar3" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/219/2.i.xml:2:38: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/219/3.i.xml:2:39: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/219/1.i.xml:2:7: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/022/i.rng:3:22: error: found "keyRef" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/022/i.rng:6:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/210/2.i.xml:1:50: error: element "innerFoo" not allowed here; expected element "outerFoo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/217/1.i.xml:2:7: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/025/i.rng:4:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/6.i.xml:2:7: error: element "bar" not allowed here; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/4.i.xml:2:18: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/3.i.xml:2:7: error: element "foo" incomplete; expected element "bar" or "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/5.i.xml:2:12: error: element "foo" not allowed here; expected element "bar" or "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/5.i.xml:2:12: error: element "foo" incomplete; expected element "bar" or "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/5.i.xml:2:18: error: element "foo" incomplete; expected element "bar" or "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/228/7.i.xml:2:9: error: element "fobaz" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/288/i.rng:5:27: error: an attribute pattern must not contain an attribute pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path attribute//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/071/i.rng:2:62: error: "" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/243/3.i.xml:3:2: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/243/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/085/i.rng:2:79: error: attribute name "a" incorrectly qualified with RELAX NG namespace URI
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/082/i.rng:7:13: error: "start" pattern must contain at most one pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/244/8.i.xml:2:20: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/244/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/076/i.rng:4:19: error: "" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/076/i.rng:6:19: error: "" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/286/i.rng:5:27: error: an attribute pattern must not contain an element pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path attribute//ref)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/272/6.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/272/5.i.xml:1:45: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/040/i.rng:3:10: error: missing "type" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/078/i.rng:4:22: error: "x:y" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/078/i.rng:6:22: error: "x:y" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/047/i.rng:4:11: error: missing "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/275/6.i.xml:1:45: error: character content of element "foo" invalid; must be equal to "x y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/275/7.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/281/4.i.xml:2:15: error: character content of element "foo" invalid; token "y" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/281/3.i.xml:2:7: error: character content of element "foo" invalid; missing token; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/257/4.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/257/5.i.xml:2:6: error: element "bar" not allowed here; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/257/5.i.xml:2:12: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/257/5.i.xml:2:18: error: element "baz" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/268/6.i.xml:2:14: error: found attribute "bar", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/268/5.i.xml:2:12: error: element "bar" not allowed anywhere; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/268/5.i.xml:2:18: error: element "foo" incomplete; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/062/i.rng:2:97: error: URI in value of "datatypeLibrary" attribute must not be relative
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/250/6.i.xml:2:7: error: element "foo" incomplete; missing required elements "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/250/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/250/3.i.xml:2:18: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/250/5.i.xml:2:18: error: element "bar" not allowed here; expected element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/250/5.i.xml:2:24: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/292/i.rng:4:23: error: an interleaved group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//interleave//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/259/3.i.xml:1:51: error: character content of element "foo" invalid; must be equal to ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/261/6.i.xml:1:51: error: character content of element "foo" invalid; must be a string with length at least 2 (actual length was 1)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/261/5.i.xml:1:51: error: character content of element "foo" invalid; must be a string with length at least 2 (actual length was 1)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/261/7.i.xml:1:45: error: character content of element "foo" invalid; must be a string with length at least 2 (actual length was 0)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/053/i.rng:2:97: error: "foo_bar:xyzzy" is not a valid URI reference according to RFC 2396
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/295/i.rng:5:11: error: a list pattern must not contain a list pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//list)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/038/i.rng:4:14: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/007/i.rng:7:13: error: at most one "except" child element is allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/235/6.i.xml:2:12: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/235/5.i.xml:2:7: error: text not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/235/7.i.xml:2:15: error: found attribute "bar", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/232/2.i.xml:2:7: error: element "foo" missing required attributes "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/232/4.i.xml:2:15: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/232/3.i.xml:2:15: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/009/i.rng:3:22: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/204/i.rng:6:25: error: reference to undefined pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/036/i.rng:3:12: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/031/i.rng:3:14: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/203/i.rng:10:26: error: reference to undefined pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/294/i.rng:4:23: error: an interleaved group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//interleave//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/260/2.i.xml:1:51: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/260/1.i.xml:1:45: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/260/5.i.xml:1:53: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/099/4.i.xml:2:15: error: character content of element "foo" invalid; must be equal to "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/099/5.i.xml:2:16: error: character content of element "foo" invalid; must be equal to "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/267/1.i.xml:2:7: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/293/i.rng:4:23: error: an interleaved group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//interleave//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/258/2.i.xml:1:51: error: character content of element "foo" invalid; must be equal to ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/258/3.i.xml:1:51: error: character content of element "foo" invalid; must be equal to ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/8.i.xml:2:19: error: element "bar2" not allowed yet; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/6.i.xml:2:19: error: element "bar2" not allowed yet; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/6.i.xml:2:26: error: element "bar1" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/4.i.xml:2:19: error: element "bar2" not allowed yet; missing required element "bar1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/4.i.xml:2:26: error: element "bar1" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/5.i.xml:2:13: error: element "bar2" not allowed yet; missing required elements "bar1" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/5.i.xml:2:20: error: element "bar1" not allowed here; expected element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/5.i.xml:2:26: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/251/7.i.xml:2:25: error: element "foo" incomplete; missing required element "bar2"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/063/i.rng:2:97: error: URI in value of "datatypeLibrary" attribute must not be relative
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/256/2.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/256/3.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/269/6.i.xml:2:14: error: found attribute "bar", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/269/5.i.xml:2:12: error: element "bar" not allowed anywhere; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/269/5.i.xml:2:18: error: element "foo" incomplete; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/202/i.rng:9:22: error: reference to undefined pattern "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/030/i.rng:3:12: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/008/i.rng:7:13: error: at most one "except" child element is allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/037/i.rng:4:14: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/205/i.rng:11:25: error: reference to undefined pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/001/i.rng:2:14: fatal: root element of schema must have a namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/2.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/4.i.xml:2:14: error: attribute "baz" not allowed here; expected attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/4.i.xml:2:14: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/4.i.xml:2:20: error: element "bar" not allowed anywhere; expected element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/4.i.xml:2:26: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/233/3.i.xml:2:15: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/039/i.rng:4:14: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/2.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/4.i.xml:2:14: error: attribute "baz" not allowed here; expected attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/4.i.xml:2:14: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/4.i.xml:2:20: error: element "bar" not allowed anywhere; expected element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/4.i.xml:2:26: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/234/3.i.xml:2:15: error: element "foo" incomplete; missing required element "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/006/i.rng:7:13: error: at most one "except" child element is allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/346/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/174/i.rng:4:16: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/180/i.rng:6:31: error: invalid parameter: builtin datatypes do not have any parameters
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/379/4.i.xml:2:92: error: character content of element "e1:foo" invalid; must be a QName equal to "ns:xyzzy" (with xmlns:ns="http://www.example.com/2")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/379/3.i.xml:2:59: error: character content of element "e1:foo" invalid; must be a QName equal to "xyzzy" (with xmlns="http://www.example.com/2")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/379/5.i.xml:2:88: error: character content of element "e1:foo" invalid; must be a QName equal to "xyzzy"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/187/i.rng:3:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/187/i.rng:8:34: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/187/i.rng:13:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/187/i.rng:13:17: error: multiple definitions of start without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/173/i.rng:4:16: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/341/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/383/4.i.xml:2:14: error: value of attribute "bar" is invalid; must be an XML name without colons or must be equal to "#none"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/383/3.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/383/5.i.xml:2:18: error: value of attribute "bar" is invalid; must be an XML name without colons or must be equal to "#none"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/8.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/2.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/2.i.xml:2:36: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/2.i.xml:2:42: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/6.i.xml:2:7: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/6.i.xml:2:13: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/145/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/377/2.i.xml:2:17: error: found attribute "att", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/348/i.rng:2:65: error: attributes from namespace "" can occur more than once
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/370/i.rng:2:65: error: both operands of "interleave" contain "text"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/142/4.i.xml:1:51: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/142/3.i.xml:1:51: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/142/5.i.xml:1:51: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/384/2.i.xml:2:7: error: character content of element "foo" invalid; missing token; must be a floating-point number or must be equal to "rgb"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/384/6.i.xml:2:34: error: character content of element "foo" invalid; token "rb" invalid; must be a floating-point number or must be equal to "rgb"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/384/4.i.xml:2:35: error: character content of element "foo" invalid; token "1.1" invalid; must be a floating-point number less than or equal to 1
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/384/5.i.xml:2:36: error: character content of element "foo" invalid; token "-0.9" invalid; must be a floating-point number greater than or equal to 0
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/384/7.i.xml:2:31: error: character content of element "foo" invalid; missing token; must be a floating-point number
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/189/i.rng:3:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/189/i.rng:8:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/189/i.rng:8:17: error: multiple definitions of start without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/129/i.rng:2:69: error: undefined prefix "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/116/i.rng:3:21: error: "start" in "include" does not override anything
+error: found element matching the prohibited path start//oneOrMore in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+error: found element matching the prohibited path start//interleave in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/111/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/118/i.rng:3:21: error: definition of "foo" in "include" does not override anything
+error: found element matching the prohibited path start//value in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/127/2.i.xml:1:45: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/120/3.i.xml:1:46: error: element "foo3" not allowed anywhere; expected element "foo1" or "foo2"
+error: found element matching the prohibited path start//attribute in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/385/2.i.xml:2:18: error: character content of element "bar" invalid; must be equal to "x" or "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/143/3.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/371/i.rng:2:65: error: both operands of "interleave" contain "text"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/188/i.rng:11:18: error: multiple definitions of "x" without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/376/3.i.xml:2:13: error: character content of element "foo" invalid; must be equal to "xyzzy"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/144/3.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/382/2.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/382/4.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to "x" or "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/382/3.i.xml:2:14: error: value of attribute "bar" is invalid; must be equal to "x" or "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/349/i.rng:2:65: error: duplicate attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/172/i.rng:3:14: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/186/i.rng:16:18: error: multiple definitions of "x" without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/181/i.rng:5:23: error: datatype "tok" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/175/i.rng:3:59: error: attribute must not have namespace URI "http://www.w3.org/2000/xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/347/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/378/2.i.xml:2:98: error: character content of element "e:foo" invalid; must be a QName equal to "xyzzy" (with xmlns="")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/378/4.i.xml:2:48: error: character content of element "foo" invalid; must be a QName equal to "xyzzy" (with xmlns="")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/378/3.i.xml:2:50: error: character content of element "e:foo" invalid; must be a QName equal to "xyzzy"
+error: found element matching the prohibited path start//data in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/121/level1.rng:3:28: error: definition of "foo" in "include" does not override anything
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/119/2.i.xml:1:45: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/126/2.i.xml:1:45: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+error: found element matching the prohibited path start//data in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/110/2.i.xml:2:7: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+error: found element matching the prohibited path start//interleave in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/128/2.i.xml:1:60: error: attribute "bar" not allowed here; expected attribute "ns:bar" (with xmlns:ns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/128/2.i.xml:1:60: error: element "foo" missing required attribute "ns:bar" (with xmlns:ns="http://www.example.com")
+error: found element matching the prohibited path start//oneOrMore in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/117/2.i.xml:1:45: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/198/i.rng:2:54: error: missing "start" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/361/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/153/4.i.xml:1:50: error: element "baz" not allowed anywhere; expected the element end-tag or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/153/3.i.xml:1:45: error: text not allowed here; expected the element end-tag or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/359/i.rng:2:65: error: attribute using "nsName" or "anyName" must be in "oneOrMore"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/154/i.rng:7:19: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/154/i.rng:8:16: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/366/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/196/i.rng:18:18: error: multiple definitions of "x" without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/162/i.rng:3:27: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/350/i.rng:2:65: error: attributes from namespace "" can occur more than once
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/357/i.rng:2:65: error: attribute using "nsName" or "anyName" must be in "oneOrMore"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/165/i.rng:5:29: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/191/4.i.xml:2:8: error: element "foo4" not allowed anywhere; expected element "foo1", "foo2" or "foo3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/131/2.i.xml:2:53: error: attribute "ex:bar" not allowed here; expected attribute "ns:bar" (with xmlns:ns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/131/2.i.xml:2:53: error: element "foo" missing required attribute "ns:bar" (with xmlns:ns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/303/i.rng:5:11: error: a list pattern must not contain an interleave pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//interleave)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/304/i.rng:5:25: error: a data pattern must not exclude an attribute pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/136/8.i.xml:2:36: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/136/6.i.xml:2:7: error: text not allowed here; expected the element end-tag or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/136/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/136/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/136/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/109/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/100/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/107/y:2:68: error: recursive inclusion of URL "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/107/x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/335/i.rng:4:25: error: group of "string" or "data" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/138/2.i.xml:2:13: error: character content of element "foo" invalid; missing token; must be equal to "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/190/4.i.xml:2:8: error: element "foo4" not allowed anywhere; expected element "foo1", "foo2" or "foo3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/164/i.rng:3:28: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/356/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/351/i.rng:2:65: error: duplicate attribute "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/197/i.rng:4:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/197/i.rng:9:38: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/197/i.rng:14:17: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/197/i.rng:14:17: error: multiple definitions of start without "combine" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/358/i.rng:2:65: error: attribute using "nsName" or "anyName" must be in "oneOrMore"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/367/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/155/i.rng:8:21: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/199/i.rng:9:14: error: missing "start" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/152/4.i.xml:1:56: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/152/3.i.xml:1:45: error: text not allowed here; expected the element end-tag or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/360/i.rng:2:65: error: the element "bar" can occur in more than one operand of "interleave"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/106/x:2:52: error: found "start" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/8.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/2.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/2.i.xml:2:36: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/2.i.xml:2:42: error: element "bar" not allowed here; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/139/7.i.xml:2:13: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/101/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/8.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/2.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/2.i.xml:2:36: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/2.i.xml:2:42: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/6.i.xml:2:7: error: text not allowed here; expected the element end-tag or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/137/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/305/i.rng:5:25: error: a data pattern must not exclude an element pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//ref)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/108/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/302/i.rng:5:11: error: a list pattern must not contain an interleave pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//interleave)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/130/2.i.xml:2:39: error: element "foo" not allowed anywhere; expected element "ns:foo" (with xmlns:ns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/270/2.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/270/4.i.xml:1:45: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/270/3.i.xml:1:52: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/042/i.rng:4:13: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/284/1.i.xml:2:15: error: character content of element "foo" invalid; token "x" invalid; must be equal to "x y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/248/6.i.xml:2:54: error: attribute "ns:x" not allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/248/4.i.xml:2:7: error: element "foo" missing one or more required attributes
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/248/5.i.xml:2:49: error: attribute "ns:x" not allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/248/5.i.xml:2:49: error: element "foo" missing one or more required attributes
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/283/2.i.xml:2:7: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/283/3.i.xml:2:17: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/045/i.rng:3:13: error: missing "href" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/277/i.rng:3:45: error: datatype "decimal" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/087/i.rng:3:60: error: "value" element cannot contain foreign elements
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/073/i.rng:3:24: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/241/5.i.xml:2:12: error: element "bar" not allowed anywhere; expected the element end-tag or text
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/279/i.rng:4:26: error: invalid parameter: builtin datatypes do not have any parameters
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/246/4.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/074/i.rng:4:20: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/074/i.rng:6:20: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/080/i.rng:2:102: error: "y:z" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/020/i.rng:3:33: error: illegal attribute "key" ignored
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/212/3.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/027/i.rng:3:15: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/018/i.rng:3:8: error: found "not" element but expected a name-class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/018/i.rng:6:11: error: found "empty" element but expected a name-class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/018/i.rng:7:11: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/018/i.rng:7:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/223/4.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/223/3.i.xml:2:38: error: element "bar" not allowed anywhere; expected element "foo" (with xmlns="")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/223/1.i.xml:2:38: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/011/i.rng:4:13: error: found "empty" element but expected empty content
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/016/i.rng:3:21: error: illegal "name" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/224/1.i.xml:2:7: error: element "baz" not allowed anywhere; expected element "bar" or "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/029/i.rng:3:16: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/278/i.rng:4:26: error: invalid parameter: builtin datatypes do not have any parameters
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/081/i.rng:2:99: error: "" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/247/6.i.xml:2:30: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/247/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/247/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/240/4.i.xml:2:12: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/240/3.i.xml:2:15: error: attribute "baz" not allowed here; expected attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/072/i.rng:3:17: error: "ี" is not a valid local name
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/086/i.rng:3:59: error: "name" element cannot contain foreign elements
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/249/4.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/276/i.rng:3:44: error: datatype "decimal" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/044/i.rng:3:17: error: missing "href" attribute
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/282/4.i.xml:2:13: error: character content of element "foo" invalid; missing token; must be equal to "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/285/i.rng:5:27: error: an attribute pattern must not contain an element pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path attribute//ref)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/043/i.rng:8:23: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/271/2.i.xml:1:53: error: character content of element "foo" invalid; must be equal to " x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/271/4.i.xml:1:45: error: character content of element "foo" invalid; must be equal to " x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/271/3.i.xml:1:51: error: character content of element "foo" invalid; must be equal to " x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/225/3.i.xml:2:7: error: element "baz" not allowed anywhere; expected element "bar" or "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/017/i.rng:3:39: error: illegal attribute "global" ignored
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/028/i.rng:3:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/010/i.rng:2:77: error: illegal attribute "extra" ignored
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/222/2.i.xml:2:7: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/222/4.i.xml:2:38: error: element "foo" not allowed anywhere; expected element "ns:foo" (with xmlns:ns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/222/3.i.xml:2:38: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/026/i.rng:3:11: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/026/i.rng:3:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/214/i.rng:10:26: error: bad recursive reference to pattern "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/019/i.rng:3:15: error: found "difference" element but expected a name-class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/019/i.rng:7:11: error: found "empty" element but expected a name-class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/019/i.rng:8:11: error: expected child element specifying name class
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/019/i.rng:8:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/021/i.rng:3:36: error: illegal attribute "keyRef" ignored
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/003/i.rng:3:22: error: found "define" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/231/2.i.xml:2:7: error: element "foo" missing required attributes "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/231/4.i.xml:2:15: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/231/3.i.xml:2:15: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/209/2.i.xml:1:50: error: element "outerFoo" not allowed here; expected element "innerFoo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/236/3.i.xml:1:53: error: value of attribute "bar" is invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/004/i.rng:3:9: error: found "name" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/200/i.rng:8:14: error: missing "start" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/032/i.rng:3:16: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/238/3.i.xml:1:53: error: value of attribute "bar" is invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/035/i.rng:3:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/207/i.rng:4:22: error: bad recursive reference to pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/095/2.i.xml:2:16: error: character content of element "foo" invalid; must be equal to "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/2.i.xml:2:7: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/2.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/4.i.xml:2:13: error: attribute "bar" not allowed here; expected attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/4.i.xml:2:13: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/4.i.xml:2:19: error: element "baz" not allowed anywhere; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/4.i.xml:2:25: error: element "baz" not allowed anywhere; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/4.i.xml:2:31: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/3.i.xml:2:14: error: attribute "bar" not allowed here; expected attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/3.i.xml:2:14: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/3.i.xml:2:14: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/5.i.xml:2:6: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/5.i.xml:2:12: error: element "baz" not allowed anywhere; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/5.i.xml:2:18: error: element "baz" not allowed anywhere; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/253/5.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/061/i.rng:2:97: error: URI in value of "datatypeLibrary" attribute must not be relative
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/061/i.rng:2:97: error: URI in value of "datatypeLibrary" attribute must not have a fragment identifier
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/298/i.rng:5:11: error: a list pattern must not contain an element pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//ref)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/2.i.xml:2:18: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/6.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/6.i.xml:2:11: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/4.i.xml:2:14: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/3.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/254/5.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/262/8.i.xml:1:51: error: text not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/262/6.i.xml:1:51: error: text not allowed here; expected data or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/262/3.i.xml:1:51: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/262/7.i.xml:1:45: error: empty content for element "foo" not allowed; expected data or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/296/i.rng:5:11: error: a list pattern must not contain a list pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//list)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/291/i.rng:4:23: error: a group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//group//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/057/i.rng:2:108: error: "http://www.example.com/%" is not a valid URI reference according to RFC 2396
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/068/i.rng:2:107: error: URI in value of "datatypeLibrary" attribute must not have a fragment identifier
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/239/4.i.xml:2:24: error: element "baz" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/239/3.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/206/i.rng:12:29: error: reference to undefined pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/034/i.rng:3:10: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/033/i.rng:3:15: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/201/i.rng:4:22: error: reference to undefined pattern "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/005/i.rng:4:11: error: found "name" element but expected a pattern
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/005/i.rng:5:11: error: missing children
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/237/4.i.xml:1:50: error: element "bar" not allowed anywhere; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/237/4.i.xml:1:56: error: element "foo" incomplete; expected data
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/237/3.i.xml:1:51: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/237/5.i.xml:1:52: error: found attribute "bar", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/230/2.i.xml:2:7: error: element "foo" missing required attributes "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/002/i.rng:3:23: error: found "element" element but expected "define" or "start" or "include" or "div" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/056/i.rng:2:88: error: "foo:" is not a valid URI reference according to RFC 2396
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/264/2.i.xml:2:13: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/264/4.i.xml:2:14: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/264/3.i.xml:2:13: error: character content of element "foo" invalid
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/290/i.rng:4:23: error: a group of attributes must not be repeatable (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path oneOrMore//group//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/297/i.rng:5:11: error: a list pattern must not contain an element pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//ref)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/263/3.i.xml:1:51: error: character content of element "foo" invalid; must be equal to "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/263/7.i.xml:1:45: error: empty content for element "foo" not allowed; expected data or element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/6.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/6.i.xml:2:12: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/4.i.xml:2:15: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/3.i.xml:2:18: error: value of attribute "bar" is invalid; must be equal to "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/5.i.xml:2:6: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/5.i.xml:2:11: error: element "bar" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/255/7.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/067/i.rng:2:112: error: URI in value of "datatypeLibrary" attribute must not have a fragment identifier
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/058/i.rng:2:110: error: "http://www.example.com/%xx" is not a valid URI reference according to RFC 2396
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/060/i.rng:2:89: error: URI in value of "datatypeLibrary" attribute must not be relative
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/252/2.i.xml:2:7: error: element "foo" missing required attributes "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/252/4.i.xml:2:14: error: element "foo" missing required attribute "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/252/3.i.xml:2:7: error: element "foo" missing required attributes "bar" and "baz"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/252/5.i.xml:2:14: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/299/i.rng:5:11: error: a list pattern must not contain an attribute pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path list//attribute)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/112/x:2:65: error: found "element" element but expected "grammar" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/112/i.rng:2:54: error: missing "start" element
+error: found element matching the prohibited path start//group in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+error: found element matching the prohibited path start//list in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+error: found element matching the prohibited path start//empty in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/115/2.i.xml:2:7: error: element "bar" not allowed anywhere; expected element "foo"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/311/i.rng:5:25: error: a data pattern must not exclude an empty pattern (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//empty)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/123/1.i.xml:2:55: error: attribute "eg:bar" not allowed here; expected attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/123/1.i.xml:2:55: error: element "eg:foo" missing required attribute "bar"
+error: found element matching the prohibited path start//text in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/124/2.i.xml:2:52: error: attribute "bar" not allowed here; expected attribute "eg:bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/124/2.i.xml:2:52: error: element "eg:foo" missing required attribute "eg:bar"
+error: found element matching the prohibited path start//text in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/184/i.rng:9:21: error: datatype "tok" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/342/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/170/i.rng:3:14: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/177/i.rng:4:29: error: invalid parameter: builtin datatypes do not have any parameters
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/345/4.i.xml:2:7: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/345/3.i.xml:2:17: error: element "foo" missing one or more required attributes
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/345/5.i.xml:2:19: error: element "foo" missing required attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/183/i.rng:10:29: error: invalid parameter: builtin datatypes do not have any parameters
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/148/2.i.xml:1:45: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/141/2.i.xml:1:45: error: element "foo" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/141/4.i.xml:1:45: error: element "baz" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/141/3.i.xml:1:45: error: element "bar" not allowed anywhere
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/373/1.i.xml:1:1: error: schema does not allow anything: it is equivalent to <notAllowed/>
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/380/4.i.xml:2:92: error: character content of element "e1:foo" invalid; must be a QName equal to "ns:xyzzy" (with xmlns:ns="http://www.example.com/2")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/380/3.i.xml:2:59: error: character content of element "e1:foo" invalid; must be a QName equal to "xyzzy" (with xmlns="http://www.example.com/2")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/380/5.i.xml:2:88: error: character content of element "e1:foo" invalid; must be a QName equal to "xyzzy"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/9.i.xml:2:40: error: element "foo" missing required attributes "a0", "ns1:a1", "ns2:a2", "ns3:a3" and "ns3:a4" (with xmlns:ns1="http://www.example.com/1" xmlns:ns2="http://www.example.com/2" xmlns:ns3="http://www.example.com/3")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/8.i.xml:2:48: error: element "ns1:foo" missing required attributes "a0", "ns-1:a2", "ns-2:a3", "ns-2:a4" and "ns1:a1" (with xmlns:ns-1="http://www.example.com/2" xmlns:ns-2="http://www.example.com/3")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/2.i.xml:2:184: error: element "foo" missing required attribute "a0"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/6.i.xml:2:148: error: element "foo" missing required attributes "a0", "n1:a1", "n2:a2", "n3:a3" and "n3:a4"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/4.i.xml:2:181: error: element "foo" missing required attribute "n2:a2"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/3.i.xml:2:181: error: element "foo" missing required attribute "n1:a1"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/5.i.xml:2:172: error: element "foo" missing required attributes "n3:a3" and "n3:a4"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/374/7.i.xml:2:46: error: element "n1:foo" missing required attributes "a0", "n1:a1", "ns1:a2", "ns2:a3" and "ns2:a4" (with xmlns:ns1="http://www.example.com/2" xmlns:ns2="http://www.example.com/3")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/146/4.i.xml:1:45: error: element "foo" incomplete; expected element "bar1", "bar2" or "bar3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/179/i.rng:3:22: error: datatype "tok" from library "" not recognized
+error: found element matching the prohibited path start//text in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/125/2.i.xml:2:7: error: element "foo" not allowed anywhere; expected element "foo" (with xmlns="http://www.example.com")
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/122/2.i.xml:2:52: error: attribute "bar" not allowed here; expected attribute "eg:bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/122/2.i.xml:2:52: error: element "eg:foo" missing required attribute "eg:bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/310/i.rng:5:25: error: a data pattern must not exclude a repetition (section 7.1 of the RELAX NG specification requires that the simplified XML form of the schema not contain any elements matching the path data/except//oneOrMore)
+error: found element matching the prohibited path start//list in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/114/y:3:22: error: recursive inclusion of URL "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/114/x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/114/i.rng:2:54: error: missing "start" element
+error: found element matching the prohibited path start//empty in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+error: found element matching the prohibited path start//group in the simplified XML form of the schema (see section 7.1 of the RELAX NG specification)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/113/x:3:22: error: recursive inclusion of URL "file:/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/113/x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/113/i.rng:2:54: error: missing "start" element
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/147/8.i.xml:1:72: error: element "bar1" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/147/7.i.xml:1:64: error: element "foo" incomplete; missing required element "bar3"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/375/2.i.xml:2:11: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/375/2.i.xml:2:17: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/381/2.i.xml:2:7: error: character content of element "foo" invalid; must be equal to "x" or "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/381/3.i.xml:2:13: error: character content of element "foo" invalid; must be equal to "x" or "y"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/178/i.rng:3:21: error: datatype "tok" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/8.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/2.i.xml:2:30: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/2.i.xml:2:36: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/2.i.xml:2:42: error: element "bar" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/6.i.xml:2:7: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/6.i.xml:2:13: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/4.i.xml:2:18: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/3.i.xml:2:24: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/5.i.xml:2:7: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/140/7.i.xml:2:13: error: text not allowed here; expected element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/182/i.rng:5:24: error: datatype "tok" from library "" not recognized
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/344/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/149/2.i.xml:1:45: error: element "foo" incomplete; missing required element "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/171/i.rng:3:14: error: attribute must not be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/343/i.rng:2:65: error: duplicate attribute "bar"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-validate/test-spec/185/i.rng:9:22: error: datatype "tok" from library "" not recognized

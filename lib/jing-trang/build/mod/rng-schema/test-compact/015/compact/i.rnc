@@ -1,0 +1,4 @@
+
+namespace xml = "http://www.example.com"
+[ xml:space = "default" ]
+element foo { empty }

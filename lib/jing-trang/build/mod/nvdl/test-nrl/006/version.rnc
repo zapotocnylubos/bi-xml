@@ -1,0 +1,3 @@
+
+default namespace = "http://www.example.com/version"
+element linux|windows { empty }

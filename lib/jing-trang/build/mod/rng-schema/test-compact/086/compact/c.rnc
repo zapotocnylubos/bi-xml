@@ -1,0 +1,8 @@
+namespace rng = "http://relaxng.org/ns/structure/1.0"
+
+start = element rng:test { nonXMLForeignAttribute+ }
+nonXMLForeignAttribute = attribute * - xml:* { text }
+xmlAttribute =
+  attribute xml:lang { text }
+  | attribute xml:space { "default" | "preserve" }
+  | attribute xml:base { xsd:anyURI }

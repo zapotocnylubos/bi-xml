@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="bar" type="foo"/>
+  <xs:complexType name="foo">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="foo"/>
+    </xs:sequence>
+    <xs:attribute name="foo" type="xs:double"/>
+  </xs:complexType>
+  <xs:element name="foo" type="xs:double"/>
+</xs:schema>

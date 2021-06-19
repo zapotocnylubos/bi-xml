@@ -1,0 +1,5 @@
+
+namespace eg = "http://www.example.com"
+
+[eg:foo [ "x" "y" ~ "z" "z" "y" ]]
+start = element foo { empty }

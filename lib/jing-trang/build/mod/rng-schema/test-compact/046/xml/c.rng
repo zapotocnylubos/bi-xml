@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data xmlns="http://relaxng.org/ns/structure/1.0" type="string" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+<param name="pattern">foo|bar</param>
+</data>

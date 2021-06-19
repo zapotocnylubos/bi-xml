@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="14" failures="0" name="Ant test" time="0.106" errors="0">
+  <properties/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.007"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.001"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest" name="testNormalize" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.PatternMatcherTest" name="testPossibleStartTagNames" time="0.001"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.PatternMatcherTest" name="testPossibleAttributeNames" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.pattern.PatternMatcherTest" name="testErrorMessageAttributeNames" time="0.001"/>
+</testsuite>

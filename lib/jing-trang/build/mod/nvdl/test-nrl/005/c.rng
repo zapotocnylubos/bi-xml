@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/validate/nrl" startMode="root">
+  <mode name="root">
+    <namespace ns="http://www.w3.org/1999/xhtml">
+      <validate schema="xhtml.rng" useMode="#attach">
+        <context path="head" useMode="rdf"/>
+      </validate>
+    </namespace>
+  </mode>
+  <mode name="rdf">
+    <namespace ns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+      <validate schema="rdfxml.rng" useMode="#attach"/>
+    </namespace>
+  </mode>
+</rules>

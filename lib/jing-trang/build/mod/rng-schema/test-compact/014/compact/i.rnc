@@ -1,0 +1,4 @@
+
+namespace xns = "http://www.w3.org/2000/xmlns"
+[ xns:x = "foo" ]
+element foo { empty }

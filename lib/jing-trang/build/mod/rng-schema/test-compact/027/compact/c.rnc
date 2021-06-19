@@ -1,0 +1,4 @@
+
+start = grammar { start = parent # comment
+foo }
+foo = element foo { empty }

@@ -1,0 +1,4 @@
+
+inline |= element code { text }
+inline = element em { text }
+inline |= element b { text }

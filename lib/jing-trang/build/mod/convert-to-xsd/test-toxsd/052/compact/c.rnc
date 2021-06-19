@@ -1,0 +1,8 @@
+
+namespace eg1 = "http://www.example.com/1"
+namespace eg2 = "http://www.example.com/2"
+
+start = element foo { eg1, eg2 }
+
+eg1 = attribute eg1:*|eg2:* { text } *
+eg2 = attribute eg2:* { text } *

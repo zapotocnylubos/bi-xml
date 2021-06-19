@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.com/3" xmlns:e1="http://www.example.com/1" xmlns:e2="http://www.example.com/2" xmlns:e3="http://www.example.com/3">
+  <xs:import namespace="http://www.example.com/1" schemaLocation="c.xsd"/>
+  <xs:import namespace="http://www.example.com/2" schemaLocation="e2.xsd"/>
+  <xs:element name="z">
+    <xs:complexType>
+      <xs:choice>
+        <xs:group ref="e1:x"/>
+        <xs:element ref="e1:v"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

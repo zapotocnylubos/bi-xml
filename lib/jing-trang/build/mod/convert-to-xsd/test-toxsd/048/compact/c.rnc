@@ -1,0 +1,5 @@
+
+start = element foo { bar1 | bar2 }
+
+bar1 = attribute bar { text }, attribute baz1 { text }?
+bar2 = attribute bar { xsd:float }, attribute baz2 { text }?

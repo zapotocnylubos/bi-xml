@@ -1,0 +1,205 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="mod.pattern.test-unit">
+    <groups>
+    </groups>
+    <test name="Ant test">
+      <class name="com.thaiopensource.relaxng.pattern.NameClassNormalizerTest">
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.ChoiceNameClass@85de8e20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedAnyNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NsNameExceptNameClass@85de8e20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NsNameExceptNameClass@0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.ChoiceNameClass@196350]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedAnyNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.ChoiceNameClass@0]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@18cc6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.AnyNameExceptNameClass@ffe71069]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NsNameClass@85c661b6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@85c661b6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.AnyNameClass@18ef96]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedAnyNameClass@0]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NsNameExceptNameClass@85c7ed70]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@85c661b6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.SimpleNameClass@18cc6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@18cc6]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNormalize(com.thaiopensource.relaxng.pattern.NameClass, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testNormalize" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NsNameExceptNameClass@85c7ed70]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@85c7ed70]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+      <class name="com.thaiopensource.relaxng.pattern.PatternMatcherTest">
+        <test-method signature="testPossibleAttributeNames(com.thaiopensource.relaxng.match.Matcher, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testPossibleAttributeNames" finished-at="2021-06-19T09:16:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.PatternMatcher@30c7da1e]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@308d9]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testErrorMessageAttributeNames(com.thaiopensource.relaxng.match.Matcher)" started-at="2021-06-19T09:17:00Z" name="testErrorMessageAttributeNames" finished-at="2021-06-19T09:17:00Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.PatternMatcher@340f438e]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testPossibleStartTagNames(com.thaiopensource.relaxng.match.Matcher, com.thaiopensource.relaxng.pattern.NormalizedNameClass)" started-at="2021-06-19T09:16:59Z" name="testPossibleStartTagNames" finished-at="2021-06-19T09:16:59Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.PatternMatcher@5b464ce8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[com.thaiopensource.relaxng.pattern.NormalizedNsNameClass@308d9]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

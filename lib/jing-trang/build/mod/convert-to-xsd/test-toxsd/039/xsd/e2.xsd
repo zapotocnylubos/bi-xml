@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:e2="http://www.example.com/2" xmlns:e1="http://www.example.com/1" elementFormDefault="qualified" targetNamespace="http://www.example.com/2">
+  <xs:import namespace="http://www.example.com/1" schemaLocation="c.xsd"/>
+  <xs:group name="y">
+    <xs:sequence>
+      <xs:element name="y">
+        <xs:complexType/>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="y1">
+    <xs:sequence>
+      <xs:element name="y">
+        <xs:complexType>
+	  <xs:choice>
+	    <xs:group ref="e1:x"/>
+	    <xs:element name="y">
+	      <xs:complexType/>
+	    </xs:element>
+	  </xs:choice>
+        </xs:complexType>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+</xs:schema>

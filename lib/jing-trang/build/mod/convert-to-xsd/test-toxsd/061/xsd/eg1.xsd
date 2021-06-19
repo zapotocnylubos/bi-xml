@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:eg3="http://www.example.com/3" xmlns:eg2="http://www.example.com/2" xmlns:eg1="http://www.example.com/1" elementFormDefault="qualified" targetNamespace="http://www.example.com/1">
+  <xs:import namespace="http://www.example.com/2" schemaLocation="c.xsd"/>
+  <xs:import namespace="http://www.example.com/3" schemaLocation="eg3.xsd"/>
+  <xs:group name="local">
+    <xs:sequence>
+      <xs:any namespace="##other" processContents="skip"/>
+    </xs:sequence>
+  </xs:group>
+</xs:schema>

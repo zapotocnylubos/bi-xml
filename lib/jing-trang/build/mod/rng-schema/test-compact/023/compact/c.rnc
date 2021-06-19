@@ -1,0 +1,4 @@
+
+namespace # comment
+eg = ""
+element foo { empty }

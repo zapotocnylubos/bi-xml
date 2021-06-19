@@ -1,0 +1,11 @@
+
+namespace e1 = "http://www.example.com/1"
+namespace e2 = "http://www.example.com/2"
+
+element e1:x {
+  element e2:y {
+    element e1:z {
+      empty
+    }
+  }
+}

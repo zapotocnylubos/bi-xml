@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="13" failures="0" name="Ant test" time="0.888" errors="0">
+  <properties/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.559"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.006"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.082"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.005"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.005"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.152"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.008"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.004"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.004"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.013"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.002"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.002"/>
+  <testcase classname="com.thaiopensource.xml.infer.TestInferHandler" name="testTypeInferenceForAttribute" time="0.025"/>
+</testsuite>

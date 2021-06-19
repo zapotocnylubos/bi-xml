@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:complexType name="x">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+        <xs:attribute name="att1" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:complexType name="y">
+    <xs:simpleContent>
+      <xs:extension base="xs:int">
+        <xs:attribute name="att2" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  <xs:element name="c" abstract="true"/>
+  <xs:element name="a" substitutionGroup="c" type="x"/>
+  <xs:element name="b" substitutionGroup="c" type="y"/>
+</xs:schema>

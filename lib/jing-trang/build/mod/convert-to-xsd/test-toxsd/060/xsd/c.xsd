@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:e2="http://www.example.com/2" xmlns:ns1="http://www.example.com/1" elementFormDefault="qualified" targetNamespace="http://www.example.com/1">
+  <xs:include schemaLocation="eg1.xsd"/>
+  <xs:import namespace="http://www.example.com/2" schemaLocation="eg2.xsd"/>
+  <xs:element name="foo1" type="e2:bar"/>
+  <xs:group name="baz">
+    <xs:sequence>
+      <xs:element name="baz">
+        <xs:complexType/>
+      </xs:element>
+    </xs:sequence>
+  </xs:group>
+  <xs:group name="baz1">
+    <xs:sequence>
+      <xs:element name="baz" type="xs:string"/>
+    </xs:sequence>
+  </xs:group>
+</xs:schema>

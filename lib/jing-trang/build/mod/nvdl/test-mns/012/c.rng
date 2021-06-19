@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/ns/mns">
+  <validate ns="http://www.example.com" schema="a.rng">
+    <cover ns=""/>
+  </validate>
+  <lax/>
+</rules>

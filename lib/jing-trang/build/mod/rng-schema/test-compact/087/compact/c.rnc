@@ -1,0 +1,6 @@
+
+start = element foo {
+	  grammar {
+	    start = element bar { text }, element doh {text}
+	  }
+	}

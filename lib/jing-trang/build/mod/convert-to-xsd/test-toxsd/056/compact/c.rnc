@@ -1,0 +1,2 @@
+
+element foo { attribute * { text }* | attribute bar { xsd:string } }

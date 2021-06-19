@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/ns/mns">
+  <validate ns="http://www.example.com/a" schema="a.rng" prune="elements"/>
+  <validateAttributes ns="http://www.example.com/b" schema="b.rng"/>
+  <lax/>
+</rules>

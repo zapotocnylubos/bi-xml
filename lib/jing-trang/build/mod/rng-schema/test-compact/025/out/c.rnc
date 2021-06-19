@@ -1,0 +1,8 @@
+namespace eg = "http://www.example.com"
+
+[
+  eg:foo = "stuff"
+  # comment
+  
+]
+element foo { empty }

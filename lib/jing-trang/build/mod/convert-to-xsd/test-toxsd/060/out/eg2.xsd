@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" targetNamespace="http://www.example.com/2" xmlns:ns1="http://www.example.com/1" xmlns:e2="http://www.example.com/2">
+  <xs:import namespace="http://www.example.com/1" schemaLocation="c.xsd"/>
+  <xs:element name="bar" abstract="true"/>
+  <xs:complexType name="bar">
+    <xs:sequence>
+      <xs:element ref="e2:bar"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="bar1" substitutionGroup="e2:bar">
+    <xs:complexType>
+      <xs:group ref="ns1:baz"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar2" substitutionGroup="e2:bar">
+    <xs:complexType>
+      <xs:group ref="ns1:baz1"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.ascc.net/xml/schematron">
+<pattern name="Compare with the database">
+    <rule context="author">
+				<assert test="document('source1.xml')//author[@id=current()/@id]">The author is not in the database </assert>       
+    </rule>
+</pattern>
+
+</schema>

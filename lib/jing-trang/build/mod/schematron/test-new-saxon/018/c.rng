@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.ascc.net/xml/schematron">
+<pattern name="Start of paragraph restriction.">
+    <rule context="p">
+				<assert test="document('source1.xml')//*[name()=substring-before(current(),' ')]">The word at the beginning of sentence is not listed in XML 1.</assert>       
+    </rule>
+</pattern>
+
+</schema>

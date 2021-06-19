@@ -1,0 +1,4 @@
+
+namespace xm = "http://www.w3.org/XML/1998/namespace"
+[ xm:space = "default" ]
+element foo { empty }

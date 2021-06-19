@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.ascc.net/xml/schematron">
+<pattern name="Number of characters in an abbreviation">
+<rule context="BBB">
+<report test="string-length(@bbb) &lt; 2">There is not enough letters in the abbreviation</report>
+<report test="string-length(@bbb) &gt; 3">There is too much letters in the abbreviation</report>
+</rule>
+</pattern>
+</schema>

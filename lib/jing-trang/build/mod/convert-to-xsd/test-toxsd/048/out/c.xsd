@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:attributeGroup ref="bar1"/>
+      <xs:attribute name="baz2"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:attributeGroup name="bar1">
+    <xs:attribute name="bar" use="required"/>
+    <xs:attribute name="baz1"/>
+  </xs:attributeGroup>
+  <xs:attributeGroup name="bar2">
+    <xs:attribute name="bar" use="required" type="xs:float"/>
+    <xs:attribute name="baz2"/>
+  </xs:attributeGroup>
+</xs:schema>

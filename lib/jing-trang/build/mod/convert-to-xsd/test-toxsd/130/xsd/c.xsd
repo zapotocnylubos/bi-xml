@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:complexType name="a">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="z"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="z">
+    <xs:complexType/>
+  </xs:element>
+  <xs:attributeGroup name="b">
+    <xs:attribute name="att" use="required"/>
+  </xs:attributeGroup>
+  <xs:element name="c" abstract="true"/>
+  <xs:element name="x" substitutionGroup="c" type="a"/>
+  <xs:element name="y" substitutionGroup="c">
+    <xs:complexType>
+      <xs:attributeGroup ref="b"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,4 @@
+
+a = element z { empty }*
+b = a, attribute att { text }
+c = element x { a } | element y { b }

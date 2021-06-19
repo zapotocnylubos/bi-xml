@@ -1,0 +1,7 @@
+
+namespace e1 = "http://www.example.com/1"
+namespace e2 = "http://www.example.com/2"
+namespace e3 = "http://www.example.com/3"
+
+element e1:x { element e2:y|e3:z { element e1:x|e1:v { empty } } }
+| element e1:w { element e2:y { text } }

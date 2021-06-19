@@ -1,0 +1,4 @@
+
+namespace eg = "http://www.example.com"
+
+element x { attribute eg:y { text } }

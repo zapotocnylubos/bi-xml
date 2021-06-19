@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Regular comment. -->
+<element xmlns="http://relaxng.org/ns/structure/1.0" xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" name="foo">
+  <a:documentation>This is a formal comment
+about a foo.</a:documentation>
+  <empty/>
+</element>

@@ -1,0 +1,4 @@
+[ xml:lang = "jp" ]
+div {
+  start = element foo { empty }
+}

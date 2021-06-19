@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo" type="t"/>
+  <xs:element name="bar">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="t">
+          <xs:attribute name="baz"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="t">
+    <xs:simpleContent>
+      <xs:extension base="xs:float">
+        <xs:attribute name="x" use="required"/>
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+</xs:schema>

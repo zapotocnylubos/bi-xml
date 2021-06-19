@@ -1,0 +1,2 @@
+
+element foo { "\x{D800}" }

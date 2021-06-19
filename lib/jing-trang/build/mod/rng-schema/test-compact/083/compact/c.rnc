@@ -1,0 +1,3 @@
+
+xsd:string { maxLength = # short
+                         "2" }

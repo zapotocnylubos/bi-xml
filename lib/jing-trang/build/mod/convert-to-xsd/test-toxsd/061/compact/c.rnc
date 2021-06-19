@@ -1,0 +1,10 @@
+
+namespace eg1 = "http://www.example.com/1"
+namespace eg2 = "http://www.example.com/2"
+namespace eg3 = "http://www.example.com/3"
+
+element eg2:foo {
+  element * - eg1:* { text },
+  element * - eg2:* { text },
+  element * - eg3:* { text }
+}

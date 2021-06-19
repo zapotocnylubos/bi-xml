@@ -1,0 +1,4 @@
+# This is a regular comment
+
+## This is a formal comment
+element foo { empty }

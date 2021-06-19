@@ -1,0 +1,3 @@
+
+default namespace = "http://example.com/ns/0"
+element root { empty }

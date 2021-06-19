@@ -1,0 +1,958 @@
+<html>
+<head>
+<title>TestNG:  Ant test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Ant test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>38/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 19 09:17:03 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (946 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='3' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testErrorHandlerNoThrow()'>testErrorHandlerNoThrow</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testErrorHandlerNoThrow()'>testErrorHandlerNoThrow</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testErrorHandlerThrowRuntime()'>testErrorHandlerThrowRuntime</td>
+<td>0</td>
+<td><div><pre>java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace348100441", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace348100441'><pre>java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testErrorHandlerThrowRuntime()'>testErrorHandlerThrowRuntime</td>
+<td>0</td>
+<td><div><pre>java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1539805781", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1539805781'><pre>java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testErrorHandlerThrowSAX()'>testErrorHandlerThrowSAX</td>
+<td>0</td>
+<td><div><pre>com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace670035812", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace670035812'><pre>com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testErrorHandlerThrowSAX()'>testErrorHandlerThrowSAX</td>
+<td>0</td>
+<td><div><pre>com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1795799895", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1795799895'><pre>com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testFeatureInheritance()'>testFeatureInheritance<br/><b>Parameters:</b> http://javax.xml.XMLConstants/feature/secure-processing, false</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testFeatureInheritance()'>testFeatureInheritance<br/><b>Parameters:</b> http://javax.xml.XMLConstants/feature/secure-processing, false</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testInstanceResourceResolver()'>testInstanceResourceResolver</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testInstanceResourceResolver()'>testInstanceResourceResolver</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testIsSchemaLanguageSupported()'>testIsSchemaLanguageSupported</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testIsSchemaLanguageSupported()'>testIsSchemaLanguageSupported</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testNewSchemaNoArgs()'>testNewSchemaNoArgs</td>
+<td>0</td>
+<td><div><pre>java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace633070006", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace633070006'><pre>java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testNewSchemaNoArgs()'>testNewSchemaNoArgs</td>
+<td>0</td>
+<td><div><pre>java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1354011814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1354011814'><pre>java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testNullGetFeature()'>testNullGetFeature</td>
+<td>0</td>
+<td><div><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace517210187", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace517210187'><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testNullGetFeature()'>testNullGetFeature</td>
+<td>0</td>
+<td><div><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1852584274", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1852584274'><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testNullSetFeature()'>testNullSetFeature</td>
+<td>0</td>
+<td><div><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace327177752", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace327177752'><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testNullSetFeature()'>testNullSetFeature</td>
+<td>0</td>
+<td><div><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1857815974", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1857815974'><pre>java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testSchemaResourceResolver()'>testSchemaResourceResolver</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testSchemaResourceResolver()'>testSchemaResourceResolver</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testSupportedFeatures()'>testSupportedFeatures<br/><b>Parameters:</b> http://javax.xml.XMLConstants/feature/secure-processing, false</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testSupportedFeatures()'>testSupportedFeatures<br/><b>Parameters:</b> http://javax.xml.XMLConstants/feature/secure-processing, false</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testUnrecognizedGetFeature()'>testUnrecognizedGetFeature</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1447689627", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1447689627'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testUnrecognizedGetFeature()'>testUnrecognizedGetFeature</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace36333492", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace36333492'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testUnrecognizedGetProperty()'>testUnrecognizedGetProperty</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1597249648", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1597249648'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testUnrecognizedGetProperty()'>testUnrecognizedGetProperty</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1206883981", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1206883981'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testUnrecognizedSetFeature()'>testUnrecognizedSetFeature</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1879034789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1879034789'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testUnrecognizedSetFeature()'>testUnrecognizedSetFeature</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1344645519", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1344645519'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testUnrecognizedSetProperty()'>testUnrecognizedSetProperty</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace701141022", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace701141022'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testUnrecognizedSetProperty()'>testUnrecognizedSetProperty</td>
+<td>0</td>
+<td><div><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+... Removed 22 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2042495840", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2042495840'><pre>org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+</pre></div></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testValidCharStream()'>testValidCharStream<br/><b>Parameters:</b> element doc {empty}, <doc/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testValidCharStream()'>testValidCharStream<br/><b>Parameters:</b> element doc {attribute att { text }}, <doc att='val'/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testValidCharStream()'>testValidCharStream<br/><b>Parameters:</b> <element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element>, <doc/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testValidCharStream()'>testValidCharStream<br/><b>Parameters:</b> <element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element>, <doc att='val'/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testValidFile()'>testValidFile<br/><b>Parameters:</b> element doc {empty}, <doc/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest.testValidFile()'>testValidFile<br/><b>Parameters:</b> element doc {attribute att { text }}, <doc att='val'/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testValidFile()'>testValidFile<br/><b>Parameters:</b> <element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element>, <doc/></td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest.testValidFile()'>testValidFile<br/><b>Parameters:</b> <element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element>, <doc att='val'/></td>
+<td>0</td>
+<td></td>
+</tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:restriction base="xs:anyType">
+          <xs:simpleType>
+            <xs:union memberTypes="int double float"/>
+          </xs:simpleType>
+          <xs:attribute name="type" use="required">
+            <xs:simpleType>
+              <xs:restriction base="xs:token">
+                <xs:enumeration value="int"/>
+                <xs:enumeration value="double"/>
+                <xs:enumeration value="float"/>
+              </xs:restriction>
+            </xs:simpleType>
+          </xs:attribute>
+        </xs:restriction>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:simpleType name="int">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="int">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="int"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:simpleType name="double">
+    <xs:restriction base="xs:double"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="double">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="double"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+  <xs:simpleType name="float">
+    <xs:restriction base="xs:float"/>
+  </xs:simpleType>
+  <xs:attributeGroup name="float">
+    <xs:attribute name="type" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:token">
+          <xs:enumeration value="float"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:attributeGroup>
+</xs:schema>

@@ -1,0 +1,51 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/024/i.rng:4:63: error: multiple applicable "validateAttributes" elements in mode "#default" for namespace "http://example.com"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/023/i.rng:4:35: error: multiple applicable "validateElement" elements in mode "#default" for namespace ""
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/015/i.rng:3:65: error: mode "a" not defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/012/3.i.xml:2:42: error: element "eg:a" incomplete; missing required element "b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/013/2.i.xml:2:4: error: no applicable schema for element with namespace "" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/013/4.i.xml:3:50: error: found attribute "att", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/013/3.i.xml:3:43: error: element "c" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/013/5.i.xml:2:47: error: found attribute "att", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/014/2.i.xml:4:37: error: element "a" not allowed here; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/014/4.i.xml:6:49: error: found attribute "att", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/022/i.rng:3:39: error: schema URI must not have a fragment identifier
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/025/2.i.xml:2:5: error: element "b" not allowed anywhere; expected element "a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/007/1.i.xml:2:4: error: no applicable schema for element with namespace "" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/031/i.rng:10:14: error: mode for context "/a" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/030/i.rng:8:26: error: mode for context "{http://example.org}a" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/008/i.rng:2:59: error: attribute "ns" not allowed here; expected attribute "schemaType" or "startMode" or an attribute from another namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/001/i.rng:2:14: fatal: root element of schema must have a namespace
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/006/2.i.xml:2:35: error: no applicable schema for element with namespace "http://www.example.com" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/020/i.rng:3:25: error: laxness for mode "a" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/027/1.i.xml:2:46: error: no applicable schema for one or more attributes with namespace "http://example.com" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/018/i.rng:4:9: error: laxness for mode "#default" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/011/4.i.xml:3:66: error: attribute "b:a" not allowed here; expected attribute "b:b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/011/4.i.xml:3:66: error: element "owner" missing required attribute "b:b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/011/7.i.xml:4:59: error: attribute "b:c" not allowed here; expected attribute "b:b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/011/7.i.xml:4:59: error: element "owner" missing required attribute "b:b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/016/2.i.xml:2:4: error: no applicable schema for element with namespace "" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/029/i.rng:8:26: error: mode for context "a" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/017/2.i.xml:2:38: error: element "eg:b" not allowed here; expected element "eg:a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/017/3.i.xml:2:4: error: no applicable schema for element with namespace "" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/017/5.i.xml:4:11: error: element "eg:b" not allowed here; expected element "eg:a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/028/6.i.xml:3:67: error: no applicable schema for element with namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/028/4.i.xml:2:67: error: no applicable schema for element with namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/028/3.i.xml:2:41: error: no applicable schema for element with namespace "http://example.org" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/028/5.i.xml:4:81: error: no applicable schema for element with namespace "http://www.w3.org/1999/02/22-rdf-syntax-ns#" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/010/i.rng:3:20: error: element "validate" missing required attribute "schema"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/026/2.i.xml:3:11: error: no applicable schema for element with namespace "http://example.com" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/019/i.rng:4:23: error: laxness for mode "b" already defined
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/021/i.rng:3:39: error: schema URI must not have a fragment identifier
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/003/i.rng:3:45: error: namespace URI must be absolute URI
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/004/4.i.xml:2:53: error: element "owner" missing required attribute "eg:a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/004/3.i.xml:2:53: error: element "owner" missing required attribute "eg:b"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/004/5.i.xml:2:65: error: value of attribute "eg:b" is invalid; must be equal to "bval"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/032/i.rng:5:26: error: namespace of contextual element not covered
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/035/2.i.xml:2:5: error: element "b" not allowed anywhere; expected element "a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/034/1.i.xml:4:38: error: no applicable schema for element with namespace "http://example.org" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/033/2.i.xml:3:36: error: no applicable schema for element with namespace "http://example.org" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/033/3.i.xml:3:36: error: no applicable schema for element with namespace "http://example.org" in this context
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/005/3.i.xml:3:5: error: element "b" not allowed anywhere; expected the element end-tag
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/002/2.i.xml:2:5: error: element "b" not allowed anywhere; expected element "a"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/002/3.i.xml:2:55: error: found attribute "x:foo", but no attributes allowed here
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/nvdl/test-mns/002/5.i.xml:4:16: error: element "b" not allowed anywhere; expected element "a" (with xmlns="")

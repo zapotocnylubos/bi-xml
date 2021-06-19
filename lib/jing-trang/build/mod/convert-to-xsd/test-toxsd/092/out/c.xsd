@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:attributeGroup name="atts">
+    <xs:attribute name="foo" use="required"/>
+    <xs:attribute name="bar" use="required"/>
+    <xs:attribute name="baz" use="required"/>
+  </xs:attributeGroup>
+</xs:schema>

@@ -1,0 +1,7 @@
+
+default namespace = "http://www.example.com/1"
+
+include "eg1.rnc"
+include "eg2.rnc"
+
+start = element foo1 { bar } | foo2

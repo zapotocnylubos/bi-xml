@@ -1,0 +1,3 @@
+
+c = element x { t, attribute att { text } } | element y { t }
+t = element z { empty }*

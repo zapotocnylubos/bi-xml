@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:e1="http://www.example.com/1" elementFormDefault="qualified" targetNamespace="http://www.example.com/1">
+  <xs:import schemaLocation="c.xsd"/>
+  <xs:element name="y">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

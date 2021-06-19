@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<element xmlns="http://relaxng.org/ns/structure/1.0" name="foo" datatypeLibrary="">
+  <data type="string">
+    <except>
+      <value>x</value>
+      <x xmlns=""/>
+    </except>
+  </data>
+  <y xmlns=""/>
+</element>

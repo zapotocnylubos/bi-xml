@@ -1,0 +1,4 @@
+
+foo = element foo { bar }
+bar = element bar { text }*
+baz = element baz { bar, element xyzzy { text }* }

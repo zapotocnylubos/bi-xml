@@ -1,0 +1,4 @@
+
+namespace eg = "http://www.example.com"
+
+start = element eg:y { x }

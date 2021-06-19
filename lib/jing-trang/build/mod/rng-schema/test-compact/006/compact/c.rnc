@@ -1,0 +1,3 @@
+
+start = external "x.rnc"
+foo = element foo { empty }

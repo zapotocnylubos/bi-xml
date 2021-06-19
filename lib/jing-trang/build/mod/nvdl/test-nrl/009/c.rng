@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/validate/nrl" startMode="start">
+<mode name="start" extends="c">
+  <namespace ns="http://www.example.org/a">
+    <validate schema="ab.mns" useMode="cover"/>
+  </namespace>
+  <namespace ns="http://www.example.org/b">
+    <validate schema="ab.mns" useMode="cover"/>
+  </namespace>
+</mode>
+<mode name="cover" extends="c">
+  <namespace ns="http://www.example.org/a">
+    <attach/>
+  </namespace>
+  <namespace ns="http://www.example.org/b">
+    <attach/>
+  </namespace>
+</mode>
+<mode name="c">
+  <namespace ns="http://www.example.org/c">
+    <allow/>
+  </namespace>
+</mode>
+</rules>

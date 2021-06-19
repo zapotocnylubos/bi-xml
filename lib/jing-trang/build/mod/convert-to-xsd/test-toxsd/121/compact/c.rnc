@@ -1,0 +1,17 @@
+
+#0
+grammar {
+  #1
+  foo []
+  #2
+  div {
+  #3
+  foo []
+  #4
+  foo = element foo { empty }
+  }
+  #5
+  foo[]
+  #6
+}
+#7

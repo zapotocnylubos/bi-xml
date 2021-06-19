@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<attribute xmlns="http://relaxng.org/ns/structure/1.0" xmlns:eg="http://example.com" name="eg:a">
+  <empty/>
+</attribute>

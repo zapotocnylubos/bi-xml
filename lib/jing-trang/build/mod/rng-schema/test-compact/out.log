@@ -1,0 +1,35 @@
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/015/compact/i.rnc:2:11: error: prefix "xml" can only be bound to namespace URI "http://www.w3.org/XML/1998/namespace"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/012/compact/i.rnc:4:17: error: multiple attributes with local name "http://www.example.com" and namespace URI "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/079/compact/i.rnc:2:23: error: top-level pattern cannot have following annotations
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/070/compact/i.rnc:3:2: error: annotations cannot have namespace URI "http://relaxng.org/ns/structure/1.0"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/013/compact/i.rnc:2:11: error: prefix must not be "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/013/compact/i.rnc:3:3: error: undeclared prefix "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/014/compact/i.rnc:3:3: error: annotation attribute cannot have namespace URI "http://www.w3.org/2000/xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/071/compact/i.rnc:3:2: error: annotations cannot have namespace URI "http://relaxng.org/ns/structure/1.0"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/085/compact/i.rnc:6:25: error: datatype does not permit value: must be a QName whose prefix, if any, is declared (prefix "p" is not declared)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/085/compact/i.rnc:8:27: error: datatype does not permit value: must be a QName whose prefix, if any, is declared (prefix "p" is not declared)
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/054/compact/i.rnc:2:14: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/053/compact/i.rnc:2:13: error: "except" in "anyName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/007/compact/i.rnc:2:17: error: syntax error
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/009/compact/i.rnc:2:8: error: parentheses required around "-" expression
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/009/compact/i.rnc:2:25: error: parentheses required around "-" expression
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/031/compact/i.rnc:2:24: error: character code must be less than 0x110000
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/055/compact/i.rnc:3:16: error: "except" in "nsName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/030/compact/i.rnc:2:23: error: reference to character whose code is not allowed
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/008/compact/i.rnc:2:8: error: parentheses required around "-" expression
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/080/compact/i.rnc:3:1: error: top-level pattern cannot have following annotations
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/018/compact/i.rnc:2:7: error: annotation attribute cannot be named "xmlns"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/011/compact/i.rnc:3:16: error: multiple attributes with local name "http://www.example.com" and namespace URI "x"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/016/compact/i.rnc:2:11: error: only prefix "xml" can be bound to namespace URI "http://www.w3.org/XML/1998/namespace"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/016/compact/i.rnc:3:3: error: undeclared prefix "xm"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/081/compact/i.rnc:3:1: error: top-level pattern cannot have following annotations
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/010/compact/i.rnc:2:17: error: parentheses required around "-" expression
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/032/compact/i.rnc:2:25: error: incomplete escape sequence
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/059/compact/i.rnc:4:17: error: "except" in "nsName" contains "nsName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/057/compact/i.rnc:3:16: error: "except" in "nsName" contains "nsName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/068/compact/i.rnc:2:15: error: syntax error
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/034/compact/i.rnc:2:19: error: expected hex digit
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/033/compact/i.rnc:2:26: error: expected hex digit
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/056/compact/i.rnc:3:17: error: "except" in "nsName" contains "anyName"
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/069/compact/i.rnc:2:9: error: syntax error
+/Users/zapotocnylubos/Documents/bi-xml/lib/jing-trang/build/mod/rng-schema/test-compact/058/compact/i.rnc:3:17: error: "except" in "nsName" contains "nsName"

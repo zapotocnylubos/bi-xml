@@ -1,0 +1,8 @@
+
+include "x.rnc" {
+  foo []
+  div {
+    bar []
+    foo = element foo { empty }
+  }
+}

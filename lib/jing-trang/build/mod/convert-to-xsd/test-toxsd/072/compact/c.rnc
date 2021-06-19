@@ -1,0 +1,6 @@
+
+default namespace = "http://www.example.com"
+
+element foo {
+  xsd:QName "xyzzy"
+}

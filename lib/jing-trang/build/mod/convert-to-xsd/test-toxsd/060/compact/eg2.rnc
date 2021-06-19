@@ -1,0 +1,5 @@
+
+namespace e2 = "http://www.example.com/2"
+
+bar = element e2:bar1 { element baz { empty } }
+      | element e2:bar2 { element baz { text } }

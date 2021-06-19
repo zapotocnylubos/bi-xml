@@ -1,0 +1,7 @@
+
+element foo {
+  element bar1 { text }
+  & element bar2 {
+    element baz1 { text }?, element baz2 { text }?
+  }*
+}

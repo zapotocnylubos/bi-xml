@@ -1,0 +1,3 @@
+
+inline = element em { text }
+inline |= element code { text }

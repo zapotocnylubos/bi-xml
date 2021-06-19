@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<choice xmlns="http://relaxng.org/ns/structure/1.0">
+  <element name="foo">
+    <empty/>
+  </element>
+  <!-- comment -->
+  <element name="bar">
+    <empty/>
+  </element>
+</choice>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rules xmlns="http://www.thaiopensource.com/ns/mns">
+  <validate ns="http://example.com" schema="a.rng" useMode="a"/>
+</rules>

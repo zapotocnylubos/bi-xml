@@ -1,0 +1,2 @@
+
+foo = element foo { attribute bar { xsd:double }, (xsd:int | xsd:boolean) }

@@ -1,0 +1,2 @@
+
+element foo { attribute bar { text } | attribute bar { xsd:float } }

@@ -1,0 +1,14 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="mod.catalog.test-unit">
+    <groups>
+    </groups>
+    <test name="Ant test">
+      <class name="com.thaiopensource.resolver.catalog.CatalogResolverTest">
+        <test-method signature="testResolve()" started-at="2021-06-19T09:16:48Z" name="testResolve" finished-at="2021-06-19T09:16:49Z" duration-ms="110" status="PASS">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

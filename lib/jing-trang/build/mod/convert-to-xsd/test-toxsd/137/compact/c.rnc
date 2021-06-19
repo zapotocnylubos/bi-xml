@@ -1,0 +1,4 @@
+
+element foo {
+  attribute att { text } | attribute att { text }?
+}

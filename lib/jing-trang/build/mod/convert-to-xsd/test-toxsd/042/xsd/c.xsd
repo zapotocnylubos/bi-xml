@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="bar"/>
+        <xs:element ref="baz"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="baz">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,10 @@
+start =
+  grammar {
+    start =
+      [
+        # comment
+        
+      ]
+      parent foo
+  }
+foo = element foo { empty }

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:include schemaLocation="bar.xsd"/>
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:choice>
+        <xs:element ref="bar"/>
+        <xs:element ref="baz"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

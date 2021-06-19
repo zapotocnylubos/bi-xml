@@ -1,0 +1,4 @@
+[ foo [ ] ]
+div {
+  foo = element foo { empty }
+}

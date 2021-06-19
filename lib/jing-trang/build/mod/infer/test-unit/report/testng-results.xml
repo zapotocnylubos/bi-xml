@@ -1,0 +1,249 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="mod.infer.test-unit">
+    <groups>
+    </groups>
+    <test name="Ant test">
+      <class name="com.thaiopensource.xml.infer.TestInferHandler">
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="82" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="1.1"/>
+  <element att="0.3"/>
+  <element att="90"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[decimal]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="x:a"/>
+  <element att="_b-c.32"/>
+  <element att="test"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NMTOKEN]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="0FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB7"/>
+  <element att="AFB7"/>
+  <element att="DF"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hexBinary]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="P364D"/>
+  <element att="P1347Y"/>
+  <element att="-P1347M"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[duration]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="152" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="12:23:00"/>
+  <element att="10:01:11-05:00"/>
+  <element att="09:01:07Z"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[time]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="1.23E100"/>
+  <element att="2"/>
+  <element att="2.34"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[double]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="http://www.example.com"/>
+  <element att="test#a10"/>
+  <element att="ftp://server/path/to/file.xml"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[anyURI]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="test"/>
+  <element att="x"/>
+  <element att="y"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[NCName]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="2010-01-20T08:00:10"/>
+  <element att="2012-02-01T10:00:03-05:00"/>
+  <element att="2010-01-20T12:00:00Z"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dateTime]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="2012-10-09"/>
+  <element att="2010-02-01"/>
+  <element att="2009-10-10"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[date]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF"/>
+  <element att="AABBCCDDEEFFAA=="/>
+  <element att="AABBCCDDEEAAAAAA"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[base64Binary]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:55Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="6" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="1"/>
+  <element att="2"/>
+  <element att="3"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[integer]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testTypeInferenceForAttribute(java.lang.String, java.lang.String)" started-at="2021-06-19T09:16:54Z" name="testTypeInferenceForAttribute" finished-at="2021-06-19T09:16:55Z" duration-ms="559" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<sample>
+  <element att="true"/>
+  <element att="false"/>
+  <element att="true"/>
+</sample>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[boolean]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

@@ -1,0 +1,894 @@
+<testng-results>
+  <reporter-output>
+  </reporter-output>
+  <suite name="mod.rng-jaxp.test-unit">
+    <groups>
+    </groups>
+    <test name="Ant test">
+      <class name="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest">
+        <test-method signature="testIsSchemaLanguageSupported()" started-at="2021-06-19T09:17:04Z" name="testIsSchemaLanguageSupported" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method signature="testSupportedFeatures(java.lang.String, java.lang.Boolean)" started-at="2021-06-19T09:17:04Z" name="testSupportedFeatures" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://javax.xml.XMLConstants/feature/secure-processing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testErrorHandlerThrowRuntime()" started-at="2021-06-19T09:17:04Z" name="testErrorHandlerThrowRuntime" finished-at="2021-06-19T09:17:04Z" duration-ms="7" status="PASS">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testNewSchemaNoArgs()" started-at="2021-06-19T09:17:04Z" name="testNewSchemaNoArgs" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.UnsupportedOperationException">
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testInstanceResourceResolver()" started-at="2021-06-19T09:17:04Z" name="testInstanceResourceResolver" finished-at="2021-06-19T09:17:04Z" duration-ms="4" status="PASS">
+        </test-method>
+        <test-method signature="testNullSetFeature()" started-at="2021-06-19T09:17:04Z" name="testNullSetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[the name parameter is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testValidFile(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidFile" finished-at="2021-06-19T09:17:04Z" duration-ms="25" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc att='val'/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testErrorHandlerThrowSAX()" started-at="2021-06-19T09:17:04Z" name="testErrorHandlerThrowSAX" finished-at="2021-06-19T09:17:04Z" duration-ms="95" status="PASS">
+          <exception class="com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException">
+            <full-stacktrace>
+              <![CDATA[com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedSetProperty()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedSetProperty" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/properties-no-such-property]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedGetFeature()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedGetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/features/no-such-feature]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedGetProperty()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedGetProperty" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/properties/no-such-property]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedSetFeature()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedSetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/features/no-such-feature]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testSchemaResourceResolver()" started-at="2021-06-19T09:17:04Z" name="testSchemaResourceResolver" finished-at="2021-06-19T09:17:04Z" duration-ms="8" status="PASS">
+        </test-method>
+        <test-method signature="testErrorHandlerNoThrow()" started-at="2021-06-19T09:17:04Z" name="testErrorHandlerNoThrow" finished-at="2021-06-19T09:17:04Z" duration-ms="11" status="PASS">
+        </test-method>
+        <test-method signature="testFeatureInheritance(java.lang.String, java.lang.Boolean)" started-at="2021-06-19T09:17:04Z" name="testFeatureInheritance" finished-at="2021-06-19T09:17:04Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://javax.xml.XMLConstants/feature/secure-processing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testValidFile(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidFile" finished-at="2021-06-19T09:17:04Z" duration-ms="31" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testValidCharStream(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidCharStream" finished-at="2021-06-19T09:17:04Z" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><attribute name='att'/></element>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc att='val'/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testValidCharStream(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidCharStream" finished-at="2021-06-19T09:17:04Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[<element xmlns='http://relaxng.org/ns/structure/1.0' name='doc'><empty/></element>]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNullGetFeature()" started-at="2021-06-19T09:17:04Z" name="testNullGetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[the name parameter is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+      </class>
+      <class name="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest">
+        <test-method signature="testValidFile(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidFile" finished-at="2021-06-19T09:17:04Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[element doc {attribute att { text }}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc att='val'/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testUnrecognizedGetProperty()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedGetProperty" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/properties/no-such-property]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties/no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.getProperty(SchemaFactory.java:521)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.getProperty(SchemaFactoryImpl.java:107)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetProperty(SchemaFactoryImplTest.java:253)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testInstanceResourceResolver()" started-at="2021-06-19T09:17:04Z" name="testInstanceResourceResolver" finished-at="2021-06-19T09:17:04Z" duration-ms="13" status="PASS">
+        </test-method>
+        <test-method signature="testErrorHandlerNoThrow()" started-at="2021-06-19T09:17:04Z" name="testErrorHandlerNoThrow" finished-at="2021-06-19T09:17:04Z" duration-ms="2" status="PASS">
+        </test-method>
+        <test-method signature="testErrorHandlerThrowSAX()" started-at="2021-06-19T09:17:03Z" name="testErrorHandlerThrowSAX" finished-at="2021-06-19T09:17:04Z" duration-ms="652" status="PASS">
+          <exception class="com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException">
+            <full-stacktrace>
+              <![CDATA[com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$MySAXException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$3.error(SchemaFactoryImplTest.java:131)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowSAX(SchemaFactoryImplTest.java:134)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testNewSchemaNoArgs()" started-at="2021-06-19T09:17:04Z" name="testNewSchemaNoArgs" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.UnsupportedOperationException">
+            <full-stacktrace>
+              <![CDATA[java.lang.UnsupportedOperationException
+	at com.thaiopensource.validation.SchemaFactory2.newSchema(SchemaFactory2.java:47)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNewSchemaNoArgs(SchemaFactoryImplTest.java:185)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testIsSchemaLanguageSupported()" started-at="2021-06-19T09:17:04Z" name="testIsSchemaLanguageSupported" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+        </test-method>
+        <test-method signature="testUnrecognizedGetFeature()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedGetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="1" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/features/no-such-feature]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:364)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedGetFeature(SchemaFactoryImplTest.java:218)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedSetProperty()" started-at="2021-06-19T09:17:04Z" name="testUnrecognizedSetProperty" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/properties-no-such-property]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/properties-no-such-property
+	at java.xml/javax.xml.validation.SchemaFactory.setProperty(SchemaFactory.java:486)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImpl.setProperty(SchemaFactoryImpl.java:101)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetProperty(SchemaFactoryImplTest.java:246)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testValidCharStream(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidCharStream" finished-at="2021-06-19T09:17:04Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[element doc {attribute att { text }}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc att='val'/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testNullSetFeature()" started-at="2021-06-19T09:17:04Z" name="testNullSetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="0" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[the name parameter is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:419)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullSetFeature(SchemaFactoryImplTest.java:239)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testUnrecognizedSetFeature()" started-at="2021-06-19T09:17:03Z" name="testUnrecognizedSetFeature" finished-at="2021-06-19T09:17:03Z" duration-ms="1" status="PASS">
+          <exception class="org.xml.sax.SAXNotRecognizedException">
+            <message>
+              <![CDATA[http://thaiopensource.com/features/no-such-feature]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.xml.sax.SAXNotRecognizedException: http://thaiopensource.com/features/no-such-feature
+	at java.xml/javax.xml.validation.SchemaFactory.setFeature(SchemaFactory.java:421)
+	at com.thaiopensource.validation.SchemaFactory2.setFeature(SchemaFactory2.java:97)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testUnrecognizedSetFeature(SchemaFactoryImplTest.java:225)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testNullGetFeature()" started-at="2021-06-19T09:17:04Z" name="testNullGetFeature" finished-at="2021-06-19T09:17:04Z" duration-ms="1" status="PASS">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[the name parameter is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: the name parameter is null
+	at java.xml/javax.xml.validation.SchemaFactory.getFeature(SchemaFactory.java:362)
+	at com.thaiopensource.validation.SchemaFactory2.getFeature(SchemaFactory2.java:110)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testNullGetFeature(SchemaFactoryImplTest.java:232)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testSchemaResourceResolver()" started-at="2021-06-19T09:17:04Z" name="testSchemaResourceResolver" finished-at="2021-06-19T09:17:04Z" duration-ms="4" status="PASS">
+        </test-method>
+        <test-method signature="testValidFile(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidFile" finished-at="2021-06-19T09:17:04Z" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[element doc {empty}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testFeatureInheritance(java.lang.String, java.lang.Boolean)" started-at="2021-06-19T09:17:04Z" name="testFeatureInheritance" finished-at="2021-06-19T09:17:04Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://javax.xml.XMLConstants/feature/secure-processing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testErrorHandlerThrowRuntime()" started-at="2021-06-19T09:17:04Z" name="testErrorHandlerThrowRuntime" finished-at="2021-06-19T09:17:04Z" duration-ms="2" status="PASS">
+          <exception class="java.lang.RuntimeException">
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest$2.error(SchemaFactoryImplTest.java:115)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.check(ValidatorHandlerImpl.java:148)
+	at com.thaiopensource.relaxng.jaxp.ValidatorHandlerImpl.startElement(ValidatorHandlerImpl.java:63)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.startElement(AbstractSAXParser.java:518)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractXMLDocumentParser.emptyElement(AbstractXMLDocumentParser.java:183)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.scanStartElement(XMLNSDocumentScannerImpl.java:351)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl$FragmentContentDriver.next(XMLDocumentFragmentScannerImpl.java:2725)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:605)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at java.xml/com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:541)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:888)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:824)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at java.xml/com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1224)
+	at java.xml/com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:635)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:161)
+	at com.thaiopensource.validation.ValidatorImpl.doValidate(ValidatorImpl.java:110)
+	at com.thaiopensource.validation.ValidatorImpl.validate(ValidatorImpl.java:62)
+	at java.xml/javax.xml.validation.Validator.validate(Validator.java:124)
+	at com.thaiopensource.relaxng.jaxp.SchemaFactoryImplTest.testErrorHandlerThrowRuntime(SchemaFactoryImplTest.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:617)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:885)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:110)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:712)
+	at org.testng.TestRunner.privateRun(TestRunner.java:582)
+	at org.testng.TestRunner.run(TestRunner.java:477)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:324)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:292)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:198)
+	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:823)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:790)
+	at org.testng.TestNG.run(TestNG.java:708)
+	at org.testng.TestNG.privateMain(TestNG.java:860)
+	at org.testng.TestNG.main(TestNG.java:833)
+]]>
+            </full-stacktrace>
+          </exception>
+        </test-method>
+        <test-method signature="testValidCharStream(java.lang.String, java.lang.String)" started-at="2021-06-19T09:17:04Z" name="testValidCharStream" finished-at="2021-06-19T09:17:04Z" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[element doc {empty}]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[<doc/>]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method signature="testSupportedFeatures(java.lang.String, java.lang.Boolean)" started-at="2021-06-19T09:17:03Z" name="testSupportedFeatures" finished-at="2021-06-19T09:17:03Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://javax.xml.XMLConstants/feature/secure-processing]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>

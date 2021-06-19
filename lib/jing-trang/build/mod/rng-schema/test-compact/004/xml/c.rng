@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Based on http://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20010906/ -->
+<grammar xmlns="http://relaxng.org/ns/structure/1.0" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" ns="" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+  <start>
+    <ref name="RDF"/>
+  </start>
+  <define name="RDF">
+    <choice>
+      <element name="rdf:RDF">
+        <optional>
+          <attribute name="xml:base">
+            <ref name="URI-reference"/>
+          </attribute>
+        </optional>
+        <zeroOrMore>
+          <ref name="node"/>
+        </zeroOrMore>
+      </element>
+      <ref name="node"/>
+    </choice>
+  </define>
+  <define name="node">
+    <choice>
+      <ref name="description"/>
+      <ref name="typedNode"/>
+    </choice>
+  </define>
+  <define name="description">
+    <element name="rdf:Description">
+      <optional>
+        <ref name="idAboutAttr"/>
+      </optional>
+      <optional>
+        <ref name="bagIdAttr"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="propertyAttr"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="propertyElt"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="typedNode">
+    <element>
+      <anyName>
+        <except>
+          <nsName/>
+          <name>rdf:Description</name>
+          <name>rdf:RDF</name>
+          <name>rdf:ID</name>
+          <name>rdf:about</name>
+          <name>rdf:aboutEach</name>
+          <name>rdf:bagID</name>
+          <name>rdf:parseType</name>
+          <name>rdf:resource</name>
+        </except>
+      </anyName>
+      <optional>
+        <ref name="idAboutAttr"/>
+      </optional>
+      <optional>
+        <ref name="bagIdAttr"/>
+      </optional>
+      <zeroOrMore>
+        <ref name="propertyAttr"/>
+      </zeroOrMore>
+      <zeroOrMore>
+        <ref name="propertyElt"/>
+      </zeroOrMore>
+    </element>
+  </define>
+  <define name="propertyElt">
+    <element>
+      <anyName>
+        <except>
+          <nsName/>
+          <name>rdf:Description</name>
+          <name>rdf:RDF</name>
+          <name>rdf:ID</name>
+          <name>rdf:about</name>
+          <name>rdf:aboutEach</name>
+          <name>rdf:bagID</name>
+          <name>rdf:parseType</name>
+          <name>rdf:resource</name>
+        </except>
+      </anyName>
+      <choice>
+        <group>
+          <optional>
+            <ref name="idAttr"/>
+          </optional>
+          <choice>
+            <ref name="node"/>
+            <data type="string" datatypeLibrary=""/>
+            <group>
+              <ref name="parseLiteral"/>
+              <ref name="literal"/>
+            </group>
+            <group>
+              <ref name="parseResource"/>
+              <zeroOrMore>
+                <ref name="propertyElt"/>
+              </zeroOrMore>
+            </group>
+            <group>
+              <ref name="parseOther"/>
+              <ref name="any"/>
+            </group>
+            <group>
+              <optional>
+                <ref name="bagIdAttr"/>
+              </optional>
+              <zeroOrMore>
+                <ref name="propertyAttr"/>
+              </zeroOrMore>
+            </group>
+          </choice>
+        </group>
+        <group>
+          <ref name="resourceAttr"/>
+          <optional>
+            <ref name="bagIdAttr"/>
+          </optional>
+          <zeroOrMore>
+            <ref name="propertyAttr"/>
+          </zeroOrMore>
+        </group>
+      </choice>
+    </element>
+  </define>
+  <define name="idAboutAttr">
+    <choice>
+      <ref name="idAttr"/>
+      <ref name="aboutAttr"/>
+      <ref name="aboutEachAttr"/>
+    </choice>
+  </define>
+  <define name="idAttr">
+    <attribute name="rdf:ID">
+      <ref name="IDsymbol"/>
+    </attribute>
+  </define>
+  <define name="aboutAttr">
+    <attribute name="rdf:about">
+      <ref name="URI-reference"/>
+    </attribute>
+  </define>
+  <define name="aboutEachAttr">
+    <attribute name="rdf:aboutEach">
+      <ref name="URI-reference"/>
+    </attribute>
+  </define>
+  <define name="bagIdAttr">
+    <attribute name="rdf:bagID">
+      <ref name="IDsymbol"/>
+    </attribute>
+  </define>
+  <define name="propertyAttr">
+    <choice>
+      <ref name="typeAttr"/>
+      <ref name="propAttr"/>
+    </choice>
+  </define>
+  <define name="propAttr">
+    <attribute>
+      <anyName>
+        <except>
+          <nsName/>
+          <name>rdf:type</name>
+          <name>rdf:li</name>
+          <name>rdf:Description</name>
+          <name>rdf:RDF</name>
+          <name>rdf:ID</name>
+          <name>rdf:about</name>
+          <name>rdf:aboutEach</name>
+          <name>rdf:bagID</name>
+          <name>rdf:parseType</name>
+          <name>rdf:resource</name>
+        </except>
+      </anyName>
+      <data type="string" datatypeLibrary=""/>
+    </attribute>
+  </define>
+  <define name="typeAttr">
+    <attribute name="rdf:type">
+      <ref name="URI-reference"/>
+    </attribute>
+  </define>
+  <define name="resourceAttr">
+    <attribute name="rdf:resource">
+      <ref name="URI-reference"/>
+    </attribute>
+  </define>
+  <define name="parseLiteral">
+    <attribute name="rdf:parseType">
+      <value>Literal</value>
+    </attribute>
+  </define>
+  <define name="parseResource">
+    <attribute name="rdf:parseType">
+      <value>Resource</value>
+    </attribute>
+  </define>
+  <define name="parseOther">
+    <attribute name="rdf:parseType">
+      <data type="token" datatypeLibrary="">
+        <except>
+          <value>Literal</value>
+          <value>Resource</value>
+        </except>
+      </data>
+    </attribute>
+  </define>
+  <define name="URI-reference">
+    <data type="string" datatypeLibrary=""/>
+  </define>
+  <define name="IDsymbol">
+    <data type="NMTOKEN"/>
+  </define>
+  <define name="literal">
+    <ref name="any"/>
+  </define>
+  <define name="any">
+    <mixed>
+      <zeroOrMore>
+        <element>
+          <anyName/>
+          <zeroOrMore>
+            <attribute>
+              <anyName/>
+            </attribute>
+          </zeroOrMore>
+          <ref name="any"/>
+        </element>
+      </zeroOrMore>
+    </mixed>
+  </define>
+</grammar>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="e">
+    <xs:complexType>
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="a"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="f">
+    <xs:complexType>
+      <xs:group minOccurs="0" maxOccurs="unbounded" ref="b"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="a">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="v"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="a">
+    <xs:choice>
+      <xs:element name="x" type="a"/>
+      <xs:element name="y" type="a"/>
+      <xs:element name="z" type="a"/>
+    </xs:choice>
+  </xs:group>
+  <xs:element name="v">
+    <xs:complexType/>
+  </xs:element>
+  <xs:complexType name="b">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="w"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:group name="b">
+    <xs:choice>
+      <xs:element name="x" type="b"/>
+      <xs:element name="y" type="b"/>
+      <xs:element name="z" type="b"/>
+    </xs:choice>
+  </xs:group>
+  <xs:element name="w">
+    <xs:complexType/>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,3 @@
+
+datatypes x = "http://x.org"
+element foo { x:bar { pattern = "[a-zA-Z]*" } }

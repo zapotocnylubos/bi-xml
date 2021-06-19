@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<a xmlns="http://www.example.com/a" att="val">
+  <b xmlns="http://www.example.com/b"/>
+</a>

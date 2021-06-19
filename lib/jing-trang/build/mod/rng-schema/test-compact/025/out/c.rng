@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element name="foo" eg:foo="stuff" xmlns:eg="http://www.example.com" xmlns="http://relaxng.org/ns/structure/1.0">
+  <!-- comment -->
+  <empty/>
+</element>

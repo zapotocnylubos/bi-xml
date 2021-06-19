@@ -1,0 +1,7 @@
+
+start = element foo { bar1 & bar2 & bar3 & bar4 & bar5 }
+bar1 =  element bar1 { empty }
+bar2 =  element bar2 { empty }?
+bar3 =  element bar3 { empty }*
+bar4 =  element bar4 { empty }+
+bar5 = element bar5 { empty }, element bar6 { empty }

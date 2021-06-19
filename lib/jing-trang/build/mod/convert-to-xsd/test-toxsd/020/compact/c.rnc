@@ -1,0 +1,3 @@
+
+foo = element foo { bar | baz }
+include "bar.rnc"

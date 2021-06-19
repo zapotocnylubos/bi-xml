@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:v="http://www.example.com/version">
+<head>
+<title>A test</title>
+</head>
+<body>
+<p>Text.</p>
+<v:windows>
+<p>Windows.</p>
+</v:windows>
+</body>
+</html>

@@ -1,0 +1,4 @@
+
+namespace eg1 = "http://www.example.com/1"
+namespace eg2 = "http://www.example.com/2"
+element eg1:* - eg2:* { empty }

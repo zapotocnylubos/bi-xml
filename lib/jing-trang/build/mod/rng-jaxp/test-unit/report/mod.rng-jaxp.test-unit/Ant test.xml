@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="38" failures="0" name="Ant test" time="0.946" errors="0">
+  <properties/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testSupportedFeatures" time="0.012"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testUnrecognizedSetFeature" time="0.001"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testErrorHandlerThrowSAX" time="0.652"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testFeatureInheritance" time="0.002"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testIsSchemaLanguageSupported" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testValidCharStream" time="0.003"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testValidCharStream" time="0.007"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testValidFile" time="0.007"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testValidFile" time="0.005"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testErrorHandlerThrowRuntime" time="0.002"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testUnrecognizedGetProperty" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testErrorHandlerNoThrow" time="0.002"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testInstanceResourceResolver" time="0.013"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testNullSetFeature" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testNullGetFeature" time="0.001"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testNewSchemaNoArgs" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testSchemaResourceResolver" time="0.004"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testUnrecognizedSetProperty" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.CompactSyntaxSchemaFactoryTest" name="testUnrecognizedGetFeature" time="0.001"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testSupportedFeatures" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testUnrecognizedSetFeature" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testErrorHandlerThrowSAX" time="0.095"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testFeatureInheritance" time="0.002"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testIsSchemaLanguageSupported" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testValidCharStream" time="0.005"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testValidCharStream" time="0.022"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testValidFile" time="0.031"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testValidFile" time="0.025"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testErrorHandlerThrowRuntime" time="0.007"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testUnrecognizedGetProperty" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testErrorHandlerNoThrow" time="0.011"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testInstanceResourceResolver" time="0.004"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testNullSetFeature" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testNullGetFeature" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testNewSchemaNoArgs" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testSchemaResourceResolver" time="0.008"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testUnrecognizedSetProperty" time="0.0"/>
+  <testcase classname="com.thaiopensource.relaxng.jaxp.XMLSyntaxSchemaFactoryTest" name="testUnrecognizedGetFeature" time="0.0"/>
+</testsuite>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+  <include href="ibtwsh6.rng" ns="http://www.w3.org/1999/xhtml"/>
+</grammar>

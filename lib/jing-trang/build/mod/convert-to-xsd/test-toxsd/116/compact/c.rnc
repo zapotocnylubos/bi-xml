@@ -1,0 +1,5 @@
+
+element foo { 
+## This is a bar.
+attribute bar { text }
+}

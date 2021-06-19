@@ -1,0 +1,2 @@
+
+c = element x { xsd:int, attribute att { text } } | element y { xsd:int }

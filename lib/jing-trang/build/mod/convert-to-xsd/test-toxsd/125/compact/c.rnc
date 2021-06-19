@@ -1,0 +1,4 @@
+
+value = element large { xsd:double }
+        | element medium { xsd:int }
+        | element small { xsd:short }

@@ -1,0 +1,198 @@
+<html>
+<head>
+<title>TestNG:  Ant test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Ant test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jun 19 09:16:54 CEST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (888 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='3' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td width="30%"><b>Exception</b></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="true"/>
+  <element att="false"/>
+  <element att="true"/>
+</sample>, boolean</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="1"/>
+  <element att="2"/>
+  <element att="3"/>
+</sample>, integer</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="1.1"/>
+  <element att="0.3"/>
+  <element att="90"/>
+</sample>, decimal</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="1.23E100"/>
+  <element att="2"/>
+  <element att="2.34"/>
+</sample>, double</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="test"/>
+  <element att="x"/>
+  <element att="y"/>
+</sample>, NCName</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="12:23:00"/>
+  <element att="10:01:11-05:00"/>
+  <element att="09:01:07Z"/>
+</sample>, time</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="2012-10-09"/>
+  <element att="2010-02-01"/>
+  <element att="2009-10-10"/>
+</sample>, date</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="2010-01-20T08:00:10"/>
+  <element att="2012-02-01T10:00:03-05:00"/>
+  <element att="2010-01-20T12:00:00Z"/>
+</sample>, dateTime</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="P364D"/>
+  <element att="P1347Y"/>
+  <element att="-P1347M"/>
+</sample>, duration</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="0FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB70FB7"/>
+  <element att="AFB7"/>
+  <element att="DF"/>
+</sample>, hexBinary</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="x:a"/>
+  <element att="_b-c.32"/>
+  <element att="test"/>
+</sample>, NMTOKEN</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF
+    AABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFFAABBCCDDEEFF"/>
+  <element att="AABBCCDDEEFFAA=="/>
+  <element att="AABBCCDDEEAAAAAA"/>
+</sample>, base64Binary</td>
+<td>0</td>
+<td></td>
+</tr>
+<tr>
+<td title='com.thaiopensource.xml.infer.TestInferHandler.testTypeInferenceForAttribute()'>testTypeInferenceForAttribute<br/><b>Parameters:</b> <sample>
+  <element att="http://www.example.com"/>
+  <element att="test#a10"/>
+  <element att="ftp://server/path/to/file.xml"/>
+</sample>, anyURI</td>
+<td>0</td>
+<td></td>
+</tr>
+</table><p>
+</body>
+</html>

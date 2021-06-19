@@ -1,0 +1,3 @@
+
+start = element foo { empty }
+x = element bar { empty }, x?

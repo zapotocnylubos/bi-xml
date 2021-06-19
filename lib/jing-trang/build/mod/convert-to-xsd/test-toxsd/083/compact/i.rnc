@@ -1,0 +1,4 @@
+
+element foo { xsd:no-such-datatype }
+| element bar { xsd:string { pattrn = "[a-zA-Z]+" } }
+| element baz { xsd:string { maxLength = "2in" } }

@@ -1,0 +1,4 @@
+
+start = element e { a* } | element f { b* }
+a = element x | y | z { element v { empty }* }
+b = element x | y | z { element w { empty }* }

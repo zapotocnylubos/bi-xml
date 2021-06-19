@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<b:foo xmlns:b="http://www.example.org/b" xmlns:a="http://www.example.org/a" xmlns:c="http://www.example.org/b">
+<a:bar/>
+<c:baz>
+<a:foo/>
+</c:baz>
+</b:foo>

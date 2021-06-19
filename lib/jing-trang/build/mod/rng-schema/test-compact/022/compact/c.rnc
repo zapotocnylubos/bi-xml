@@ -1,0 +1,5 @@
+
+namespace eg = 
+# comment
+""
+element foo { empty }

@@ -1,0 +1,5 @@
+
+x = xsd:int
+y = x
+z = y
+c = element a { x } | element b { z }

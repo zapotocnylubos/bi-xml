@@ -1,0 +1,52 @@
+
+# Based on http://www.w3.org/TR/2001/WD-rdf-syntax-grammar-20010906/
+
+namespace local = ""
+namespace rdf = "http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = RDF
+RDF = element rdf:RDF { attribute xml:base { URI-reference }?, node* } | node
+node = description | typedNode
+description = element rdf:Description {
+                idAboutAttr?, bagIdAttr?, propertyAttr*, propertyElt*
+              }
+typedNode = element * - (local:*
+                         |rdf:Description|rdf:RDF
+                         |rdf:ID|rdf:about|rdf:aboutEach
+                         |rdf:bagID|rdf:parseType|rdf:resource) {
+              idAboutAttr?, bagIdAttr?, propertyAttr*, propertyElt*
+            }
+propertyElt = element * - (local:*
+                           |rdf:Description|rdf:RDF
+                           |rdf:ID|rdf:about|rdf:aboutEach
+                           |rdf:bagID|rdf:parseType|rdf:resource) {
+                (idAttr?, (node
+                           | string
+                           | (parseLiteral, literal)
+                           | (parseResource, propertyElt*)
+                           | (parseOther, any)
+                           | (bagIdAttr?, propertyAttr*)))
+                 | (resourceAttr, bagIdAttr?, propertyAttr*)
+              }
+idAboutAttr = idAttr | aboutAttr | aboutEachAttr
+idAttr = attribute rdf:ID { IDsymbol }
+aboutAttr = attribute rdf:about { URI-reference }
+aboutEachAttr = attribute rdf:aboutEach { URI-reference }
+bagIdAttr = attribute rdf:bagID { IDsymbol }
+propertyAttr = typeAttr | propAttr
+propAttr = attribute * - (local:*|rdf:type|rdf:li
+                          |rdf:Description|rdf:RDF
+                          |rdf:ID|rdf:about|rdf:aboutEach
+                          |rdf:bagID|rdf:parseType|rdf:resource) {
+             string
+           }
+typeAttr = attribute rdf:type { URI-reference }
+resourceAttr = attribute rdf:resource { URI-reference }
+parseLiteral = attribute rdf:parseType { "Literal" }
+parseResource = attribute rdf:parseType { "Resource" }
+parseOther = attribute rdf:parseType { token - ("Literal"|"Resource") }
+URI-reference = string
+IDsymbol = xsd:NMTOKEN
+literal = any
+any = mixed { element * { attribute * { text }*, any }* }

@@ -1,0 +1,3 @@
+
+start = element foo { bar }
+bar = element bar { bar* }

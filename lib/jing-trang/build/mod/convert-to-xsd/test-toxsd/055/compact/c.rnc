@@ -1,0 +1,5 @@
+
+namespace eg = "http://www.example.com"
+namespace local = ""
+
+element eg:foo { attribute * - (local:*|(eg:* - eg:bar)) { xsd:float }* }

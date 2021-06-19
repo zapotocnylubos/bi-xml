@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<schema xmlns="http://www.ascc.net/xml/schematron">
+<!-- pattern is missing the name attribute: should just get validation messages -->
+<pattern>
+<rule context="foo bar">
+  <assert test="whatever">xxx</assert>
+</rule>
+</pattern>
+</schema>

@@ -1,0 +1,3 @@
+
+start = element foo { t } | element bar { t, attribute baz { text }? }
+t = attribute x { text }, xsd:float

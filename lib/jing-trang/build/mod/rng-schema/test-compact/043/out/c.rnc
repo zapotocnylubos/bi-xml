@@ -1,0 +1,1 @@
+element foo { "z\x{d}\x{a}" }

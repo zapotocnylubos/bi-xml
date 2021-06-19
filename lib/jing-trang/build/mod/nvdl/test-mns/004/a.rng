@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<group xmlns="http://relaxng.org/ns/structure/1.0" xmlns:eg="http://www.example.com">
+  <attribute name="eg:a">
+    <value>aval</value>
+  </attribute>
+  <attribute name="eg:b">
+    <value>bval</value>
+  </attribute>
+</group>

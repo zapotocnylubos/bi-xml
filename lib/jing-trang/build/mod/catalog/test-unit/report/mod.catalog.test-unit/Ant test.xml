@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite tests="1" failures="0" name="Ant test" time="0.117" errors="0">
+  <properties/>
+  <testcase classname="com.thaiopensource.resolver.catalog.CatalogResolverTest" name="testResolve" time="0.11"/>
+</testsuite>

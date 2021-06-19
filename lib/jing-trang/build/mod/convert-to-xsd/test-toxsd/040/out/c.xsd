@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="foo">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="bar1"/>
+        <xs:group ref="bar2"/>
+        <xs:group ref="bar3"/>
+        <xs:group ref="bar4"/>
+        <xs:choice>
+          <xs:element ref="bar5"/>
+          <xs:element ref="bar6"/>
+        </xs:choice>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bar5">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="bar6">
+    <xs:complexType/>
+  </xs:element>
+  <xs:element name="bar1">
+    <xs:complexType/>
+  </xs:element>
+  <xs:group name="bar2">
+    <xs:sequence>
+      <xs:element minOccurs="0" ref="bar2"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="bar2">
+    <xs:complexType/>
+  </xs:element>
+  <xs:group name="bar3">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" ref="bar3"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="bar3">
+    <xs:complexType/>
+  </xs:element>
+  <xs:group name="bar4">
+    <xs:sequence>
+      <xs:element maxOccurs="unbounded" ref="bar4"/>
+    </xs:sequence>
+  </xs:group>
+  <xs:element name="bar4">
+    <xs:complexType/>
+  </xs:element>
+  <xs:group name="bar5">
+    <xs:sequence>
+      <xs:element ref="bar5"/>
+      <xs:element ref="bar6"/>
+    </xs:sequence>
+  </xs:group>
+</xs:schema>

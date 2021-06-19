@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:e2="http://www.example.com/2" xmlns:e1="http://www.example.com/1" elementFormDefault="qualified" targetNamespace="http://www.example.com/2">
+  <xs:import namespace="http://www.example.com/1" schemaLocation="c.xsd"/>
+  <xs:element name="y">
+    <xs:complexType>
+      <xs:sequence>
+	<xs:element ref="e1:z"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

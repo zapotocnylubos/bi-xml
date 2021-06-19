@@ -1,0 +1,3 @@
+
+start = root
+root = element foo|bar|baz { empty }

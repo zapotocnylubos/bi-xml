@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<grammar xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0" xmlns="http://relaxng.org/ns/structure/1.0">
+  <start>
+    <a:documentation>This is a formal comment
+about a foo.</a:documentation>
+    <element name="foo">
+      <empty/>
+    </element>
+  </start>
+</grammar>

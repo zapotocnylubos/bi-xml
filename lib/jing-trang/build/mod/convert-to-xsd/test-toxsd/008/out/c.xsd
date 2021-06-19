@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:simpleType name="foo">
+    <xs:restriction>
+      <xs:simpleType>
+        <xs:list>
+          <xs:simpleType>
+            <xs:union memberTypes="xs:int xs:int"/>
+          </xs:simpleType>
+        </xs:list>
+      </xs:simpleType>
+      <xs:minLength value="2"/>
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

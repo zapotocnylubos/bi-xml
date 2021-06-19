@@ -1,0 +1,7 @@
+
+namespace eg = "http://www.example.com"
+
+element eg:foo {
+ element bar { notAllowed }
+ | element baz { text }
+}
