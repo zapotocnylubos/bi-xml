@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE countries SYSTEM "countries.dtd" [
-  <!ENTITY czechia SYSTEM "countries/czechia.xml">
-  <!ENTITY italy SYSTEM "countries/italy.xml">
-  <!ENTITY greece SYSTEM "countries/greece.xml">
-  <!ENTITY egypt SYSTEM "countries/egypt.xml">
+  <!ENTITY czechia SYSTEM "./countries/czechia.xml">
+  <!ENTITY italy SYSTEM "./countries/italy.xml">
+  <!ENTITY greece SYSTEM "./countries/greece.xml">
+  <!ENTITY egypt SYSTEM "./countries/egypt.xml">
   ]>
 
 <countries>

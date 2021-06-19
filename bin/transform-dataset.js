@@ -8,10 +8,7 @@ const xmlbuilder = new xml2js.Builder({
         version: '1.0',
         encoding: 'UTF-8',
         standalone: null
-    },
-    // doctype: {
-    //     sysID: '../country.dtd'
-    // }
+    }
 });
 
 const areas = ['czechia', 'italy', 'greece', 'egypt'];
