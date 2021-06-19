@@ -1,11 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <fo:root xmlns:fo="http://www.w3.org/1999/XSL/Format"
          language="en"
+         font-size="12pt"
          font-family="Times New Roman, serif">
    <fo:layout-master-set>
-      <fo:simple-page-master master-name="bi-xml" margin="1in">
-         <fo:region-body/>
-         <fo:region-after extent="6mm"/>
+      <fo:simple-page-master master-name="bi-xml"
+                             page-width="210mm"
+                             page-height="297mm"
+                             margin-top="2cm"
+                             margin-bottom="1cm"
+                             margin-left="2cm"
+                             margin-right="2cm">
+         <fo:region-body margin-bottom="2cm"/>
+         <fo:region-after extent="1cm"/>
       </fo:simple-page-master>
    </fo:layout-master-set>
    <fo:page-sequence master-reference="bi-xml">
@@ -16,30 +23,441 @@
       <fo:flow flow-name="xsl-region-body">
          <fo:block>
             <fo:block font-size="24pt" font-weight="bold">Countries:</fo:block>
-            <fo:block>
+            <fo:block font-size="20pt">
                <fo:basic-link internal-destination="czechia">Czechia</fo:basic-link>
             </fo:block>
-            <fo:block>
+            <fo:block font-size="20pt">
                <fo:basic-link internal-destination="italy">Italy</fo:basic-link>
             </fo:block>
-            <fo:block>
+            <fo:block font-size="20pt">
                <fo:basic-link internal-destination="greece">Greece</fo:basic-link>
             </fo:block>
-            <fo:block>
+            <fo:block font-size="20pt">
                <fo:basic-link internal-destination="egypt">Egypt</fo:basic-link>
             </fo:block>
          </fo:block>
          <fo:block break-before="page">
-            <fo:block id="czechia">Czechia</fo:block>
+            <fo:block id="czechia">
+               <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Czechia</fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Introduction</fo:block>
+         <fo:block>At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Geography</fo:block>
+         <fo:block>Central Europe, between Germany, Poland, Slovakia, and Austria</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Coordinates:
+      </fo:inline>
+            <fo:inline>49°
+  45'
+  
+    (N)
+  </fo:inline>
+            <fo:inline>15°
+  30'
+  
+    (E)
+  </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">People</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Population:
+      </fo:inline>10702498<fo:inline>
+      (Global rank: 85)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Nationality:
+      </fo:inline>Czech</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Government</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Type:
+      </fo:inline>parliamentary republic</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Economy</fo:block>
+         <fo:block>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.
+Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.
+Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Energy</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>77390000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 38)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>62340000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 42)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>2000 bbl/day
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 86)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Natural gas</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>229400000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 78)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>8721000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 51)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Communications</fo:block>
+         <fo:block>22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee (2019)</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Internet</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Top level domain (TLD):
+      </fo:inline>.cz</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Internet users:
+      </fo:inline>8622750<fo:inline>
+      (Global rank: 58)
+    </fo:inline>
          </fo:block>
          <fo:block break-before="page">
-            <fo:block id="italy">Italy</fo:block>
+            <fo:block id="italy">
+               <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Italy</fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Introduction</fo:block>
+         <fo:block>Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Geography</fo:block>
+         <fo:block>Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Coordinates:
+      </fo:inline>
+            <fo:inline>42°
+  50'
+  
+    (N)
+  </fo:inline>
+            <fo:inline>12°
+  50'
+  
+    (E)
+  </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">People</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Population:
+      </fo:inline>62402659<fo:inline>
+      (Global rank: 23)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Nationality:
+      </fo:inline>Italian</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Government</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Type:
+      </fo:inline>parliamentary republic</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Economy</fo:block>
+         <fo:block>Italy’s economy comprises a developed industrial north, dominated by private companies, and a less-developed, highly subsidized, agricultural south, with a legacy of unemployment and underdevelopment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family-owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 17% of GDP. These activities are most common within the agriculture, construction, and service sectors.
+Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Energy</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>275300000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 14)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>293500000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 13)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>90000 bbl/day
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 44)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Natural gas</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>5550000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 50)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>75150000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 11)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Communications</fo:block>
+         <fo:block>two Italian media giants dominate - the publicly owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately owned Mediaset with 3 national terrestrial stations; a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Internet</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Top level domain (TLD):
+      </fo:inline>.it</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Internet users:
+      </fo:inline>46305301<fo:inline>
+      (Global rank: 19)
+    </fo:inline>
          </fo:block>
          <fo:block break-before="page">
-            <fo:block id="greece">Greece</fo:block>
+            <fo:block id="greece">
+               <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Greece</fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Introduction</fo:block>
+         <fo:block>Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and the third in 2015 with the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Geography</fo:block>
+         <fo:block>Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Coordinates:
+      </fo:inline>
+            <fo:inline>39°
+  0'
+  
+    (N)
+  </fo:inline>
+            <fo:inline>22°
+  0'
+  
+    (E)
+  </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">People</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Population:
+      </fo:inline>10607051<fo:inline>
+      (Global rank: 86)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Nationality:
+      </fo:inline>Greek</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Government</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Type:
+      </fo:inline>parliamentary republic</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Economy</fo:block>
+         <fo:block>Greece has a capitalist economy with a public sector accounting for about 40% of GDP and with per capita GDP about two-thirds that of the leading euro-zone economies. Tourism provides 18% of GDP. Immigrants make up nearly one-fifth of the work force, mainly in agricultural and unskilled jobs. Greece is a major beneficiary of EU aid, equal to about 3.3% of annual GDP.
+The Greek economy averaged growth of about 4% per year between 2003 and 2007, but the economy went into recession in 2009 as a result of the world financial crisis, tightening credit conditions, and Athens' failure to address a growing budget deficit. By 2013, the economy had contracted 26%, compared with the pre-crisis level of 2007. Greece met the EU's Growth and Stability Pact budget deficit criterion of no more than 3% of GDP in 2007-08, but violated it in 2009, when the deficit reached 15% of GDP. Deteriorating public finances, inaccurate and misreported statistics, and consistent underperformance on reforms prompted major credit rating agencies to downgrade Greece's international debt rating in late 2009 and led the country into a financial crisis. Under intense pressure from the EU and international market participants, the government accepted a bailout program that called on Athens to cut government spending, decrease tax evasion, overhaul the civil-service, health-care, and pension systems, and reform the labor and product markets. Austerity measures reduced the deficit to 1.3% in 2017. Successive Greek governments, however, failed to push through many of the most unpopular reforms in the face of widespread political opposition, including from the country's powerful labor unions and the general public.
+In April 2010, a leading credit agency assigned Greek debt its lowest possible credit rating, and in May 2010, the IMF and euro-zone governments provided Greece emergency short- and medium-term loans worth $147 billion so that the country could make debt repayments to creditors. Greece, however, struggled to meet the targets set by the EU and the IMF, especially after Eurostat - the EU's statistical office - revised upward Greece's deficit and debt numbers for 2009 and 2010. European leaders and the IMF agreed in October 2011 to provide Athens a second bailout package of $169 billion. The second deal called for holders of Greek government bonds to write down a significant portion of their holdings to try to alleviate Greece’s government debt burden. However, Greek banks, saddled with a significant portion of sovereign debt, were adversely affected by the write down and $60 billion of the second bailout package was set aside to ensure the banking system was adequately capitalized.
+In 2014, the Greek economy began to turn the corner on the recession. Greece achieved three significant milestones: balancing the budget - not including debt repayments; issuing government debt in financial markets for the first time since 2010; and generating 0.7% GDP growth — the first economic expansion since 2007.
+Despite the nascent recovery, widespread discontent with austerity measures helped propel the far-left Coalition of the Radical Left (SYRIZA) party into government in national legislative elections in January 2015. Between January and July 2015, frustrations grew between the SYRIZA-led government and Greece’s EU and IMF creditors over the implementation of bailout measures and disbursement of funds. The Greek government began running up significant arrears to suppliers, while Greek banks relied on emergency lending, and Greece’s future in the euro zone was called into question. To stave off a collapse of the banking system, Greece imposed capital controls in June 2015, then became the first developed nation to miss a loan payment to the IMF, rattling international financial markets. Unable to reach an agreement with creditors, Prime Minister Alexios TSIPRAS held a nationwide referendum on 5 July on whether to accept the terms of Greece’s bailout, campaigning for the ultimately successful "no" vote. The TSIPRAS government subsequently agreed, however, to a new $96 billion bailout in order to avert Greece’s exit from the monetary bloc. On 20 August 2015, Greece signed its third bailout, allowing it to cover significant debt payments to its EU and IMF creditors and to ensure the banking sector retained access to emergency liquidity. The TSIPRAS government — which retook office on 20 September 2015 after calling new elections in late August — successfully secured disbursal of two delayed tranches of bailout funds. Despite the economic turmoil, Greek GDP did not contract as sharply as feared, boosted in part by a strong tourist season.
+In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic reforms, a massive non-performing loan problem, and ongoing uncertainty regarding the political direction of the country hold the economy back. Some estimates put Greece’s black market at 20- to 25% of GDP, as more people have stopped reporting their income to avoid paying taxes that, in some cases, have risen to 70% of an individual’s gross income.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Energy</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>52050000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 53)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>56890000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 45)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>4100 bbl/day
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 80)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Natural gas</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>8000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 93)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>4927000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 61)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Communications</fo:block>
+         <fo:block>broadcast media dominated by the private sector; roughly 150 private TV channels, about 10 of which broadcast nationwide; 1 government-owned terrestrial TV channel with national coverage; 3 privately owned satellite channels; multi-channel satellite and cable TV services available; upwards of 1,500 radio stations, all of them privately owned; government-owned broadcaster has 2 national radio stations</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Internet</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Top level domain (TLD):
+      </fo:inline>.gr</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Internet users:
+      </fo:inline>7783381<fo:inline>
+      (Global rank: 61)
+    </fo:inline>
          </fo:block>
          <fo:block break-before="page">
-            <fo:block id="egypt">Egypt</fo:block>
+            <fo:block id="egypt">
+               <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Egypt</fo:block>
+            </fo:block>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Introduction</fo:block>
+         <fo:block>The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations. A unified kingdom arose circa 3200 B.C., and a series of dynasties ruled in Egypt for the next three millennia. The last native dynasty fell to the Persians in 341 B.C., who in turn were replaced by the Greeks, Romans, and Byzantines. It was the Arabs who introduced Islam and the Arabic language in the 7th century and who ruled for the next six centuries. A local military caste, the Mamluks took control about 1250 and continued to govern after the conquest of Egypt by the Ottoman Turks in 1517. Completion of the Suez Canal in 1869 elevated Egypt as an important world transportation hub. Ostensibly to protect its investments, Britain seized control of Egypt's government in 1882, but nominal allegiance to the Ottoman Empire continued until 1914. Partially independent from the UK in 1922, Egypt acquired full sovereignty from Britain in 1952. The completion of the Aswan High Dam in 1971 and the resultant Lake Nasser have reaffirmed the time-honored place of the Nile River in the agriculture and ecology of Egypt. A rapidly growing population (the largest in the Arab world), limited arable land, and dependence on the Nile all continue to overtax resources and stress society. The government has struggled to meet the demands of Egypt's fast-growing population as it implements far-reaching economic reforms, including the reduction of select subsidies, large-scale infrastructure projects, energy cooperation, and foreign direct investment appeals.
+Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonstrations and labor strikes countrywide, culminating in President Hosni MUBARAK's ouster in 2011. Egypt's military assumed national leadership until a new legislature was in place in early 2012; later that same year, Muhammad MURSI won the presidential election. Following protests throughout the spring of 2013 against MURSI's government and the Muslim Brotherhood, the Egyptian Armed Forces intervened and removed MURSI from power in July 2013 and replaced him with interim president Adly MANSOUR. Simultaneously, the government began enacting laws to limit freedoms of assembly and expression. In January 2014, voters approved a new constitution by referendum and in May 2014 elected former defense minister Abdelfattah ELSISI president. Egypt elected a new legislature in December 2015, its first Hose of Representatives since 2012. ELSISI was reelected to a second four-year term in March 2018. In April 2019, Egypt approved via national referendum a set of constitutional amendments extending ELSISI’s term in office through 2024 and possibly through 2030 if re-elected for a third term. The amendments would also allow future presidents up to two consecutive six-year terms in office, re-establish an upper legislative house, allow for one or more vice presidents, establish a 25% quota for female legislators, reaffirm the military’s role as guardian of Egypt, and expand presidential authority to appoint the heads of judicial councils.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Geography</fo:block>
+         <fo:block>Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes the Asian Sinai Peninsula</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Coordinates:
+      </fo:inline>
+            <fo:inline>27°
+  0'
+  
+    (N)
+  </fo:inline>
+            <fo:inline>30°
+  0'
+  
+    (E)
+  </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">People</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Population:
+      </fo:inline>104124440<fo:inline>
+      (Global rank: 14)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Nationality:
+      </fo:inline>Egyptian</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Government</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Type:
+      </fo:inline>presidential republic</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Economy</fo:block>
+         <fo:block>Occupying the northeast corner of the African continent, Egypt is bisected by the highly fertile Nile valley where most economic activity takes place. Egypt's economy was highly centralized during the rule of former President Gamal Abdel NASSER but opened up considerably under former Presidents Anwar EL-SADAT and Mohamed Hosni MUBARAK. Agriculture, hydrocarbons, manufacturing, tourism, and other service sectors drove the country’s relatively diverse economic activity.
+Despite Egypt’s mixed record for attracting foreign investment over the past two decades, poor living conditions and limited job opportunities have contributed to public discontent. These socioeconomic pressures were a major factor leading to the January 2011 revolution that ousted MUBARAK. The uncertain political, security, and policy environment since 2011 has restricted economic growth and failed to alleviate persistent unemployment, especially among the young.
+In late 2016, persistent dollar shortages and waning aid from its Gulf allies led Cairo to turn to the IMF for a 3-year, $12 billion loan program. To secure the deal, Cairo floated its currency, introduced new taxes, and cut energy subsidies - all of which pushed inflation above 30% for most of 2017, a high that had not been seen in a generation. Since the currency float, foreign investment in Egypt’s high interest treasury bills has risen exponentially, boosting both dollar availability and central bank reserves. Cairo will be challenged to obtain foreign and local investment in manufacturing and other sectors without a sustained effort to implement a range of business reforms.</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Energy</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>183500000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 22)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>159700000000 kWh
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 23)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>639000 bbl/day
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 27)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Natural gas</fo:block>
+         <fo:block>
+      Production:
+      <fo:inline>50860000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 16)
+    </fo:inline>
+         </fo:block>
+         <fo:block>
+      Consumption:
+      <fo:inline>57710000000
+      m3
+    </fo:inline>
+            <fo:inline>
+      (Global rank: 13)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Communications</fo:block>
+         <fo:block>mix of state-run and private broadcast media; state-run TV operates 2 national and 6 regional terrestrial networks, as well as a few satellite channels; dozens of private satellite channels and a large number of Arabic satellite channels are available for free; some limited satellite services are also available via subscription; state-run radio operates about 30 stations belonging to 8 networks; privately-owned radio includes 8 major stations, 4 of which belong to 1 network (2019)</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Internet</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Top level domain (TLD):
+      </fo:inline>.eg</fo:block>
+         <fo:block>
+            <fo:inline font-weight="bold">
+        Internet users:
+      </fo:inline>46644728<fo:inline>
+      (Global rank: 18)
+    </fo:inline>
          </fo:block>
       </fo:flow>
    </fo:page-sequence>
