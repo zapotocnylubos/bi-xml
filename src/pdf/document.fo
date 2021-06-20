@@ -85,7 +85,8 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
          <fo:block>
       Production:
-      <fo:inline>77390000000 kWh
+      <fo:inline>77390000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 38)
@@ -93,7 +94,8 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
          </fo:block>
          <fo:block>
       Consumption:
-      <fo:inline>62340000000 kWh
+      <fo:inline>62340000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 42)
@@ -102,7 +104,8 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
          <fo:block>
       Production:
-      <fo:inline>2000 bbl/day
+      <fo:inline>2000
+      bbl/day
     </fo:inline>
             <fo:inline>
       (Global rank: 86)
@@ -219,7 +222,8 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
          <fo:block>
       Production:
-      <fo:inline>275300000000 kWh
+      <fo:inline>275300000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 14)
@@ -227,7 +231,8 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
          </fo:block>
          <fo:block>
       Consumption:
-      <fo:inline>293500000000 kWh
+      <fo:inline>293500000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 13)
@@ -236,7 +241,8 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
          <fo:block>
       Production:
-      <fo:inline>90000 bbl/day
+      <fo:inline>90000
+      bbl/day
     </fo:inline>
             <fo:inline>
       (Global rank: 44)
@@ -357,7 +363,8 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
          <fo:block>
       Production:
-      <fo:inline>52050000000 kWh
+      <fo:inline>52050000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 53)
@@ -365,7 +372,8 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
          </fo:block>
          <fo:block>
       Consumption:
-      <fo:inline>56890000000 kWh
+      <fo:inline>56890000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 45)
@@ -374,7 +382,8 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
          <fo:block>
       Production:
-      <fo:inline>4100 bbl/day
+      <fo:inline>4100
+      bbl/day
     </fo:inline>
             <fo:inline>
       (Global rank: 80)
@@ -493,7 +502,8 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Electricity</fo:block>
          <fo:block>
       Production:
-      <fo:inline>183500000000 kWh
+      <fo:inline>183500000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 22)
@@ -501,7 +511,8 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
          </fo:block>
          <fo:block>
       Consumption:
-      <fo:inline>159700000000 kWh
+      <fo:inline>159700000000
+      kWh
     </fo:inline>
             <fo:inline>
       (Global rank: 23)
@@ -510,7 +521,8 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
          <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Crude oil</fo:block>
          <fo:block>
       Production:
-      <fo:inline>639000 bbl/day
+      <fo:inline>639000
+      bbl/day
     </fo:inline>
             <fo:inline>
       (Global rank: 27)

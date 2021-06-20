@@ -108,15 +108,6 @@
     </fo:block>
   </xsl:template>
 
-  <xsl:template match="introduction/location">
-    <fo:block font-weight="bold">
-      Location
-    </fo:block>
-    <fo:block>
-      <xsl:apply-templates/>
-    </fo:block>
-  </xsl:template>
-
   <!-- Geography -->
 
   <xsl:template match="geography">
@@ -395,12 +386,14 @@
   </xsl:template>
   <xsl:template match="kWh">
     <fo:inline>
-      <xsl:value-of select="."/> kWh
+      <xsl:value-of select="."/>
+      kWh
     </fo:inline>
   </xsl:template>
   <xsl:template match="bbl_per_day">
     <fo:inline>
-      <xsl:value-of select="."/> bbl/day
+      <xsl:value-of select="."/>
+      bbl/day
     </fo:inline>
   </xsl:template>
 
