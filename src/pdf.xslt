@@ -33,8 +33,8 @@
 
   <xsl:template match="countries">
     <fo:block>
-      <fo:block font-size="24pt" font-weight="bold">
-        <xsl:text>Countries:</xsl:text>
+      <fo:block font-size="26pt" font-weight="bold">
+        <xsl:text>Countries</xsl:text>
       </fo:block>
 
       <xsl:for-each select="country">
@@ -89,6 +89,9 @@
     <xsl:apply-templates select="economy"/>
     <xsl:apply-templates select="energy"/>
     <xsl:apply-templates select="communications"/>
+    <xsl:apply-templates select="transportation"/>
+    <xsl:apply-templates select="military_and_security"/>
+    <xsl:apply-templates select="transnational_issues"/>
   </xsl:template>
 
   <!-- Introduction -->
@@ -256,7 +259,6 @@
     </fo:block>
 
     <xsl:apply-templates select="internet"/>
-    <!--    <xsl:apply-templates select="natural_gas"/>-->
   </xsl:template>
 
   <xsl:template match="communications/internet">
@@ -280,6 +282,108 @@
     </fo:block>
   </xsl:template>
 
+  <!-- Transportation -->
+
+  <xsl:template match="transportation">
+    <xsl:call-template name="h2">
+      <xsl:with-param name="content">
+        <xsl:text>Transportation</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <xsl:apply-templates select="railways"/>
+    <xsl:apply-templates select="roadways"/>
+  </xsl:template>
+
+  <xsl:template match="transportation/railways">
+    <xsl:call-template name="h3">
+      <xsl:with-param name="content">
+        <xsl:text>Railways</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <fo:block>
+      <xsl:apply-templates select="total"/>
+      <xsl:apply-templates select="global_rank"/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:template match="transportation/roadways">
+    <xsl:call-template name="h3">
+      <xsl:with-param name="content">
+        <xsl:text>Roadways</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <fo:block>
+      <xsl:apply-templates select="total"/>
+      <xsl:apply-templates select="global_rank"/>
+    </fo:block>
+  </xsl:template>
+
+  <!-- Military and security -->
+
+  <xsl:template match="military_and_security">
+    <xsl:call-template name="h2">
+      <xsl:with-param name="content">
+        <xsl:text>Military and security</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <xsl:call-template name="h3">
+      <xsl:with-param name="content">
+        <xsl:text>Service age and obligation</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <xsl:apply-templates select="service_age_and_obligation"/>
+  </xsl:template>
+
+  <xsl:template match="military_and_security/service_age_and_obligation">
+    <fo:block>
+      At age of <xsl:value-of select="years_of_age"/>
+    </fo:block>
+    <fo:block>
+      <xsl:value-of select="note"/>
+    </fo:block>
+  </xsl:template>
+
+  <!-- Transnational Issues -->
+
+  <xsl:template match="transnational_issues">
+    <xsl:call-template name="h2">
+      <xsl:with-param name="content">
+        <xsl:text>Transnational issues</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <xsl:apply-templates select="refugees_and_iternally_displaced_persons/stateless_persons"/>
+    <xsl:apply-templates select="illicit_drugs"/>
+  </xsl:template>
+
+  <xsl:template match="stateless_persons">
+    <xsl:call-template name="h3">
+      <xsl:with-param name="content">
+        <xsl:text>Stateless persons</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <fo:block>
+      Total: <xsl:value-of select="people"/>
+    </fo:block>
+  </xsl:template>
+
+  <xsl:template match="illicit_drugs">
+    <xsl:call-template name="h3">
+      <xsl:with-param name="content">
+        <xsl:text>Illicit drugs</xsl:text>
+      </xsl:with-param>
+    </xsl:call-template>
+
+    <fo:block>
+      <xsl:value-of select="note"/>
+    </fo:block>
+  </xsl:template>
 
   <!-- Universal -->
 
@@ -349,6 +453,21 @@
       </fo:inline>
       <xsl:value-of select="."/>
     </fo:block>
+  </xsl:template>
+
+  <xsl:template match="total[length and units]">
+    <fo:inline>
+      Total:
+      <xsl:value-of select="length"/>
+      <xsl:value-of select="units"/>
+    </fo:inline>
+  </xsl:template>
+  <xsl:template match="total[value and units]">
+    <fo:inline>
+      Total:
+      <xsl:value-of select="value"/>
+      <xsl:value-of select="units"/>
+    </fo:inline>
   </xsl:template>
 
 </xsl:stylesheet>

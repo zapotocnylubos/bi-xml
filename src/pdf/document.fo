@@ -22,7 +22,7 @@
       </fo:static-content>
       <fo:flow flow-name="xsl-region-body">
          <fo:block>
-            <fo:block font-size="24pt" font-weight="bold">Countries:</fo:block>
+            <fo:block font-size="26pt" font-weight="bold">Countries</fo:block>
             <fo:block font-size="20pt">
                <fo:basic-link internal-destination="czechia">Czechia</fo:basic-link>
             </fo:block>
@@ -141,6 +141,36 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
       (Global rank: 58)
     </fo:inline>
          </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transportation</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Railways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      9408km</fo:inline>
+            <fo:inline>
+      (Global rank: 24)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Roadways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      55744km</fo:inline>
+            <fo:inline>
+      (Global rank: 82)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Military and security</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Service age and obligation</fo:block>
+         <fo:block>
+      At age of 18</fo:block>
+         <fo:block>18-28 years of age for male and female voluntary military service; no conscription</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transnational issues</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Stateless persons</fo:block>
+         <fo:block>
+      Total: 1394</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Illicit drugs</fo:block>
+         <fo:block>transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy</fo:block>
          <fo:block break-before="page">
             <fo:block id="italy">
                <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Italy</fo:block>
@@ -245,6 +275,36 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
       (Global rank: 19)
     </fo:inline>
          </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transportation</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Railways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      20182km</fo:inline>
+            <fo:inline>
+      (Global rank: 15)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Roadways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      487700km</fo:inline>
+            <fo:inline>
+      (Global rank: 15)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Military and security</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Service age and obligation</fo:block>
+         <fo:block>
+      At age of 18</fo:block>
+         <fo:block>18-25 years of age for voluntary military service; women may serve in any military branch; Italian citizenship required; 1-year service obligation</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transnational issues</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Stateless persons</fo:block>
+         <fo:block>
+      Total: 15822</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Illicit drugs</fo:block>
+         <fo:block>important gateway for and consumer of Latin American cocaine and Southwest Asian heroin entering the European market; money laundering by organized crime and from smuggling</fo:block>
          <fo:block break-before="page">
             <fo:block id="greece">
                <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Greece</fo:block>
@@ -353,6 +413,36 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
       (Global rank: 61)
     </fo:inline>
          </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transportation</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Railways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      2548km</fo:inline>
+            <fo:inline>
+      (Global rank: 67)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Roadways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      117000km</fo:inline>
+            <fo:inline>
+      (Global rank: 42)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Military and security</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Service age and obligation</fo:block>
+         <fo:block>
+      At age of 19</fo:block>
+         <fo:block>19-45 years of age for compulsory military service; during wartime the law allows for recruitment beginning January of the year of inductee's 18th birthday, thus including 17 year olds; 18 years of age for volunteers; conscript service obligation is 1 year for the Army and 9 months for the Air Force and Navy; women are eligible for voluntary military service</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transnational issues</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Stateless persons</fo:block>
+         <fo:block>
+      Total: 4734</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Illicit drugs</fo:block>
+         <fo:block>a gateway to Europe for traffickers smuggling cannabis and heroin from the Middle East and Southwest Asia to the West and precursor chemicals to the East; some South American cocaine transits or is consumed in Greece; money laundering related to drug trafficking and organized crime</fo:block>
          <fo:block break-before="page">
             <fo:block id="egypt">
                <fo:block margin-top="2mm" font-size="20pt" font-weight="bold">Egypt</fo:block>
@@ -459,6 +549,36 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
       (Global rank: 18)
     </fo:inline>
          </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transportation</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Railways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      5085km</fo:inline>
+            <fo:inline>
+      (Global rank: 39)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Roadways</fo:block>
+         <fo:block>
+            <fo:inline>
+      Total:
+      65050km</fo:inline>
+            <fo:inline>
+      (Global rank: 74)
+    </fo:inline>
+         </fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Military and security</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Service age and obligation</fo:block>
+         <fo:block>
+      At age of 18</fo:block>
+         <fo:block>18-30 years of age for male conscript military service; service obligation - 18-36 months, followed by a 9-year reserve obligation; voluntary enlistment possible from age 15</fo:block>
+         <fo:block margin-top="2mm" font-size="16pt" font-weight="bold">Transnational issues</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Stateless persons</fo:block>
+         <fo:block>
+      Total: 5</fo:block>
+         <fo:block margin-top="2mm" font-size="14pt" font-weight="bold">Illicit drugs</fo:block>
+         <fo:block>transit point for cannabis, heroin, and opium moving to Europe, Israel, and North Africa; transit stop for Nigerian drug couriers; concern as money laundering site due to lax enforcement of financial regulations</fo:block>
       </fo:flow>
    </fo:page-sequence>
 </fo:root>
