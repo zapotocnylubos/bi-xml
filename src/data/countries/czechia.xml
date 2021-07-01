@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8"?>
+<country id="czechia">
+   <name>Czechia</name>
+   <introduction>
+      <background>At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.</background>
+   </introduction>
+   <geography>
+      <location>Central Europe, between Germany, Poland, Slovakia, and Austria</location>
+      <geographic_coordinates>
+         <latitude degrees="49" minutes="45" hemisphere="N"/>
+         <longitude degrees="15" minutes="30" hemisphere="E"/>
+      </geographic_coordinates>
+      <map_references>Europe</map_references>
+      <area global_rank="117">
+         <total units="sq km">78867</total>
+         <land units="sq km">77247</land>
+         <water units="sq km">1620</water>
+         <comparative>about two-thirds the size of Pennsylvania; slightly smaller than South Carolina</comparative>
+      </area>
+      <land_boundaries>
+         <total units="km">2143</total>
+         <border_countries>
+            <country>Austria</country>
+            <border_length units="km">402</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Germany</country>
+            <border_length units="km">704</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Poland</country>
+            <border_length units="km">796</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Slovakia</country>
+            <border_length units="km">241</border_length>
+         </border_countries>
+      </land_boundaries>
+      <coastline units="km">0</coastline>
+      <climate>temperate; cool summers; cold, cloudy, humid winters</climate>
+      <terrain>Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country</terrain>
+      <elevation>
+         <mean_elevation units="m">433</mean_elevation>
+         <lowest_point>
+            <name>Labe (Elbe) River</name>
+            <elevation units="m">115</elevation>
+         </lowest_point>
+         <highest_point>
+            <name>Snezka</name>
+            <elevation units="m">1602</elevation>
+         </highest_point>
+      </elevation>
+      <natural_resources>
+         <resources>hard coal</resources>
+         <resources>soft coal</resources>
+         <resources>kaolin</resources>
+         <resources>clay</resources>
+         <resources>graphite</resources>
+         <resources>timber</resources>
+         <resources>arable land</resources>
+      </natural_resources>
+      <land_use date="2011">
+         <by_sector>
+            <agricultural_land_total units="%">54.8</agricultural_land_total>
+            <arable_land units="%">41</arable_land>
+            <permanent_crops units="%">1</permanent_crops>
+            <permanent_pasture units="%">12.8</permanent_pasture>
+            <forest units="%">34.4</forest>
+            <other units="%">10.8</other>
+         </by_sector>
+      </land_use>
+      <irrigated_land date="2012" units="sq km">320</irrigated_land>
+      <population_distribution>a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations</population_distribution>
+      <natural_hazards>
+         <description>flooding</description>
+         <type>hazard</type>
+      </natural_hazards>
+      <environment>
+         <current_issues>air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks</current_issues>
+         <current_issues>acid rain damaging forests</current_issues>
+         <current_issues>land pollution caused by industry</current_issues>
+         <current_issues>mining</current_issues>
+         <current_issues>and agriculture</current_issues>
+         <international_agreements>
+            <party_to>Air Pollution</party_to>
+            <party_to>Air Pollution-Nitrogen Oxides</party_to>
+            <party_to>Air Pollution-Persistent Organic Pollutants</party_to>
+            <party_to>Air Pollution-Sulfur 85</party_to>
+            <party_to>Air Pollution-Sulfur 94</party_to>
+            <party_to>Air Pollution-Volatile Organic Compounds</party_to>
+            <party_to>Antarctic-Environmental Protocol</party_to>
+            <party_to>Antarctic Treaty</party_to>
+            <party_to>Biodiversity</party_to>
+            <party_to>Climate Change</party_to>
+            <party_to>Climate Change-Kyoto Protocol</party_to>
+            <party_to>Desertification</party_to>
+            <party_to>Endangered Species</party_to>
+            <party_to>Environmental Modification</party_to>
+            <party_to>Hazardous Wastes</party_to>
+            <party_to>Law of the Sea</party_to>
+            <party_to>Ozone Layer Protection</party_to>
+            <party_to>Ship Pollution</party_to>
+            <party_to>Wetlands</party_to>
+            <party_to>Whaling</party_to>
+            <signed_but_not_ratified/>
+         </international_agreements>
+      </environment>
+   </geography>
+   <people>
+      <population global_rank="85" date="2020-07-01">10702498</population>
+      <nationality>
+         <noun>Czech(s)</noun>
+         <adjective>Czech</adjective>
+      </nationality>
+      <ethnic_groups date="2011">
+         <ethnicity name="Czech" units="%">64.3</ethnicity>
+         <ethnicity name="Moravian" units="%">5</ethnicity>
+         <ethnicity name="Slovak" units="%">1.4</ethnicity>
+         <ethnicity name="other" units="%">1.8</ethnicity>
+         <ethnicity name="unspecified" units="%">27.5</ethnicity>
+      </ethnic_groups>
+      <languages>
+         <language note="official" name="Czech" units="%">95.4</language>
+         <language name="Slovak" units="%">1.6</language>
+         <language note="2011 census" name="other" units="%">3</language>
+      </languages>
+      <religions date="2011">
+         <religion name="Roman Catholic" units="%">10.4</religion>
+         <religion note="includes Czech Brethren and Hussite"
+                   name="Protestant"
+                   units="%">1.1</religion>
+         <religion name="other and unspecified" units="%">54</religion>
+         <religion name="none" units="%">34.5</religion>
+      </religions>
+      <dependency_ratios date="2020">
+         <ratios>
+            <total_dependency_ratio units="%">56</total_dependency_ratio>
+            <youth_dependency_ratio units="%">24.6</youth_dependency_ratio>
+            <elderly_dependency_ratio units="%">31.4</elderly_dependency_ratio>
+            <potential_support_ratio units="%">3.2</potential_support_ratio>
+         </ratios>
+      </dependency_ratios>
+      <median_age date="2020" global_rank="28">
+         <total units="years">43.3</total>
+         <male units="years">42</male>
+         <female units="years">44.7</female>
+      </median_age>
+      <population_growth_rate date="2020" global_rank="188">0.06</population_growth_rate>
+      <birth_rate date="2020" global_rank="205" units="births per 1000 population">8.9</birth_rate>
+      <death_rate date="2020" global_rank="26" units="deaths per 1000 population">10.7</death_rate>
+      <net_migration_rate date="2020" global_rank="43" units="migrants per 1000 population">2.3</net_migration_rate>
+      <population_distribution>a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations</population_distribution>
+      <urbanization>
+         <urban_population date="2020" units="%">74.1</urban_population>
+         <rate_of_urbanization units="%">0.21</rate_of_urbanization>
+         <total_population_growth_rate_v._urban_population_growth_rate_2000_2030>PDF</total_population_growth_rate_v._urban_population_growth_rate_2000_2030>
+      </urbanization>
+      <major_urban_areas date="2020">
+         <places population="1306000" is_capital="true">Prague</places>
+      </major_urban_areas>
+      <mothers_mean_age_at_first_birth>28.4</mothers_mean_age_at_first_birth>
+      <maternal_mortality_rate date="2017" global_rank="176" units="deaths per 100k live births">3</maternal_mortality_rate>
+      <infant_mortality_rate date="2020" global_rank="218">
+         <total units="deaths per 1000 live births">2.6</total>
+         <male units="deaths per 1000 live births">2.8</male>
+         <female units="deaths per 1000 live births">2.5</female>
+      </infant_mortality_rate>
+      <life_expectancy_at_birth date="2020" global_rank="56">
+         <total_population units="years">79.3</total_population>
+         <male units="years">76.3</male>
+         <female units="years">82.4</female>
+      </life_expectancy_at_birth>
+      <total_fertility_rate date="2020" global_rank="207" units="children born per woman">1.48</total_fertility_rate>
+      <physicians_density date="2017" units="physicians per 1000 population">4.07</physicians_density>
+      <hospital_bed_density date="2017" units="beds per 1000 population">6.6</hospital_bed_density>
+      <drinking_water_source date="2017">
+         <improved>
+            <urban units="percent of population">100</urban>
+            <rural units="percent of population">100</rural>
+            <total units="percent of population">100</total>
+         </improved>
+         <unimproved>
+            <urban units="percent of population">0</urban>
+            <rural units="percent of population">0</rural>
+            <total units="percent of population">0</total>
+         </unimproved>
+      </drinking_water_source>
+      <sanitation_facility_access date="2017">
+         <improved>
+            <urban units="percent of population">100</urban>
+            <rural units="percent of population">100</rural>
+            <total units="percent of population">100</total>
+         </improved>
+         <unimproved>
+            <urban units="percent of population">0</urban>
+            <rural units="percent of population">0</rural>
+            <total units="percent of population">0</total>
+         </unimproved>
+      </sanitation_facility_access>
+      <hiv_aids>
+         <adult_prevalence_rate date="2018" units="% of adults">0.1</adult_prevalence_rate>
+         <people_living_with_hiv_aids global_rank="124" date="2018">4400</people_living_with_hiv_aids>
+         <deaths date="2018">100</deaths>
+      </hiv_aids>
+      <adult_obesity date="2016" global_rank="46" units="% of adults">26</adult_obesity>
+      <education_expenditures date="2016" global_rank="36" units="% of gdp">5.6</education_expenditures>
+      <literacy date="2011">
+         <definition>NA</definition>
+         <total_population units="%">99</total_population>
+         <male units="%">99</male>
+         <female units="%">99</female>
+      </literacy>
+      <school_life_expectancy date="2018">
+         <total units="years">16</total>
+         <male units="years">16</male>
+         <female units="years">17</female>
+      </school_life_expectancy>
+      <youth_unemployment date="2018" global_rank="155">
+         <total units="%">6.7</total>
+         <male units="%">6.4</male>
+         <female units="%">7.2</female>
+      </youth_unemployment>
+   </people>
+   <international_organization_participation>
+      <organization>Australia Group</organization>
+      <organization>BIS</organization>
+      <organization>BSEC </organization>
+      <organization>CD</organization>
+      <organization>CE</organization>
+      <organization>CEI</organization>
+      <organization>CERN</organization>
+      <organization>EAPC</organization>
+      <organization>EBRD</organization>
+      <organization>ECB</organization>
+      <organization>EIB</organization>
+      <organization>ESA</organization>
+      <organization>EU</organization>
+      <organization>FAO</organization>
+      <organization>IAEA</organization>
+      <organization>IBRD</organization>
+      <organization>ICAO</organization>
+      <organization>ICC </organization>
+      <organization>ICCt</organization>
+      <organization>ICRM</organization>
+      <organization>IDA</organization>
+      <organization>IEA</organization>
+      <organization>IFC</organization>
+      <organization>IFRCS</organization>
+      <organization>ILO</organization>
+      <organization>IMF</organization>
+      <organization>IMO</organization>
+      <organization>IMSO</organization>
+      <organization>Interpol</organization>
+      <organization>IOC</organization>
+      <organization>IOM</organization>
+      <organization>IPU</organization>
+      <organization>ISO</organization>
+      <organization>ITSO</organization>
+      <organization>ITU</organization>
+      <organization>ITUC </organization>
+      <organization>MIGA</organization>
+      <organization>MONUSCO</organization>
+      <organization>NATO</organization>
+      <organization>NEA</organization>
+      <organization>NSG</organization>
+      <organization>OAS </organization>
+      <organization>OECD</organization>
+      <organization>OIF </organization>
+      <organization>OPCW</organization>
+      <organization>OSCE</organization>
+      <organization>PCA</organization>
+      <organization>Schengen Convention</organization>
+      <organization>SELEC</organization>
+      <organization>UN</organization>
+      <organization>UNCTAD</organization>
+      <organization>UNESCO</organization>
+      <organization>UNHCR</organization>
+      <organization>UNIDO</organization>
+      <organization>UNWTO</organization>
+      <organization>UPU</organization>
+      <organization>WCO</organization>
+      <organization>WFTU </organization>
+      <organization>WHO</organization>
+      <organization>WIPO</organization>
+      <organization>WMO</organization>
+      <organization>WTO</organization>
+      <organization>ZC</organization>
+   </international_organization_participation>
+   <economy>
+      <overview>Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.
+Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.
+Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</overview>
+      <gdp>
+         <purchasing_power_parity global_rank="49" note="data are in 2017 dollars">
+            <annual_values date="2017" units="USD">375900000000</annual_values>
+            <annual_values date="2016" units="USD">360500000000</annual_values>
+            <annual_values date="2015" units="USD">351900000000</annual_values>
+         </purchasing_power_parity>
+         <official_exchange_rate date="2017" units="$">215800000000</official_exchange_rate>
+         <real_growth_rate global_rank="124">
+            <annual_values date="2019" units="%">2.27</annual_values>
+            <annual_values date="2018" units="%">3.18</annual_values>
+            <annual_values date="2017" units="%">5.35</annual_values>
+         </real_growth_rate>
+         <per_capita_purchasing_power_parity global_rank="57" note="data are in 2017 dollars">
+            <annual_values date="2017" units="USD">35500</annual_values>
+            <annual_values date="2016" units="USD">34200</annual_values>
+            <annual_values date="2015" units="USD">33400</annual_values>
+         </per_capita_purchasing_power_parity>
+         <composition>
+            <by_end_use date="2017">
+               <end_uses>
+                  <household_consumption units="%">47.4</household_consumption>
+                  <government_consumption units="%">19.2</government_consumption>
+                  <investment_in_fixed_capital units="%">24.7</investment_in_fixed_capital>
+                  <investment_in_inventories units="%">1.1</investment_in_inventories>
+                  <exports_of_goods_and_services units="%">79.9</exports_of_goods_and_services>
+                  <imports_of_goods_and_services units="%">-72.3</imports_of_goods_and_services>
+               </end_uses>
+            </by_end_use>
+            <by_sector_of_origin date="2017">
+               <sectors>
+                  <agriculture units="%">2.3</agriculture>
+                  <industry units="%">36.9</industry>
+                  <services units="%">60.8</services>
+               </sectors>
+            </by_sector_of_origin>
+         </composition>
+      </gdp>
+      <gross_national_saving global_rank="45">
+         <annual_values date="2017" units="percent of gdp">26.9</annual_values>
+         <annual_values date="2016" units="percent of gdp">27.5</annual_values>
+         <annual_values date="2015" units="percent of gdp">28.2</annual_values>
+      </gross_national_saving>
+      <agriculture_products>
+         <products>wheat</products>
+         <products>potatoes</products>
+         <products>sugar beets</products>
+         <products>hops</products>
+         <products>fruit</products>
+         <products>pigs</products>
+         <products>poultry</products>
+      </agriculture_products>
+      <industries>
+         <industries>motor vehicles</industries>
+         <industries>metallurgy</industries>
+         <industries>machinery</industries>
+         <industries>equipment</industries>
+         <industries>glass</industries>
+         <industries>armaments</industries>
+      </industries>
+      <industrial_production_growth_rate date="2017" global_rank="27">
+         <annual_percentage_increase>7.5</annual_percentage_increase>
+      </industrial_production_growth_rate>
+      <labor_force>
+         <total_size date="2020" global_rank="75">
+            <total_people>5222000</total_people>
+         </total_size>
+         <by_occupation date="2015">
+            <occupation>
+               <agriculture units="%">2.8</agriculture>
+               <industry units="%">38</industry>
+               <services units="%">59.2</services>
+            </occupation>
+         </by_occupation>
+      </labor_force>
+      <unemployment_rate global_rank="32">
+         <annual_values date="2019" units="%">2.8</annual_values>
+         <annual_values date="2018" units="%">3.18</annual_values>
+      </unemployment_rate>
+      <population_below_poverty_line date="2015" units="%">9.7</population_below_poverty_line>
+      <household_income_by_percentage_share date="2015">
+         <lowest_ten_percent units="%">4.1</lowest_ten_percent>
+         <highest_ten_percent units="%">21.7</highest_ten_percent>
+      </household_income_by_percentage_share>
+      <budget date="2017">
+         <revenues units="USD">87370000000</revenues>
+         <expenditures units="USD">83920000000</expenditures>
+      </budget>
+      <taxes_and_other_revenues date="2017" global_rank="37" units="% of gdp">40.5</taxes_and_other_revenues>
+      <budget_surplus_or_deficit date="2017" global_rank="19" units="% of gdp">1.6</budget_surplus_or_deficit>
+      <public_debt global_rank="153">
+         <annual_values date="2017" units="percent of gdp">34.7</annual_values>
+         <annual_values date="2016" units="percent of gdp">36.8</annual_values>
+      </public_debt>
+      <fiscal_year start="1 January" end="31 December"/>
+      <inflation_rate global_rank="118">
+         <annual_values date="2017" units="%">2.4</annual_values>
+         <annual_values date="2016" units="%">0.7</annual_values>
+      </inflation_rate>
+      <current_account_balance global_rank="130">
+         <annual_values date="2019" units="USD">-678000000</annual_values>
+         <annual_values date="2018" units="USD">1259000000</annual_values>
+      </current_account_balance>
+      <exports>
+         <total_value global_rank="33">
+            <annual_values date="2017" units="USD">144800000000</annual_values>
+            <annual_values date="2016" units="USD">131100000000</annual_values>
+         </total_value>
+         <commodities>
+            <by_commodity>machinery</by_commodity>
+            <by_commodity>transport equipment</by_commodity>
+            <by_commodity>raw materials</by_commodity>
+            <by_commodity>fuel</by_commodity>
+            <by_commodity>chemicals</by_commodity>
+         </commodities>
+         <partners date="2017">
+            <by_country name="Germany" units="%">32.8</by_country>
+            <by_country name="Slovakia" units="%">7.8</by_country>
+            <by_country name="Poland" units="%">6.1</by_country>
+            <by_country name="France" units="%">5.1</by_country>
+            <by_country name="UK" units="%">4.9</by_country>
+            <by_country name="Austria" units="%">4.4</by_country>
+            <by_country name="Italy" units="%">4.1</by_country>
+         </partners>
+      </exports>
+      <imports>
+         <total_value global_rank="32">
+            <annual_values date="2017" units="USD">134699999999.99998</annual_values>
+            <annual_values date="2016" units="USD">120500000000</annual_values>
+         </total_value>
+         <commodities>
+            <by_commodity>machinery</by_commodity>
+            <by_commodity>transport equipment</by_commodity>
+            <by_commodity>raw materials</by_commodity>
+            <by_commodity>fuels</by_commodity>
+            <by_commodity>chemicals</by_commodity>
+         </commodities>
+         <partners date="2017">
+            <by_country name="Germany" units="%">29.8</by_country>
+            <by_country name="Poland" units="%">9.1</by_country>
+            <by_country name="China" units="%">7.4</by_country>
+            <by_country name="Slovakia" units="%">5.8</by_country>
+            <by_country name="Netherlands" units="%">5.3</by_country>
+            <by_country name="Italy" units="%">4</by_country>
+         </partners>
+      </imports>
+      <reserves_of_foreign_exchange_and_gold global_rank="18">
+         <annual_values date="2017-12-31" units="USD">148000000000</annual_values>
+         <annual_values date="2016-12-31" units="USD">85730000000</annual_values>
+      </reserves_of_foreign_exchange_and_gold>
+      <external_debt global_rank="35">
+         <annual_values date="2017-12-31" units="USD">205200000000</annual_values>
+         <annual_values date="2016-12-31" units="USD">138000000000</annual_values>
+      </external_debt>
+      <exchange_rates note="koruny (CZK) per US dollar">
+         <annual_values date="2017" units="USD">23.34</annual_values>
+         <annual_values date="2016" units="USD">24.44</annual_values>
+         <annual_values date="2015" units="USD">24.44</annual_values>
+         <annual_values date="2014" units="USD">24.599</annual_values>
+         <annual_values date="2013" units="USD">20.758</annual_values>
+      </exchange_rates>
+   </economy>
+   <energy>
+      <electricity>
+         <access date="2020">
+            <total_electrification units="%">100</total_electrification>
+         </access>
+         <production date="2016" global_rank="38" units="kWh">77390000000</production>
+         <consumption date="2016" global_rank="42" units="kWh">62340000000</consumption>
+         <exports date="2016" global_rank="7" units="kWh">24790000000</exports>
+         <imports date="2016" global_rank="18" units="kWh">13820000000</imports>
+         <installed_generating_capacity date="2016" global_rank="40" units="kW">21630000</installed_generating_capacity>
+         <by_source>
+            <fossil_fuels global_rank="131" date="2016">60</fossil_fuels>
+            <nuclear_fuels global_rank="10" date="2017">19</nuclear_fuels>
+            <hydroelectric_plants global_rank="130" date="2017">5</hydroelectric_plants>
+            <other_renewable_sources global_rank="51" date="2017">16</other_renewable_sources>
+         </by_source>
+      </electricity>
+      <crude_oil>
+         <production global_rank="86" date="2018" units="bbl per day">2000</production>
+         <exports global_rank="78" date="2017" units="bbl per day">446</exports>
+         <imports global_rank="36" date="2017" units="bbl per day">155900</imports>
+         <proved_reserves global_rank="85" date="2018-01-01" units="bbl">15000000</proved_reserves>
+      </crude_oil>
+      <refined_petroleum_products>
+         <production global_rank="56" date="2017" units="bbl per day">177500</production>
+         <consumption global_rank="56" date="2017" units="bbl per day">213700</consumption>
+         <exports global_rank="54" date="2017" units="bbl per day">52200</exports>
+         <imports global_rank="60" date="2017" units="bbl per day">83860</imports>
+      </refined_petroleum_products>
+      <natural_gas>
+         <production global_rank="78" date="2017" units="cubic metres">229400000</production>
+         <consumption global_rank="51" date="2017" units="cubic metres">8721000000</consumption>
+         <exports global_rank="93" date="2017" units="cubic metres">0</exports>
+         <imports global_rank="28" date="2017" units="cubic metres">8891000000</imports>
+         <proved_reserves global_rank="93" date="2018-01-01" units="cubic metres">3964000000</proved_reserves>
+      </natural_gas>
+      <carbon_dioxide_emissions_from_consumption_of_energy global_rank="39" date="2017" units="megatonnes">115800000</carbon_dioxide_emissions_from_consumption_of_energy>
+   </energy>
+   <communications>
+      <telephones>
+         <fixed_lines global_rank="65" date="2019">1473846</fixed_lines>
+         <mobile_cellular global_rank="71" date="2019">13213279</mobile_cellular>
+      </telephones>
+      <broadcast_media>22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee (2019)</broadcast_media>
+      <internet>
+         <country_code>.cz</country_code>
+         <users global_rank="58" date="2018-07-01">8622750</users>
+      </internet>
+   </communications>
+   <transportation>
+      <pipelines date="2016">
+         <by_type units="km">160</by_type>
+         <by_type units="km">675</by_type>
+         <by_type units="km">94</by_type>
+      </pipelines>
+      <railways date="2017" global_rank="24">
+         <total units="km">9408</total>
+         <standard_gauge units="km 1.435-m">9385</standard_gauge>
+         <narrow_gauge units="km 0.760-m">23</narrow_gauge>
+      </railways>
+      <roadways date="2019" global_rank="82">
+         <total units="km">55744</total>
+         <paved units="km">55744</paved>
+      </roadways>
+      <waterways date="2010" units="km">664</waterways>
+      <ports_and_terminals>
+         <river_ports>Prague (Vltava)
+Decin</river_ports>
+         <river_ports>Usti nad Labem (Elbe)</river_ports>
+      </ports_and_terminals>
+   </transportation>
+   <military_and_security>
+      <expenditures global_rank="109">
+         <annual_values date="2019" units="percent of gdp">1.19</annual_values>
+         <annual_values date="2018" units="percent of gdp">1.13</annual_values>
+         <annual_values date="2017" units="percent of gdp">1.04</annual_values>
+         <annual_values date="2016" units="percent of gdp">0.96</annual_values>
+         <annual_values date="2015" units="percent of gdp">1.03</annual_values>
+      </expenditures>
+      <service_age_and_obligation date="2012"
+                                  note="18-28 years of age for male and female voluntary military service; no conscription"
+                                  units="years of age">18</service_age_and_obligation>
+   </military_and_security>
+   <transnational_issues>
+      <disputes>none</disputes>
+      <refugees_and_iternally_displaced_persons>
+         <stateless_persons date="2019">1394</stateless_persons>
+      </refugees_and_iternally_displaced_persons>
+      <illicit_drugs note="transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy">
+    </illicit_drugs>
+   </transnational_issues>
+</country>

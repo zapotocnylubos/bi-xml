@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section id="czechia" title="Czechia">
+
+  <section id="introduction" title="Introduction">
+    <section id="background" title="Background">
+      <paragraph>Lorem Ipsum etc. etc.</paragraph>
+    </section>
+  </section>
+
+  <section id="geography" title="Geography">
+    <section id="location" title="Location">
+      <paragraph>Lorem Ipsum etc. etc.</paragraph>
+    </section>
+
+    <section id="geographic_coordinates" title="Geographic coordinates">
+      <glossary>
+        <term name="Latitude">49° 45' (N)</term>
+        <term name="Longitude">15° 30' (E)</term>
+      </glossary>
+    </section>
+
+    <section id="area" title="Area">
+      <glossary>
+        <term name="Total">78867 sq km</term>
+        <term name="Land">77247 sq km</term>
+        <term name="Water">1620 sq km</term>
+        <term name="Global rank">117</term>
+        <term name="Comparative">about two-thirds the size of Pennsylvania; slightly smaller than South Carolina</term>
+      </glossary>
+    </section>
+
+    <section id="land_boundaries" title="Land boundaries">
+      <glossary>
+        <term name="Total">78867 sq km</term>
+      </glossary>
+    </section>
+  </section>
+</section>

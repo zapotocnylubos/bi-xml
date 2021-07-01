@@ -1,5 +1,19 @@
 # BI-XML semestral project
 
+## Dataset transformation process
+
+```
+data/factbook.json
+[  js  ] -> data/factbook_czechia_italy_greece_egypt.json    [bin/reduce-dataset.js     ]
+[xml2js]   -> raw/countries/*.xml                            [bin/transform-dataset.js  ]
+[ XSLT ]     -> data/countries/*.xml                         [bin/transform/raw2data.sh ]
+[ XSLT ]       -> view/sections/*.xml                        [bin/transform/data2view.sh]
+[ XSLT ]          -> view/html/index.html                    [bin/generate-html.sh      ]
+[ XSLT ]             view/html/countries/*.html
+[ XSLT ]          -> view/pdf/document.fo                    [(1/2) bin/generate-pdf.sh ]
+[ FOP  ]            -> view/pdf/document.pdf                 [(2/2) bin/generate-pdf.sh ]
+```
+
 ## Project output
 HTML output can be found in `src/html` and there openning `index.html` in web browser.
 

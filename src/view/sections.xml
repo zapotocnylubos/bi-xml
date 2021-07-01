@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE sections SYSTEM "sections.dtd" [
+  <!ENTITY czechia SYSTEM "./sections/czechia.xml">
+  <!ENTITY egypt SYSTEM "./sections/egypt.xml">
+  <!ENTITY greece SYSTEM "./sections/greece.xml">
+  <!ENTITY italy SYSTEM "./sections/italy.xml">
+  ]>
+
+<sections>
+  &czechia;
+  &egypt;
+  &greece;
+  &italy;
+</sections>

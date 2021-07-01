@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<section id="italy" title="Italy">
+   <section title="Introduction">
+      <section title="Background">Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.</section>
+   </section>
+   <section title="Geography">
+      <section title="Location">Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia</section>
+      <geographic_coordinates>
+         <latitude/>
+         <longitude/>
+      </geographic_coordinates>
+      <map_references>Europe</map_references>
+      <area>
+         <total>301340 sq km</total>
+         <land>294140 sq km</land>
+         <water>7200 sq km</water>
+         <comparative>almost twice the size of Georgia; slightly larger than Arizona</comparative> (Global rank: 73)</area>
+      <land_boundaries>
+         <total>1836.4 km</total>
+         <border_countries>
+            <country>Austria</country>
+            <border_length>404 km</border_length>
+         </border_countries>
+         <border_countries>
+            <country>France</country>
+            <border_length>476 km</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Holy See (Vatican City)</country>
+            <border_length>3.4 km</border_length>
+         </border_countries>
+         <border_countries>
+            <country>San Marino</country>
+            <border_length>37 km</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Slovenia</country>
+            <border_length>218 km</border_length>
+         </border_countries>
+         <border_countries>
+            <country>Switzerland</country>
+            <border_length>698 km</border_length>
+         </border_countries>
+      </land_boundaries>
+      <coastline>7600 km</coastline>
+      <maritime_claims>
+         <territorial_sea>12 nm</territorial_sea>
+         <continental_shelf>200 m</continental_shelf>
+      </maritime_claims>
+      <climate>predominantly Mediterranean; alpine in far north; hot, dry in south</climate>
+      <terrain>mostly rugged and mountainous; some plains, coastal lowlands</terrain>
+      <elevation>
+         <mean_elevation>538 m</mean_elevation>
+         <lowest_point>
+            <name>Mediterranean Sea</name>
+            <elevation>0 m</elevation>
+         </lowest_point>
+         <highest_point>
+            <name>Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)</name>
+            <elevation>4748 m</elevation>
+         </highest_point>
+      </elevation>
+      <natural_resources>
+         <resources>coal</resources>
+         <resources>antimony</resources>
+         <resources>mercury</resources>
+         <resources>zinc</resources>
+         <resources>potash</resources>
+         <resources>marble</resources>
+         <resources>barite</resources>
+         <resources>asbestos</resources>
+         <resources>pumice</resources>
+         <resources>fluorspar</resources>
+         <resources>feldspar</resources>
+         <resources>pyrite</resources>
+         <resources>sulfur</resources>
+         <resources>natural gas</resources>
+         <resources>crude oil reserves</resources>
+         <resources>fish</resources>
+         <resources>arable land</resources>
+      </natural_resources>
+      <land_use>
+         <by_sector>
+            <agricultural_land_total>47.1 %</agricultural_land_total>
+            <arable_land>22.8 %</arable_land>
+            <permanent_crops>8.6 %</permanent_crops>
+            <permanent_pasture>15.7 %</permanent_pasture>
+            <forest>31.4 %</forest>
+            <other>21.5 %</other>
+         </by_sector> [2011]</land_use>
+      <irrigated_land>39500 sq km [2012]</irrigated_land>
+      <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
+      <natural_hazards>
+         <description>regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding</description>
+         <type>hazard</type>
+      </natural_hazards>
+      <natural_hazards>
+         <description>land subsidence in Venice</description>
+         <type>hazard</type>
+      </natural_hazards>
+      <natural_hazards>
+         <description>significant volcanic activity; Etna (3,330 m), which is in eruption as of 2010, is Europe's most active volcano; flank eruptions pose a threat to nearby Sicilian villages; Etna, along with the famous Vesuvius, which remains a threat to the millions of nearby residents in the Bay of Naples area, have both been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; Stromboli, on its namesake island, has also been continuously active with moderate volcanic activity; other historically active volcanoes include Campi Flegrei, Ischia, Larderello, Pantelleria, Vulcano, and Vulsini</description>
+         <type>volcanism</type>
+      </natural_hazards>
+      <environment>
+         <current_issues>air pollution from industrial emissions such as sulfur dioxide</current_issues>
+         <current_issues>coastal and inland rivers polluted from industrial and agricultural effluents</current_issues>
+         <current_issues>acid rain damaging lakes</current_issues>
+         <current_issues>inadequate industrial waste treatment and disposal facilities</current_issues>
+         <international_agreements>
+            <party_to>Air Pollution</party_to>
+            <party_to>Air Pollution-Nitrogen Oxides</party_to>
+            <party_to>Air Pollution-Persistent Organic Pollutants</party_to>
+            <party_to>Air Pollution-Sulfur 85</party_to>
+            <party_to>Air Pollution-Sulfur 94</party_to>
+            <party_to>Air Pollution-Volatile Organic Compounds</party_to>
+            <party_to>Antarctic-Environmental Protocol</party_to>
+            <party_to>Antarctic-Marine Living Resources</party_to>
+            <party_to>Antarctic Seals</party_to>
+            <party_to>Antarctic Treaty</party_to>
+            <party_to>Biodiversity</party_to>
+            <party_to>Climate Change</party_to>
+            <party_to>Climate Change-Kyoto Protocol</party_to>
+            <party_to>Desertification</party_to>
+            <party_to>Endangered Species</party_to>
+            <party_to>Environmental Modification</party_to>
+            <party_to>Hazardous Wastes</party_to>
+            <party_to>Law of the Sea</party_to>
+            <party_to>Marine Dumping</party_to>
+            <party_to>Ozone Layer Protection</party_to>
+            <party_to>Ship Pollution</party_to>
+            <party_to>Tropical Timber 83</party_to>
+            <party_to>Tropical Timber 94</party_to>
+            <party_to>Wetlands</party_to>
+            <party_to>Whaling</party_to>
+            <signed_but_not_ratified/>
+         </international_agreements>
+      </environment>
+   </section>
+   <section title="People">
+      <population>62402659 (Global rank: 23) [2020-07-01]</population>
+      <nationality>
+         <noun>Italian(s)</noun>
+         <adjective>Italian</adjective>
+      </nationality>
+      <ethnic_groups>
+         <ethnicity>
+            <name>Italian</name>
+         </ethnicity>
+      </ethnic_groups>
+      <languages>
+         <language>
+            <name>Italian</name>
+         </language>
+         <language>
+            <name>German</name>
+         </language>
+         <language>
+            <name>French</name>
+         </language>
+         <language>
+            <name>Slovene</name>
+         </language>
+      </languages>
+      <religions>
+         <religion>83.3 %</religion>
+         <religion>3.7 %</religion>
+         <religion>12.4 %</religion>
+         <religion>0.6 %</religion> [2010]</religions>
+      <dependency_ratios>
+         <ratios>
+            <total_dependency_ratio>57 %</total_dependency_ratio>
+            <youth_dependency_ratio>20.4 %</youth_dependency_ratio>
+            <elderly_dependency_ratio>36.6 %</elderly_dependency_ratio>
+            <potential_support_ratio>2.7 %</potential_support_ratio>
+         </ratios> [2020]</dependency_ratios>
+      <median_age>
+         <total>46.5 years</total>
+         <male>45.4 years</male>
+         <female>47.5 years</female> (Global rank: 5) [2020]</median_age>
+      <population_growth_rate>0.11 (Global rank: 186) [2020]</population_growth_rate>
+      <birth_rate>8.4 births per 1000 population (Global rank: 218) [2020]</birth_rate>
+      <death_rate>10.7 deaths per 1000 population (Global rank: 27) [2020]</death_rate>
+      <net_migration_rate>3.2 migrants per 1000 population (Global rank: 36) [2020]</net_migration_rate>
+      <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
+      <urbanization>
+         <urban_population>71 % [2020]</urban_population>
+         <rate_of_urbanization>0.29 %</rate_of_urbanization>
+         <total_population_growth_rate_v._urban_population_growth_rate_2000_2030>PDF</total_population_growth_rate_v._urban_population_growth_rate_2000_2030>
+      </urbanization>
+      <major_urban_areas>
+         <places>Rome</places>
+         <places>Milan</places>
+         <places>Naples</places>
+         <places>Turin</places>
+         <places>Bergamo</places>
+         <places>Palermo</places> [2020]</major_urban_areas>
+      <mothers_mean_age_at_first_birth>31.1</mothers_mean_age_at_first_birth>
+      <maternal_mortality_rate>2 deaths per 100k live births (Global rank: 182) [2017]</maternal_mortality_rate>
+      <infant_mortality_rate>
+         <total>3.2 deaths per 1000 live births</total>
+         <male>3.4 deaths per 1000 live births</male>
+         <female>3 deaths per 1000 live births</female> (Global rank: 212) [2020]</infant_mortality_rate>
+      <life_expectancy_at_birth>
+         <total_population>82.5 years</total_population>
+         <male>79.8 years</male>
+         <female>85.3 years</female> (Global rank: 17) [2020]</life_expectancy_at_birth>
+      <total_fertility_rate>1.47 children born per woman (Global rank: 210) [2020]</total_fertility_rate>
+      <contraceptive_prevalence_rate>65.1 % [2013]</contraceptive_prevalence_rate>
+      <physicians_density>3.98 physicians per 1000 population [2017]</physicians_density>
+      <hospital_bed_density>3.2 beds per 1000 population [2017]</hospital_bed_density>
+      <drinking_water_source>
+         <improved>
+            <urban>100 percent of population</urban>
+            <rural>100 percent of population</rural>
+            <total>100 percent of population</total>
+         </improved>
+         <unimproved>
+            <urban>0 percent of population</urban>
+            <rural>0 percent of population</rural>
+            <total>0 percent of population</total>
+         </unimproved> [2017]</drinking_water_source>
+      <sanitation_facility_access>
+         <improved>
+            <urban>98.8 percent of population</urban>
+            <rural>98.6 percent of population</rural>
+            <total>98.8 percent of population</total>
+         </improved>
+         <unimproved>
+            <urban>1.2 percent of population</urban>
+            <rural>1.4 percent of population</rural>
+            <total>1.2 percent of population</total>
+         </unimproved> [2017]</sanitation_facility_access>
+      <hiv_aids>
+         <adult_prevalence_rate>0.3 % of adults (Global rank: 89) [2019]</adult_prevalence_rate>
+         <people_living_with_hiv_aids>130000 (Global rank: 39) [2019]</people_living_with_hiv_aids>
+         <deaths>1000 [2019]</deaths>
+      </hiv_aids>
+      <major_infectious_diseases> [2020]</major_infectious_diseases>
+      <adult_obesity>19.9 % of adults (Global rank: 108) [2016]</adult_obesity>
+      <education_expenditures>3.8 % of gdp (Global rank: 113) [2016]</education_expenditures>
+      <literacy>
+         <definition>age 15 and over can read and write</definition>
+         <total_population>99.2 %</total_population>
+         <male>99.4 %</male>
+         <female>99 %</female> [2018]</literacy>
+      <school_life_expectancy>
+         <total>16 years</total>
+         <male>16 years</male>
+         <female>17 years</female> [2018]</school_life_expectancy>
+      <youth_unemployment>
+         <total>32.2 %</total>
+         <male>30.4 %</male>
+         <female>34.8 %</female> (Global rank: 26) [2018]</youth_unemployment>
+   </section>
+   <section title="International organization participation">
+      <organization>ADB </organization>
+      <organization>AfDB </organization>
+      <organization>Arctic Council </organization>
+      <organization>Australia Group</organization>
+      <organization>BIS</organization>
+      <organization>BSEC </organization>
+      <organization>CBSS </organization>
+      <organization>CD</organization>
+      <organization>CDB</organization>
+      <organization>CE</organization>
+      <organization>CEI</organization>
+      <organization>CERN</organization>
+      <organization>EAPC</organization>
+      <organization>EBRD</organization>
+      <organization>ECB</organization>
+      <organization>EIB</organization>
+      <organization>EITI </organization>
+      <organization>EMU</organization>
+      <organization>ESA</organization>
+      <organization>EU</organization>
+      <organization>FAO</organization>
+      <organization>FATF</organization>
+      <organization>G-7</organization>
+      <organization>G-8</organization>
+      <organization>G-10</organization>
+      <organization>G-20</organization>
+      <organization>IADB</organization>
+      <organization>IAEA</organization>
+      <organization>IBRD</organization>
+      <organization>ICAO</organization>
+      <organization>ICC </organization>
+      <organization>ICCt</organization>
+      <organization>ICRM</organization>
+      <organization>IDA</organization>
+      <organization>IEA</organization>
+      <organization>IFAD</organization>
+      <organization>IFC</organization>
+      <organization>IFRCS</organization>
+      <organization>IGAD </organization>
+      <organization>IHO</organization>
+      <organization>ILO</organization>
+      <organization>IMF</organization>
+      <organization>IMO</organization>
+      <organization>IMSO</organization>
+      <organization>Interpol</organization>
+      <organization>IOC</organization>
+      <organization>IOM</organization>
+      <organization>IPU</organization>
+      <organization>ISO</organization>
+      <organization>ITSO</organization>
+      <organization>ITU</organization>
+      <organization>ITUC </organization>
+      <organization>LAIA </organization>
+      <organization>MIGA</organization>
+      <organization>MINURSO</organization>
+      <organization>MINUSMA</organization>
+      <organization>NATO</organization>
+      <organization>NEA</organization>
+      <organization>NSG</organization>
+      <organization>OAS </organization>
+      <organization>OECD</organization>
+      <organization>OPCW</organization>
+      <organization>OSCE</organization>
+      <organization>Pacific Alliance </organization>
+      <organization>Paris Club</organization>
+      <organization>PCA</organization>
+      <organization>PIF </organization>
+      <organization>Schengen Convention</organization>
+      <organization>SELEC </organization>
+      <organization>SICA </organization>
+      <organization>UN</organization>
+      <organization>UNCTAD</organization>
+      <organization>UNESCO</organization>
+      <organization>UNHCR</organization>
+      <organization>UNIDO</organization>
+      <organization>UNIFIL</organization>
+      <organization>Union Latina</organization>
+      <organization>UNMOGIP</organization>
+      <organization>UNRWA</organization>
+      <organization>UNTSO</organization>
+      <organization>UNWTO</organization>
+      <organization>UPU</organization>
+      <organization>WCO</organization>
+      <organization>WHO</organization>
+      <organization>WIPO</organization>
+      <organization>WMO</organization>
+      <organization>WTO</organization>
+      <organization>ZC</organization>
+   </section>
+   <section title="Economy">
+      <section title="Overview">Italy’s economy comprises a developed industrial north, dominated by private companies, and a less-developed, highly subsidized, agricultural south, with a legacy of unemployment and underdevelopment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family-owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 17% of GDP. These activities are most common within the agriculture, construction, and service sectors.
+Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.</section>
+      <gdp>
+         <purchasing_power_parity>
+            <annual_values>2317000000000 USD [2017]</annual_values>
+            <annual_values>2282000000000 USD [2016]</annual_values>
+            <annual_values>2263000000000 USD [2015]</annual_values> (Global rank: 12)</purchasing_power_parity>
+         <official_exchange_rate>1939000000000 $ [2017]</official_exchange_rate>
+         <real_growth_rate>
+            <annual_values>0.34 % [2019]</annual_values>
+            <annual_values>0.83 % [2018]</annual_values>
+            <annual_values>1.73 % [2017]</annual_values> (Global rank: 188)</real_growth_rate>
+         <per_capita_purchasing_power_parity>
+            <annual_values>38200 USD [2017]</annual_values>
+            <annual_values>37600 USD [2016]</annual_values>
+            <annual_values>37200 USD [2015]</annual_values> (Global rank: 50)</per_capita_purchasing_power_parity>
+         <composition>
+            <by_end_use>
+               <end_uses>
+                  <household_consumption>61 %</household_consumption>
+                  <government_consumption>18.6 %</government_consumption>
+                  <investment_in_fixed_capital>17.5 %</investment_in_fixed_capital>
+                  <investment_in_inventories>-0.2 %</investment_in_inventories>
+                  <exports_of_goods_and_services>31.4 %</exports_of_goods_and_services>
+                  <imports_of_goods_and_services>-28.3 %</imports_of_goods_and_services>
+               </end_uses> [2017]</by_end_use>
+            <by_sector_of_origin>
+               <sectors>
+                  <agriculture>2.1 %</agriculture>
+                  <industry>23.9 %</industry>
+                  <services>73.9 %</services>
+               </sectors> [2017]</by_sector_of_origin>
+         </composition>
+      </gdp>
+      <gross_national_saving>
+         <annual_values>20.3 percent of gdp [2017]</annual_values>
+         <annual_values>19.7 percent of gdp [2016]</annual_values>
+         <annual_values>18.8 percent of gdp [2015]</annual_values> (Global rank: 95)</gross_national_saving>
+      <agriculture_products>
+         <products>fruits</products>
+         <products>vegetables</products>
+         <products>grapes</products>
+         <products>potatoes</products>
+         <products>sugar beets</products>
+         <products>soybeans</products>
+         <products>grain</products>
+         <products>olives</products>
+         <products>beef</products>
+         <products>dairy products</products>
+         <products>fish</products>
+      </agriculture_products>
+      <industries>
+         <industries>tourism</industries>
+         <industries>machinery</industries>
+         <industries>iron</industries>
+         <industries>steel</industries>
+         <industries>chemicals</industries>
+         <industries>food processing</industries>
+         <industries>textiles</industries>
+         <industries>motor vehicles</industries>
+         <industries>clothing</industries>
+         <industries>footwear</industries>
+         <industries>ceramics</industries>
+      </industries>
+      <industrial_production_growth_rate>
+         <annual_percentage_increase>2.1</annual_percentage_increase> (Global rank: 128) [2017]</industrial_production_growth_rate>
+      <labor_force>
+         <total_size>
+            <total_people>22920000</total_people> (Global rank: 23) [2020]</total_size>
+         <by_occupation>
+            <occupation>
+               <agriculture>3.9 %</agriculture>
+               <industry>28.3 %</industry>
+               <services>67.8 %</services>
+            </occupation> [2011]</by_occupation>
+      </labor_force>
+      <unemployment_rate>
+         <annual_values>9.88 % [2019]</annual_values>
+         <annual_values>10.63 % [2018]</annual_values> (Global rank: 145)</unemployment_rate>
+      <population_below_poverty_line>29.9 % [2012]</population_below_poverty_line>
+      <household_income_by_percentage_share>
+         <lowest_ten_percent>2.3 %</lowest_ten_percent>
+         <highest_ten_percent>26.8 %</highest_ten_percent> [2000]</household_income_by_percentage_share>
+      <budget>
+         <revenues>903300000000 USD</revenues>
+         <expenditures>948100000000 USD</expenditures> [2017]</budget>
+      <taxes_and_other_revenues>46.6 % of gdp (Global rank: 20) [2017]</taxes_and_other_revenues>
+      <budget_surplus_or_deficit>-2.3 % of gdp (Global rank: 111) [2017]</budget_surplus_or_deficit>
+      <public_debt>
+         <annual_values>131.8 percent of gdp [2017]</annual_values>
+         <annual_values>132 percent of gdp [2016]</annual_values> (Global rank: 5)</public_debt>
+      <fiscal_year/>
+      <inflation_rate>
+         <annual_values>1.3 % [2017]</annual_values>
+         <annual_values>-0.1 % [2016]</annual_values> (Global rank: 68)</inflation_rate>
+      <current_account_balance>
+         <annual_values>59517000000 USD [2019]</annual_values>
+         <annual_values>51735000000 USD [2018]</annual_values> (Global rank: 10)</current_account_balance>
+      <exports>
+         <total_value>
+            <annual_values>496300000000 USD [2017]</annual_values>
+            <annual_values>454100000000 USD [2016]</annual_values> (Global rank: 9)</total_value>
+         <commodities>
+            <by_commodity>engineering products</by_commodity>
+            <by_commodity>textiles</by_commodity>
+            <by_commodity>clothing</by_commodity>
+            <by_commodity>production machinery</by_commodity>
+            <by_commodity>motor vehicles</by_commodity>
+            <by_commodity>transport equipment</by_commodity>
+            <by_commodity>chemicals</by_commodity>
+            <by_commodity>foodstuffs</by_commodity>
+            <by_commodity>beverages</by_commodity>
+            <by_commodity>tobacco</by_commodity>
+            <by_commodity>minerals</by_commodity>
+            <by_commodity>nonferrous metals</by_commodity>
+         </commodities>
+         <partners>
+            <by_country>12.5 %</by_country>
+            <by_country>10.3 %</by_country>
+            <by_country>9 %</by_country>
+            <by_country>5.2 %</by_country>
+            <by_country>5.2 %</by_country>
+            <by_country>4.6 %</by_country> [2017]</partners>
+      </exports>
+      <imports>
+         <total_value>
+            <annual_values>432900000000 USD [2017]</annual_values>
+            <annual_values>389800000000 USD [2016]</annual_values> (Global rank: 13)</total_value>
+         <commodities>
+            <by_commodity>engineering products</by_commodity>
+            <by_commodity>chemicals</by_commodity>
+            <by_commodity>transport equipment</by_commodity>
+            <by_commodity>energy products</by_commodity>
+            <by_commodity>minerals</by_commodity>
+            <by_commodity>nonferrous metals</by_commodity>
+            <by_commodity>textiles</by_commodity>
+            <by_commodity>clothing</by_commodity>
+            <by_commodity>food</by_commodity>
+            <by_commodity>beverages</by_commodity>
+            <by_commodity>tobacco</by_commodity>
+         </commodities>
+         <partners>
+            <by_country>16.3 %</by_country>
+            <by_country>8.8 %</by_country>
+            <by_country>7.1 %</by_country>
+            <by_country>5.6 %</by_country>
+            <by_country>5.3 %</by_country>
+            <by_country>4.5 %</by_country> [2017]</partners>
+      </imports>
+      <reserves_of_foreign_exchange_and_gold>
+         <annual_values>151200000000 USD [2017-12-31]</annual_values>
+         <annual_values>130600000000 USD [2015-12-31]</annual_values> (Global rank: 16)</reserves_of_foreign_exchange_and_gold>
+      <external_debt>
+         <annual_values>2444000000000 USD [2016-03-31]</annual_values>
+         <annual_values>2300000000000 USD [2015-03-31]</annual_values> (Global rank: 9)</external_debt>
+      <exchange_rates>
+         <annual_values>0.885 USD [2017]</annual_values>
+         <annual_values>0.903 USD [2016]</annual_values>
+         <annual_values>0.9214 USD [2015]</annual_values>
+         <annual_values>0.885 USD [2014]</annual_values>
+         <annual_values>0.7634 USD [2013]</annual_values>
+      </exchange_rates>
+   </section>
+   <section title="Energy">
+      <section title="Electricity">
+         <access>
+            <total_electrification>100 %</total_electrification> [2020]</access>
+         <production>275300000000 kWh (Global rank: 14) [2016]</production>
+         <consumption>293500000000 kWh (Global rank: 13) [2016]</consumption>
+         <exports>6155000000 kWh (Global rank: 30) [2016]</exports>
+         <imports>43180000000 kWh (Global rank: 2) [2016]</imports>
+         <installed_generating_capacity>114200000 kW (Global rank: 10) [2016]</installed_generating_capacity>
+         <by_source>
+            <fossil_fuels>54 (Global rank: 143) [2016]</fossil_fuels>
+            <nuclear_fuels>0 (Global rank: 114) [2017]</nuclear_fuels>
+            <hydroelectric_plants>14 (Global rank: 106) [2017]</hydroelectric_plants>
+            <other_renewable_sources>32 (Global rank: 14) [2017]</other_renewable_sources>
+         </by_source>
+      </section>
+      <section title="Crude oil">
+         <production>90000 bbl per day (Global rank: 44) [2018]</production>
+         <exports>13790 bbl per day (Global rank: 57) [2017]</exports>
+         <imports>1341000 bbl per day (Global rank: 7) [2017]</imports>
+         <proved_reserves>487800000 bbl (Global rank: 45) [2018-01-01]</proved_reserves>
+      </section>
+      <section title="Refined petroleum products">
+         <production>1607000 bbl per day (Global rank: 12) [2017]</production>
+         <consumption>1236000 bbl per day (Global rank: 19) [2017]</consumption>
+         <exports>615900 bbl per day (Global rank: 13) [2017]</exports>
+         <imports>422500 bbl per day (Global rank: 19) [2017]</imports>
+      </section>
+      <natural_gas>
+         <production>5550000000 cubic metres (Global rank: 50) [2017]</production>
+         <consumption>75150000000 cubic metres (Global rank: 11) [2017]</consumption>
+         <exports>271800000 cubic metres (Global rank: 44) [2017]</exports>
+         <imports>69660000000 cubic metres (Global rank: 5) [2017]</imports>
+         <proved_reserves>38110000000 cubic metres (Global rank: 65) [2018-01-01]</proved_reserves>
+      </natural_gas>
+      <carbon_dioxide_emissions_from_consumption_of_energy>351000000 megatonnes (Global rank: 20) [2017]</carbon_dioxide_emissions_from_consumption_of_energy>
+   </section>
+   <section title="Communications">
+      <telephones>
+         <fixed_lines>20196475 (Global rank: 14) [2019]</fixed_lines>
+         <mobile_cellular>82955151 (Global rank: 19) [2019]</mobile_cellular>
+      </telephones>
+      <broadcast_media>two Italian media giants dominate - the publicly owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately owned Mediaset with 3 national terrestrial stations; a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations</broadcast_media>
+      <internet>
+         <country_code>.it</country_code>
+         <users>46305301 (Global rank: 19) [2018-07-01]</users>
+      </internet>
+   </section>
+   <section title="Transportation">
+      <pipelines>
+         <by_type>20223 km</by_type>
+         <by_type>1393 km</by_type>
+         <by_type>1574 km</by_type> [2013]</pipelines>
+      <railways>
+         <total>20182 km</total>
+         <standard_gauge>18770.1 km 1.435-m</standard_gauge>
+         <narrow_gauge>122.3 km 1.000-m</narrow_gauge> (Global rank: 15) [2014]</railways>
+      <roadways>
+         <total>487700 km</total>
+         <paved>487700 km</paved> (Global rank: 15) [2007]</roadways>
+      <waterways>2400 km [2012]</waterways>
+      <merchant_marine>1353 (Global rank: 21) [2019]</merchant_marine>
+      <ports_and_terminals>
+         <major_seaports>Augusta</major_seaports>
+         <major_seaports>Cagliari</major_seaports>
+         <major_seaports>Genoa</major_seaports>
+         <major_seaports>Livorno</major_seaports>
+         <major_seaports>Taranto</major_seaports>
+         <major_seaports>Trieste</major_seaports>
+         <major_seaports>Venice</major_seaports>
+         <oil_terminals>Melilli (Santa Panagia) oil terminal</oil_terminals>
+         <oil_terminals>Sarroch oil terminal</oil_terminals>
+         <container_ports>Genoa</container_ports>
+         <container_ports>Gioia Tauro</container_ports>
+         <liquid_natural_gas_terminals_import>La Spezia</liquid_natural_gas_terminals_import>
+         <liquid_natural_gas_terminals_import>Panigaglia</liquid_natural_gas_terminals_import>
+         <liquid_natural_gas_terminals_import>Porto Levante</liquid_natural_gas_terminals_import> [2017]</ports_and_terminals>
+   </section>
+   <section title="Military and security">
+      <expenditures>
+         <annual_values>1.22 percent of gdp [2019]</annual_values>
+         <annual_values>1.21 percent of gdp [2018]</annual_values>
+         <annual_values>1.21 percent of gdp [2017]</annual_values>
+         <annual_values>1.18 percent of gdp [2016]</annual_values>
+         <annual_values>1.07 percent of gdp [2015]</annual_values> (Global rank: 97)</expenditures>
+      <service_age_and_obligation>18 years of age [2013]</service_age_and_obligation>
+   </section>
+   <section title="Transnational issues">
+      <disputes>Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa</disputes>
+      <refugees_and_iternally_displaced_persons>
+         <refugees>
+            <by_country>
+               <section title="People">25241</section>
+               <country_of_origin>Nigeria</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">20063</section>
+               <country_of_origin>Pakistan</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">17849</section>
+               <country_of_origin>Afghanistan</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">15842</section>
+               <country_of_origin>Mali</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">14029</section>
+               <country_of_origin>Somalia</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">12968</section>
+               <country_of_origin>Gambia</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">8974</section>
+               <country_of_origin>Bangladesh</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">7659</section>
+               <country_of_origin>Cote d'Ivoire</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">7644</section>
+               <country_of_origin>Senegal</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">7118</section>
+               <country_of_origin>Eritrea</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">6995</section>
+               <country_of_origin>Iraq</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">6353</section>
+               <country_of_origin>Ukraine</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">5953</section>
+               <country_of_origin>Ghana</country_of_origin>
+            </by_country>
+            <by_country>
+               <section title="People">note - estimate for Ukraine represents asylum applicants since the beginning of the Ukraine crisis in 2014 to July 2018</section>
+            </by_country> [2019]</refugees>
+         <stateless_persons>15822 [2019]</stateless_persons>
+      </refugees_and_iternally_displaced_persons>
+      <illicit_drugs/>
+   </section>
+</section>
