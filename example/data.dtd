@@ -1,0 +1,13 @@
+<!ELEMENT country (section)*>
+
+<!ELEMENT section (section|paragraph|glossary)*>
+<!ATTLIST section
+  id CDATA #REQUIRED
+  title CDATA #REQUIRED>
+
+<!ELEMENT paragraph (#PCDATA)>
+
+<!ELEMENT glossary (term)*>
+<!ELEMENT term (#PCDATA)>
+<!ATTLIST term
+  name CDATA #REQUIRED>

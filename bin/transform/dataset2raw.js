@@ -1,7 +1,7 @@
 'use strict';
 
 const fs = require('fs'),
-    xml2js = require('../lib/xml2js');     // npm install -g xml2js && npm link xml2js
+    xml2js = require('../../lib/xml2js');     // npm install -g xml2js && npm link xml2js
 
 const xmlbuilder = new xml2js.Builder({
     xmldec: {
@@ -14,7 +14,7 @@ const xmlbuilder = new xml2js.Builder({
 const areas = ['czechia', 'italy', 'greece', 'egypt'];
 const input_filename = 'data/factbook_' + areas.join('_') + '.json';
 
-const data = JSON.parse(fs.readFileSync(input_filename));
+const data = JSON.parse(fs.readFileSync(input_filename).toString());
 
 areas.forEach(function (area) {
     const {
@@ -51,6 +51,6 @@ areas.forEach(function (area) {
 
     const xml = xmlbuilder.buildObject(xml_object);
 
-    const output_filename = 'src/countries/' + area + '.xml';
+    const output_filename = 'src/raw/countries/' + area + '.xml';
     fs.writeFileSync(output_filename, xml);
 });

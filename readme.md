@@ -5,7 +5,7 @@
 ```
 data/factbook.json
 [  js  ] -> data/factbook_czechia_italy_greece_egypt.json    [bin/reduce-dataset.js     ]
-[xml2js]   -> raw/countries/*.xml                            [bin/transform-dataset.js  ]
+[xml2js]   -> raw/countries/*.xml                            [bin/dataset2raw.js  ]
 [ XSLT ]     -> data/countries/*.xml                         [bin/transform/raw2data.sh ]
 [ XSLT ]       -> view/sections/*.xml                        [bin/transform/data2view.sh]
 [ XSLT ]          -> view/html/index.html                    [bin/generate-html.sh      ]
@@ -15,7 +15,7 @@ data/factbook.json
 ```
 
 ## Project output
-HTML output can be found in `src/html` and there openning `index.html` in web browser.
+HTML output can be found in `src/html` and there opening `index.html` in web browser.
 
 PDF output can be found in `src/pdf/docuemnt.pdf`
 
@@ -26,7 +26,7 @@ PDF output can be found in `src/pdf/docuemnt.pdf`
 │   ├── generate-html.sh        # Generates HTML
 │   ├── generate-pdf.sh         # Generates PDF
 │   ├── reduce-dataset.js       # Helper script to manage dataset
-│   ├── transform-dataset.js    # Helper script to manage dataset
+│   ├── dataset2raw.js    # Helper script to manage dataset
 │   ├── validate-dtd.sh         # Validates merged XML with DTD
 │   └── validate-rng.sh         # Validates merged XML with Relax NG
 ├── data
