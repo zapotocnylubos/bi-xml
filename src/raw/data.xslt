@@ -8,20 +8,6 @@
     </xsl:copy>
   </xsl:template>
 
-  <!-- identity transformation for all other elements -->
-
-  <!--  <xsl:template match="*">-->
-  <!--    <xsl:element name="{name()}">-->
-  <!--      <xsl:call-template name="attr-date"/>-->
-  <!--      <xsl:call-template name="attr-global-rank"/>-->
-  <!--      <xsl:call-template name="attr-note"/>-->
-
-  <!--      <xsl:apply-templates select="node() except date except global_rank except note"/>-->
-  <!--    </xsl:element>-->
-  <!--  </xsl:template>-->
-
-  <!-- root element -->
-
   <xsl:template match="/country">
     <country id="{@id}">
       <xsl:apply-templates/>
