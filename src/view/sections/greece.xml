@@ -30,18 +30,20 @@
          </term>
       <term name="note">Mount Olympus actually has 52 peaks but its highest point, Mytikas (meaning "nose"), rises to 2,917 meters; in Greek mythology, Olympus' Mytikas peak was the home of the Greek gods</term>
    </glossary>
-         lignite
-         petroleum
-         iron ore
-         bauxite
-         lead
-         zinc
-         nickel
-         magnesite
-         marble
-         salt
-         hydropower potential
-         <glossary title="by sector">
+   <list title="natural resources">
+      <item>lignite</item>
+      <item>petroleum</item>
+      <item>iron ore</item>
+      <item>bauxite</item>
+      <item>lead</item>
+      <item>zinc</item>
+      <item>nickel</item>
+      <item>magnesite</item>
+      <item>marble</item>
+      <item>salt</item>
+      <item>hydropower potential</item>
+   </list>
+   <glossary title="by sector">
       <term name="agricultural land total">63.4 %</term>
       <term name="arable land">19.7 % (/)</term>
       <term name="permanent crops">8.9 % (/)</term>
@@ -55,34 +57,40 @@
       <term name="hazard">severe earthquakes</term>
       <term name="volcanism">Santorini (367 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; although there have been very few eruptions in recent centuries, Methana and Nisyros in the Aegean are classified as historically active</term>
    </glossary>
-            air pollution
-            air emissions from transport and electricity power stations
-            water pollution
-            degradation of coastal zones
-            loss of biodiversity in terrestrial and marine ecosystems
-            increasing municipal and industrial waste
-               Air Pollution
-               Air Pollution-Nitrogen Oxides
-               Air Pollution-Sulfur 94
-               Antarctic-Environmental Protocol
-               Antarctic-Marine Living Resources
-               Antarctic Treaty
-               Biodiversity
-               Climate Change
-               Climate Change-Kyoto Protocol
-               Desertification
-               Endangered Species
-               Environmental Modification
-               Hazardous Wastes
-               Law of the Sea
-               Marine Dumping
-               Ozone Layer Protection
-               Ship Pollution
-               Tropical Timber 83
-               Tropical Timber 94
-               Wetlands
-               Air Pollution-Persistent Organic Pollutants
-               Air Pollution-Volatile Organic Compounds
+   <list title="issues">
+      <item>air pollution</item>
+      <item>air emissions from transport and electricity power stations</item>
+      <item>water pollution</item>
+      <item>degradation of coastal zones</item>
+      <item>loss of biodiversity in terrestrial and marine ecosystems</item>
+      <item>increasing municipal and industrial waste</item>
+   </list>
+   <list title="party to">
+      <item>Air Pollution</item>
+      <item>Air Pollution-Nitrogen Oxides</item>
+      <item>Air Pollution-Sulfur 94</item>
+      <item>Antarctic-Environmental Protocol</item>
+      <item>Antarctic-Marine Living Resources</item>
+      <item>Antarctic Treaty</item>
+      <item>Biodiversity</item>
+      <item>Climate Change</item>
+      <item>Climate Change-Kyoto Protocol</item>
+      <item>Desertification</item>
+      <item>Endangered Species</item>
+      <item>Environmental Modification</item>
+      <item>Hazardous Wastes</item>
+      <item>Law of the Sea</item>
+      <item>Marine Dumping</item>
+      <item>Ozone Layer Protection</item>
+      <item>Ship Pollution</item>
+      <item>Tropical Timber 83</item>
+      <item>Tropical Timber 94</item>
+      <item>Wetlands</item>
+   </list>
+   <list title="signed but not ratified">
+      <item>Air Pollution-Persistent Organic Pollutants</item>
+      <item>Air Pollution-Volatile Organic Compounds</item>
+   </list>
       10607051
       Greek
       <glossary title="ethnic groups">
@@ -227,6 +235,21 @@
       <term name="judge selection and term of office">Supreme Court judges appointed by presidential decree on the advice of the Supreme Judicial Council (SJC), which includes the president of the Supreme Court, other judges, and the prosecutor of the Supreme Court; judges appointed for life following a 2-year probationary period; Council of State president appointed by the Greek Cabinet to serve a 4-year term; other judge appointments and tenure NA; Court of Audit president appointed by decree of the president of the republic on the advice of the SJC; court president serves a 4-year term or until age 67; tenure of vice presidents, councilors, and judges NA</term>
       <term name="subordinate courts">Courts of Appeal and Courts of First Instance (district courts)</term>
    </glossary>
+   <list title="political parties and leaders">
+      <item>Anticapitalist Left Cooperation for the Overthrow (collective leadership)</item>
+      <item>Coalition of the Radical Left (Alexios  TSIPRAS)</item>
+      <item>Communist Party of Greece (Dimitrios KOUTSOUMBAS)</item>
+      <item>Democratic Left (Athanasios  THEOCHAROPOULOS)</item>
+      <item>European Realistic Disobedience Front (Yanis VAROUFAKIS)</item>
+      <item>Greek Solution (Kyriakos VELOPOULOS)</item>
+      <item>Independent Greeks (Panagiotis  KAMMENOS)</item>
+      <item>Movement for Change (Foteini  GENIMMATA)</item>
+      <item>New Democracy (Kyriakos MITSOTAKIS)</item>
+      <item>People's Association-Golden Dawn (Nikolaos MICHALOLIAKOS)</item>
+      <item>Popular Unity (Panagiotis LAFAZANIS)</item>
+      <item>The River  (Stavros THEODORAKIS)</item>
+      <item>Union of Centrists (Vasileios  LEVENTIS)</item>
+   </list>
    <glossary title="in united states">
       <term name="chief of mission">Ambassador Theocharis LALAKOS (since 27 June 2016)</term>
       <term name="chancery">2217 Massachusetts Avenue NW, Washington, DC 20008</term>
@@ -261,8 +284,79 @@
    <glossary title="national holidays">
       <term name="Independence Day">25 March</term>
    </glossary>
-         accepts compulsory ICJ jurisdiction with reservations
-         accepts ICCt jurisdiction
+   <list title="international law organization participation">
+      <item>accepts compulsory ICJ jurisdiction with reservations</item>
+      <item>accepts ICCt jurisdiction</item>
+   </list>
+   <list title="international organization participation">
+      <item>Australia Group</item>
+      <item>BIS</item>
+      <item>BSEC</item>
+      <item>CD</item>
+      <item>CE</item>
+      <item>CERN</item>
+      <item>EAPC</item>
+      <item>EBRD</item>
+      <item>ECB</item>
+      <item>EIB</item>
+      <item>EMU</item>
+      <item>ESA</item>
+      <item>EU</item>
+      <item>FAO</item>
+      <item>FATF</item>
+      <item>IAEA</item>
+      <item>IBRD</item>
+      <item>ICAO</item>
+      <item>ICC </item>
+      <item>ICCt</item>
+      <item>ICRM</item>
+      <item>IDA</item>
+      <item>IEA</item>
+      <item>IFAD</item>
+      <item>IFC</item>
+      <item>IFRCS</item>
+      <item>IGAD </item>
+      <item>IHO</item>
+      <item>ILO</item>
+      <item>IMF</item>
+      <item>IMO</item>
+      <item>IMSO</item>
+      <item>Interpol</item>
+      <item>IOC</item>
+      <item>IOM</item>
+      <item>IPU</item>
+      <item>ISO</item>
+      <item>ITSO</item>
+      <item>ITU</item>
+      <item>ITUC </item>
+      <item>MIGA</item>
+      <item>NATO</item>
+      <item>NEA</item>
+      <item>NSG</item>
+      <item>OAS </item>
+      <item>OECD</item>
+      <item>OIF</item>
+      <item>OPCW</item>
+      <item>OSCE</item>
+      <item>PCA</item>
+      <item>Schengen Convention</item>
+      <item>SELEC</item>
+      <item>UN</item>
+      <item>UNCTAD</item>
+      <item>UNESCO</item>
+      <item>UNHCR</item>
+      <item>UNIDO</item>
+      <item>UNIFIL</item>
+      <item>UNWTO</item>
+      <item>UPU</item>
+      <item>WCO</item>
+      <item>WFTU </item>
+      <item>WHO</item>
+      <item>WIPO</item>
+      <item>WMO</item>
+      <item>WTO</item>
+      <item>ZC</item>
+   </list>
       Greece has a capitalist economy with a public sector accounting for about 40% of GDP and with per capita GDP about two-thirds that of the leading euro-zone economies. Tourism provides 18% of GDP. Immigrants make up nearly one-fifth of the work force, mainly in agricultural and unskilled jobs. Greece is a major beneficiary of EU aid, equal to about 3.3% of annual GDP.
 The Greek economy averaged growth of about 4% per year between 2003 and 2007, but the economy went into recession in 2009 as a result of the world financial crisis, tightening credit conditions, and Athens' failure to address a growing budget deficit. By 2013, the economy had contracted 26%, compared with the pre-crisis level of 2007. Greece met the EU's Growth and Stability Pact budget deficit criterion of no more than 3% of GDP in 2007-08, but violated it in 2009, when the deficit reached 15% of GDP. Deteriorating public finances, inaccurate and misreported statistics, and consistent underperformance on reforms prompted major credit rating agencies to downgrade Greece's international debt rating in late 2009 and led the country into a financial crisis. Under intense pressure from the EU and international market participants, the government accepted a bailout program that called on Athens to cut government spending, decrease tax evasion, overhaul the civil-service, health-care, and pension systems, and reform the labor and product markets. Austerity measures reduced the deficit to 1.3% in 2017. Successive Greek governments, however, failed to push through many of the most unpopular reforms in the face of widespread political opposition, including from the country's powerful labor unions and the general public.
 In April 2010, a leading credit agency assigned Greek debt its lowest possible credit rating, and in May 2010, the IMF and euro-zone governments provided Greece emergency short- and medium-term loans worth $147 billion so that the country could make debt repayments to creditors. Greece, however, struggled to meet the targets set by the EU and the IMF, especially after Eurostat - the EU's statistical office - revised upward Greece's deficit and debt numbers for 2009 and 2010. European leaders and the IMF agreed in October 2011 to provide Athens a second bailout package of $169 billion. The second deal called for holders of Greek government bonds to write down a significant portion of their holdings to try to alleviate Greece’s government debt burden. However, Greek banks, saddled with a significant portion of sovereign debt, were adversely affected by the write down and $60 billion of the second bailout package was set aside to ensure the banking system was adequately capitalized.
@@ -307,26 +401,30 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
       <term name="2016">9.5 percent of gdp [2016]</term>
       <term name="2015">9.6 percent of gdp [2015]</term>
    </glossary>
-         wheat
-         corn
-         barley
-         sugar beets
-         olives
-         tomatoes
-         wine
-         tobacco
-         potatoes
-         beef
-         dairy products
-         tourism
-         food
-         tobacco processing
-         textiles
-         chemicals
-         metal products
-         mining
-         petroleum
-      <glossary title="industrial production growth rate">
+   <list title="agriculture products">
+      <item>wheat</item>
+      <item>corn</item>
+      <item>barley</item>
+      <item>sugar beets</item>
+      <item>olives</item>
+      <item>tomatoes</item>
+      <item>wine</item>
+      <item>tobacco</item>
+      <item>potatoes</item>
+      <item>beef</item>
+      <item>dairy products</item>
+   </list>
+   <list title="industries">
+      <item>tourism</item>
+      <item>food</item>
+      <item>tobacco processing</item>
+      <item>textiles</item>
+      <item>chemicals</item>
+      <item>metal products</item>
+      <item>mining</item>
+      <item>petroleum</item>
+   </list>
+   <glossary title="industrial production growth rate">
       <term name="annual percentage increase">3.5</term>
    </glossary>
    <glossary title="total size">
@@ -362,13 +460,15 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
       <term name="2017">31540000000 USD [2017]</term>
       <term name="2016">27100000000 USD [2016]</term>
    </glossary>
-            food
-            beverages
-            manufactured goods
-            petroleum products
-            chemicals
-            textiles
-         <glossary title="partners">
+   <list title="commodities">
+      <item>food</item>
+      <item>beverages</item>
+      <item>manufactured goods</item>
+      <item>petroleum products</item>
+      <item>chemicals</item>
+      <item>textiles</item>
+   </list>
+   <glossary title="partners">
       <term name="Italy">10.6 % (Italy)</term>
       <term name="Germany">7.1 % (Germany)</term>
       <term name="Turkey">6.8 % (Turkey)</term>
@@ -380,11 +480,13 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
       <term name="2017">52270000000 USD [2017]</term>
       <term name="2016">45450000000 USD [2016]</term>
    </glossary>
-            machinery
-            transport equipment
-            fuels
-            chemicals
-         <glossary title="partners">
+   <list title="commodities">
+      <item>machinery</item>
+      <item>transport equipment</item>
+      <item>fuels</item>
+      <item>chemicals</item>
+   </list>
+   <glossary title="partners">
       <term name="Germany">10.4 % (Germany)</term>
       <term name="Italy">8.2 % (Italy)</term>
       <term name="Russia">6.8 % (Russia)</term>

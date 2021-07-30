@@ -27,19 +27,21 @@ Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonst
       <term name="Qattara Depression">-133 m (Qattara Depression)</term>
       <term name="Mount Catherine">2629 m (Mount Catherine)</term>
    </glossary>
-         petroleum
-         natural gas
-         iron ore
-         phosphates
-         manganese
-         limestone
-         gypsum
-         talc
-         asbestos
-         lead
-         rare earth elements
-         zinc
-         <glossary title="by sector">
+   <list title="natural resources">
+      <item>petroleum</item>
+      <item>natural gas</item>
+      <item>iron ore</item>
+      <item>phosphates</item>
+      <item>manganese</item>
+      <item>limestone</item>
+      <item>gypsum</item>
+      <item>talc</item>
+      <item>asbestos</item>
+      <item>lead</item>
+      <item>rare earth elements</item>
+      <item>zinc</item>
+   </list>
+   <glossary title="by sector">
       <term name="agricultural land total">3.6 %</term>
       <term name="arable land">2.8 % (/)</term>
       <term name="permanent crops">0.8 % (/)</term>
@@ -58,32 +60,39 @@ Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonst
       <term name="hazard">dust storms</term>
       <term name="hazard">sandstorms</term>
    </glossary>
-            agricultural land being lost to urbanization and windblown sands
-            increasing soil salination below Aswan High Dam
-            desertification
-            oil pollution threatening coral reefs
-            beaches
-            and marine habitats
-            other water pollution from agricultural pesticides
-            raw sewage
-            and industrial effluents
-            limited natural freshwater resources away from the Nile
-            which is the only perennial water source
-            rapid growth in population overstraining the Nile and natural resources
-               Biodiversity
-               Climate Change
-               Climate Change-Kyoto Protocol
-               Desertification
-               Endangered Species
-               Environmental Modification
-               Hazardous Wastes
-               Law of the Sea
-               Marine Dumping
-               Ozone Layer Protection
-               Ship Pollution
-               Tropical Timber 83
-               Tropical Timber 94
-               Wetlands
+   <list title="issues">
+      <item>agricultural land being lost to urbanization and windblown sands</item>
+      <item>increasing soil salination below Aswan High Dam</item>
+      <item>desertification</item>
+      <item>oil pollution threatening coral reefs</item>
+      <item>beaches</item>
+      <item>and marine habitats</item>
+      <item>other water pollution from agricultural pesticides</item>
+      <item>raw sewage</item>
+      <item>and industrial effluents</item>
+      <item>limited natural freshwater resources away from the Nile</item>
+      <item>which is the only perennial water source</item>
+      <item>rapid growth in population overstraining the Nile and natural resources</item>
+   </list>
+   <list title="party to">
+      <item>Biodiversity</item>
+      <item>Climate Change</item>
+      <item>Climate Change-Kyoto Protocol</item>
+      <item>Desertification</item>
+      <item>Endangered Species</item>
+      <item>Environmental Modification</item>
+      <item>Hazardous Wastes</item>
+      <item>Law of the Sea</item>
+      <item>Marine Dumping</item>
+      <item>Ozone Layer Protection</item>
+      <item>Ship Pollution</item>
+      <item>Tropical Timber 83</item>
+      <item>Tropical Timber 94</item>
+      <item>Wetlands</item>
+   </list>
+   <list title="signed but not ratified">
+      <item/>
+   </list>
       104124440
       Egyptian
       <glossary title="ethnic groups">
@@ -247,6 +256,28 @@ House of Representatives (2015) - percent of vote by party - NA; seats by party 
       <term name="judge selection and term of office">under the 2014 constitution, all judges and justices selected and appointed by the Supreme Judiciary Council and approved as a formality by the president of the Republic; judges appointed for life; under the 2019 amendments, the president has the power to appoint heads of judiciary authorities and courts, the prosecutor general, and the head of the Supreme Constitutional Court</term>
       <term name="subordinate courts">Courts of Appeal; Courts of First Instance; courts of limited jurisdiction; Family Court (established in 2004)</term>
    </glossary>
+   <list title="political parties and leaders">
+      <item>Al-Nour (Yunis MAKHYUN)</item>
+      <item>Arab Democratic Nasserist Party (Dr. Mohamed ABDUL ELLA )</item>
+      <item>Congress Party (Omar Al-Mokhtar SEMIDA)</item>
+      <item>Conservative Party (Akmal KOURTAM)</item>
+      <item>Democratic Peace Party (Ahmed FADALY)</item>
+      <item>Egyptian National Movement Party (Gen. Raouf EL SAYED)</item>
+      <item>Egyptian Social Democratic Party (Farid ZAHRAN)</item>
+      <item>El Ghad Party (Moussa Mostafa MOUSSA)</item>
+      <item>El Serh El Masry el Hor (Tarek Ahmed Abbas NADIM)</item>
+      <item>Freedom Party (Salah HASSABALAH)</item>
+      <item>Free Egyptians Party (Essam KHALIL)</item>
+      <item>Homeland’s Protector Party (Lt. Gen.  Galal AL-HARIDI)</item>
+      <item>Modern Egypt Party (Nabil DEIBIS)</item>
+      <item>Nation's Future Party  (Mohamed Ashraf RASHAD)</item>
+      <item>My Homeland Egypt Party (Gen. Seif El Islam ABDEL BARY )</item>
+      <item>National Progressive Unionist  Party (Sayed Abdel AAL)</item>
+      <item>Reform and Development Party (Mohamad Anwar al-SADAT)</item>
+      <item>Republican People’s Party (Hazim AMR)</item>
+      <item>Revolutionary Guards Party (Magdy EL-SHARIF)</item>
+      <item>Wafd Party ()</item>
+   </list>
    <glossary title="in united states">
       <term name="chief of mission">Ambassador Motaz Mounir ZAHRAN (since 17 September 2020)</term>
       <term name="chancery">3521 International Court NW, Washington, DC 20008</term>
@@ -281,8 +312,79 @@ House of Representatives (2015) - percent of vote by party - NA; seats by party 
    <glossary title="national holidays">
       <term name="Revolution Day">23 July</term>
    </glossary>
-         accepts compulsory ICJ jurisdiction with reservations
-         non-party state to the ICCt
+   <list title="international law organization participation">
+      <item>accepts compulsory ICJ jurisdiction with reservations</item>
+      <item>non-party state to the ICCt</item>
+   </list>
+   <list title="international organization participation">
+      <item>ABEDA</item>
+      <item>AfDB</item>
+      <item>AFESD</item>
+      <item>AMF</item>
+      <item>AU</item>
+      <item>BSEC </item>
+      <item>CAEU</item>
+      <item>CD</item>
+      <item>CICA</item>
+      <item>COMESA</item>
+      <item>D-8</item>
+      <item>EBRD</item>
+      <item>FAO</item>
+      <item>G-15</item>
+      <item>G-24</item>
+      <item>G-77</item>
+      <item>IAEA</item>
+      <item>IBRD</item>
+      <item>ICAO</item>
+      <item>ICC </item>
+      <item>ICRM</item>
+      <item>IDA</item>
+      <item>IDB</item>
+      <item>IFAD</item>
+      <item>IFC</item>
+      <item>IFRCS</item>
+      <item>IHO</item>
+      <item>ILO</item>
+      <item>IMF</item>
+      <item>IMO</item>
+      <item>IMSO</item>
+      <item>Interpol</item>
+      <item>IOC</item>
+      <item>IOM</item>
+      <item>IPU</item>
+      <item>ISO</item>
+      <item>ITSO</item>
+      <item>ITU</item>
+      <item>LAS</item>
+      <item>MIGA</item>
+      <item>MINURSO</item>
+      <item>MINUSMA</item>
+      <item>MONUSCO</item>
+      <item>NAM</item>
+      <item>OAPEC</item>
+      <item>OAS </item>
+      <item>OIC</item>
+      <item>OIF</item>
+      <item>OSCE </item>
+      <item>PCA</item>
+      <item>UN</item>
+      <item>UNAMID</item>
+      <item>UNCTAD</item>
+      <item>UNESCO</item>
+      <item>UNHCR</item>
+      <item>UNIDO</item>
+      <item>UNMISS</item>
+      <item>UNOCI</item>
+      <item>UNRWA</item>
+      <item>UNWTO</item>
+      <item>UPU</item>
+      <item>WCO</item>
+      <item>WFTU </item>
+      <item>WHO</item>
+      <item>WIPO</item>
+      <item>WMO</item>
+      <item>WTO</item>
+   </list>
       Occupying the northeast corner of the African continent, Egypt is bisected by the highly fertile Nile valley where most economic activity takes place. Egypt's economy was highly centralized during the rule of former President Gamal Abdel NASSER but opened up considerably under former Presidents Anwar EL-SADAT and Mohamed Hosni MUBARAK. Agriculture, hydrocarbons, manufacturing, tourism, and other service sectors drove the country’s relatively diverse economic activity.
 Despite Egypt’s mixed record for attracting foreign investment over the past two decades, poor living conditions and limited job opportunities have contributed to public discontent. These socioeconomic pressures were a major factor leading to the January 2011 revolution that ousted MUBARAK. The uncertain political, security, and policy environment since 2011 has restricted economic growth and failed to alleviate persistent unemployment, especially among the young.
 In late 2016, persistent dollar shortages and waning aid from its Gulf allies led Cairo to turn to the IMF for a 3-year, $12 billion loan program. To secure the deal, Cairo floated its currency, introduced new taxes, and cut energy subsidies - all of which pushed inflation above 30% for most of 2017, a high that had not been seen in a generation. Since the currency float, foreign investment in Egypt’s high interest treasury bills has risen exponentially, boosting both dollar availability and central bank reserves. Cairo will be challenged to obtain foreign and local investment in manufacturing and other sectors without a sustained effort to implement a range of business reforms.
@@ -324,28 +426,32 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
       <term name="2016">9.1 percent of gdp [2016]</term>
       <term name="2015">10.6 percent of gdp [2015]</term>
    </glossary>
-         cotton
-         rice
-         corn
-         wheat
-         beans
-         fruits
-         vegetables
-         cattle
-         water buffalo
-         sheep
-         goats
-         textiles
-         food processing
-         tourism
-         chemicals
-         pharmaceuticals
-         hydrocarbons
-         construction
-         cement
-         metals
-         light manufactures
-      <glossary title="industrial production growth rate">
+   <list title="agriculture products">
+      <item>cotton</item>
+      <item>rice</item>
+      <item>corn</item>
+      <item>wheat</item>
+      <item>beans</item>
+      <item>fruits</item>
+      <item>vegetables</item>
+      <item>cattle</item>
+      <item>water buffalo</item>
+      <item>sheep</item>
+      <item>goats</item>
+   </list>
+   <list title="industries">
+      <item>textiles</item>
+      <item>food processing</item>
+      <item>tourism</item>
+      <item>chemicals</item>
+      <item>pharmaceuticals</item>
+      <item>hydrocarbons</item>
+      <item>construction</item>
+      <item>cement</item>
+      <item>metals</item>
+      <item>light manufactures</item>
+   </list>
+   <glossary title="industrial production growth rate">
       <term name="annual percentage increase">3.5</term>
    </glossary>
    <glossary title="total size">
@@ -382,16 +488,18 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
       <term name="2017">23300000000 USD [2017]</term>
       <term name="2016">20020000000 USD [2016]</term>
    </glossary>
-            crude oil
-            petroleum products
-            fruits
-            vegetables
-            cotton
-            textiles
-            metal products
-            chemicals
-            processed food
-         <glossary title="partners">
+   <list title="commodities">
+      <item>crude oil</item>
+      <item>petroleum products</item>
+      <item>fruits</item>
+      <item>vegetables</item>
+      <item>cotton</item>
+      <item>textiles</item>
+      <item>metal products</item>
+      <item>chemicals</item>
+      <item>processed food</item>
+   </list>
+   <glossary title="partners">
       <term name="UAE">10.9 % (UAE)</term>
       <term name="Italy">10 % (Italy)</term>
       <term name="US">7.4 % (US)</term>
@@ -404,13 +512,15 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
       <term name="2017">59780000000 USD [2017]</term>
       <term name="2016">57840000000 USD [2016]</term>
    </glossary>
-            machinery
-            equipment
-            foodstuffs
-            chemicals
-            wood products
-            fuels
-         <glossary title="partners">
+   <list title="commodities">
+      <item>machinery</item>
+      <item>equipment</item>
+      <item>foodstuffs</item>
+      <item>chemicals</item>
+      <item>wood products</item>
+      <item>fuels</item>
+   </list>
+   <glossary title="partners">
       <term name="China">7.9 % (China)</term>
       <term name="UAE">5.2 % (UAE)</term>
       <term name="Germany">4.8 % (Germany)</term>

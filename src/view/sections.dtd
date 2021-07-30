@@ -8,6 +8,9 @@
 <!ELEMENT paragraph (#PCDATA)>
 
 <!ELEMENT list (list|item)+>
+<!ATTLIST list
+  title CDATA #REQUIRED>
+
 <!ELEMENT item (#PCDATA)>
 
 <!ELEMENT glossary (term)+>

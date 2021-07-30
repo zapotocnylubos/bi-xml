@@ -104,6 +104,8 @@
     </term>
   </xsl:template>
 
+  <!-- all generic glossaries -->
+
   <xsl:template match="
       geographic_coordinates|
 
@@ -171,19 +173,46 @@
 
       military_and_security/expenditures|
 
-      transnational_issues/refugees_and_iternally_displaced_persons/refugees
-
-
-">
+      transnational_issues/refugees_and_iternally_displaced_persons/refugees">
     <xsl:call-template name="glossary"/>
   </xsl:template>
 
 
   <!-- Lists -->
 
-  <!--  <xsl:template match="">-->
-  <!--    <xsl:call-template name="list"/>-->
-  <!--  </xsl:template>-->
+  <xsl:template name="list">
+    <xsl:param name="title" select="name()"/>
+
+    <list title="{translate($title, '_', ' ')}">
+      <xsl:for-each select="*">
+        <xsl:call-template name="list-item"/>
+      </xsl:for-each>
+    </list>
+  </xsl:template>
+
+  <xsl:template name="list-item">
+    <item>
+      <xsl:apply-templates select="."/>
+    </item>
+  </xsl:template>
+
+  <xsl:template match="
+      geography/natural_resources|
+      environment/issues|
+      environment/international_agreements/*|
+
+      government/political_parties_and_leaders|
+      government/international_law_organization_participation|
+      government/international_organization_participation|
+
+      economy/agriculture_products|
+      economy/industries|
+      economy/exports/commodities|
+      economy/imports/commodities
+">
+    <xsl:call-template name="list"/>
+  </xsl:template>
+
 
   <xsl:template match="*[@units]">
     <xsl:variable name="extra">
@@ -229,6 +258,29 @@
     <xsl:value-of select="concat(@population, ' people')"/>
   </xsl:template>
 
+  <xsl:template match="political_parties_and_leaders/party">
+    <xsl:variable name="extra">
+      <xsl:choose>
+        <xsl:when test="@leader">
+          <xsl:value-of select="concat('(', @leader, ')')"/>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+
+    <xsl:choose>
+      <xsl:when test="$extra = ''">
+        <xsl:value-of select="@name"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat(@name, ' ', $extra)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template match="international_organization_participation/organization[@name]">
+    <xsl:value-of select="@name"/>
+  </xsl:template>
+
   <!--  <xsl:template match="geography/border_countries/*[@units]">-->
   <!--    <xsl:value-of select="concat(., ' ', @units)"/>-->
   <!--  </xsl:template>-->
@@ -249,27 +301,27 @@
   <!--    </glossary>-->
   <!--  </xsl:template>-->
 
-<!--  <xsl:template name="term">-->
-<!--    <xsl:variable name="name">-->
+  <!--  <xsl:template name="term">-->
+  <!--    <xsl:variable name="name">-->
 
-<!--    </xsl:variable>-->
+  <!--    </xsl:variable>-->
 
-<!--    <xsl:variable name="sanitized-name">-->
-<!--      <xsl:value-of select="translate($name, '_', ' ')"/>-->
-<!--    </xsl:variable>-->
+  <!--    <xsl:variable name="sanitized-name">-->
+  <!--      <xsl:value-of select="translate($name, '_', ' ')"/>-->
+  <!--    </xsl:variable>-->
 
-<!--    <term name="{$sanitized-name}">-->
-<!--      <xsl:apply-templates select="."/>-->
-<!--    </term>-->
-<!--  </xsl:template>-->
+  <!--    <term name="{$sanitized-name}">-->
+  <!--      <xsl:apply-templates select="."/>-->
+  <!--    </term>-->
+  <!--  </xsl:template>-->
 
-<!--  <xsl:template match="geography/elevation">-->
-<!--    <glossary title="elevation">-->
-<!--      <xsl:for-each select="*">-->
-<!--        <xsl:call-template name="term"/>-->
-<!--      </xsl:for-each>-->
-<!--    </glossary>-->
-<!--  </xsl:template>-->
+  <!--  <xsl:template match="geography/elevation">-->
+  <!--    <glossary title="elevation">-->
+  <!--      <xsl:for-each select="*">-->
+  <!--        <xsl:call-template name="term"/>-->
+  <!--      </xsl:for-each>-->
+  <!--    </glossary>-->
+  <!--  </xsl:template>-->
 
 
   <!-- Data-view formatting -->

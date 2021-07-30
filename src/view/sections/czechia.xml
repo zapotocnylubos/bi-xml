@@ -26,14 +26,16 @@
       <term name="Labe (Elbe) River">115 m (Labe (Elbe) River)</term>
       <term name="Snezka">1602 m (Snezka)</term>
    </glossary>
-         hard coal
-         soft coal
-         kaolin
-         clay
-         graphite
-         timber
-         arable land
-         <glossary title="by sector">
+   <list title="natural resources">
+      <item>hard coal</item>
+      <item>soft coal</item>
+      <item>kaolin</item>
+      <item>clay</item>
+      <item>graphite</item>
+      <item>timber</item>
+      <item>arable land</item>
+   </list>
+   <glossary title="by sector">
       <term name="agricultural land total">54.8 %</term>
       <term name="arable land">41 % (/)</term>
       <term name="permanent crops">1 % (/)</term>
@@ -46,31 +48,38 @@
       <glossary title="natural hazards">
       <term name="hazard">flooding</term>
    </glossary>
-            air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks
-            acid rain damaging forests
-            land pollution caused by industry
-            mining
-            and agriculture
-               Air Pollution
-               Air Pollution-Nitrogen Oxides
-               Air Pollution-Persistent Organic Pollutants
-               Air Pollution-Sulfur 85
-               Air Pollution-Sulfur 94
-               Air Pollution-Volatile Organic Compounds
-               Antarctic-Environmental Protocol
-               Antarctic Treaty
-               Biodiversity
-               Climate Change
-               Climate Change-Kyoto Protocol
-               Desertification
-               Endangered Species
-               Environmental Modification
-               Hazardous Wastes
-               Law of the Sea
-               Ozone Layer Protection
-               Ship Pollution
-               Wetlands
-               Whaling
+   <list title="issues">
+      <item>air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks</item>
+      <item>acid rain damaging forests</item>
+      <item>land pollution caused by industry</item>
+      <item>mining</item>
+      <item>and agriculture</item>
+   </list>
+   <list title="party to">
+      <item>Air Pollution</item>
+      <item>Air Pollution-Nitrogen Oxides</item>
+      <item>Air Pollution-Persistent Organic Pollutants</item>
+      <item>Air Pollution-Sulfur 85</item>
+      <item>Air Pollution-Sulfur 94</item>
+      <item>Air Pollution-Volatile Organic Compounds</item>
+      <item>Antarctic-Environmental Protocol</item>
+      <item>Antarctic Treaty</item>
+      <item>Biodiversity</item>
+      <item>Climate Change</item>
+      <item>Climate Change-Kyoto Protocol</item>
+      <item>Desertification</item>
+      <item>Endangered Species</item>
+      <item>Environmental Modification</item>
+      <item>Hazardous Wastes</item>
+      <item>Law of the Sea</item>
+      <item>Ozone Layer Protection</item>
+      <item>Ship Pollution</item>
+      <item>Wetlands</item>
+      <item>Whaling</item>
+   </list>
+   <list title="signed but not ratified">
+      <item/>
+   </list>
       10702498
       Czech
       <glossary title="ethnic groups">
@@ -222,6 +231,19 @@ Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 1
       <term name="judge selection and term of office">Supreme Court judges proposed by the Chamber of Deputies and appointed by the president; judges appointed for life; Constitutional Court judges appointed by the president and confirmed by the Senate; judges appointed for 10-year, renewable terms; Supreme Administrative Court judges selected by the president of the Court; unlimited terms</term>
       <term name="subordinate courts">High Court; regional and district courts</term>
    </glossary>
+   <list title="political parties and leaders">
+      <item>Christian Democratic Union-Czechoslovak People's Party (Pavel BELOBRADEK)</item>
+      <item>Civic Democratic Party (Petr FIALA)</item>
+      <item>Communist Party of Bohemia and Moravia (Vojtech FILIP)</item>
+      <item>Czech Social Democratic Party (Jan HAMACEK)</item>
+      <item>Freedom and Direct Democracy (Tomio OKAMURA)</item>
+      <item>Green Party (Petr STEPANEK)</item>
+      <item>Mayors and Independents (Petr GAZDIK)</item>
+      <item>Movement of Dissatisfied Citizens (Andrej BABIS)</item>
+      <item>Party of Civic Rights (Lubomir NECAS)</item>
+      <item>Pirate Party (Ivan BARTOS)</item>
+      <item>Tradition Responsibility Prosperity 09 (Jiri POSPISIL)</item>
+   </list>
    <glossary title="in united states">
       <term name="chief of mission">Ambassador Hynek KMONICEK (since 24 April 2017)</term>
       <term name="chancery">3900 Spring of Freedom Street NW, Washington, DC 20008</term>
@@ -257,8 +279,75 @@ Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 1
    <glossary title="national holidays">
       <term name="Czechoslovak Founding Day">28 October</term>
    </glossary>
-         has not submitted an ICJ jurisdiction declaration
-         accepts ICCt jurisdiction
+   <list title="international law organization participation">
+      <item>has not submitted an ICJ jurisdiction declaration</item>
+      <item>accepts ICCt jurisdiction</item>
+   </list>
+   <list title="international organization participation">
+      <item>Australia Group</item>
+      <item>BIS</item>
+      <item>BSEC </item>
+      <item>CD</item>
+      <item>CE</item>
+      <item>CEI</item>
+      <item>CERN</item>
+      <item>EAPC</item>
+      <item>EBRD</item>
+      <item>ECB</item>
+      <item>EIB</item>
+      <item>ESA</item>
+      <item>EU</item>
+      <item>FAO</item>
+      <item>IAEA</item>
+      <item>IBRD</item>
+      <item>ICAO</item>
+      <item>ICC </item>
+      <item>ICCt</item>
+      <item>ICRM</item>
+      <item>IDA</item>
+      <item>IEA</item>
+      <item>IFC</item>
+      <item>IFRCS</item>
+      <item>ILO</item>
+      <item>IMF</item>
+      <item>IMO</item>
+      <item>IMSO</item>
+      <item>Interpol</item>
+      <item>IOC</item>
+      <item>IOM</item>
+      <item>IPU</item>
+      <item>ISO</item>
+      <item>ITSO</item>
+      <item>ITU</item>
+      <item>ITUC </item>
+      <item>MIGA</item>
+      <item>MONUSCO</item>
+      <item>NATO</item>
+      <item>NEA</item>
+      <item>NSG</item>
+      <item>OAS </item>
+      <item>OECD</item>
+      <item>OIF </item>
+      <item>OPCW</item>
+      <item>OSCE</item>
+      <item>PCA</item>
+      <item>Schengen Convention</item>
+      <item>SELEC</item>
+      <item>UN</item>
+      <item>UNCTAD</item>
+      <item>UNESCO</item>
+      <item>UNHCR</item>
+      <item>UNIDO</item>
+      <item>UNWTO</item>
+      <item>UPU</item>
+      <item>WCO</item>
+      <item>WFTU </item>
+      <item>WHO</item>
+      <item>WIPO</item>
+      <item>WMO</item>
+      <item>WTO</item>
+      <item>ZC</item>
+   </list>
       Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.
 Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.
 Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.
@@ -300,20 +389,24 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
       <term name="2016">27.5 percent of gdp [2016]</term>
       <term name="2015">28.2 percent of gdp [2015]</term>
    </glossary>
-         wheat
-         potatoes
-         sugar beets
-         hops
-         fruit
-         pigs
-         poultry
-         motor vehicles
-         metallurgy
-         machinery
-         equipment
-         glass
-         armaments
-      <glossary title="industrial production growth rate">
+   <list title="agriculture products">
+      <item>wheat</item>
+      <item>potatoes</item>
+      <item>sugar beets</item>
+      <item>hops</item>
+      <item>fruit</item>
+      <item>pigs</item>
+      <item>poultry</item>
+   </list>
+   <list title="industries">
+      <item>motor vehicles</item>
+      <item>metallurgy</item>
+      <item>machinery</item>
+      <item>equipment</item>
+      <item>glass</item>
+      <item>armaments</item>
+   </list>
+   <glossary title="industrial production growth rate">
       <term name="annual percentage increase">7.5</term>
    </glossary>
    <glossary title="total size">
@@ -349,12 +442,14 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
       <term name="2017">144800000000 USD [2017]</term>
       <term name="2016">131100000000 USD [2016]</term>
    </glossary>
-            machinery
-            transport equipment
-            raw materials
-            fuel
-            chemicals
-         <glossary title="partners">
+   <list title="commodities">
+      <item>machinery</item>
+      <item>transport equipment</item>
+      <item>raw materials</item>
+      <item>fuel</item>
+      <item>chemicals</item>
+   </list>
+   <glossary title="partners">
       <term name="Germany">32.8 % (Germany)</term>
       <term name="Slovakia">7.8 % (Slovakia)</term>
       <term name="Poland">6.1 % (Poland)</term>
@@ -367,12 +462,14 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
       <term name="2017">134699999999.99998 USD [2017]</term>
       <term name="2016">120500000000 USD [2016]</term>
    </glossary>
-            machinery
-            transport equipment
-            raw materials
-            fuels
-            chemicals
-         <glossary title="partners">
+   <list title="commodities">
+      <item>machinery</item>
+      <item>transport equipment</item>
+      <item>raw materials</item>
+      <item>fuels</item>
+      <item>chemicals</item>
+   </list>
+   <glossary title="partners">
       <term name="Germany">29.8 % (Germany)</term>
       <term name="Poland">9.1 % (Poland)</term>
       <term name="China">7.4 % (China)</term>
