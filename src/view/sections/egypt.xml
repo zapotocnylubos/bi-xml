@@ -1,631 +1,544 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section id="egypt" title="Egypt">
-   <section title="Introduction">
-      <section title="Background">The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations. A unified kingdom arose circa 3200 B.C., and a series of dynasties ruled in Egypt for the next three millennia. The last native dynasty fell to the Persians in 341 B.C., who in turn were replaced by the Greeks, Romans, and Byzantines. It was the Arabs who introduced Islam and the Arabic language in the 7th century and who ruled for the next six centuries. A local military caste, the Mamluks took control about 1250 and continued to govern after the conquest of Egypt by the Ottoman Turks in 1517. Completion of the Suez Canal in 1869 elevated Egypt as an important world transportation hub. Ostensibly to protect its investments, Britain seized control of Egypt's government in 1882, but nominal allegiance to the Ottoman Empire continued until 1914. Partially independent from the UK in 1922, Egypt acquired full sovereignty from Britain in 1952. The completion of the Aswan High Dam in 1971 and the resultant Lake Nasser have reaffirmed the time-honored place of the Nile River in the agriculture and ecology of Egypt. A rapidly growing population (the largest in the Arab world), limited arable land, and dependence on the Nile all continue to overtax resources and stress society. The government has struggled to meet the demands of Egypt's fast-growing population as it implements far-reaching economic reforms, including the reduction of select subsidies, large-scale infrastructure projects, energy cooperation, and foreign direct investment appeals.
-Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonstrations and labor strikes countrywide, culminating in President Hosni MUBARAK's ouster in 2011. Egypt's military assumed national leadership until a new legislature was in place in early 2012; later that same year, Muhammad MURSI won the presidential election. Following protests throughout the spring of 2013 against MURSI's government and the Muslim Brotherhood, the Egyptian Armed Forces intervened and removed MURSI from power in July 2013 and replaced him with interim president Adly MANSOUR. Simultaneously, the government began enacting laws to limit freedoms of assembly and expression. In January 2014, voters approved a new constitution by referendum and in May 2014 elected former defense minister Abdelfattah ELSISI president. Egypt elected a new legislature in December 2015, its first Hose of Representatives since 2012. ELSISI was reelected to a second four-year term in March 2018. In April 2019, Egypt approved via national referendum a set of constitutional amendments extending ELSISI’s term in office through 2024 and possibly through 2030 if re-elected for a third term. The amendments would also allow future presidents up to two consecutive six-year terms in office, re-establish an upper legislative house, allow for one or more vice presidents, establish a 25% quota for female legislators, reaffirm the military’s role as guardian of Egypt, and expand presidential authority to appoint the heads of judicial councils.</section>
-   </section>
-   <section title="Geography">
-      <section title="Location">Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes the Asian Sinai Peninsula</section>
-      <geographic_coordinates>
-         <latitude/>
-         <longitude/>
-      </geographic_coordinates>
-      <map_references>Africa</map_references>
-      <area>
-         <total>1001450 sq km</total>
-         <land>995450 sq km</land>
-         <water>6000 sq km</water>
-         <comparative>more than eight times the size of Ohio; slightly more than three times the size of New Mexico</comparative> (Global rank: 31)</area>
-      <land_boundaries>
-         <total>2612 km</total>
-         <border_countries>
-            <country>Gaza Strip</country>
-            <border_length>13 km</border_length>
-         </border_countries>
-         <border_countries>
-            <country>Israel</country>
-            <border_length>208 km</border_length>
-         </border_countries>
-         <border_countries>
-            <country>Libya</country>
-            <border_length>1115 km</border_length>
-         </border_countries>
-         <border_countries>
-            <country>Sudan</country>
-            <border_length>1276 km</border_length>
-         </border_countries>
-      </land_boundaries>
-      <coastline>2450 km</coastline>
-      <maritime_claims>
-         <territorial_sea>12 nm</territorial_sea>
-         <exclusive_economic_zone>200 nm</exclusive_economic_zone>
-         <contiguous_zone>24 nm</contiguous_zone>
-         <continental_shelf>200 nm</continental_shelf>
-      </maritime_claims>
-      <climate>desert; hot, dry summers with moderate winters</climate>
-      <terrain>vast desert plateau interrupted by Nile valley and delta</terrain>
-      <elevation>
-         <mean_elevation>321 m</mean_elevation>
-         <lowest_point>
-            <name>Qattara Depression</name>
-            <elevation>-133 m</elevation>
-         </lowest_point>
-         <highest_point>
-            <name>Mount Catherine</name>
-            <elevation>2629 m</elevation>
-         </highest_point>
-      </elevation>
-      <natural_resources>
-         <resources>petroleum</resources>
-         <resources>natural gas</resources>
-         <resources>iron ore</resources>
-         <resources>phosphates</resources>
-         <resources>manganese</resources>
-         <resources>limestone</resources>
-         <resources>gypsum</resources>
-         <resources>talc</resources>
-         <resources>asbestos</resources>
-         <resources>lead</resources>
-         <resources>rare earth elements</resources>
-         <resources>zinc</resources>
-      </natural_resources>
-      <land_use>
-         <by_sector>
-            <agricultural_land_total>3.6 %</agricultural_land_total>
-            <arable_land>2.8 %</arable_land>
-            <permanent_crops>0.8 %</permanent_crops>
-            <permanent_pasture>0 %</permanent_pasture>
-            <forest>0.1 %</forest>
-            <other>96.3 %</other>
-         </by_sector> [2011]</land_use>
-      <irrigated_land>36500 sq km [2012]</irrigated_land>
-      <population_distribution>approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map</population_distribution>
-      <natural_hazards>
-         <description>periodic droughts</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>frequent earthquakes</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>flash floods</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>landslides</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>hot, driving windstorms called khamsin occur in spring</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>dust storms</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <natural_hazards>
-         <description>sandstorms</description>
-         <type>hazard</type>
-      </natural_hazards>
-      <environment>
-         <current_issues>agricultural land being lost to urbanization and windblown sands</current_issues>
-         <current_issues>increasing soil salination below Aswan High Dam</current_issues>
-         <current_issues>desertification</current_issues>
-         <current_issues>oil pollution threatening coral reefs</current_issues>
-         <current_issues>beaches</current_issues>
-         <current_issues>and marine habitats</current_issues>
-         <current_issues>other water pollution from agricultural pesticides</current_issues>
-         <current_issues>raw sewage</current_issues>
-         <current_issues>and industrial effluents</current_issues>
-         <current_issues>limited natural freshwater resources away from the Nile</current_issues>
-         <current_issues>which is the only perennial water source</current_issues>
-         <current_issues>rapid growth in population overstraining the Nile and natural resources</current_issues>
-         <international_agreements>
-            <party_to>Biodiversity</party_to>
-            <party_to>Climate Change</party_to>
-            <party_to>Climate Change-Kyoto Protocol</party_to>
-            <party_to>Desertification</party_to>
-            <party_to>Endangered Species</party_to>
-            <party_to>Environmental Modification</party_to>
-            <party_to>Hazardous Wastes</party_to>
-            <party_to>Law of the Sea</party_to>
-            <party_to>Marine Dumping</party_to>
-            <party_to>Ozone Layer Protection</party_to>
-            <party_to>Ship Pollution</party_to>
-            <party_to>Tropical Timber 83</party_to>
-            <party_to>Tropical Timber 94</party_to>
-            <party_to>Wetlands</party_to>
-            <signed_but_not_ratified/>
-         </international_agreements>
-      </environment>
-   </section>
-   <section title="People">
-      <population>104124440 (Global rank: 14) [2020-07-01]</population>
-      <nationality>
-         <noun>Egyptian(s)</noun>
-         <adjective>Egyptian</adjective>
-      </nationality>
-      <ethnic_groups>
-         <ethnicity>99.7 %</ethnicity>
-         <ethnicity>0.3 %</ethnicity> [2006]</ethnic_groups>
-      <languages>
-         <language>
-            <name>Arabic</name>
-         </language>
-         <language>
-            <name>Arabic</name>
-         </language>
-         <language>
-            <name>English</name>
-         </language>
-         <language>
-            <name>and French widely understood by educated classes</name>
-         </language>
-      </languages>
-      <religions>
-         <religion>90 %</religion>
-         <religion>10 %</religion>
-         <m_e_n_a_religious_affiliation>PDF</m_e_n_a_religious_affiliation> [2015]</religions>
-      <demographic_profile>Egypt is the most populous country in the Arab world and the third most populous country in Africa, behind Nigeria and Ethiopia. Most of the country is desert, so about 95% of the population is concentrated in a narrow strip of fertile land along the Nile River, which represents only about 5% of Egypt’s land area. Egypt’s rapid population growth – 46% between 1994 and 2014 – stresses limited natural resources, jobs, housing, sanitation, education, and health care.
+      The regularity and richness of the annual Nile River flood, coupled with semi-isolation provided by deserts to the east and west, allowed for the development of one of the world's great civilizations. A unified kingdom arose circa 3200 B.C., and a series of dynasties ruled in Egypt for the next three millennia. The last native dynasty fell to the Persians in 341 B.C., who in turn were replaced by the Greeks, Romans, and Byzantines. It was the Arabs who introduced Islam and the Arabic language in the 7th century and who ruled for the next six centuries. A local military caste, the Mamluks took control about 1250 and continued to govern after the conquest of Egypt by the Ottoman Turks in 1517. Completion of the Suez Canal in 1869 elevated Egypt as an important world transportation hub. Ostensibly to protect its investments, Britain seized control of Egypt's government in 1882, but nominal allegiance to the Ottoman Empire continued until 1914. Partially independent from the UK in 1922, Egypt acquired full sovereignty from Britain in 1952. The completion of the Aswan High Dam in 1971 and the resultant Lake Nasser have reaffirmed the time-honored place of the Nile River in the agriculture and ecology of Egypt. A rapidly growing population (the largest in the Arab world), limited arable land, and dependence on the Nile all continue to overtax resources and stress society. The government has struggled to meet the demands of Egypt's fast-growing population as it implements far-reaching economic reforms, including the reduction of select subsidies, large-scale infrastructure projects, energy cooperation, and foreign direct investment appeals.
+Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonstrations and labor strikes countrywide, culminating in President Hosni MUBARAK's ouster in 2011. Egypt's military assumed national leadership until a new legislature was in place in early 2012; later that same year, Muhammad MURSI won the presidential election. Following protests throughout the spring of 2013 against MURSI's government and the Muslim Brotherhood, the Egyptian Armed Forces intervened and removed MURSI from power in July 2013 and replaced him with interim president Adly MANSOUR. Simultaneously, the government began enacting laws to limit freedoms of assembly and expression. In January 2014, voters approved a new constitution by referendum and in May 2014 elected former defense minister Abdelfattah ELSISI president. Egypt elected a new legislature in December 2015, its first Hose of Representatives since 2012. ELSISI was reelected to a second four-year term in March 2018. In April 2019, Egypt approved via national referendum a set of constitutional amendments extending ELSISI’s term in office through 2024 and possibly through 2030 if re-elected for a third term. The amendments would also allow future presidents up to two consecutive six-year terms in office, re-establish an upper legislative house, allow for one or more vice presidents, establish a 25% quota for female legislators, reaffirm the military’s role as guardian of Egypt, and expand presidential authority to appoint the heads of judicial councils.
+      Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes the Asian Sinai Peninsula
+      <glossary title="geographic coordinates">
+      <term name="latitude">27°0"N</term>
+      <term name="longitude">30°0"E</term>
+   </glossary>
+   <glossary title="area">
+      <term name="total">1001450 sq km</term>
+      <term name="land">995450 sq km</term>
+      <term name="water">6000 sq km</term>
+      <term name="comparative">more than eight times the size of Ohio; slightly more than three times the size of New Mexico</term>
+   </glossary>
+   <glossary title="border countries">
+      <term name="Gaza Strip">13 km</term>
+      <term name="Israel">208 km</term>
+      <term name="Libya">1115 km</term>
+      <term name="Sudan">1276 km</term>
+   </glossary>
+      2450 km
+      desert; hot, dry summers with moderate winters
+      vast desert plateau interrupted by Nile valley and delta
+      <glossary title="elevation">
+      <term name="mean elevation">321 m</term>
+      <term name="Qattara Depression">-133 m (Qattara Depression)</term>
+      <term name="Mount Catherine">2629 m (Mount Catherine)</term>
+   </glossary>
+         petroleum
+         natural gas
+         iron ore
+         phosphates
+         manganese
+         limestone
+         gypsum
+         talc
+         asbestos
+         lead
+         rare earth elements
+         zinc
+         <glossary title="by sector">
+      <term name="agricultural land total">3.6 %</term>
+      <term name="arable land">2.8 % (/)</term>
+      <term name="permanent crops">0.8 % (/)</term>
+      <term name="permanent pasture">0 %</term>
+      <term name="forest">0.1 %</term>
+      <term name="other">96.3 %</term>
+   </glossary>
+      36500 sq km [2012]
+      approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map
+      <glossary title="natural hazards">
+      <term name="hazard">periodic droughts</term>
+      <term name="hazard">frequent earthquakes</term>
+      <term name="hazard">flash floods</term>
+      <term name="hazard">landslides</term>
+      <term name="hazard">hot, driving windstorms called khamsin occur in spring</term>
+      <term name="hazard">dust storms</term>
+      <term name="hazard">sandstorms</term>
+   </glossary>
+            agricultural land being lost to urbanization and windblown sands
+            increasing soil salination below Aswan High Dam
+            desertification
+            oil pollution threatening coral reefs
+            beaches
+            and marine habitats
+            other water pollution from agricultural pesticides
+            raw sewage
+            and industrial effluents
+            limited natural freshwater resources away from the Nile
+            which is the only perennial water source
+            rapid growth in population overstraining the Nile and natural resources
+               Biodiversity
+               Climate Change
+               Climate Change-Kyoto Protocol
+               Desertification
+               Endangered Species
+               Environmental Modification
+               Hazardous Wastes
+               Law of the Sea
+               Marine Dumping
+               Ozone Layer Protection
+               Ship Pollution
+               Tropical Timber 83
+               Tropical Timber 94
+               Wetlands
+      104124440
+      Egyptian
+      <glossary title="ethnic groups">
+      <term name="Egyptian">99.7 % (Egyptian)</term>
+      <term name="other">0.3 % (other)</term>
+      <term name="note">data represent respondents by nationality</term>
+   </glossary>
+   <glossary title="languages">
+      <term name="Arabic"> % (Arabic)</term>
+      <term name="Arabic"> % (Arabic)</term>
+      <term name="English"> % (English)</term>
+      <term name="and French widely understood by educated classes"> % (and French widely understood by educated classes)</term>
+   </glossary>
+   <glossary title="religions">
+      <term name="Muslim">90 % (Muslim)</term>
+      <term name="Christian">10 % (Christian)</term>
+      <term name="m e n a religious affiliation">PDF</term>
+   </glossary>
+      Egypt is the most populous country in the Arab world and the third most populous country in Africa, behind Nigeria and Ethiopia. Most of the country is desert, so about 95% of the population is concentrated in a narrow strip of fertile land along the Nile River, which represents only about 5% of Egypt’s land area. Egypt’s rapid population growth – 46% between 1994 and 2014 – stresses limited natural resources, jobs, housing, sanitation, education, and health care.
 Although the country’s total fertility rate (TFR) fell from roughly 5.5 children per woman in 1980 to just over 3 in the late 1990s, largely as a result of state-sponsored family planning programs, the population growth rate dropped more modestly because of decreased mortality rates and longer life expectancies. During the last decade, Egypt’s TFR decline stalled for several years and then reversed, reaching 3.6 in 2011, and has plateaued the last few years. Contraceptive use has held steady at about 60%, while preferences for larger families and early marriage may have strengthened in the wake of the recent 2011 revolution. The large cohort of women of or nearing childbearing age will sustain high population growth for the foreseeable future (an effect called population momentum).
 Nevertheless, post-MUBARAK governments have not made curbing population growth a priority. To increase contraceptive use and to prevent further overpopulation will require greater government commitment and substantial social change, including encouraging smaller families and better educating and empowering women. Currently, literacy, educational attainment, and labor force participation rates are much lower for women than men. In addition, the prevalence of violence against women, the lack of female political representation, and the perpetuation of the nearly universal practice of female genital cutting continue to keep women from playing a more significant role in Egypt’s public sphere.
 Population pressure, poverty, high unemployment, and the fragmentation of inherited land holdings have historically motivated Egyptians, primarily young men, to migrate internally from rural and smaller urban areas in the Nile Delta region and the poorer rural south to Cairo, Alexandria, and other urban centers in the north, while a much smaller number migrated to the Red Sea and Sinai areas. Waves of forced internal migration also resulted from the 1967 Arab-Israeli War and the floods caused by the completion of the Aswan High Dam in 1970. Limited numbers of students and professionals emigrated temporarily prior to the early 1970s, when economic problems and high unemployment pushed the Egyptian Government to lift restrictions on labor migration. At the same time, high oil revenues enabled Saudi Arabia, Iraq, and other Gulf states, as well as Libya and Jordan, to fund development projects, creating a demand for unskilled labor (mainly in construction), which attracted tens of thousands of young Egyptian men.
 Between 1970 and 1974 alone, Egyptian migrants in the Gulf countries increased from approximately 70,000 to 370,000. Egyptian officials encouraged legal labor migration both to alleviate unemployment and to generate remittance income (remittances continue to be one of Egypt’s largest sources of foreign currency and GDP). During the mid-1980s, however, depressed oil prices resulting from the Iran-Iraq War, decreased demand for low-skilled labor, competition from less costly South Asian workers, and efforts to replace foreign workers with locals significantly reduced Egyptian migration to the Gulf States. The number of Egyptian migrants dropped from a peak of almost 3.3 million in 1983 to about 2.2 million at the start of the 1990s, but numbers gradually recovered.
 In the 2000s, Egypt began facilitating more labor migration through bilateral agreements, notably with Arab countries and Italy, but illegal migration to Europe through overstayed visas or maritime human smuggling via Libya also rose. The Egyptian Government estimated there were 6.5 million Egyptian migrants in 2009, with roughly 75% being temporary migrants in other Arab countries (Libya, Saudi Arabia, Jordan, Kuwait, and the United Arab Emirates) and 25% being predominantly permanent migrants in the West (US, UK, Italy, France, and Canada).
-During the 2000s, Egypt became an increasingly important transit and destination country for economic migrants and asylum seekers, including Palestinians, East Africans, and South Asians and, more recently, Iraqis and Syrians. Egypt draws many refugees because of its resettlement programs with the West; Cairo has one of the largest urban refugee populations in the world. Many East African migrants are interned or live in temporary encampments along the Egypt-Israel border, and some have been shot and killed by Egyptian border guards.</demographic_profile>
-      <dependency_ratios>
-         <ratios>
-            <total_dependency_ratio>64.6 %</total_dependency_ratio>
-            <youth_dependency_ratio>55.8 %</youth_dependency_ratio>
-            <elderly_dependency_ratio>8.8 %</elderly_dependency_ratio>
-            <potential_support_ratio>11.4 %</potential_support_ratio>
-         </ratios> [2020]</dependency_ratios>
-      <median_age>
-         <total>24.1 years</total>
-         <male>23.8 years</male>
-         <female>24.5 years</female> (Global rank: 166) [2020]</median_age>
-      <population_growth_rate>2.28 (Global rank: 31) [2020]</population_growth_rate>
-      <birth_rate>27.2 births per 1000 population (Global rank: 42) [2020]</birth_rate>
-      <death_rate>4.4 deaths per 1000 population (Global rank: 209) [2020]</death_rate>
-      <net_migration_rate>-0.3 migrants per 1000 population (Global rank: 117) [2020]</net_migration_rate>
-      <population_distribution>approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map</population_distribution>
-      <urbanization>
-         <urban_population>42.8 % [2020]</urban_population>
-         <rate_of_urbanization>1.86 %</rate_of_urbanization>
-         <total_population_growth_rate_v._urban_population_growth_rate_2000_2030>PDF</total_population_growth_rate_v._urban_population_growth_rate_2000_2030>
-      </urbanization>
-      <major_urban_areas>
-         <places>Cairo</places>
-         <places>Alexandria</places> [2020]</major_urban_areas>
-      <mothers_mean_age_at_first_birth>22.7</mothers_mean_age_at_first_birth>
-      <maternal_mortality_rate>37 deaths per 100k live births (Global rank: 102) [2017]</maternal_mortality_rate>
-      <infant_mortality_rate>
-         <total>17.1 deaths per 1000 live births</total>
-         <male>18.2 deaths per 1000 live births</male>
-         <female>15.8 deaths per 1000 live births</female> (Global rank: 87) [2020]</infant_mortality_rate>
-      <life_expectancy_at_birth>
-         <total_population>73.7 years</total_population>
-         <male>72.3 years</male>
-         <female>75.3 years</female> (Global rank: 140) [2020]</life_expectancy_at_birth>
-      <total_fertility_rate>3.29 children born per woman (Global rank: 45) [2020]</total_fertility_rate>
-      <contraceptive_prevalence_rate>58.5 % [2014]</contraceptive_prevalence_rate>
-      <physicians_density>0.8 physicians per 1000 population [2017]</physicians_density>
-      <hospital_bed_density>1.4 beds per 1000 population [2017]</hospital_bed_density>
-      <drinking_water_source>
-         <improved>
-            <urban>100 percent of population</urban>
-            <rural>98.8 percent of population</rural>
-            <total>100 percent of population</total>
-         </improved>
-         <unimproved>
-            <urban>0 percent of population</urban>
-            <rural>1.2 percent of population</rural>
-            <total>0.6 percent of population</total>
-         </unimproved> [2017]</drinking_water_source>
-      <sanitation_facility_access>
-         <improved>
-            <urban>99.8 percent of population</urban>
-            <rural>97.6 percent of population</rural>
-            <total>98.5 percent of population</total>
-         </improved>
-         <unimproved>
-            <urban>0.2 percent of population</urban>
-            <rural>2.4 percent of population</rural>
-            <total>1.5 percent of population</total>
-         </unimproved> [2017]</sanitation_facility_access>
-      <hiv_aids>
-         <adult_prevalence_rate>0.1 % of adults [2019]</adult_prevalence_rate>
-         <people_living_with_hiv_aids>26000 (Global rank: 80) [2019]</people_living_with_hiv_aids>
-         <deaths>500 [2019]</deaths>
-      </hiv_aids>
-      <major_infectious_diseases>
-         <degree_of_risk>intermediate</degree_of_risk>
-         <food_or_waterborne_diseases>bacterial diarrhea</food_or_waterborne_diseases>
-         <food_or_waterborne_diseases>hepatitis A</food_or_waterborne_diseases>
-         <food_or_waterborne_diseases>typhoid fever</food_or_waterborne_diseases>
-         <water_contact_diseases>schistosomiasis</water_contact_diseases> [2020]</major_infectious_diseases>
-      <adult_obesity>32 % of adults (Global rank: 18) [2016]</adult_obesity>
-      <underweight_children>
-         <percent_of_children_under_the_age_of_five>7</percent_of_children_under_the_age_of_five> (Global rank: 73) [2014]</underweight_children>
-      <literacy>
-         <definition>age 15 and over can read and write</definition>
-         <total_population>71.2 %</total_population>
-         <male>76.5 %</male>
-         <female>65.5 %</female> [2017]</literacy>
-      <school_life_expectancy>
-         <total>13 years</total>
-         <male>13 years</male>
-         <female>13 years</female> [2017]</school_life_expectancy>
-      <youth_unemployment>
-         <total>29.6 %</total>
-         <male>25.7 %</male>
-         <female>38.3 %</female> (Global rank: 32) [2017]</youth_unemployment>
-   </section>
-   <section title="International organization participation">
-      <organization>ABEDA</organization>
-      <organization>AfDB</organization>
-      <organization>AFESD</organization>
-      <organization>AMF</organization>
-      <organization>AU</organization>
-      <organization>BSEC </organization>
-      <organization>CAEU</organization>
-      <organization>CD</organization>
-      <organization>CICA</organization>
-      <organization>COMESA</organization>
-      <organization>D-8</organization>
-      <organization>EBRD</organization>
-      <organization>FAO</organization>
-      <organization>G-15</organization>
-      <organization>G-24</organization>
-      <organization>G-77</organization>
-      <organization>IAEA</organization>
-      <organization>IBRD</organization>
-      <organization>ICAO</organization>
-      <organization>ICC </organization>
-      <organization>ICRM</organization>
-      <organization>IDA</organization>
-      <organization>IDB</organization>
-      <organization>IFAD</organization>
-      <organization>IFC</organization>
-      <organization>IFRCS</organization>
-      <organization>IHO</organization>
-      <organization>ILO</organization>
-      <organization>IMF</organization>
-      <organization>IMO</organization>
-      <organization>IMSO</organization>
-      <organization>Interpol</organization>
-      <organization>IOC</organization>
-      <organization>IOM</organization>
-      <organization>IPU</organization>
-      <organization>ISO</organization>
-      <organization>ITSO</organization>
-      <organization>ITU</organization>
-      <organization>LAS</organization>
-      <organization>MIGA</organization>
-      <organization>MINURSO</organization>
-      <organization>MINUSMA</organization>
-      <organization>MONUSCO</organization>
-      <organization>NAM</organization>
-      <organization>OAPEC</organization>
-      <organization>OAS </organization>
-      <organization>OIC</organization>
-      <organization>OIF</organization>
-      <organization>OSCE </organization>
-      <organization>PCA</organization>
-      <organization>UN</organization>
-      <organization>UNAMID</organization>
-      <organization>UNCTAD</organization>
-      <organization>UNESCO</organization>
-      <organization>UNHCR</organization>
-      <organization>UNIDO</organization>
-      <organization>UNMISS</organization>
-      <organization>UNOCI</organization>
-      <organization>UNRWA</organization>
-      <organization>UNWTO</organization>
-      <organization>UPU</organization>
-      <organization>WCO</organization>
-      <organization>WFTU </organization>
-      <organization>WHO</organization>
-      <organization>WIPO</organization>
-      <organization>WMO</organization>
-      <organization>WTO</organization>
-   </section>
-   <section title="Economy">
-      <section title="Overview">Occupying the northeast corner of the African continent, Egypt is bisected by the highly fertile Nile valley where most economic activity takes place. Egypt's economy was highly centralized during the rule of former President Gamal Abdel NASSER but opened up considerably under former Presidents Anwar EL-SADAT and Mohamed Hosni MUBARAK. Agriculture, hydrocarbons, manufacturing, tourism, and other service sectors drove the country’s relatively diverse economic activity.
+During the 2000s, Egypt became an increasingly important transit and destination country for economic migrants and asylum seekers, including Palestinians, East Africans, and South Asians and, more recently, Iraqis and Syrians. Egypt draws many refugees because of its resettlement programs with the West; Cairo has one of the largest urban refugee populations in the world. Many East African migrants are interned or live in temporary encampments along the Egypt-Israel border, and some have been shot and killed by Egyptian border guards.
+      <glossary title="dependency ratios">
+      <term name="total dependency ratio">64.6 % (total dependency ratio)</term>
+      <term name="youth dependency ratio">55.8 % (youth dependency ratio)</term>
+      <term name="elderly dependency ratio">8.8 % (elderly dependency ratio)</term>
+      <term name="potential support ratio">11.4 % (potential support ratio)</term>
+   </glossary>
+   <glossary title="median age">
+      <term name="total">24.1 years</term>
+      <term name="male">23.8 years</term>
+      <term name="female">24.5 years</term>
+   </glossary>
+      
+      2.28
+    
+      27.2 births per 1000 population
+      4.4 deaths per 1000 population
+      -0.3 migrants per 1000 population
+      approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map
+      <glossary title="urbanization">
+      <term name="2020">42.8 % [2020]</term>
+      <term name="rate of urbanization">1.86 %</term>
+   </glossary>
+   <glossary title="major urban areas">
+      <term name="Cairo">20901000 people</term>
+      <term name="Alexandria">5281000 people</term>
+   </glossary>
+      22.7
+      37 deaths per 100k live population
+      <glossary title="infant mortality rate">
+      <term name="total">17.1 deaths per 1000 live births</term>
+      <term name="male">18.2 deaths per 1000 live births</term>
+      <term name="female">15.8 deaths per 1000 live births</term>
+   </glossary>
+   <glossary title="life expectancy at birth">
+      <term name="total population">73.7 years</term>
+      <term name="male">72.3 years</term>
+      <term name="female">75.3 years</term>
+   </glossary>
+      3.29 children born per woman
+      58.5 % [2014]
+      0.8 physicians per 1000 population
+      1.4 beds per 1000 population
+         <glossary title="improved">
+      <term name="urban">100 percent of population</term>
+      <term name="rural">98.8 percent of population</term>
+      <term name="total">100 percent of population</term>
+   </glossary>
+   <glossary title="unimproved">
+      <term name="urban">0 percent of population</term>
+      <term name="rural">1.2 percent of population</term>
+      <term name="total">0.6 percent of population</term>
+   </glossary>
+   <glossary title="improved">
+      <term name="urban">99.8 percent of population</term>
+      <term name="rural">97.6 percent of population</term>
+      <term name="total">98.5 percent of population</term>
+   </glossary>
+   <glossary title="unimproved">
+      <term name="urban">0.2 percent of population</term>
+      <term name="rural">2.4 percent of population</term>
+      <term name="total">1.5 percent of population</term>
+   </glossary>
+   <glossary title="hiv aids">
+      <term name="adult prevalence rate">0.1 % of adults</term>
+      <term name="people living with hiv aids">26000</term>
+      <term name="deaths">500</term>
+   </glossary>
+         intermediate
+         bacterial diarrhea
+         hepatitis A
+         typhoid fever
+         schistosomiasis
+         clusters of cases of a respiratory illness caused by the novel coronavirus (COVID-19) are occurring throughout Egypt; as of 10 November 2020, Egypt has reported a total of 108,962 cases of COVID-19 or 1,065 cumulative cases of COVID-19 per 1 million population with 62 cumulative deaths per 1 million population
+      32 % of adults
+         7
+      <glossary title="literacy">
+      <term name="definition">age 15 and over can read and write</term>
+      <term name="total population">71.2 %</term>
+      <term name="male">76.5 %</term>
+      <term name="female">65.5 %</term>
+   </glossary>
+   <glossary title="school life expectancy">
+      <term name="total">13 years</term>
+      <term name="male">13 years</term>
+      <term name="female">13 years</term>
+   </glossary>
+   <glossary title="youth unemployment">
+      <term name="total">29.6 %</term>
+      <term name="male">25.7 %</term>
+      <term name="female">38.3 %</term>
+   </glossary>
+   <glossary title="country name">
+      <term name="conventional long form">Arab Republic of Egypt</term>
+      <term name="conventional short form">Egypt</term>
+      <term name="local long form">Jumhuriyat Misr al-Arabiyah</term>
+      <term name="local short form">Misr</term>
+      <term name="former">United Arab Republic (with Syria)</term>
+      <term name="etymology">the English name "Egypt" derives from the ancient Greek name for the country "Aigyptos"; the Arabic name "Misr" can be traced to the ancient Akkadian "misru" meaning border or frontier</term>
+   </glossary>
+      presidential republic
+         Cairo
+         <glossary title="geographic coordinates">
+      <term name="latitude">30°3"N</term>
+      <term name="longitude">31°15"E</term>
+   </glossary>
+         7 hours ahead of Washington, DC, during Standard Time
+         from the Arabic "al-Qahira," meaning "the victorious"
+      1922-02-28
+         several previous; latest approved by a constitutional committee in December 2013, approved by referendum held on 14-15 January 2014, ratified by interim president on 19 January 2014
+         proposed by the president of the republic or by one fifth of the House of Representatives members; a decision to accept the proposal requires majority vote by House members; passage of amendment requires a two-thirds majority vote by House members and passage by majority vote in a referendum; articles of reelection of the president and principles of freedom are not amendable unless the amendment "brings more guarantees;" amended 2019
+      mixed legal system based on Napoleonic civil and penal law, Islamic religious law, and vestiges of colonial-era laws; judicial review of the constitutionality of laws by the Supreme Constitutional Court
+      <glossary title="citizenship">
+      <term name="citizenship by birth">no</term>
+      <term name="citizenship by descent only">if the father was born in Egypt</term>
+      <term name="dual citizenship recognized">only with prior permission from the government</term>
+      <term name="residency requirement for naturalization">10 years</term>
+   </glossary>
+      18
+      <glossary title="executive branch">
+      <term name="chief of state">President Abdelfattah ELSISI (since 8 June 2014)</term>
+      <term name="head of government">Prime Minister Mostafa MADBOULY (since 7 June 2018)</term>
+      <term name="cabinet">Cabinet ministers nominated by the executive branch and approved by the House of Representatives</term>
+      <term name="elections appointments">president elected by absolute majority popular vote in 2 rounds if needed for a 6-year term (eligible for 3 consecutive terms); election last held on 26-28 March 2018 (next to be held in 2024); prime minister appointed by the president, approved by the House of Representatives; note - following  a constitutional amendment approved by referendum in April 2019, the presidential term was extended from 4 to 6 years and eligibility extended to 3 consecutive terms</term>
+      <term name="election results">Abdelfattah ELSISI reelected president in first round; percent of valid votes cast - Abdelfattah ELSISI (independent) 97.1%, Moussa Mostafa MOUSSA (El Ghad Party) 2.9%; note - more than 7% of ballots cast were deemed invalid</term>
+   </glossary>
+   <glossary title="legislative branch">
+      <term name="description">bicameral Parliament consists of: Senate (Majlis Al-Shiyoukh) (300 seats; 100 members elected in single seat constituencies, 100 elected by closed party-list system, and 100 appointed by the president; note - the upper house, previously the Shura Council, was eliminated in the 2014 constitution, reestablished as the Senate, following passage in a 2019 constitutional referendum and approved by the House of Representatives in June 2020
+House of Representatives (Majlis Al-Nowaab) (596 seats; 448 members directly elected by individual candidacy system, 120 members - with quotas for women, youth, Christians and workers - elected in party-list constituencies by simple majority popular vote, and 28 members appointed by the president; members of both houses serve 5-year terms</term>
+      <term name="elections">Senate - first round held on 11-12 August 2020 (9-10 August for diaspora); second round to be held on 8-9 September (6-7 September for diaspora) (next to be held in 2025)
+House of Representatives - last held from 17 October to 2 December 2015 (next to be held 24-25 October and 7-8 November 2020)</term>
+      <term name="election results">Senate first round results - percent of vote by party - NA; seats by party - Nation's Future Party 100, independent 100; composition - NA
+House of Representatives (2015) - percent of vote by party - NA; seats by party - Free Egyptians Party 65, Future of the Nation 53, New Wafd Party 36, Homeland's Protector Party 18, Republican People's Party 13, Congress Party 12, Al-Nour Party 11, Conservative Party 6, Democratic Peace Party 5, Egyptian National Movement 4, Egyptian Social Democratic Party 4, Modern Egypt Party 4, Freedom Party 3, My Homeland Egypt Party 3, Reform and Development Party 3, National Progressive Unionist Party 2, Arab Democratic Nasserist Party 1, El Serh El Masry el Hor 1, Revolutionary Guards Party 1, independent 351; composition - men 507, women 89, percent of women 14.9%</term>
+   </glossary>
+   <glossary title="judicial branch">
+      <term name="highest courts">Supreme Constitutional Court (SCC) (consists of the court president and 10 justices); the SCC serves as the final court of arbitration on the constitutionality of laws and conflicts between lower courts regarding jurisdiction and rulings; Court of Cassation (CC) (consists of the court president and 550 judges organized in circuits with cases heard by panels of 5 judges); the CC is the highest appeals body for civil and criminal cases, also known as "ordinary justices"; Supreme Administrative Court (SAC) (consists of the court president and NA judges and organized in circuits with cases heard by panels of 5 judges); the SAC is the highest court of the State Council</term>
+      <term name="judge selection and term of office">under the 2014 constitution, all judges and justices selected and appointed by the Supreme Judiciary Council and approved as a formality by the president of the Republic; judges appointed for life; under the 2019 amendments, the president has the power to appoint heads of judiciary authorities and courts, the prosecutor general, and the head of the Supreme Constitutional Court</term>
+      <term name="subordinate courts">Courts of Appeal; Courts of First Instance; courts of limited jurisdiction; Family Court (established in 2004)</term>
+   </glossary>
+   <glossary title="in united states">
+      <term name="chief of mission">Ambassador Motaz Mounir ZAHRAN (since 17 September 2020)</term>
+      <term name="chancery">3521 International Court NW, Washington, DC 20008</term>
+      <term name="telephone">[1] (202) 895-5400</term>
+      <term name="fax">[1] (202) 244-5131</term>
+      <term name="consulates general">Chicago, Houston, Los Angeles, New York</term>
+   </glossary>
+   <glossary title="from united states">
+      <term name="chief of mission">Ambassador Jonathan R. COHEN (since 17 November 2019)</term>
+      <term name="telephone">[20-2] 2797-3300</term>
+      <term name="embassy">5 Tawfik Diab St., Garden City, Cairo</term>
+      <term name="mailing address">Unit 64900, Box 15, APO AE 09839-4900; 5 Tawfik Diab Street, Garden City, Cairo</term>
+      <term name="fax">[20-2] 2797-3200</term>
+   </glossary>
+         three equal horizontal bands of red (top), white, and black; the national emblem (a gold Eagle of Saladin facing the hoist side with a shield superimposed on its chest above a scroll bearing the name of the country in Arabic) centered in the white band; the band colors derive from the Arab Liberation flag and represent oppression (black), overcome through bloody struggle (red), to be replaced by a bright future (white)
+         similar to the flag of Syria, which has two green stars in the white band, Iraq, which has an Arabic inscription centered in the white band, and Yemen, which has a plain white band
+         <glossary title="symbols">
+      <term name="golden eagle"/>
+      <term name="white lotus"/>
+   </glossary>
+   <glossary title="colors">
+      <term name="red"/>
+      <term name="white"/>
+      <term name="black"/>
+   </glossary>
+   <glossary title="national anthem">
+      <term name="name">"Bilady, Bilady, Bilady" (My Homeland, My Homeland, My Homeland)</term>
+      <term name="lyrics music">Younis-al QADI/Sayed DARWISH</term>
+      <term name="note">adopted 1979; the current anthem, less militaristic than the previous one, was created after the signing of the 1979 peace treaty with Israel; Sayed DARWISH, commonly considered the father of modern Egyptian music, composed the anthem</term>
+      <term name="audio url">https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/EG.mp3?1538604752</term>
+   </glossary>
+   <glossary title="national holidays">
+      <term name="Revolution Day">23 July</term>
+   </glossary>
+         accepts compulsory ICJ jurisdiction with reservations
+         non-party state to the ICCt
+      Occupying the northeast corner of the African continent, Egypt is bisected by the highly fertile Nile valley where most economic activity takes place. Egypt's economy was highly centralized during the rule of former President Gamal Abdel NASSER but opened up considerably under former Presidents Anwar EL-SADAT and Mohamed Hosni MUBARAK. Agriculture, hydrocarbons, manufacturing, tourism, and other service sectors drove the country’s relatively diverse economic activity.
 Despite Egypt’s mixed record for attracting foreign investment over the past two decades, poor living conditions and limited job opportunities have contributed to public discontent. These socioeconomic pressures were a major factor leading to the January 2011 revolution that ousted MUBARAK. The uncertain political, security, and policy environment since 2011 has restricted economic growth and failed to alleviate persistent unemployment, especially among the young.
-In late 2016, persistent dollar shortages and waning aid from its Gulf allies led Cairo to turn to the IMF for a 3-year, $12 billion loan program. To secure the deal, Cairo floated its currency, introduced new taxes, and cut energy subsidies - all of which pushed inflation above 30% for most of 2017, a high that had not been seen in a generation. Since the currency float, foreign investment in Egypt’s high interest treasury bills has risen exponentially, boosting both dollar availability and central bank reserves. Cairo will be challenged to obtain foreign and local investment in manufacturing and other sectors without a sustained effort to implement a range of business reforms.</section>
-      <gdp>
-         <purchasing_power_parity>
-            <annual_values>1204000000000 USD [2017]</annual_values>
-            <annual_values>1155000000000 USD [2016]</annual_values>
-            <annual_values>1107000000000 USD [2015]</annual_values> (Global rank: 21)</purchasing_power_parity>
-         <official_exchange_rate>236500000000 $ [2017]</official_exchange_rate>
-         <real_growth_rate>
-            <annual_values>4.2 % [2017]</annual_values>
-            <annual_values>4.3 % [2016]</annual_values>
-            <annual_values>4.4 % [2015]</annual_values> (Global rank: 68)</real_growth_rate>
-         <per_capita_purchasing_power_parity>
-            <annual_values>12700 USD [2017]</annual_values>
-            <annual_values>12800 USD [2016]</annual_values>
-            <annual_values>12400 USD [2015]</annual_values> (Global rank: 124)</per_capita_purchasing_power_parity>
-         <composition>
-            <by_end_use>
-               <end_uses>
-                  <household_consumption>86.8 %</household_consumption>
-                  <government_consumption>10.1 %</government_consumption>
-                  <investment_in_fixed_capital>14.8 %</investment_in_fixed_capital>
-                  <investment_in_inventories>0.5 %</investment_in_inventories>
-                  <exports_of_goods_and_services>16.3 %</exports_of_goods_and_services>
-                  <imports_of_goods_and_services>-28.5 %</imports_of_goods_and_services>
-               </end_uses> [2017]</by_end_use>
-            <by_sector_of_origin>
-               <sectors>
-                  <agriculture>11.7 %</agriculture>
-                  <industry>34.3 %</industry>
-                  <services>54 %</services>
-               </sectors> [2017]</by_sector_of_origin>
-         </composition>
-      </gdp>
-      <gross_national_saving>
-         <annual_values>9 percent of gdp [2017]</annual_values>
-         <annual_values>9.1 percent of gdp [2016]</annual_values>
-         <annual_values>10.6 percent of gdp [2015]</annual_values> (Global rank: 166)</gross_national_saving>
-      <agriculture_products>
-         <products>cotton</products>
-         <products>rice</products>
-         <products>corn</products>
-         <products>wheat</products>
-         <products>beans</products>
-         <products>fruits</products>
-         <products>vegetables</products>
-         <products>cattle</products>
-         <products>water buffalo</products>
-         <products>sheep</products>
-         <products>goats</products>
-      </agriculture_products>
-      <industries>
-         <industries>textiles</industries>
-         <industries>food processing</industries>
-         <industries>tourism</industries>
-         <industries>chemicals</industries>
-         <industries>pharmaceuticals</industries>
-         <industries>hydrocarbons</industries>
-         <industries>construction</industries>
-         <industries>cement</industries>
-         <industries>metals</industries>
-         <industries>light manufactures</industries>
-      </industries>
-      <industrial_production_growth_rate>
-         <annual_percentage_increase>3.5</annual_percentage_increase> (Global rank: 84) [2017]</industrial_production_growth_rate>
-      <labor_force>
-         <total_size>
-            <total_people>24113000</total_people> (Global rank: 22) [2020]</total_size>
-         <by_occupation>
-            <occupation>
-               <agriculture>25.8 %</agriculture>
-               <industry>25.1 %</industry>
-               <services>49.1 %</services>
-            </occupation> [2015]</by_occupation>
-      </labor_force>
-      <unemployment_rate>
-         <annual_values>7.86 % [2019]</annual_values>
-         <annual_values>12.7 % [2016]</annual_values> (Global rank: 121)</unemployment_rate>
-      <population_below_poverty_line>27.8 % [2016]</population_below_poverty_line>
-      <household_income_by_percentage_share>
-         <lowest_ten_percent>4 %</lowest_ten_percent>
-         <highest_ten_percent>26.6 %</highest_ten_percent> [2008]</household_income_by_percentage_share>
-      <budget>
-         <revenues>42320000000 USD</revenues>
-         <expenditures>62610000000 USD</expenditures> [2017]</budget>
-      <taxes_and_other_revenues>17.9 % of gdp (Global rank: 165) [2017]</taxes_and_other_revenues>
-      <budget_surplus_or_deficit>-8.6 % of gdp (Global rank: 202) [2017]</budget_surplus_or_deficit>
-      <public_debt>
-         <annual_values>103 percent of gdp [2017]</annual_values>
-         <annual_values>96.8 percent of gdp [2016]</annual_values> (Global rank: 14)</public_debt>
-      <fiscal_year/>
-      <inflation_rate>
-         <annual_values>23.5 % [2017]</annual_values>
-         <annual_values>10.2 % [2016]</annual_values> (Global rank: 217)</inflation_rate>
-      <current_account_balance>
-         <annual_values>-8915000000 USD [2019]</annual_values>
-         <annual_values>-7682000000 USD [2018]</annual_values> (Global rank: 190)</current_account_balance>
-      <exports>
-         <total_value>
-            <annual_values>23300000000 USD [2017]</annual_values>
-            <annual_values>20020000000 USD [2016]</annual_values> (Global rank: 67)</total_value>
-         <commodities>
-            <by_commodity>crude oil</by_commodity>
-            <by_commodity>petroleum products</by_commodity>
-            <by_commodity>fruits</by_commodity>
-            <by_commodity>vegetables</by_commodity>
-            <by_commodity>cotton</by_commodity>
-            <by_commodity>textiles</by_commodity>
-            <by_commodity>metal products</by_commodity>
-            <by_commodity>chemicals</by_commodity>
-            <by_commodity>processed food</by_commodity>
-         </commodities>
-         <partners>
-            <by_country>10.9 %</by_country>
-            <by_country>10 %</by_country>
-            <by_country>7.4 %</by_country>
-            <by_country>5.7 %</by_country>
-            <by_country>4.4 %</by_country>
-            <by_country>4.3 %</by_country>
-            <by_country>4.3 %</by_country> [2017]</partners>
-      </exports>
-      <imports>
-         <total_value>
-            <annual_values>59780000000 USD [2017]</annual_values>
-            <annual_values>57840000000 USD [2016]</annual_values> (Global rank: 50)</total_value>
-         <commodities>
-            <by_commodity>machinery</by_commodity>
-            <by_commodity>equipment</by_commodity>
-            <by_commodity>foodstuffs</by_commodity>
-            <by_commodity>chemicals</by_commodity>
-            <by_commodity>wood products</by_commodity>
-            <by_commodity>fuels</by_commodity>
-         </commodities>
-         <partners>
-            <by_country>7.9 %</by_country>
-            <by_country>5.2 %</by_country>
-            <by_country>4.8 %</by_country>
-            <by_country>4.6 %</by_country>
-            <by_country>4.4 %</by_country>
-            <by_country>4.3 %</by_country> [2017]</partners>
-      </imports>
-      <reserves_of_foreign_exchange_and_gold>
-         <annual_values>35890000000 USD [2017-12-31]</annual_values>
-         <annual_values>23200000000 USD [2016-12-31]</annual_values> (Global rank: 47)</reserves_of_foreign_exchange_and_gold>
-      <external_debt>
-         <annual_values>77470000000 USD [2017-12-31]</annual_values>
-         <annual_values>62380000000 USD [2016-12-31]</annual_values> (Global rank: 56)</external_debt>
-      <exchange_rates>
-         <annual_values>18.05 USD [2017]</annual_values>
-         <annual_values>8.8 USD [2016]</annual_values>
-         <annual_values>10.07 USD [2015]</annual_values>
-         <annual_values>7.7133 USD [2014]</annual_values>
-         <annual_values>7.08 USD [2013]</annual_values>
-      </exchange_rates>
+In late 2016, persistent dollar shortages and waning aid from its Gulf allies led Cairo to turn to the IMF for a 3-year, $12 billion loan program. To secure the deal, Cairo floated its currency, introduced new taxes, and cut energy subsidies - all of which pushed inflation above 30% for most of 2017, a high that had not been seen in a generation. Since the currency float, foreign investment in Egypt’s high interest treasury bills has risen exponentially, boosting both dollar availability and central bank reserves. Cairo will be challenged to obtain foreign and local investment in manufacturing and other sectors without a sustained effort to implement a range of business reforms.
+         <glossary title="purchasing power parity">
+      <term name="2017">1204000000000 USD [2017]</term>
+      <term name="2016">1155000000000 USD [2016]</term>
+      <term name="2015">1107000000000 USD [2015]</term>
+      <term name="note">data are in 2017 dollars</term>
+   </glossary>
+   <glossary title="official exchange rate">
+      <term name="rate">236500000000 USD</term>
+   </glossary>
+   <glossary title="real growth rate">
+      <term name="2017">4.2 % [2017]</term>
+      <term name="2016">4.3 % [2016]</term>
+      <term name="2015">4.4 % [2015]</term>
+   </glossary>
+   <glossary title="per capita purchasing power parity">
+      <term name="2017">12700 USD [2017]</term>
+      <term name="2016">12800 USD [2016]</term>
+      <term name="2015">12400 USD [2015]</term>
+      <term name="note">data are in 2017 dollars</term>
+   </glossary>
+   <glossary title="end uses">
+      <term name="household consumption">86.8 %</term>
+      <term name="government consumption">10.1 %</term>
+      <term name="investment in fixed capital">14.8 %</term>
+      <term name="investment in inventories">0.5 %</term>
+      <term name="exports of goods and services">16.3 %</term>
+      <term name="imports of goods and services">-28.5 %</term>
+   </glossary>
+   <glossary title="sectors of origin">
+      <term name="agriculture">11.7 %</term>
+      <term name="industry">34.3 %</term>
+      <term name="services">54 %</term>
+   </glossary>
+   <glossary title="gross national saving">
+      <term name="2017">9 percent of gdp [2017]</term>
+      <term name="2016">9.1 percent of gdp [2016]</term>
+      <term name="2015">10.6 percent of gdp [2015]</term>
+   </glossary>
+         cotton
+         rice
+         corn
+         wheat
+         beans
+         fruits
+         vegetables
+         cattle
+         water buffalo
+         sheep
+         goats
+         textiles
+         food processing
+         tourism
+         chemicals
+         pharmaceuticals
+         hydrocarbons
+         construction
+         cement
+         metals
+         light manufactures
+      <glossary title="industrial production growth rate">
+      <term name="annual percentage increase">3.5</term>
+   </glossary>
+   <glossary title="total size">
+      <term name="total people">24113000</term>
+   </glossary>
+   <glossary title="occupation">
+      <term name="agriculture">25.8 %</term>
+      <term name="industry">25.1 %</term>
+      <term name="services">49.1 %</term>
+   </glossary>
+   <glossary title="unemployment rate">
+      <term name="2019">7.86 % [2019]</term>
+      <term name="2016">12.7 % [2016]</term>
+   </glossary>
+      27.8 % [2016]
+      <glossary title="household income by percentage share">
+      <term name="lowest ten percent">4 %</term>
+      <term name="highest ten percent">26.6 %</term>
+   </glossary>
+   <glossary title="budget">
+      <term name="revenues">42320000000 USD</term>
+      <term name="expenditures">62610000000 USD</term>
+   </glossary>
+      17.9 % of gdp
+      -8.6 % of gdp
+         103 percent of gdp [2017]
+         96.8 percent of gdp [2016]
+         data cover central government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are sold at public auctions
+         23.5 % [2017]
+         10.2 % [2016]
+         -8915000000 USD [2019]
+         -7682000000 USD [2018]
+         <glossary title="total value">
+      <term name="2017">23300000000 USD [2017]</term>
+      <term name="2016">20020000000 USD [2016]</term>
+   </glossary>
+            crude oil
+            petroleum products
+            fruits
+            vegetables
+            cotton
+            textiles
+            metal products
+            chemicals
+            processed food
+         <glossary title="partners">
+      <term name="UAE">10.9 % (UAE)</term>
+      <term name="Italy">10 % (Italy)</term>
+      <term name="US">7.4 % (US)</term>
+      <term name="UK">5.7 % (UK)</term>
+      <term name="Turkey">4.4 % (Turkey)</term>
+      <term name="Germany">4.3 % (Germany)</term>
+      <term name="India">4.3 % (India)</term>
+   </glossary>
+   <glossary title="total value">
+      <term name="2017">59780000000 USD [2017]</term>
+      <term name="2016">57840000000 USD [2016]</term>
+   </glossary>
+            machinery
+            equipment
+            foodstuffs
+            chemicals
+            wood products
+            fuels
+         <glossary title="partners">
+      <term name="China">7.9 % (China)</term>
+      <term name="UAE">5.2 % (UAE)</term>
+      <term name="Germany">4.8 % (Germany)</term>
+      <term name="Saudi Arabia">4.6 % (Saudi Arabia)</term>
+      <term name="US">4.4 % (US)</term>
+      <term name="Russia">4.3 % (Russia)</term>
+   </glossary>
+   <glossary title="reserves of foreign exchange and gold">
+      <term name="2017-12-31">35890000000 USD [2017-12-31]</term>
+      <term name="2016-12-31">23200000000 USD [2016-12-31]</term>
+   </glossary>
+   <glossary title="external debt">
+      <term name="2017-12-31">77470000000 USD [2017-12-31]</term>
+      <term name="2016-12-31">62380000000 USD [2016-12-31]</term>
+   </glossary>
+   <glossary title="exchange rates">
+      <term name="2017">18.05 USD [2017]</term>
+      <term name="2016">8.8 USD [2016]</term>
+      <term name="2015">10.07 USD [2015]</term>
+      <term name="2014">7.7133 USD [2014]</term>
+      <term name="2013">7.08 USD [2013]</term>
+      <term name="note">Egyptian pounds (EGP) per US dollar</term>
+   </glossary>
+   <glossary title="access">
+      <term name="total electrification">100 %</term>
+   </glossary>
+         183500000000 kWh
+         159700000000 kWh
+         1158000000 kWh
+         54000000 kWh
+         45120000 kW
+         <glossary title="source">
+      <term name="fossil fuels">91 %</term>
+      <term name="nuclear fuels">0 %</term>
+      <term name="hydroelectric plants">6 %</term>
+      <term name="other renewable sources">2 %</term>
+   </glossary>
+   <glossary title="crude oil">
+      <term name="production">639000 bbl per day</term>
+      <term name="exports">246500 bbl per day</term>
+      <term name="imports">64760 bbl per day</term>
+      <term name="proved reserves">4400000000 bbl</term>
+   </glossary>
+   <glossary title="refined petroleum products">
+      <term name="production">547500 bbl per day</term>
+      <term name="consumption">878000 bbl per day</term>
+      <term name="exports">47360 bbl per day</term>
+      <term name="imports">280200 bbl per day</term>
+   </glossary>
+   <glossary title="natural gas">
+      <term name="production">50860000000 cubic metres</term>
+      <term name="consumption">57710000000 cubic metres</term>
+      <term name="exports">212400000 cubic metres</term>
+      <term name="imports">7079000000 cubic metres</term>
+      <term name="proved reserves">2186000000000 cubic metres</term>
+   </glossary>
+      232700000 megatonnes
+      <glossary title="telephones">
+      <term name="fixed lines">8885103</term>
+      <term name="mobile cellular">96657295</term>
+   </glossary>
+      mix of state-run and private broadcast media; state-run TV operates 2 national and 6 regional terrestrial networks, as well as a few satellite channels; dozens of private satellite channels and a large number of Arabic satellite channels are available for free; some limited satellite services are also available via subscription; state-run radio operates about 30 stations belonging to 8 networks; privately-owned radio includes 8 major stations, 4 of which belong to 1 network (2019)
+      <glossary title="internet">
+      <term name="country code">.eg</term>
+      <term name="users">46644728</term>
+   </glossary>
+      one of the largest and most famous libraries in the ancient world was the Great Library of Alexandria in Egypt (founded about 295 B.C., it may have survived in some form into the 5th century A.D.); seeking to resurrect the great center of learning and communication, the Egyptian Government in 2002 inaugurated the Bibliotheca Alexandrina, an Egyptian National Library on the site of the original Great Library, which commemorates the original archive and also serves as a center of cultural and scientific excellence
+      <glossary title="pipelines">
+      <term name="condensate">486 km (condensate)</term>
+      <term name="condensate/gas">74 km (condensate/gas)</term>
+      <term name="gas">7986 km (gas)</term>
+      <term name="liquid petroleum gas">957 km (liquid petroleum gas)</term>
+      <term name="oil">5225 km (oil)</term>
+      <term name="oil/gas/water">37 km (oil/gas/water)</term>
+      <term name="refined products">895 km (refined products)</term>
+      <term name="water">65 km (water)</term>
+   </glossary>
+   <glossary title="railways">
+      <term name="total">5085 km</term>
+      <term name="standard gauge">5085 km
+1.435-m (standard gauge)</term>
+   </glossary>
+   <glossary title="roadways">
+      <term name="total">65050 km</term>
+      <term name="paved">48000 km</term>
+      <term name="unpaved">17050 km</term>
+   </glossary>
+      3500 km (includes the Nile River, Lake Nasser, Alexandria-Cairo Waterway, and numerous smaller canals in Nile Delta; the Suez Canal (193.5 km including approaches; ; )
+      393
+         Mediterranean Sea - Alexandria
+         Damietta
+         El Dekheila
+         Port Said
+         Alexandria
+         Port Said
+         Ain Sukhna terminal
+         Sidi Kerir terminal
+         Damietta
+         Idku (Abu Qir Bay)
+Gulf of Suez - Suez
+      <glossary title="expenditures">
+      <term name="2019">1.2 percent of gdp [2019]</term>
+      <term name="2018">1.2 percent of gdp [2018]</term>
+      <term name="2017">1.4 percent of gdp [2017]</term>
+      <term name="2016">1.7 percent of gdp [2016]</term>
+      <term name="2015">1.7 percent of gdp [2015]</term>
+   </glossary>
+      18-30 years of age for male conscript military service; service obligation - 18-36 months, followed by a 9-year reserve obligation; voluntary enlistment possible from age 15
+      since 2011, the Egyptian Armed Forces, police, and other security forces have been actively engaged in counterinsurgency and counter-terrorism operations in the North Sinai governorate against several militant groups, particularly the Islamic State of Iraq and ash-Sham – Sinai Province; as of early 2020, Egypt reportedly had over 40,000 troops plus thousands of police and other security personnel deployed to the Sinai for internal security duties where more than 1,000 have been killed
+the military has a large stake in the civilian economy, including running businesses, producing consumer and industrial goods, importing commodities, and building and managing infrastructure projects, such as bridges, roads, hospitals, and housing developments (2020)
+      Sudan claims but Egypt de facto administers security and economic development of Halaib region north of the 22nd parallel boundary
+      Egypt no longer shows its administration of the Bir Tawil trapezoid in Sudan on its maps
+      Gazan breaches in the security wall with Egypt in January 2008 highlight difficulties in monitoring the Sinai border
+      Saudi Arabia claims Egyptian-administered islands of Tiran and Sanafir
+         <glossary title="refugees">
+      <term name="West Bank and Gaza Strip">70010</term>
+      <term name="Syria">130085</term>
+      <term name="Sudan">49290</term>
+      <term name="South Sudan">19814</term>
+      <term name="Eritrea">19200</term>
+      <term name="Ethiopia">16181</term>
+      <term name="Yemen">9259</term>
+      <term name="Iraq">6824</term>
+      <term name="Somalia">6755</term>
+   </glossary>
+         97000
+         5
+         Egypt is a source, transit, and destination country for men, women, and children subjected to sex trafficking and forced labor; Egyptian children, including the large population of street children are vulnerable to forced labor in domestic service, begging and agriculture or may be victims of sex trafficking or child sex tourism, which occurs in Cairo, Alexandria, and Luxor; some Egyptian women and girls are sold into "temporary" or "summer" marriages with Gulf men, through the complicity of their parents or marriage brokers, and are exploited for prostitution or forced labor; Egyptian men are subject to forced labor in neighboring countries, while adults from South and Southeast Asia and East Africa – and increasingly Syrian refugees – are forced to work in domestic service, construction, cleaning, and begging in Egypt; women and girls, including migrants and refugees, from Asia, Sub-Saharan Africa, and the Middle East are sex trafficked in Egypt; the Egyptian military cracked down on criminal group’s smuggling, abducting, trafficking, and extorting African migrants in the Sinai Peninsula, but the practice has reemerged along Egypt’s western border with Libya
+         Tier 2 Watch List – Egypt does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; the government gathered data nationwide on trafficking cases to better allocate and prioritize anti-trafficking efforts, but overall it did not demonstrate increased progress; prosecutions increased in 2014, but no offenders were convicted for the second consecutive year; fewer trafficking victims were identified in 2014, which represents a significant and ongoing decrease from the previous two reporting periods; the government relied on NGOs and international organizations to identify and refer victims to protective services, and focused on Egyptian victims and refused to provide some services to foreign victims, at times including shelter (2015)
+         transit point for cannabis, heroin, and opium moving to Europe, Israel, and North Africa; transit stop for Nigerian drug couriers; concern as money laundering site due to lax enforcement of financial regulations
    </section>
-   <section title="Energy">
-      <section title="Electricity">
-         <access>
-            <total_electrification>100 %</total_electrification> [2020]</access>
-         <production>183500000000 kWh (Global rank: 22) [2016]</production>
-         <consumption>159700000000 kWh (Global rank: 23) [2016]</consumption>
-         <exports>1158000000 kWh (Global rank: 57) [2015]</exports>
-         <imports>54000000 kWh (Global rank: 106) [2016]</imports>
-         <installed_generating_capacity>45120000 kW (Global rank: 23) [2016]</installed_generating_capacity>
-         <by_source>
-            <fossil_fuels>91 (Global rank: 54) [2016]</fossil_fuels>
-            <nuclear_fuels>0 (Global rank: 82) [2017]</nuclear_fuels>
-            <hydroelectric_plants>6 (Global rank: 129) [2017]</hydroelectric_plants>
-            <other_renewable_sources>2 (Global rank: 139) [2017]</other_renewable_sources>
-         </by_source>
-      </section>
-      <section title="Crude oil">
-         <production>639000 bbl per day (Global rank: 27) [2018]</production>
-         <exports>246500 bbl per day (Global rank: 29) [2017]</exports>
-         <imports>64760 bbl per day (Global rank: 51) [2015]</imports>
-         <proved_reserves>4400000000 bbl (Global rank: 24) [2018-01-01]</proved_reserves>
-      </section>
-      <section title="Refined petroleum products">
-         <production>547500 bbl per day (Global rank: 31) [2015]</production>
-         <consumption>878000 bbl per day (Global rank: 25) [2016]</consumption>
-         <exports>47360 bbl per day (Global rank: 56) [2015]</exports>
-         <imports>280200 bbl per day (Global rank: 26) [2015]</imports>
-      </section>
-      <natural_gas>
-         <production>50860000000 cubic metres (Global rank: 16) [2017]</production>
-         <consumption>57710000000 cubic metres (Global rank: 13) [2017]</consumption>
-         <exports>212400000 cubic metres (Global rank: 45) [2017]</exports>
-         <imports>7079000000 cubic metres (Global rank: 29) [2017]</imports>
-         <proved_reserves>2186000000000 cubic metres (Global rank: 15) [2018-01-01]</proved_reserves>
-      </natural_gas>
-      <carbon_dioxide_emissions_from_consumption_of_energy>232700000 megatonnes (Global rank: 30) [2017]</carbon_dioxide_emissions_from_consumption_of_energy>
-   </section>
-   <section title="Communications">
-      <telephones>
-         <fixed_lines>8885103 (Global rank: 19) [2019]</fixed_lines>
-         <mobile_cellular>96657295 (Global rank: 17) [2019]</mobile_cellular>
-      </telephones>
-      <broadcast_media>mix of state-run and private broadcast media; state-run TV operates 2 national and 6 regional terrestrial networks, as well as a few satellite channels; dozens of private satellite channels and a large number of Arabic satellite channels are available for free; some limited satellite services are also available via subscription; state-run radio operates about 30 stations belonging to 8 networks; privately-owned radio includes 8 major stations, 4 of which belong to 1 network (2019)</broadcast_media>
-      <internet>
-         <country_code>.eg</country_code>
-         <users>46644728 (Global rank: 18) [2018-07-01]</users>
-      </internet>
-   </section>
-   <section title="Transportation">
-      <pipelines>
-         <by_type>486 km</by_type>
-         <by_type>74 km</by_type>
-         <by_type>7986 km</by_type>
-         <by_type>957 km</by_type>
-         <by_type>5225 km</by_type>
-         <by_type>37 km</by_type>
-         <by_type>895 km</by_type>
-         <by_type>65 km</by_type> [2013]</pipelines>
-      <railways>
-         <total>5085 km</total>
-         <standard_gauge>5085 km 1.435-m</standard_gauge> (Global rank: 39) [2014]</railways>
-      <roadways>
-         <total>65050 km</total>
-         <paved>48000 km</paved>
-         <unpaved>17050 km</unpaved> (Global rank: 74) [2017]</roadways>
-      <waterways>3500 km</waterways>
-      <merchant_marine>393 (Global rank: 45) [2019]</merchant_marine>
-      <ports_and_terminals>
-         <major_seaports>Mediterranean Sea - Alexandria</major_seaports>
-         <major_seaports>Damietta</major_seaports>
-         <major_seaports>El Dekheila</major_seaports>
-         <major_seaports>Port Said</major_seaports>
-         <oil_terminals>Ain Sukhna terminal</oil_terminals>
-         <oil_terminals>Sidi Kerir terminal</oil_terminals>
-         <container_ports>Alexandria</container_ports>
-         <container_ports>Port Said</container_ports>
-         <liquid_natural_gas_terminals_export>Damietta</liquid_natural_gas_terminals_export>
-         <liquid_natural_gas_terminals_export>Idku (Abu Qir Bay)
-Gulf of Suez - Suez</liquid_natural_gas_terminals_export> [2017]</ports_and_terminals>
-   </section>
-   <section title="Military and security">
-      <expenditures>
-         <annual_values>1.2 percent of gdp [2019]</annual_values>
-         <annual_values>1.2 percent of gdp [2018]</annual_values>
-         <annual_values>1.4 percent of gdp [2017]</annual_values>
-         <annual_values>1.7 percent of gdp [2016]</annual_values>
-         <annual_values>1.7 percent of gdp [2015]</annual_values> (Global rank: 102)</expenditures>
-      <service_age_and_obligation>18 years of age [2017]</service_age_and_obligation>
-   </section>
-   <section title="Transnational issues">
-      <disputes>Sudan claims but Egypt de facto administers security and economic development of Halaib region north of the 22nd parallel boundary</disputes>
-      <disputes>Egypt no longer shows its administration of the Bir Tawil trapezoid in Sudan on its maps</disputes>
-      <disputes>Gazan breaches in the security wall with Egypt in January 2008 highlight difficulties in monitoring the Sinai border</disputes>
-      <disputes>Saudi Arabia claims Egyptian-administered islands of Tiran and Sanafir</disputes>
-      <refugees_and_iternally_displaced_persons>
-         <refugees>
-            <by_country>
-               <section title="People">70010</section>
-               <country_of_origin>West Bank and Gaza Strip</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">130085</section>
-               <country_of_origin>Syria</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">49290</section>
-               <country_of_origin>Sudan</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">19814</section>
-               <country_of_origin>South Sudan</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">19200</section>
-               <country_of_origin>Eritrea</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">16181</section>
-               <country_of_origin>Ethiopia</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">9259</section>
-               <country_of_origin>Yemen</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">6824</section>
-               <country_of_origin>Iraq</country_of_origin>
-            </by_country>
-            <by_country>
-               <section title="People">6755</section>
-               <country_of_origin>Somalia</country_of_origin> [2020]</by_country> [2019]</refugees>
-         <internally_displaced_persons>97000 [2019]</internally_displaced_persons>
-         <stateless_persons>5 [2019]</stateless_persons>
-      </refugees_and_iternally_displaced_persons>
-      <trafficking_in_persons>
-         <current_situation>Egypt is a source, transit, and destination country for men, women, and children subjected to sex trafficking and forced labor; Egyptian children, including the large population of street children are vulnerable to forced labor in domestic service, begging and agriculture or may be victims of sex trafficking or child sex tourism, which occurs in Cairo, Alexandria, and Luxor; some Egyptian women and girls are sold into "temporary" or "summer" marriages with Gulf men, through the complicity of their parents or marriage brokers, and are exploited for prostitution or forced labor; Egyptian men are subject to forced labor in neighboring countries, while adults from South and Southeast Asia and East Africa – and increasingly Syrian refugees – are forced to work in domestic service, construction, cleaning, and begging in Egypt; women and girls, including migrants and refugees, from Asia, Sub-Saharan Africa, and the Middle East are sex trafficked in Egypt; the Egyptian military cracked down on criminal group’s smuggling, abducting, trafficking, and extorting African migrants in the Sinai Peninsula, but the practice has reemerged along Egypt’s western border with Libya</current_situation>
-         <tier_rating>Tier 2 Watch List – Egypt does not fully comply with the minimum standards for the elimination of trafficking; however, it is making significant efforts to do so; the government gathered data nationwide on trafficking cases to better allocate and prioritize anti-trafficking efforts, but overall it did not demonstrate increased progress; prosecutions increased in 2014, but no offenders were convicted for the second consecutive year; fewer trafficking victims were identified in 2014, which represents a significant and ongoing decrease from the previous two reporting periods; the government relied on NGOs and international organizations to identify and refer victims to protective services, and focused on Egyptian victims and refused to provide some services to foreign victims, at times including shelter (2015)</tier_rating>
-      </trafficking_in_persons>
-      <illicit_drugs/>
-   </section>
-</section>
