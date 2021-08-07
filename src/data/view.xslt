@@ -3,38 +3,47 @@
   <xsl:output method="xml" encoding="utf-8" indent="yes"/>
   <!--  <xsl:strip-space elements="*"/>-->
 
+  <!--  <xsl:template match="node()">-->
+  <!--    <p>-->
+  <!--      <xsl:apply-templates select="node()"/>-->
+  <!--    </p>-->
+  <!--  </xsl:template>-->
+
   <!-- reusable templates -->
 
-  <xsl:template name="to-title">
-    <xsl:param name="text"/>
+  <!--  <xsl:template name="to-title">-->
+  <!--    <xsl:param name="text"/>-->
 
-    <xsl:variable name="title" select="
-    concat(
-      upper-case(substring($text, 1, 1)),
-      translate(
-        substring($text, 2),
-        '_', ' '
-      )
-    )"/>
+  <!--    <xsl:variable name="title" select="-->
+  <!--    concat(-->
+  <!--      upper-case(substring($text, 1, 1)),-->
+  <!--      translate(-->
+  <!--        substring($text, 2),-->
+  <!--        '_', ' '-->
+  <!--      )-->
+  <!--    )"/>-->
 
-    <xsl:attribute name="title" select="$title"/>
-  </xsl:template>
+  <!--    <xsl:attribute name="title" select="$title"/>-->
+  <!--  </xsl:template>-->
 
-  <xsl:template name="section-with-title">
-    <xsl:element name="section">
-      <xsl:call-template name="to-title">
-        <xsl:with-param name="text" select="name()"/>
-      </xsl:call-template>
+  <!--  <xsl:template name="section-with-title">-->
+  <!--    <xsl:element name="section">-->
+  <!--      <xsl:call-template name="to-title">-->
+  <!--        <xsl:with-param name="text" select="name()"/>-->
+  <!--      </xsl:call-template>-->
 
-      <xsl:apply-templates/>
-    </xsl:element>
-  </xsl:template>
+  <!--      <xsl:apply-templates/>-->
+  <!--    </xsl:element>-->
+  <!--  </xsl:template>-->
 
   <!-- sections -->
 
   <xsl:template match="/country">
     <section id="{@id}" title="{name}">
-      <xsl:apply-templates select="* except name"/>
+      <xsl:for-each select="*  except name">
+        <xsl:call-template name="section"/>
+      </xsl:for-each>
+      <!--      <xsl:apply-templates select="* except name"/>-->
     </section>
   </xsl:template>
 
@@ -103,8 +112,6 @@
       <xsl:apply-templates select="."/>
     </term>
   </xsl:template>
-
-  <!-- all generic glossaries -->
 
   <xsl:template match="
       geographic_coordinates|
@@ -212,6 +219,107 @@
 ">
     <xsl:call-template name="list"/>
   </xsl:template>
+
+  <!-- sections -->
+
+  <xsl:template name="section">
+    <xsl:variable name="title" select="translate(name(), '_', ' ')"/>
+
+    <section title="{$title}" id="{name()}">
+      <xsl:apply-templates select="."/>
+    </section>
+  </xsl:template>
+
+  <xsl:template match="
+        introduction|
+        geography|
+        people|
+        government|
+        economy|
+        energy|
+        communications|
+        transportation|
+        military_and_security|
+        transnational_issues">
+    <xsl:for-each select="*">
+      <xsl:choose>
+        <xsl:when test="*">
+          <xsl:call-template name="section"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:call-template name="paragraph"/>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </xsl:template>
+
+  <!--  <xsl:template match="-->
+  <!--      country/introduction|-->
+  <!--      country/introduction/background|-->
+
+  <!--      country/geography|-->
+  <!--      country/geography/location|-->
+  <!--      country/geography/climate|-->
+  <!--      country/geography/terrain|-->
+
+  <!--      country/people|-->
+  <!--      country/government|-->
+  <!--      country/economy|-->
+  <!--      country/energy|-->
+  <!--      country/communications|-->
+  <!--      country/transportation|-->
+  <!--      country/military_and_security|-->
+  <!--      country/transnational_issues-->
+  <!--">-->
+  <!--    <xsl:call-template name="section"/>-->
+  <!--  </xsl:template>-->
+
+  <!--  <xsl:template match="coastline">-->
+  <!--    <section title="coastline" id="coastline">-->
+  <!--      <xsl:call-template name="units" />-->
+  <!--    </section>-->
+  <!--  </xsl:template>-->
+
+  <!-- paragraphs -->
+
+  <xsl:template name="paragraph">
+    <xsl:variable name="title" select="concat(translate(name(), '_', ' '), ': ')"/>
+
+    <paragraph>
+      <xsl:value-of select="$title"/>
+      <xsl:apply-templates/>
+    </paragraph>
+  </xsl:template>
+
+
+  <!--  <xsl:template match="population[not(*)]">-->
+  <!--    <xsl:call-template name="paragraph">-->
+  <!--      -->
+  <!--    </xsl:call-template>-->
+  <!--  </xsl:template>-->
+
+  <!--  <xsl:template match="@*|node()">-->
+  <!--    <xsl:copy>-->
+  <!--      <xsl:apply-templates select="@*|node()"/>-->
+  <!--    </xsl:copy>-->
+  <!--  </xsl:template>-->
+
+  <!--  <xsl:template match="@* | node()">-->
+  <!--    <xsl:copy>-->
+  <!--&lt;!&ndash;      <xsl:if test="not(*)">&ndash;&gt;-->
+  <!--&lt;!&ndash;        <paragraph>&ndash;&gt;-->
+  <!--&lt;!&ndash;          <xsl:value-of select="."/>&ndash;&gt;-->
+  <!--&lt;!&ndash;        </paragraph>&ndash;&gt;-->
+  <!--&lt;!&ndash;      </xsl:if>&ndash;&gt;-->
+  <!--&lt;!&ndash;      <xsl:apply-templates select="@* | node()"/>&ndash;&gt;-->
+  <!--    </xsl:copy>-->
+  <!--  </xsl:template>-->
+
+  <!--  <xsl:template match="*[not(*)]">-->
+  <!--    <paragraph>-->
+  <!--      <xsl:apply-templates/>-->
+  <!--    </paragraph>-->
+  <!--  </xsl:template>-->
 
 
   <xsl:template match="*[@units]">
