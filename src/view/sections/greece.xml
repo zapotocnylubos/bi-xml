@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section id="greece" title="Greece">
-   <section title="introduction" id="introduction">
-      <paragraph>background: Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and the third in 2015 with the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.</paragraph>
-   </section>
-   <section title="geography" id="geography">
-      <paragraph>location: Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey</paragraph>
-      <section title="geographic coordinates" id="geographic_coordinates">
+   <section title="introduction">Greece achieved independence from the Ottoman Empire in 1830. During the second half of the 19th century and the first half of the 20th century, it gradually added neighboring islands and territories, most with Greek-speaking populations. In World War II, Greece was first invaded by Italy (1940) and subsequently occupied by Germany (1941-44); fighting endured in a protracted civil war between supporters of the king and other anti-communist and communist rebels. Following the latter's defeat in 1949, Greece joined NATO in 1952. In 1967, a group of military officers seized power, establishing a military dictatorship that suspended many political liberties and forced the king to flee the country. In 1974 following the collapse of the dictatorship, democratic elections and a referendum created a parliamentary republic and abolished the monarchy. In 1981, Greece joined the EC (now the EU); it became the 12th member of the European Economic and Monetary Union (EMU) in 2001. Greece has suffered a severe economic crisis since late 2009, due to nearly a decade of chronic overspending and structural rigidities. Beginning in 2010, Greece entered three bailout agreements - with the European Commission, the European Central Bank (ECB), the IMF, and the third in 2015 with the European Stability Mechanism (ESM) - worth in total about $300 billion. The Greek Government formally exited the third bailout in August 2018.</section>
+   <section title="geography">Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey<section title="geographic coordinates">
          <glossary title="geographic coordinates">
             <term name="latitude">39°0"N</term>
             <term name="longitude">22°0"E</term>
          </glossary>
       </section>
-      <section title="area" id="area">
+      <section title="area">
          <glossary title="area">
             <term name="total">131957 sq km</term>
             <term name="land">130647 sq km</term>
@@ -19,21 +15,17 @@
             <term name="comparative">slightly smaller than Alabama</term>
          </glossary>
       </section>
-      <section title="border countries" id="border_countries">
+      <section title="border countries">
          <glossary title="border countries">
             <term name="Albania">212 km</term>
             <term name="Bulgaria">472 km</term>
             <term name="Macedonia">234 km</term>
             <term name="Turkey">192 km</term>
          </glossary>
-      </section>
-      <paragraph>coastline: 13676</paragraph>
-      <paragraph>climate: temperate; mild, wet winters; hot, dry summers</paragraph>
-      <paragraph>terrain: mountainous with ranges extending into the sea as peninsulas or chains of islands</paragraph>
-      <section title="elevation" id="elevation">
+      </section>13676 kmtemperate; mild, wet winters; hot, dry summersmountainous with ranges extending into the sea as peninsulas or chains of islands<section title="elevation">
          <glossary title="elevation">
             <term name="mean elevation">498 m</term>
-            <term name="Mediterranean Sea">0 m (Mediterranean Sea)</term>
+            <term name="lowest point">0 m</term>
             <term name="highest point">
             Mount Olympus
                2917
@@ -41,152 +33,85 @@
             <term name="note">Mount Olympus actually has 52 peaks but its highest point, Mytikas (meaning "nose"), rises to 2,917 meters; in Greek mythology, Olympus' Mytikas peak was the home of the Greek gods</term>
          </glossary>
       </section>
-      <section title="natural resources" id="natural_resources">
-         <list title="natural resources">
-            <item>lignite</item>
-            <item>petroleum</item>
-            <item>iron ore</item>
-            <item>bauxite</item>
-            <item>lead</item>
-            <item>zinc</item>
-            <item>nickel</item>
-            <item>magnesite</item>
-            <item>marble</item>
-            <item>salt</item>
-            <item>hydropower potential</item>
-         </list>
-      </section>
-      <section title="land use" id="land_use">
+      <section title="natural resources"/>
+      <section title="land use">
          <glossary title="by sector">
             <term name="agricultural land total">63.4 %</term>
-            <term name="arable land">19.7 % (/)</term>
-            <term name="permanent crops">8.9 % (/)</term>
+            <term name="arable land">19.7 %</term>
+            <term name="permanent crops">8.9 %</term>
             <term name="permanent pasture">34.8 %</term>
             <term name="forest">30.5 %</term>
             <term name="other">6.1 %</term>
          </glossary>
-      </section>
-      <paragraph>irrigated land: 15550</paragraph>
-      <paragraph>population distribution: one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</paragraph>
-      <section title="natural hazards" id="natural_hazards">
+      </section>15550 sq kmone-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters<section title="natural hazards">
          <glossary title="natural hazards">
             <term name="hazard">severe earthquakes</term>
             <term name="volcanism">Santorini (367 m) has been deemed a Decade Volcano by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to its explosive history and close proximity to human populations; although there have been very few eruptions in recent centuries, Methana and Nisyros in the Aegean are classified as historically active</term>
          </glossary>
       </section>
-      <section title="environment" id="environment">
-         <list title="issues">
-            <item>air pollution</item>
-            <item>air emissions from transport and electricity power stations</item>
-            <item>water pollution</item>
-            <item>degradation of coastal zones</item>
-            <item>loss of biodiversity in terrestrial and marine ecosystems</item>
-            <item>increasing municipal and industrial waste</item>
-         </list>
-         <list title="party to">
-            <item>Air Pollution</item>
-            <item>Air Pollution-Nitrogen Oxides</item>
-            <item>Air Pollution-Sulfur 94</item>
-            <item>Antarctic-Environmental Protocol</item>
-            <item>Antarctic-Marine Living Resources</item>
-            <item>Antarctic Treaty</item>
-            <item>Biodiversity</item>
-            <item>Climate Change</item>
-            <item>Climate Change-Kyoto Protocol</item>
-            <item>Desertification</item>
-            <item>Endangered Species</item>
-            <item>Environmental Modification</item>
-            <item>Hazardous Wastes</item>
-            <item>Law of the Sea</item>
-            <item>Marine Dumping</item>
-            <item>Ozone Layer Protection</item>
-            <item>Ship Pollution</item>
-            <item>Tropical Timber 83</item>
-            <item>Tropical Timber 94</item>
-            <item>Wetlands</item>
-         </list>
-         <list title="signed but not ratified">
-            <item>Air Pollution-Persistent Organic Pollutants</item>
-            <item>Air Pollution-Volatile Organic Compounds</item>
-         </list>
+      <section title="environment">
       </section>
    </section>
-   <section title="people" id="people">
-      <paragraph>population: 10607051</paragraph>
-      <paragraph>nationality: Greek</paragraph>
-      <section title="ethnic groups" id="ethnic_groups">
+   <section title="people">10607051Greek<section title="ethnic groups">
          <glossary title="ethnic groups">
-            <term name="Greek">91.6 % (Greek)</term>
-            <term name="Albanian">4.4 % (Albanian)</term>
-            <term name="other">4 % (other)</term>
+            <term name="group">91.6 %</term>
+            <term name="group">4.4 %</term>
+            <term name="group">4 %</term>
             <term name="note">data represent citizenship; Greece does not collect data on ethnicity</term>
          </glossary>
       </section>
-      <section title="languages" id="languages">
+      <section title="languages">
          <glossary title="languages">
-            <term name="Greek">99 % (Greek)</term>
-            <term name="other">1 % (other)</term>
+            <term name="language">99 %</term>
+            <term name="language">1 %</term>
          </glossary>
       </section>
-      <section title="religions" id="religions">
+      <section title="religions">
          <glossary title="religions">
-            <term name="Greek Orthodox"> % (Greek Orthodox)</term>
+            <term name="religion"> %</term>
          </glossary>
       </section>
-      <section title="dependency ratios" id="dependency_ratios">
+      <section title="dependency ratios">
          <glossary title="dependency ratios">
-            <term name="total dependency ratio">56.1 % (total dependency ratio)</term>
-            <term name="youth dependency ratio">21.3 % (youth dependency ratio)</term>
-            <term name="elderly dependency ratio">34.8 % (elderly dependency ratio)</term>
-            <term name="potential support ratio">2.9 % (potential support ratio)</term>
+            <term name="ratio">56.1 %</term>
+            <term name="ratio">21.3 %</term>
+            <term name="ratio">34.8 %</term>
+            <term name="ratio">2.9 %</term>
          </glossary>
       </section>
-      <section title="median age" id="median_age">
+      <section title="median age">
          <glossary title="median age">
             <term name="total">45.3 years</term>
             <term name="male">43.7 years</term>
             <term name="female">46.8 years</term>
          </glossary>
       </section>
-      <paragraph>population growth rate: 
       -0.31
-    </paragraph>
-      <paragraph>birth rate: 7.8</paragraph>
-      <paragraph>death rate: 12</paragraph>
-      <paragraph>net migration rate: 0.9</paragraph>
-      <paragraph>population distribution: one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</paragraph>
-      <section title="urbanization" id="urbanization">
+    7.8 births per 1000 population12 deaths per 1000 population0.9 migrants per 1000 populationone-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters<section title="urbanization">
          <glossary title="urbanization">
-            <term name="2020">79.7 % [2020]</term>
+            <term name="2020">79.7 %</term>
             <term name="rate of urbanization">0.22 %</term>
          </glossary>
       </section>
-      <section title="major urban areas" id="major_urban_areas">
+      <section title="major urban areas">
          <glossary title="major urban areas">
-            <term name="Athens">3153000 people</term>
-            <term name="Thessaloniki">812000 people</term>
+            <term name="area">3153000 people</term>
+            <term name="area">812000 people</term>
          </glossary>
-      </section>
-      <paragraph>mothers mean age at first birth: 29.9</paragraph>
-      <paragraph>maternal mortality rate: 3</paragraph>
-      <section title="infant mortality rate" id="infant_mortality_rate">
+      </section>29.93 deaths per 100k live population<section title="infant mortality rate">
          <glossary title="infant mortality rate">
             <term name="total">3.7 deaths per 1000 live births</term>
             <term name="male">4 deaths per 1000 live births</term>
             <term name="female">3.3 deaths per 1000 live births</term>
          </glossary>
       </section>
-      <section title="life expectancy at birth" id="life_expectancy_at_birth">
+      <section title="life expectancy at birth">
          <glossary title="life expectancy at birth">
             <term name="total population">81.1 years</term>
             <term name="male">78.5 years</term>
             <term name="female">83.8 years</term>
          </glossary>
-      </section>
-      <paragraph>total fertility rate: 1.38</paragraph>
-      <paragraph>physicians density: 5.48</paragraph>
-      <paragraph>hospital bed density: 4.2</paragraph>
-      <section title="drinking water source" id="drinking_water_source">
+      </section>1.38 children born per woman5.48 physicians per 1000 population4.2 beds per 1000 population<section title="drinking water source">
          <glossary title="improved">
             <term name="urban">100 percent of population</term>
             <term name="rural">100 percent of population</term>
@@ -198,7 +123,7 @@
             <term name="total">0 percent of population</term>
          </glossary>
       </section>
-      <section title="sanitation facility access" id="sanitation_facility_access">
+      <section title="sanitation facility access">
          <glossary title="improved">
             <term name="urban">100 percent of population</term>
             <term name="rural">100 percent of population</term>
@@ -210,15 +135,13 @@
             <term name="total">0 percent of population</term>
          </glossary>
       </section>
-      <section title="hiv aids" id="hiv_aids">
+      <section title="hiv aids">
          <glossary title="hiv aids">
             <term name="adult prevalence rate">0.2 % of adults</term>
             <term name="people living with hiv aids">14000</term>
             <term name="deaths">100</term>
          </glossary>
-      </section>
-      <paragraph>adult obesity: 24.9</paragraph>
-      <section title="literacy" id="literacy">
+      </section>24.9 % of adults<section title="literacy">
          <glossary title="literacy">
             <term name="definition">age 15 and over can read and write</term>
             <term name="total population">97.7 %</term>
@@ -226,14 +149,14 @@
             <term name="female">96.9 %</term>
          </glossary>
       </section>
-      <section title="school life expectancy" id="school_life_expectancy">
+      <section title="school life expectancy">
          <glossary title="school life expectancy">
             <term name="total">20 years</term>
             <term name="male">20 years</term>
             <term name="female">20 years</term>
          </glossary>
       </section>
-      <section title="youth unemployment" id="youth_unemployment">
+      <section title="youth unemployment">
          <glossary title="youth unemployment">
             <term name="total">39.9 %</term>
             <term name="male">36.4 %</term>
@@ -241,8 +164,8 @@
          </glossary>
       </section>
    </section>
-   <section title="government" id="government">
-      <section title="country name" id="country_name">
+   <section title="government">
+      <section title="country name">
          <glossary title="country name">
             <term name="conventional long form">Hellenic Republic</term>
             <term name="conventional short form">Greece</term>
@@ -251,9 +174,7 @@
             <term name="former">Hellenic State, Kingdom of Greece</term>
             <term name="etymology">the English name derives from the Roman (Latin) designation "Graecia," meaning "Land of the Greeks"; the Greeks call their country "Hellas" or "Ellada"</term>
          </glossary>
-      </section>
-      <paragraph>government type: parliamentary republic</paragraph>
-      <section title="capital" id="capital">
+      </section>parliamentary republic<section title="capital">
          Athens
          <glossary title="geographic coordinates">
             <term name="latitude">37°59"N</term>
@@ -263,25 +184,19 @@
          +1hr, begins last Sunday in March; ends last Sunday in October
          Athens is the oldest European capital city; according to tradition, the city is named after Athena, the Greek goddess of wisdom; in actuality, the appellation probably derives from a lost name in a pre-Hellenic language
       </section>
-      <section title="administrative divisions" id="administrative_divisions">
+      <section title="administrative divisions">
          perifereia) and 1 autonomous monastic state
-      </section>
-      <paragraph>independence: 1830-02-03</paragraph>
-      <section title="constitution" id="constitution">
+      </section>1830-02-03<section title="constitution">
          many previous; latest entered into force 11 June 1975
          proposed by at least 50 members of Parliament and agreed by three-fifths majority vote in two separate ballots at least 30 days apart; passage requires absolute majority vote by the next elected Parliament; entry into force finalized through a "special parliamentary resolution"; articles on human rights and freedoms and the form of government cannot be amended; amended 1986, 2001, 2008
-      </section>
-      <paragraph>legal system: civil legal system based on Roman law</paragraph>
-      <section title="citizenship" id="citizenship">
+      </section>civil legal system based on Roman law<section title="citizenship">
          <glossary title="citizenship">
             <term name="citizenship by birth">no</term>
             <term name="citizenship by descent only">at least one parent must be a citizen of Greece</term>
             <term name="dual citizenship recognized">yes</term>
             <term name="residency requirement for naturalization">10 years</term>
          </glossary>
-      </section>
-      <paragraph>suffrage: 17</paragraph>
-      <section title="executive branch" id="executive_branch">
+      </section>17<section title="executive branch">
          <glossary title="executive branch">
             <term name="chief of state">President Ekaterini SAKELLAROPOULOU (since 13 March 2020)</term>
             <term name="head of government">Prime Minister Kyriakos MITSOTAKIS (since 8 July 2019)</term>
@@ -290,39 +205,22 @@
             <term name="election results">Katerina SAKELLAROPOULOU (independent) elected president by Parliament - 261 of 300 votes; note - SAKELLAROPOULOU is Greece's first woman president</term>
          </glossary>
       </section>
-      <section title="legislative branch" id="legislative_branch">
+      <section title="legislative branch">
          <glossary title="legislative branch">
             <term name="description">unicameral Hellenic Parliament or Vouli ton Ellinon (300 seats; 280 members in multi-seat constituencies and 12 members in a single nationwide constituency directly elected by open party-list proportional representation vote; 8 members in single-seat constituencies elected by simple majority vote; members serve up to 4 years);  note - only parties surpassing a 3% threshold are entitled to parliamentary seats; parties need 10 seats to become formal parliamentary groups but can retain that status if the party participated in the last election and received the minimum 3% threshold</term>
             <term name="elections">last held on 7 July 2019 (next to be held by July 2023)</term>
             <term name="election results">percent of vote by party - ND 39.9%, SYRIZA 31.5%, KINAL 8.1%, KKE 5.3%, Greek Solution 3.7%, MeRA25 3.4%, other 8.1%; seats by party - ND 158, SYRIZA 86, KINAL 22, KKE 15, Greek Solution 10, MeRA25 9; composition - men 244, women 56, percent of women 18.7%</term>
          </glossary>
       </section>
-      <section title="judicial branch" id="judicial_branch">
+      <section title="judicial branch">
          <glossary title="judicial branch">
             <term name="highest courts">Supreme Civil and Criminal Court or Areios Pagos (consists of 56 judges, including the court presidents); Council of State (supreme administrative court) (consists of the president, 7 vice presidents, 42 privy councilors, 48 associate councilors and 50 reporting judges, organized into six 5- and 7-member chambers; Court of Audit (government audit and enforcement) consists of the president, 5 vice presidents, 20 councilors, and 90 associate and reporting judges</term>
             <term name="judge selection and term of office">Supreme Court judges appointed by presidential decree on the advice of the Supreme Judicial Council (SJC), which includes the president of the Supreme Court, other judges, and the prosecutor of the Supreme Court; judges appointed for life following a 2-year probationary period; Council of State president appointed by the Greek Cabinet to serve a 4-year term; other judge appointments and tenure NA; Court of Audit president appointed by decree of the president of the republic on the advice of the SJC; court president serves a 4-year term or until age 67; tenure of vice presidents, councilors, and judges NA</term>
             <term name="subordinate courts">Courts of Appeal and Courts of First Instance (district courts)</term>
          </glossary>
       </section>
-      <section title="political parties and leaders"
-               id="political_parties_and_leaders">
-         <list title="political parties and leaders">
-            <item>Anticapitalist Left Cooperation for the Overthrow (collective leadership)</item>
-            <item>Coalition of the Radical Left (Alexios  TSIPRAS)</item>
-            <item>Communist Party of Greece (Dimitrios KOUTSOUMBAS)</item>
-            <item>Democratic Left (Athanasios  THEOCHAROPOULOS)</item>
-            <item>European Realistic Disobedience Front (Yanis VAROUFAKIS)</item>
-            <item>Greek Solution (Kyriakos VELOPOULOS)</item>
-            <item>Independent Greeks (Panagiotis  KAMMENOS)</item>
-            <item>Movement for Change (Foteini  GENIMMATA)</item>
-            <item>New Democracy (Kyriakos MITSOTAKIS)</item>
-            <item>People's Association-Golden Dawn (Nikolaos MICHALOLIAKOS)</item>
-            <item>Popular Unity (Panagiotis LAFAZANIS)</item>
-            <item>The River  (Stavros THEODORAKIS)</item>
-            <item>Union of Centrists (Vasileios  LEVENTIS)</item>
-         </list>
-      </section>
-      <section title="diplomatic representation" id="diplomatic_representation">
+      <section title="political parties and leaders"/>
+      <section title="diplomatic representation">
          <glossary title="in united states">
             <term name="chief of mission">Ambassador Theocharis LALAKOS (since 27 June 2016)</term>
             <term name="chancery">2217 Massachusetts Avenue NW, Washington, DC 20008</term>
@@ -340,20 +238,20 @@
             <term name="consulates general">Thessaloniki</term>
          </glossary>
       </section>
-      <section title="flag description" id="flag_description">
+      <section title="flag description">
          nine equal horizontal stripes of blue alternating with white; a blue square bearing a white cross appears in the upper hoist-side corner; the cross symbolizes Greek Orthodoxy, the established religion of the country; there is no agreed upon meaning for the nine stripes or for the colors
          Greek legislation states that the flag colors are cyan and white, but cyan can mean "blue" in Greek, so the exact shade of blue has never been set and has varied from a light to a dark blue over time; in general, the hue of blue normally encountered is a form of azure
       </section>
-      <section title="national symbols" id="national_symbols">
+      <section title="national symbols">
          <glossary title="symbols">
-            <term name="Greek cross "/>
+            <term name="symbol">Greek cross </term>
          </glossary>
          <glossary title="colors">
-            <term name="blue"/>
-            <term name="white"/>
+            <term name="color">blue</term>
+            <term name="color">white</term>
          </glossary>
       </section>
-      <section title="national anthem" id="national_anthem">
+      <section title="national anthem">
          <glossary title="national anthem">
             <term name="name">"Ymnos eis tin Eleftherian" (Hymn to Liberty)</term>
             <term name="lyrics music">Dionysios SOLOMOS/Nikolaos MANTZAROS</term>
@@ -361,117 +259,38 @@
             <term name="audio url">https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/GR.mp3?1538604754</term>
          </glossary>
       </section>
-      <section title="national holidays" id="national_holidays">
+      <section title="national holidays">
          <glossary title="national holidays">
-            <term name="Independence Day">25 March</term>
+            <term name="holiday">25 March</term>
          </glossary>
       </section>
-      <section title="international law organization participation"
-               id="international_law_organization_participation">
-         <list title="international law organization participation">
-            <item>accepts compulsory ICJ jurisdiction with reservations</item>
-            <item>accepts ICCt jurisdiction</item>
-         </list>
-      </section>
-      <section title="international organization participation"
-               id="international_organization_participation">
-         <list title="international organization participation">
-            <item>Australia Group</item>
-            <item>BIS</item>
-            <item>BSEC</item>
-            <item>CD</item>
-            <item>CE</item>
-            <item>CERN</item>
-            <item>EAPC</item>
-            <item>EBRD</item>
-            <item>ECB</item>
-            <item>EIB</item>
-            <item>EMU</item>
-            <item>ESA</item>
-            <item>EU</item>
-            <item>FAO</item>
-            <item>FATF</item>
-            <item>IAEA</item>
-            <item>IBRD</item>
-            <item>ICAO</item>
-            <item>ICC </item>
-            <item>ICCt</item>
-            <item>ICRM</item>
-            <item>IDA</item>
-            <item>IEA</item>
-            <item>IFAD</item>
-            <item>IFC</item>
-            <item>IFRCS</item>
-            <item>IGAD </item>
-            <item>IHO</item>
-            <item>ILO</item>
-            <item>IMF</item>
-            <item>IMO</item>
-            <item>IMSO</item>
-            <item>Interpol</item>
-            <item>IOC</item>
-            <item>IOM</item>
-            <item>IPU</item>
-            <item>ISO</item>
-            <item>ITSO</item>
-            <item>ITU</item>
-            <item>ITUC </item>
-            <item>MIGA</item>
-            <item>NATO</item>
-            <item>NEA</item>
-            <item>NSG</item>
-            <item>OAS </item>
-            <item>OECD</item>
-            <item>OIF</item>
-            <item>OPCW</item>
-            <item>OSCE</item>
-            <item>PCA</item>
-            <item>Schengen Convention</item>
-            <item>SELEC</item>
-            <item>UN</item>
-            <item>UNCTAD</item>
-            <item>UNESCO</item>
-            <item>UNHCR</item>
-            <item>UNIDO</item>
-            <item>UNIFIL</item>
-            <item>UNWTO</item>
-            <item>UPU</item>
-            <item>WCO</item>
-            <item>WFTU </item>
-            <item>WHO</item>
-            <item>WIPO</item>
-            <item>WMO</item>
-            <item>WTO</item>
-            <item>ZC</item>
-         </list>
-      </section>
+      <section title="international law organization participation"/>
+      <section title="international organization participation"/>
    </section>
-   <section title="economy" id="economy">
-      <paragraph>overview: Greece has a capitalist economy with a public sector accounting for about 40% of GDP and with per capita GDP about two-thirds that of the leading euro-zone economies. Tourism provides 18% of GDP. Immigrants make up nearly one-fifth of the work force, mainly in agricultural and unskilled jobs. Greece is a major beneficiary of EU aid, equal to about 3.3% of annual GDP.
+   <section title="economy">Greece has a capitalist economy with a public sector accounting for about 40% of GDP and with per capita GDP about two-thirds that of the leading euro-zone economies. Tourism provides 18% of GDP. Immigrants make up nearly one-fifth of the work force, mainly in agricultural and unskilled jobs. Greece is a major beneficiary of EU aid, equal to about 3.3% of annual GDP.
 The Greek economy averaged growth of about 4% per year between 2003 and 2007, but the economy went into recession in 2009 as a result of the world financial crisis, tightening credit conditions, and Athens' failure to address a growing budget deficit. By 2013, the economy had contracted 26%, compared with the pre-crisis level of 2007. Greece met the EU's Growth and Stability Pact budget deficit criterion of no more than 3% of GDP in 2007-08, but violated it in 2009, when the deficit reached 15% of GDP. Deteriorating public finances, inaccurate and misreported statistics, and consistent underperformance on reforms prompted major credit rating agencies to downgrade Greece's international debt rating in late 2009 and led the country into a financial crisis. Under intense pressure from the EU and international market participants, the government accepted a bailout program that called on Athens to cut government spending, decrease tax evasion, overhaul the civil-service, health-care, and pension systems, and reform the labor and product markets. Austerity measures reduced the deficit to 1.3% in 2017. Successive Greek governments, however, failed to push through many of the most unpopular reforms in the face of widespread political opposition, including from the country's powerful labor unions and the general public.
 In April 2010, a leading credit agency assigned Greek debt its lowest possible credit rating, and in May 2010, the IMF and euro-zone governments provided Greece emergency short- and medium-term loans worth $147 billion so that the country could make debt repayments to creditors. Greece, however, struggled to meet the targets set by the EU and the IMF, especially after Eurostat - the EU's statistical office - revised upward Greece's deficit and debt numbers for 2009 and 2010. European leaders and the IMF agreed in October 2011 to provide Athens a second bailout package of $169 billion. The second deal called for holders of Greek government bonds to write down a significant portion of their holdings to try to alleviate Greece’s government debt burden. However, Greek banks, saddled with a significant portion of sovereign debt, were adversely affected by the write down and $60 billion of the second bailout package was set aside to ensure the banking system was adequately capitalized.
 In 2014, the Greek economy began to turn the corner on the recession. Greece achieved three significant milestones: balancing the budget - not including debt repayments; issuing government debt in financial markets for the first time since 2010; and generating 0.7% GDP growth — the first economic expansion since 2007.
 Despite the nascent recovery, widespread discontent with austerity measures helped propel the far-left Coalition of the Radical Left (SYRIZA) party into government in national legislative elections in January 2015. Between January and July 2015, frustrations grew between the SYRIZA-led government and Greece’s EU and IMF creditors over the implementation of bailout measures and disbursement of funds. The Greek government began running up significant arrears to suppliers, while Greek banks relied on emergency lending, and Greece’s future in the euro zone was called into question. To stave off a collapse of the banking system, Greece imposed capital controls in June 2015, then became the first developed nation to miss a loan payment to the IMF, rattling international financial markets. Unable to reach an agreement with creditors, Prime Minister Alexios TSIPRAS held a nationwide referendum on 5 July on whether to accept the terms of Greece’s bailout, campaigning for the ultimately successful "no" vote. The TSIPRAS government subsequently agreed, however, to a new $96 billion bailout in order to avert Greece’s exit from the monetary bloc. On 20 August 2015, Greece signed its third bailout, allowing it to cover significant debt payments to its EU and IMF creditors and to ensure the banking sector retained access to emergency liquidity. The TSIPRAS government — which retook office on 20 September 2015 after calling new elections in late August — successfully secured disbursal of two delayed tranches of bailout funds. Despite the economic turmoil, Greek GDP did not contract as sharply as feared, boosted in part by a strong tourist season.
-In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic reforms, a massive non-performing loan problem, and ongoing uncertainty regarding the political direction of the country hold the economy back. Some estimates put Greece’s black market at 20- to 25% of GDP, as more people have stopped reporting their income to avoid paying taxes that, in some cases, have risen to 70% of an individual’s gross income.</paragraph>
-      <section title="gdp" id="gdp">
+In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic reforms, a massive non-performing loan problem, and ongoing uncertainty regarding the political direction of the country hold the economy back. Some estimates put Greece’s black market at 20- to 25% of GDP, as more people have stopped reporting their income to avoid paying taxes that, in some cases, have risen to 70% of an individual’s gross income.<section title="gdp">
          <glossary title="purchasing power parity">
-            <term name="2017">299300000000 USD [2017]</term>
-            <term name="2016">295300000000 USD [2016]</term>
-            <term name="2015">296000000000 USD [2015]</term>
+            <term name="2017">299300000000 USD</term>
+            <term name="2016">295300000000 USD</term>
+            <term name="2015">296000000000 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="official exchange rate">
             <term name="rate">200700000000 USD</term>
          </glossary>
          <glossary title="real growth rate">
-            <term name="2019">1.87 % [2019]</term>
-            <term name="2018">1.91 % [2018]</term>
-            <term name="2017">1.44 % [2017]</term>
+            <term name="2019">1.87 %</term>
+            <term name="2018">1.91 %</term>
+            <term name="2017">1.44 %</term>
          </glossary>
          <glossary title="per capita purchasing power parity">
-            <term name="2017">27800 USD [2017]</term>
-            <term name="2016">27400 USD [2016]</term>
-            <term name="2015">27300 USD [2015]</term>
+            <term name="2017">27800 USD</term>
+            <term name="2016">27400 USD</term>
+            <term name="2015">27300 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="end uses">
@@ -488,47 +307,21 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="services">79.1 %</term>
          </glossary>
       </section>
-      <section title="gross national saving" id="gross_national_saving">
+      <section title="gross national saving">
          <glossary title="gross national saving">
-            <term name="2017">10.9 percent of gdp [2017]</term>
-            <term name="2016">9.5 percent of gdp [2016]</term>
-            <term name="2015">9.6 percent of gdp [2015]</term>
+            <term name="2017">10.9 percent of gdp</term>
+            <term name="2016">9.5 percent of gdp</term>
+            <term name="2015">9.6 percent of gdp</term>
          </glossary>
       </section>
-      <section title="agriculture products" id="agriculture_products">
-         <list title="agriculture products">
-            <item>wheat</item>
-            <item>corn</item>
-            <item>barley</item>
-            <item>sugar beets</item>
-            <item>olives</item>
-            <item>tomatoes</item>
-            <item>wine</item>
-            <item>tobacco</item>
-            <item>potatoes</item>
-            <item>beef</item>
-            <item>dairy products</item>
-         </list>
-      </section>
-      <section title="industries" id="industries">
-         <list title="industries">
-            <item>tourism</item>
-            <item>food</item>
-            <item>tobacco processing</item>
-            <item>textiles</item>
-            <item>chemicals</item>
-            <item>metal products</item>
-            <item>mining</item>
-            <item>petroleum</item>
-         </list>
-      </section>
-      <section title="industrial production growth rate"
-               id="industrial_production_growth_rate">
+      <section title="agriculture products"/>
+      <section title="industries"/>
+      <section title="industrial production growth rate">
          <glossary title="industrial production growth rate">
             <term name="annual percentage increase">3.5</term>
          </glossary>
       </section>
-      <section title="labor force" id="labor_force">
+      <section title="labor force">
          <glossary title="total size">
             <term name="total people">4000000</term>
          </glossary>
@@ -538,111 +331,89 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="services">72.4 %</term>
          </glossary>
       </section>
-      <section title="unemployment rate" id="unemployment_rate">
+      <section title="unemployment rate">
          <glossary title="unemployment rate">
-            <term name="2019">17.3 % [2019]</term>
-            <term name="2018">19.34 % [2018]</term>
+            <term name="2019">17.3 %</term>
+            <term name="2018">19.34 %</term>
          </glossary>
-      </section>
-      <paragraph>population below poverty line: 36</paragraph>
-      <section title="household income by percentage share"
-               id="household_income_by_percentage_share">
+      </section>36 %<section title="household income by percentage share">
          <glossary title="household income by percentage share">
             <term name="lowest ten percent">1.7 %</term>
             <term name="highest ten percent">26.7 %</term>
          </glossary>
       </section>
-      <section title="budget" id="budget">
+      <section title="budget">
          <glossary title="budget">
             <term name="revenues">97990000000 USD</term>
             <term name="expenditures">96350000000 USD</term>
          </glossary>
+      </section>48.8 % of gdp0.8 % of gdp<section title="public debt">
+         181.8 percent of gdp
+         183.5 percent of gdp
       </section>
-      <paragraph>taxes and other revenues: 48.8</paragraph>
-      <paragraph>budget surplus or deficit: 0.8</paragraph>
-      <section title="public debt" id="public_debt">
-         181.8 percent of gdp [2017]
-         183.5 percent of gdp [2016]
+      <section title="inflation rate">
+         1.1 %
+         0 %
       </section>
-      <paragraph>fiscal year: </paragraph>
-      <section title="inflation rate" id="inflation_rate">
-         1.1 % [2017]
-         0 % [2016]
+      <section title="current account balance">
+         -3114000000 USD
+         -6245000000 USD
       </section>
-      <section title="current account balance" id="current_account_balance">
-         -3114000000 USD [2019]
-         -6245000000 USD [2018]
-      </section>
-      <section title="exports" id="exports">
+      <section title="exports">
          <glossary title="total value">
-            <term name="2017">31540000000 USD [2017]</term>
-            <term name="2016">27100000000 USD [2016]</term>
+            <term name="2017">31540000000 USD</term>
+            <term name="2016">27100000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>food</item>
-            <item>beverages</item>
-            <item>manufactured goods</item>
-            <item>petroleum products</item>
-            <item>chemicals</item>
-            <item>textiles</item>
-         </list>
          <glossary title="partners">
-            <term name="Italy">10.6 % (Italy)</term>
-            <term name="Germany">7.1 % (Germany)</term>
-            <term name="Turkey">6.8 % (Turkey)</term>
-            <term name="Cyprus">6.5 % (Cyprus)</term>
-            <term name="Bulgaria">4.9 % (Bulgaria)</term>
-            <term name="Lebanon">4.3 % (Lebanon)</term>
+            <term name="partner">10.6 %</term>
+            <term name="partner">7.1 %</term>
+            <term name="partner">6.8 %</term>
+            <term name="partner">6.5 %</term>
+            <term name="partner">4.9 %</term>
+            <term name="partner">4.3 %</term>
          </glossary>
       </section>
-      <section title="imports" id="imports">
+      <section title="imports">
          <glossary title="total value">
-            <term name="2017">52270000000 USD [2017]</term>
-            <term name="2016">45450000000 USD [2016]</term>
+            <term name="2017">52270000000 USD</term>
+            <term name="2016">45450000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>machinery</item>
-            <item>transport equipment</item>
-            <item>fuels</item>
-            <item>chemicals</item>
-         </list>
          <glossary title="partners">
-            <term name="Germany">10.4 % (Germany)</term>
-            <term name="Italy">8.2 % (Italy)</term>
-            <term name="Russia">6.8 % (Russia)</term>
-            <term name="Iraq">6.3 % (Iraq)</term>
-            <term name="South Korea">6.1 % (South Korea)</term>
-            <term name="China">5.4 % (China)</term>
-            <term name="Netherlands">5.3 % (Netherlands)</term>
-            <term name="France">4.3 % (France)</term>
+            <term name="partner">10.4 %</term>
+            <term name="partner">8.2 %</term>
+            <term name="partner">6.8 %</term>
+            <term name="partner">6.3 %</term>
+            <term name="partner">6.1 %</term>
+            <term name="partner">5.4 %</term>
+            <term name="partner">5.3 %</term>
+            <term name="partner">4.3 %</term>
          </glossary>
       </section>
-      <section title="reserves of foreign exchange and gold"
-               id="reserves_of_foreign_exchange_and_gold">
+      <section title="reserves of foreign exchange and gold">
          <glossary title="reserves of foreign exchange and gold">
-            <term name="2017-12-31">7807000000 USD [2017-12-31]</term>
-            <term name="2015-12-31">6026000000 USD [2015-12-31]</term>
+            <term name="2017-12-31">7807000000 USD</term>
+            <term name="2015-12-31">6026000000 USD</term>
          </glossary>
       </section>
-      <section title="external debt" id="external_debt">
+      <section title="external debt">
          <glossary title="external debt">
-            <term name="2016-03-31">506600000000 USD [2016-03-31]</term>
-            <term name="2015-03-31">468200000000 USD [2015-03-31]</term>
+            <term name="2016-03-31">506600000000 USD</term>
+            <term name="2015-03-31">468200000000 USD</term>
          </glossary>
       </section>
-      <section title="exchange rates" id="exchange_rates">
+      <section title="exchange rates">
          <glossary title="exchange rates">
-            <term name="2017">0.885 USD [2017]</term>
-            <term name="2016">0.903 USD [2016]</term>
-            <term name="2015">0.9214 USD [2015]</term>
-            <term name="2014">0.885 USD [2014]</term>
-            <term name="2013">0.7634 USD [2013]</term>
+            <term name="2017">0.885 per USD</term>
+            <term name="2016">0.903 per USD</term>
+            <term name="2015">0.9214 per USD</term>
+            <term name="2014">0.885 per USD</term>
+            <term name="2013">0.7634 per USD</term>
             <term name="note">euros (EUR) per US dollar</term>
          </glossary>
       </section>
    </section>
-   <section title="energy" id="energy">
-      <section title="electricity" id="electricity">
+   <section title="energy">
+      <section title="electricity">
          <glossary title="access">
             <term name="total electrification">100 %</term>
          </glossary>
@@ -658,7 +429,7 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="other renewable sources">29 %</term>
          </glossary>
       </section>
-      <section title="crude oil" id="crude_oil">
+      <section title="crude oil">
          <glossary title="crude oil">
             <term name="production">4100 bbl per day</term>
             <term name="exports">3229 bbl per day</term>
@@ -666,7 +437,7 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="proved reserves">10000000 bbl</term>
          </glossary>
       </section>
-      <section title="refined petroleum products" id="refined_petroleum_products">
+      <section title="refined petroleum products">
          <glossary title="refined petroleum products">
             <term name="production">655400 bbl per day</term>
             <term name="consumption">304100 bbl per day</term>
@@ -674,7 +445,7 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="imports">192200 bbl per day</term>
          </glossary>
       </section>
-      <section title="natural gas" id="natural_gas">
+      <section title="natural gas">
          <glossary title="natural gas">
             <term name="production">8000000 cubic metres</term>
             <term name="consumption">4927000000 cubic metres</term>
@@ -682,90 +453,81 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <term name="imports">4984000000 cubic metres</term>
             <term name="proved reserves">991100000 cubic metres</term>
          </glossary>
-      </section>
-      <paragraph>carbon dioxide emissions from consumption of energy: 69370000</paragraph>
-   </section>
-   <section title="communications" id="communications">
-      <section title="telephones" id="telephones">
+      </section>69370000 megatonnes</section>
+   <section title="communications">
+      <section title="telephones">
          <glossary title="telephones">
             <term name="fixed lines">5080386</term>
             <term name="mobile cellular">12070571</term>
          </glossary>
-      </section>
-      <paragraph>broadcast media: broadcast media dominated by the private sector; roughly 150 private TV channels, about 10 of which broadcast nationwide; 1 government-owned terrestrial TV channel with national coverage; 3 privately owned satellite channels; multi-channel satellite and cable TV services available; upwards of 1,500 radio stations, all of them privately owned; government-owned broadcaster has 2 national radio stations</paragraph>
-      <section title="internet" id="internet">
+      </section>broadcast media dominated by the private sector; roughly 150 private TV channels, about 10 of which broadcast nationwide; 1 government-owned terrestrial TV channel with national coverage; 3 privately owned satellite channels; multi-channel satellite and cable TV services available; upwards of 1,500 radio stations, all of them privately owned; government-owned broadcaster has 2 national radio stations<section title="internet">
          <glossary title="internet">
             <term name="country code">.gr</term>
             <term name="users">7783381</term>
          </glossary>
       </section>
    </section>
-   <section title="transportation" id="transportation">
-      <section title="pipelines" id="pipelines">
+   <section title="transportation">
+      <section title="pipelines">
          <glossary title="pipelines">
-            <term name="gas">1329 km (gas)</term>
-            <term name="oil">94 km (oil)</term>
+            <term name="pipeline">1329 km</term>
+            <term name="pipeline">94 km</term>
          </glossary>
       </section>
-      <section title="railways" id="railways">
+      <section title="railways">
          <glossary title="railways">
             <term name="total">2548 km</term>
-            <term name="standard gauge">1565 km
-1.435-m (standard gauge)</term>
-            <term name="narrow gauge">961 km
-1.000-m (narrow gauge)</term>
+            <term name="pipeline">1565 km
+1.435-m</term>
+            <term name="pipeline">961 km
+1.000-m</term>
          </glossary>
       </section>
-      <section title="roadways" id="roadways">
+      <section title="roadways">
          <glossary title="roadways">
             <term name="total">117000 km</term>
          </glossary>
       </section>
-      <paragraph>waterways: 6</paragraph>
-      <paragraph>merchant marine: 1308</paragraph>
-      <section title="major seaports" id="major_seaports">
+      <glossary>
+         <term name="waterways">6 km</term>
+      </glossary>1308<section title="major seaports">
          Aspropyrgos
          Pachi
          Piraeus
          Thessaloniki
       </section>
-      <section title="container ports" id="container_ports">
+      <section title="container ports">
          Piraeus
       </section>
-      <section title="oil terminals" id="oil_terminals">
+      <section title="oil terminals">
          Agioi Theodoroi
       </section>
-      <section title="liquid natural gas terminals import"
-               id="liquid_natural_gas_terminals_import">
+      <section title="liquid natural gas terminals import">
          Revithoussa
       </section>
    </section>
-   <section title="military and security" id="military_and_security">
-      <section title="expenditures" id="expenditures">
+   <section title="military and security">
+      <section title="expenditures">
          <glossary title="expenditures">
-            <term name="2019">2.28 percent of gdp [2019]</term>
-            <term name="2018">2.48 percent of gdp [2018]</term>
-            <term name="2017">2.34 percent of gdp [2017]</term>
-            <term name="2016">2.38 percent of gdp [2016]</term>
-            <term name="2015">2.3 percent of gdp [2015]</term>
+            <term name="2019">2.28 percent of gdp</term>
+            <term name="2018">2.48 percent of gdp</term>
+            <term name="2017">2.34 percent of gdp</term>
+            <term name="2016">2.38 percent of gdp</term>
+            <term name="2015">2.3 percent of gdp</term>
          </glossary>
-      </section>
-      <paragraph>service age and obligation: 19-45 years of age for compulsory military service; during wartime the law allows for recruitment beginning January of the year of inductee's 18th birthday, thus including 17 year olds; 18 years of age for volunteers; conscript service obligation is 1 year for the Army and 9 months for the Air Force and Navy; women are eligible for voluntary military service</paragraph>
-   </section>
-   <section title="transnational issues" id="transnational_issues">
-      <paragraph>disputes: Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Sea</paragraph>
-      <paragraph>disputes: the mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy</paragraph>
-      <section title="refugees and iternally displaced persons"
-               id="refugees_and_iternally_displaced_persons">
+      </section>19-45 years of age for compulsory military service; during wartime the law allows for recruitment beginning January of the year of inductee's 18th birthday, thus including 17 year olds; 18 years of age for volunteers; conscript service obligation is 1 year for the Army and 9 months for the Air Force and Navy; women are eligible for voluntary military service</section>
+   <section title="transnational issues">Greece and Turkey continue discussions to resolve their complex maritime, air, territorial, and boundary disputes in the Aegean Seathe mass migration of unemployed Albanians still remains a problem for developed countries, chiefly Greece and Italy<section title="refugees and iternally displaced persons">
          <glossary title="refugees">
-            <term name="Syria">26696</term>
-            <term name="Afghanistan">17685</term>
-            <term name="Afghanistan">9614</term>
+            <term name="country of origin">26696</term>
+            <term name="country of origin">17685</term>
+            <term name="country of origin">9614</term>
          </glossary>
-         4734
+         <glossary>
+            <term name="stateless persons">4734</term>
+         </glossary>
          1,203,437 estimated refugee and migrant arrivals (January 2015-November 2020), as of the end of December 2019, an estimated 112,300 migrants and refugees were stranded in Greece since 2015-16; 50,215 migrant arrivals in 2018
       </section>
-      <section title="illicit drugs" id="illicit_drugs">
+      <section title="illicit drugs">
          a gateway to Europe for traffickers smuggling cannabis and heroin from the Middle East and Southwest Asia to the West and precursor chemicals to the East; some South American cocaine transits or is consumed in Greece; money laundering related to drug trafficking and organized crime
       </section>
    </section>

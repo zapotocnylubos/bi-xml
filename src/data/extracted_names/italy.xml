@@ -7,32 +7,31 @@
    <geography>
       <location>Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia</location>
       <geographic_coordinates>
-         <latitude degrees="42" minutes="50" hemisphere="N"/>
-         <longitude degrees="12" minutes="50" hemisphere="E"/>
+         <latitude>42°50"N</latitude>
+         <longitude>12°50"E</longitude>
       </geographic_coordinates>
       <area>
-         <total units="sq km">301340</total>
-         <land units="sq km">294140</land>
-         <water units="sq km">7200</water>
+         <total>301340 sq km</total>
+         <land>294140 sq km</land>
+         <water>7200 sq km</water>
          <note>includes Sardinia and Sicily</note>
          <comparative>almost twice the size of Georgia; slightly larger than Arizona</comparative>
       </area>
       <border_countries>
-         <border with="Austria" units="km">404</border>
-         <border with="France" units="km">476</border>
-         <border with="Holy See (Vatican City)" units="km">3.4</border>
-         <border with="San Marino" units="km">37</border>
-         <border with="Slovenia" units="km">218</border>
-         <border with="Switzerland" units="km">698</border>
+         <border with="Austria">404 km</border>
+         <border with="France">476 km</border>
+         <border with="Holy See (Vatican City)">3.4 km</border>
+         <border with="San Marino">37 km</border>
+         <border with="Slovenia">218 km</border>
+         <border with="Switzerland">698 km</border>
       </border_countries>
-      <coastline units="km">7600</coastline>
+      <coastline>7600 km</coastline>
       <climate>predominantly Mediterranean; alpine in far north; hot, dry in south</climate>
       <terrain>mostly rugged and mountainous; some plains, coastal lowlands</terrain>
       <elevation>
-         <mean_elevation units="m">538</mean_elevation>
-         <lowest_point name="Mediterranean Sea" units="m">0</lowest_point>
-         <highest_point name="Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)"
-                        units="m">4748</highest_point>
+         <mean_elevation>538 m</mean_elevation>
+         <lowest_point name="Mediterranean Sea">0 m</lowest_point>
+         <highest_point name="Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)">4748 m</highest_point>
       </elevation>
       <natural_resources>
          <resources>coal</resources>
@@ -55,15 +54,15 @@
       </natural_resources>
       <land_use>
          <by_sector>
-            <agricultural_land_total units="%">47.1</agricultural_land_total>
-            <arable_land units="%" note="/">22.8</arable_land>
-            <permanent_crops units="%" note="/">8.6</permanent_crops>
-            <permanent_pasture units="%">15.7</permanent_pasture>
-            <forest units="%">31.4</forest>
-            <other units="%">21.5</other>
+            <agricultural_land_total>47.1 %</agricultural_land_total>
+            <arable_land note="/">22.8 %</arable_land>
+            <permanent_crops note="/">8.6 %</permanent_crops>
+            <permanent_pasture>15.7 %</permanent_pasture>
+            <forest>31.4 %</forest>
+            <other>21.5 %</other>
          </by_sector>
       </land_use>
-      <irrigated_land units="sq km" date="2012">39500</irrigated_land>
+      <irrigated_land date="2012">39500 sq km</irrigated_land>
       <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
       <natural_hazards>
          <hazard type="hazard">regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding</hazard>
@@ -115,115 +114,115 @@
       <population>62402659</population>
       <nationality noun="Italian(s)">Italian</nationality>
       <ethnic_groups>
-         <group units="%" name="Italian"/>
+         <group name="Italian"> %</group>
       </ethnic_groups>
       <languages>
-         <language units="%" name="Italian"/>
-         <language units="%" name="German"/>
-         <language units="%" name="French"/>
-         <language units="%" name="Slovene"/>
+         <language name="Italian"> %</language>
+         <language name="German"> %</language>
+         <language name="French"> %</language>
+         <language name="Slovene"> %</language>
       </languages>
       <religions>
-         <religion units="%" name="Christian">83.3</religion>
-         <religion units="%" name="Muslim">3.7</religion>
-         <religion units="%" name="unaffiliated">12.4</religion>
-         <religion units="%" name="other">0.6</religion>
+         <religion name="Christian">83.3 %</religion>
+         <religion name="Muslim">3.7 %</religion>
+         <religion name="unaffiliated">12.4 %</religion>
+         <religion name="other">0.6 %</religion>
       </religions>
       <dependency_ratios>
-         <ratio units="%" name="total_dependency_ratio">57</ratio>
-         <ratio units="%" name="youth_dependency_ratio">20.4</ratio>
-         <ratio units="%" name="elderly_dependency_ratio">36.6</ratio>
-         <ratio units="%" name="potential_support_ratio">2.7</ratio>
+         <ratio name="total_dependency_ratio">57 %</ratio>
+         <ratio name="youth_dependency_ratio">20.4 %</ratio>
+         <ratio name="elderly_dependency_ratio">36.6 %</ratio>
+         <ratio name="potential_support_ratio">2.7 %</ratio>
       </dependency_ratios>
       <median_age>
-         <total units="years">46.5</total>
-         <male units="years">45.4</male>
-         <female units="years">47.5</female>
+         <total>46.5 years</total>
+         <male>45.4 years</male>
+         <female>47.5 years</female>
       </median_age>
       <population_growth_rate>
       0.11
     </population_growth_rate>
-      <birth_rate units="births per 1000 population">8.4</birth_rate>
-      <death_rate units="deaths per 1000 population">10.7</death_rate>
-      <net_migration_rate units="migrants per 1000 population">3.2</net_migration_rate>
+      <birth_rate>8.4 births per 1000 population</birth_rate>
+      <death_rate>10.7 deaths per 1000 population</death_rate>
+      <net_migration_rate>3.2 migrants per 1000 population</net_migration_rate>
       <population_distribution>despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</population_distribution>
       <urbanization>
-         <urban_population units="%" date="2020">71</urban_population>
-         <rate_of_urbanization units="%">0.29</rate_of_urbanization>
+         <urban_population date="2020">71 %</urban_population>
+         <rate_of_urbanization>0.29 %</rate_of_urbanization>
       </urbanization>
       <major_urban_areas>
-         <area name="Rome" population="4257000"/>
-         <area name="Milan" population="3140000"/>
-         <area name="Naples" population="2187000"/>
-         <area name="Turin" population="1792000"/>
-         <area name="Bergamo" population="892000"/>
-         <area name="Palermo" population="851000"/>
+         <area name="Rome">4257000 people</area>
+         <area name="Milan">3140000 people</area>
+         <area name="Naples">2187000 people</area>
+         <area name="Turin">1792000 people</area>
+         <area name="Bergamo">892000 people</area>
+         <area name="Palermo">851000 people</area>
       </major_urban_areas>
       <mothers_mean_age_at_first_birth>31.1</mothers_mean_age_at_first_birth>
-      <maternal_mortality_rate units="deaths per 100k live population">2</maternal_mortality_rate>
+      <maternal_mortality_rate>2 deaths per 100k live population</maternal_mortality_rate>
       <infant_mortality_rate>
-         <total units="deaths per 1000 live births">3.2</total>
-         <male units="deaths per 1000 live births">3.4</male>
-         <female units="deaths per 1000 live births">3</female>
+         <total>3.2 deaths per 1000 live births</total>
+         <male>3.4 deaths per 1000 live births</male>
+         <female>3 deaths per 1000 live births</female>
       </infant_mortality_rate>
       <life_expectancy_at_birth>
-         <total_population units="years">82.5</total_population>
-         <male units="years">79.8</male>
-         <female units="years">85.3</female>
+         <total_population>82.5 years</total_population>
+         <male>79.8 years</male>
+         <female>85.3 years</female>
       </life_expectancy_at_birth>
-      <total_fertility_rate units="children born per woman">1.47</total_fertility_rate>
-      <contraceptive_prevalence_rate units="%" date="2013" note="percent of women aged 18-49">65.1</contraceptive_prevalence_rate>
-      <physicians_density units="physicians per 1000 population">3.98</physicians_density>
-      <hospital_bed_density units="beds per 1000 population">3.2</hospital_bed_density>
+      <total_fertility_rate>1.47 children born per woman</total_fertility_rate>
+      <contraceptive_prevalence_rate date="2013" note="percent of women aged 18-49">65.1 %</contraceptive_prevalence_rate>
+      <physicians_density>3.98 physicians per 1000 population</physicians_density>
+      <hospital_bed_density>3.2 beds per 1000 population</hospital_bed_density>
       <drinking_water_source>
          <improved>
-            <urban units="percent of population">100</urban>
-            <rural units="percent of population">100</rural>
-            <total units="percent of population">100</total>
+            <urban>100 percent of population</urban>
+            <rural>100 percent of population</rural>
+            <total>100 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">0</urban>
-            <rural units="percent of population">0</rural>
-            <total units="percent of population">0</total>
+            <urban>0 percent of population</urban>
+            <rural>0 percent of population</rural>
+            <total>0 percent of population</total>
          </unimproved>
       </drinking_water_source>
       <sanitation_facility_access>
          <improved>
-            <urban units="percent of population">98.8</urban>
-            <rural units="percent of population">98.6</rural>
-            <total units="percent of population">98.8</total>
+            <urban>98.8 percent of population</urban>
+            <rural>98.6 percent of population</rural>
+            <total>98.8 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">1.2</urban>
-            <rural units="percent of population">1.4</rural>
-            <total units="percent of population">1.2</total>
+            <urban>1.2 percent of population</urban>
+            <rural>1.4 percent of population</rural>
+            <total>1.2 percent of population</total>
          </unimproved>
       </sanitation_facility_access>
       <hiv_aids>
-         <adult_prevalence_rate units="% of adults">0.3</adult_prevalence_rate>
+         <adult_prevalence_rate>0.3 % of adults</adult_prevalence_rate>
          <people_living_with_hiv_aids>130000</people_living_with_hiv_aids>
          <deaths>1000</deaths>
       </hiv_aids>
       <major_infectious_diseases>
          <note>a new coronavirus is causing sustained community spread of respiratory illness (COVID-19) in Italy; sustained community spread means that people have been infected with the virus, but how or where they became infected is not known, and the spread is ongoing; illness with this virus has ranged from mild to severe with fatalities reported; as of 10 November 2020, Italy has reported a total of 902,490 cases of COVID-19 or 14,927 cumulative cases of COVID-19 per 1 million population with 679 cumulative deaths per 1 million population; the US Department of State has issued a Travel Advisory to reconsider travel to Italy due to the recent outbreak of COVID-19; the Centers for Disease Control and Prevention has also recommended postponing nonessential travel to Italy at this time and published additional guidance at https://wwwnc.cdc.gov/travel/notices/alert/coronavirus-italy; the US Department of Homeland Security has issued instructions requiring US passengers who have been in Italy to travel through select airports where the US Government has implemented enhanced screening procedures</note>
       </major_infectious_diseases>
-      <adult_obesity units="% of adults">19.9</adult_obesity>
-      <education_expenditures units="% of gdp">3.8</education_expenditures>
+      <adult_obesity>19.9 % of adults</adult_obesity>
+      <education_expenditures>3.8 % of gdp</education_expenditures>
       <literacy>
          <definition>age 15 and over can read and write</definition>
-         <total_population units="%">99.2</total_population>
-         <male units="%">99.4</male>
-         <female units="%">99</female>
+         <total_population>99.2 %</total_population>
+         <male>99.4 %</male>
+         <female>99 %</female>
       </literacy>
       <school_life_expectancy>
-         <total units="years">16</total>
-         <male units="years">16</male>
-         <female units="years">17</female>
+         <total>16 years</total>
+         <male>16 years</male>
+         <female>17 years</female>
       </school_life_expectancy>
       <youth_unemployment>
-         <total units="%">32.2</total>
-         <male units="%">30.4</male>
-         <female units="%">34.8</female>
+         <total>32.2 %</total>
+         <male>30.4 %</male>
+         <female>34.8 %</female>
       </youth_unemployment>
    </people>
    <government>
@@ -239,8 +238,8 @@
       <capital>
          <name>Rome</name>
          <geographic_coordinates>
-            <latitude degrees="41" minutes="54" hemisphere="N"/>
-            <longitude degrees="12" minutes="29" hemisphere="E"/>
+            <latitude>41°54"N</latitude>
+            <longitude>12°29"E</longitude>
          </geographic_coordinates>
          <time_difference timezones="1">6 hours ahead of Washington, DC, during Standard Time</time_difference>
          <daylight_saving_time>+1hr, begins last Sunday in March; ends last Sunday in October</daylight_saving_time>
@@ -290,21 +289,19 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
          <subordinate_courts>various lower civil and criminal courts (primary and secondary tribunals and courts of appeal)</subordinate_courts>
       </judicial_branch>
       <political_parties_and_leaders>
-         <party name="Governing Coalition: Northern League" leader="Matteo SALVINI"/>
-         <party name="Five Star Movement" leader="Vito CRIMI acting leader"/>
-         <party name="Left-center-right opposition: Democratic Party"
-                leader="Nicola ZINGARETTI"/>
-         <party name="Forza Italia" leader="Silvio BERLUSCONI"/>
-         <party name="Brothers of Italy" leader="Giorgia MELONI"/>
-         <party name="Free and Equal" leader="Pietro GRASSO"/>
-         <party name="More Europe" leader="Emma BONINO"/>
-         <party name="Popular Civic List" leader="Beatrice LORENZIN"/>
-         <party name="Possible" leader="Beatrice BRIGNONE"/>
-         <party name="Us with Italy" leader="Raffaele FITTO"/>
-         <party name="South Tyrolean People's Party" leader="Philipp ACHAMMER"/>
-         <party name="Trentino Tyrolean Autonomist Party"
-                leader="Franco PANIZZA secretary"/>
-         <party name="Article One" leader="Roberto SPERANZA"/>
+         <party leader="Matteo SALVINI">Governing Coalition: Northern League</party>
+         <party leader="Vito CRIMI acting leader">Five Star Movement</party>
+         <party leader="Nicola ZINGARETTI">Left-center-right opposition: Democratic Party</party>
+         <party leader="Silvio BERLUSCONI">Forza Italia</party>
+         <party leader="Giorgia MELONI">Brothers of Italy</party>
+         <party leader="Pietro GRASSO">Free and Equal</party>
+         <party leader="Emma BONINO">More Europe</party>
+         <party leader="Beatrice LORENZIN">Popular Civic List</party>
+         <party leader="Beatrice BRIGNONE">Possible</party>
+         <party leader="Raffaele FITTO">Us with Italy</party>
+         <party leader="Philipp ACHAMMER">South Tyrolean People's Party</party>
+         <party leader="Franco PANIZZA secretary">Trentino Tyrolean Autonomist Party</party>
+         <party leader="Roberto SPERANZA">Article One</party>
       </political_parties_and_leaders>
       <diplomatic_representation>
          <in_united_states>
@@ -330,13 +327,13 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
       </flag_description>
       <national_symbols>
          <symbols>
-            <symbol name="white"/>
-            <symbol name="five-pointed star "/>
+            <symbol>white</symbol>
+            <symbol>five-pointed star </symbol>
          </symbols>
          <colors>
-            <color name="red"/>
-            <color name="white"/>
-            <color name="green"/>
+            <color>red</color>
+            <color>white</color>
+            <color>green</color>
          </colors>
       </national_symbols>
       <national_anthem>
@@ -353,94 +350,94 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
          <participation>accepts ICCt jurisdiction</participation>
       </international_law_organization_participation>
       <international_organization_participation>
-         <organization name="ADB "/>
-         <organization name="AfDB "/>
-         <organization name="Arctic Council "/>
-         <organization name="Australia Group"/>
-         <organization name="BIS"/>
-         <organization name="BSEC "/>
-         <organization name="CBSS "/>
-         <organization name="CD"/>
-         <organization name="CDB"/>
-         <organization name="CE"/>
-         <organization name="CEI"/>
-         <organization name="CERN"/>
-         <organization name="EAPC"/>
-         <organization name="EBRD"/>
-         <organization name="ECB"/>
-         <organization name="EIB"/>
-         <organization name="EITI "/>
-         <organization name="EMU"/>
-         <organization name="ESA"/>
-         <organization name="EU"/>
-         <organization name="FAO"/>
-         <organization name="FATF"/>
-         <organization name="G-7"/>
-         <organization name="G-8"/>
-         <organization name="G-10"/>
-         <organization name="G-20"/>
-         <organization name="IADB"/>
-         <organization name="IAEA"/>
-         <organization name="IBRD"/>
-         <organization name="ICAO"/>
-         <organization name="ICC "/>
-         <organization name="ICCt"/>
-         <organization name="ICRM"/>
-         <organization name="IDA"/>
-         <organization name="IEA"/>
-         <organization name="IFAD"/>
-         <organization name="IFC"/>
-         <organization name="IFRCS"/>
-         <organization name="IGAD "/>
-         <organization name="IHO"/>
-         <organization name="ILO"/>
-         <organization name="IMF"/>
-         <organization name="IMO"/>
-         <organization name="IMSO"/>
-         <organization name="Interpol"/>
-         <organization name="IOC"/>
-         <organization name="IOM"/>
-         <organization name="IPU"/>
-         <organization name="ISO"/>
-         <organization name="ITSO"/>
-         <organization name="ITU"/>
-         <organization name="ITUC "/>
-         <organization name="LAIA "/>
-         <organization name="MIGA"/>
-         <organization name="MINURSO"/>
-         <organization name="MINUSMA"/>
-         <organization name="NATO"/>
-         <organization name="NEA"/>
-         <organization name="NSG"/>
-         <organization name="OAS "/>
-         <organization name="OECD"/>
-         <organization name="OPCW"/>
-         <organization name="OSCE"/>
-         <organization name="Pacific Alliance "/>
-         <organization name="Paris Club"/>
-         <organization name="PCA"/>
-         <organization name="PIF "/>
-         <organization name="Schengen Convention"/>
-         <organization name="SELEC "/>
-         <organization name="SICA "/>
-         <organization name="UN"/>
-         <organization name="UNCTAD"/>
-         <organization name="UNESCO"/>
-         <organization name="UNHCR"/>
-         <organization name="UNIDO"/>
-         <organization name="UNIFIL"/>
-         <organization name="Union Latina"/>
-         <organization name="UNMOGIP"/>
-         <organization name="UNRWA"/>
-         <organization name="UNTSO"/>
-         <organization name="UNWTO"/>
-         <organization name="UPU"/>
-         <organization name="WCO"/>
-         <organization name="WHO"/>
-         <organization name="WIPO"/>
-         <organization name="WMO"/>
-         <organization name="WTO"/>
-         <organization name="ZC"/>
+         <organization>ADB </organization>
+         <organization>AfDB </organization>
+         <organization>Arctic Council </organization>
+         <organization>Australia Group</organization>
+         <organization>BIS</organization>
+         <organization>BSEC </organization>
+         <organization>CBSS </organization>
+         <organization>CD</organization>
+         <organization>CDB</organization>
+         <organization>CE</organization>
+         <organization>CEI</organization>
+         <organization>CERN</organization>
+         <organization>EAPC</organization>
+         <organization>EBRD</organization>
+         <organization>ECB</organization>
+         <organization>EIB</organization>
+         <organization>EITI </organization>
+         <organization>EMU</organization>
+         <organization>ESA</organization>
+         <organization>EU</organization>
+         <organization>FAO</organization>
+         <organization>FATF</organization>
+         <organization>G-7</organization>
+         <organization>G-8</organization>
+         <organization>G-10</organization>
+         <organization>G-20</organization>
+         <organization>IADB</organization>
+         <organization>IAEA</organization>
+         <organization>IBRD</organization>
+         <organization>ICAO</organization>
+         <organization>ICC </organization>
+         <organization>ICCt</organization>
+         <organization>ICRM</organization>
+         <organization>IDA</organization>
+         <organization>IEA</organization>
+         <organization>IFAD</organization>
+         <organization>IFC</organization>
+         <organization>IFRCS</organization>
+         <organization>IGAD </organization>
+         <organization>IHO</organization>
+         <organization>ILO</organization>
+         <organization>IMF</organization>
+         <organization>IMO</organization>
+         <organization>IMSO</organization>
+         <organization>Interpol</organization>
+         <organization>IOC</organization>
+         <organization>IOM</organization>
+         <organization>IPU</organization>
+         <organization>ISO</organization>
+         <organization>ITSO</organization>
+         <organization>ITU</organization>
+         <organization>ITUC </organization>
+         <organization>LAIA </organization>
+         <organization>MIGA</organization>
+         <organization>MINURSO</organization>
+         <organization>MINUSMA</organization>
+         <organization>NATO</organization>
+         <organization>NEA</organization>
+         <organization>NSG</organization>
+         <organization>OAS </organization>
+         <organization>OECD</organization>
+         <organization>OPCW</organization>
+         <organization>OSCE</organization>
+         <organization>Pacific Alliance </organization>
+         <organization>Paris Club</organization>
+         <organization>PCA</organization>
+         <organization>PIF </organization>
+         <organization>Schengen Convention</organization>
+         <organization>SELEC </organization>
+         <organization>SICA </organization>
+         <organization>UN</organization>
+         <organization>UNCTAD</organization>
+         <organization>UNESCO</organization>
+         <organization>UNHCR</organization>
+         <organization>UNIDO</organization>
+         <organization>UNIFIL</organization>
+         <organization>Union Latina</organization>
+         <organization>UNMOGIP</organization>
+         <organization>UNRWA</organization>
+         <organization>UNTSO</organization>
+         <organization>UNWTO</organization>
+         <organization>UPU</organization>
+         <organization>WCO</organization>
+         <organization>WHO</organization>
+         <organization>WIPO</organization>
+         <organization>WMO</organization>
+         <organization>WTO</organization>
+         <organization>ZC</organization>
       </international_organization_participation>
    </government>
    <economy>
@@ -448,43 +445,43 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
 Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.</overview>
       <gdp>
          <purchasing_power_parity>
-            <annual_values units="USD" date="2017">2317000000000</annual_values>
-            <annual_values units="USD" date="2016">2282000000000</annual_values>
-            <annual_values units="USD" date="2015">2263000000000</annual_values>
+            <annual_values date="2017">2317000000000 USD</annual_values>
+            <annual_values date="2016">2282000000000 USD</annual_values>
+            <annual_values date="2015">2263000000000 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </purchasing_power_parity>
          <official_exchange_rate>
-            <rate units="USD">1939000000000</rate>
+            <rate>1939000000000 USD</rate>
          </official_exchange_rate>
          <real_growth_rate>
-            <annual_values units="%" date="2019">0.34</annual_values>
-            <annual_values units="%" date="2018">0.83</annual_values>
-            <annual_values units="%" date="2017">1.73</annual_values>
+            <annual_values date="2019">0.34 %</annual_values>
+            <annual_values date="2018">0.83 %</annual_values>
+            <annual_values date="2017">1.73 %</annual_values>
          </real_growth_rate>
          <per_capita_purchasing_power_parity>
-            <annual_values units="USD" date="2017">38200</annual_values>
-            <annual_values units="USD" date="2016">37600</annual_values>
-            <annual_values units="USD" date="2015">37200</annual_values>
+            <annual_values date="2017">38200 USD</annual_values>
+            <annual_values date="2016">37600 USD</annual_values>
+            <annual_values date="2015">37200 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </per_capita_purchasing_power_parity>
          <end_uses>
-            <household_consumption units="%">61</household_consumption>
-            <government_consumption units="%">18.6</government_consumption>
-            <investment_in_fixed_capital units="%">17.5</investment_in_fixed_capital>
-            <investment_in_inventories units="%">-0.2</investment_in_inventories>
-            <exports_of_goods_and_services units="%">31.4</exports_of_goods_and_services>
-            <imports_of_goods_and_services units="%">-28.3</imports_of_goods_and_services>
+            <household_consumption>61 %</household_consumption>
+            <government_consumption>18.6 %</government_consumption>
+            <investment_in_fixed_capital>17.5 %</investment_in_fixed_capital>
+            <investment_in_inventories>-0.2 %</investment_in_inventories>
+            <exports_of_goods_and_services>31.4 %</exports_of_goods_and_services>
+            <imports_of_goods_and_services>-28.3 %</imports_of_goods_and_services>
          </end_uses>
          <sectors_of_origin>
-            <agriculture units="%">2.1</agriculture>
-            <industry units="%">23.9</industry>
-            <services units="%">73.9</services>
+            <agriculture>2.1 %</agriculture>
+            <industry>23.9 %</industry>
+            <services>73.9 %</services>
          </sectors_of_origin>
       </gdp>
       <gross_national_saving>
-         <annual_values units="percent of gdp" date="2017">20.3</annual_values>
-         <annual_values units="percent of gdp" date="2016">19.7</annual_values>
-         <annual_values units="percent of gdp" date="2015">18.8</annual_values>
+         <annual_values date="2017">20.3 percent of gdp</annual_values>
+         <annual_values date="2016">19.7 percent of gdp</annual_values>
+         <annual_values date="2015">18.8 percent of gdp</annual_values>
       </gross_national_saving>
       <agriculture_products>
          <product>fruits</product>
@@ -521,45 +518,45 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
          </total_size>
          <by_occupation>
             <occupation>
-               <agriculture units="%">3.9</agriculture>
-               <industry units="%">28.3</industry>
-               <services units="%">67.8</services>
+               <agriculture>3.9 %</agriculture>
+               <industry>28.3 %</industry>
+               <services>67.8 %</services>
             </occupation>
          </by_occupation>
       </labor_force>
       <unemployment_rate>
-         <annual_values units="%" date="2019">9.88</annual_values>
-         <annual_values units="%" date="2018">10.63</annual_values>
+         <annual_values date="2019">9.88 %</annual_values>
+         <annual_values date="2018">10.63 %</annual_values>
       </unemployment_rate>
-      <population_below_poverty_line units="%" date="2012">29.9</population_below_poverty_line>
+      <population_below_poverty_line date="2012">29.9 %</population_below_poverty_line>
       <household_income_by_percentage_share>
-         <lowest_ten_percent units="%">2.3</lowest_ten_percent>
-         <highest_ten_percent units="%">26.8</highest_ten_percent>
+         <lowest_ten_percent>2.3 %</lowest_ten_percent>
+         <highest_ten_percent>26.8 %</highest_ten_percent>
       </household_income_by_percentage_share>
       <budget>
-         <revenues units="USD">903300000000</revenues>
-         <expenditures units="USD">948100000000</expenditures>
+         <revenues>903300000000 USD</revenues>
+         <expenditures>948100000000 USD</expenditures>
       </budget>
-      <taxes_and_other_revenues units="% of gdp">46.6</taxes_and_other_revenues>
-      <budget_surplus_or_deficit units="% of gdp">-2.3</budget_surplus_or_deficit>
+      <taxes_and_other_revenues>46.6 % of gdp</taxes_and_other_revenues>
+      <budget_surplus_or_deficit>-2.3 % of gdp</budget_surplus_or_deficit>
       <public_debt>
-         <annual_values units="percent of gdp" date="2017">131.8</annual_values>
-         <annual_values units="percent of gdp" date="2016">132</annual_values>
+         <annual_values date="2017">131.8 percent of gdp</annual_values>
+         <annual_values date="2016">132 percent of gdp</annual_values>
          <note>Italy reports its data on public debt according to guidelines set out in the Maastricht Treaty; general government gross debt is defined in the Maastricht Treaty as consolidated general government gross debt at nominal value, outstanding at the end of the year, in the following categories of government liabilities (as defined in ESA95): currency and deposits (AF.2), securities other than shares excluding financial derivatives (AF.3, excluding AF.34), and loans (AF.4); the general government sector comprises central, state, and local government and social security funds</note>
       </public_debt>
       <fiscal_year start="1 January" end="31 December"/>
       <inflation_rate>
-         <annual_values units="%" date="2017">1.3</annual_values>
-         <annual_values units="%" date="2016">-0.1</annual_values>
+         <annual_values date="2017">1.3 %</annual_values>
+         <annual_values date="2016">-0.1 %</annual_values>
       </inflation_rate>
       <current_account_balance>
-         <annual_values units="USD" date="2019">59517000000</annual_values>
-         <annual_values units="USD" date="2018">51735000000</annual_values>
+         <annual_values date="2019">59517000000 USD</annual_values>
+         <annual_values date="2018">51735000000 USD</annual_values>
       </current_account_balance>
       <exports>
          <total_value>
-            <annual_values units="USD" date="2017">496300000000</annual_values>
-            <annual_values units="USD" date="2016">454100000000</annual_values>
+            <annual_values date="2017">496300000000 USD</annual_values>
+            <annual_values date="2016">454100000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>engineering products</commodity>
@@ -576,18 +573,18 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <commodity>nonferrous metals</commodity>
          </commodities>
          <partners>
-            <partner name="Germany" units="%">12.5</partner>
-            <partner name="France" units="%">10.3</partner>
-            <partner name="US" units="%">9</partner>
-            <partner name="Spain" units="%">5.2</partner>
-            <partner name="UK" units="%">5.2</partner>
-            <partner name="Switzerland" units="%">4.6</partner>
+            <partner name="Germany">12.5 %</partner>
+            <partner name="France">10.3 %</partner>
+            <partner name="US">9 %</partner>
+            <partner name="Spain">5.2 %</partner>
+            <partner name="UK">5.2 %</partner>
+            <partner name="Switzerland">4.6 %</partner>
          </partners>
       </exports>
       <imports>
          <total_value>
-            <annual_values units="USD" date="2017">432900000000</annual_values>
-            <annual_values units="USD" date="2016">389800000000</annual_values>
+            <annual_values date="2017">432900000000 USD</annual_values>
+            <annual_values date="2016">389800000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>engineering products</commodity>
@@ -603,68 +600,68 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <commodity>tobacco</commodity>
          </commodities>
          <partners>
-            <partner name="Germany" units="%">16.3</partner>
-            <partner name="France" units="%">8.8</partner>
-            <partner name="China" units="%">7.1</partner>
-            <partner name="Netherlands" units="%">5.6</partner>
-            <partner name="Spain" units="%">5.3</partner>
-            <partner name="Belgium" units="%">4.5</partner>
+            <partner name="Germany">16.3 %</partner>
+            <partner name="France">8.8 %</partner>
+            <partner name="China">7.1 %</partner>
+            <partner name="Netherlands">5.6 %</partner>
+            <partner name="Spain">5.3 %</partner>
+            <partner name="Belgium">4.5 %</partner>
          </partners>
       </imports>
       <reserves_of_foreign_exchange_and_gold>
-         <annual_values units="USD" date="2017-12-31">151200000000</annual_values>
-         <annual_values units="USD" date="2015-12-31">130600000000</annual_values>
+         <annual_values date="2017-12-31">151200000000 USD</annual_values>
+         <annual_values date="2015-12-31">130600000000 USD</annual_values>
       </reserves_of_foreign_exchange_and_gold>
       <external_debt>
-         <annual_values units="USD" date="2016-03-31">2444000000000</annual_values>
-         <annual_values units="USD" date="2015-03-31">2300000000000</annual_values>
+         <annual_values date="2016-03-31">2444000000000 USD</annual_values>
+         <annual_values date="2015-03-31">2300000000000 USD</annual_values>
       </external_debt>
       <exchange_rates>
-         <annual_values units="USD" date="2017">0.885</annual_values>
-         <annual_values units="USD" date="2016">0.903</annual_values>
-         <annual_values units="USD" date="2015">0.9214</annual_values>
-         <annual_values units="USD" date="2014">0.885</annual_values>
-         <annual_values units="USD" date="2013">0.7634</annual_values>
+         <annual_values date="2017">0.885 per USD</annual_values>
+         <annual_values date="2016">0.903 per USD</annual_values>
+         <annual_values date="2015">0.9214 per USD</annual_values>
+         <annual_values date="2014">0.885 per USD</annual_values>
+         <annual_values date="2013">0.7634 per USD</annual_values>
          <note>euros (EUR) per US dollar</note>
       </exchange_rates>
    </economy>
    <energy>
       <electricity>
          <access>
-            <total_electrification units="%">100</total_electrification>
+            <total_electrification>100 %</total_electrification>
          </access>
-         <production units="kWh">275300000000</production>
-         <consumption units="kWh">293500000000</consumption>
-         <exports units="kWh">6155000000</exports>
-         <imports units="kWh">43180000000</imports>
-         <installed_generating_capacity units="kW">114200000</installed_generating_capacity>
+         <production>275300000000 kWh</production>
+         <consumption>293500000000 kWh</consumption>
+         <exports>6155000000 kWh</exports>
+         <imports>43180000000 kWh</imports>
+         <installed_generating_capacity>114200000 kW</installed_generating_capacity>
          <source>
-            <fossil_fuels units="%">54</fossil_fuels>
-            <nuclear_fuels units="%">0</nuclear_fuels>
-            <hydroelectric_plants units="%">14</hydroelectric_plants>
-            <other_renewable_sources units="%">32</other_renewable_sources>
+            <fossil_fuels>54 %</fossil_fuels>
+            <nuclear_fuels>0 %</nuclear_fuels>
+            <hydroelectric_plants>14 %</hydroelectric_plants>
+            <other_renewable_sources>32 %</other_renewable_sources>
          </source>
       </electricity>
       <crude_oil>
-         <production units="bbl per day">90000</production>
-         <exports units="bbl per day">13790</exports>
-         <imports units="bbl per day">1341000</imports>
-         <proved_reserves units="bbl">487800000</proved_reserves>
+         <production>90000 bbl per day</production>
+         <exports>13790 bbl per day</exports>
+         <imports>1341000 bbl per day</imports>
+         <proved_reserves>487800000 bbl</proved_reserves>
       </crude_oil>
       <refined_petroleum_products>
-         <production units="bbl per day">1607000</production>
-         <consumption units="bbl per day">1236000</consumption>
-         <exports units="bbl per day">615900</exports>
-         <imports units="bbl per day">422500</imports>
+         <production>1607000 bbl per day</production>
+         <consumption>1236000 bbl per day</consumption>
+         <exports>615900 bbl per day</exports>
+         <imports>422500 bbl per day</imports>
       </refined_petroleum_products>
       <natural_gas>
-         <production units="cubic metres">5550000000</production>
-         <consumption units="cubic metres">75150000000</consumption>
-         <exports units="cubic metres">271800000</exports>
-         <imports units="cubic metres">69660000000</imports>
-         <proved_reserves units="cubic metres">38110000000</proved_reserves>
+         <production>5550000000 cubic metres</production>
+         <consumption>75150000000 cubic metres</consumption>
+         <exports>271800000 cubic metres</exports>
+         <imports>69660000000 cubic metres</imports>
+         <proved_reserves>38110000000 cubic metres</proved_reserves>
       </natural_gas>
-      <carbon_dioxide_emissions_from_consumption_of_energy units="megatonnes">351000000</carbon_dioxide_emissions_from_consumption_of_energy>
+      <carbon_dioxide_emissions_from_consumption_of_energy>351000000 megatonnes</carbon_dioxide_emissions_from_consumption_of_energy>
    </energy>
    <communications>
       <telephones>
@@ -679,22 +676,23 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
    </communications>
    <transportation>
       <pipelines>
-         <pipeline name="gas" units="km">20223</pipeline>
-         <pipeline name="oil" units="km">1393</pipeline>
-         <pipeline name="refined products" units="km">1574</pipeline>
+         <pipeline name="gas">20223 km</pipeline>
+         <pipeline name="oil">1393 km</pipeline>
+         <pipeline name="refined products">1574 km</pipeline>
       </pipelines>
       <railways>
-         <total units="km">20182</total>
-         <pipeline name="standard_gauge" units="km&#xA;1.435-m">18770.1</pipeline>
-         <pipeline name="narrow_gauge" units="km&#xA;1.000-m">122.3</pipeline>
+         <total>20182 km</total>
+         <pipeline name="standard_gauge">18770.1 km
+1.435-m</pipeline>
+         <pipeline name="narrow_gauge">122.3 km
+1.000-m</pipeline>
       </railways>
       <roadways>
-         <total units="km">487700</total>
-         <paved units="km" note="includes 6,700 km of expressways">487700</paved>
+         <total>487700 km</total>
+         <paved note="includes 6,700 km of expressways">487700 km</paved>
       </roadways>
-      <waterways units="km"
-                 date="2012"
-                 note="used for commercial traffic; of limited overall value compared to road and rail">2400</waterways>
+      <waterways date="2012"
+                 note="used for commercial traffic; of limited overall value compared to road and rail">2400 km</waterways>
       <merchant_marine>1353</merchant_marine>
       <major_seaports>
          <seaport>Augusta</seaport>
@@ -721,11 +719,11 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
    </transportation>
    <military_and_security>
       <expenditures>
-         <annual_values units="percent of gdp" date="2019">1.22</annual_values>
-         <annual_values units="percent of gdp" date="2018">1.21</annual_values>
-         <annual_values units="percent of gdp" date="2017">1.21</annual_values>
-         <annual_values units="percent of gdp" date="2016">1.18</annual_values>
-         <annual_values units="percent of gdp" date="2015">1.07</annual_values>
+         <annual_values date="2019">1.22 percent of gdp</annual_values>
+         <annual_values date="2018">1.21 percent of gdp</annual_values>
+         <annual_values date="2017">1.21 percent of gdp</annual_values>
+         <annual_values date="2016">1.18 percent of gdp</annual_values>
+         <annual_values date="2015">1.07 percent of gdp</annual_values>
       </expenditures>
       <service_age_and_obligation>18-25 years of age for voluntary military service; women may serve in any military branch; Italian citizenship required; 1-year service obligation</service_age_and_obligation>
    </military_and_security>

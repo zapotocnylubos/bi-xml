@@ -7,27 +7,27 @@
    <geography>
       <location>Southern Europe, bordering the Aegean Sea, Ionian Sea, and the Mediterranean Sea, between Albania and Turkey</location>
       <geographic_coordinates>
-         <latitude degrees="39" minutes="0" hemisphere="N"/>
-         <longitude degrees="22" minutes="0" hemisphere="E"/>
+         <latitude>39°0"N</latitude>
+         <longitude>22°0"E</longitude>
       </geographic_coordinates>
       <area>
-         <total units="sq km">131957</total>
-         <land units="sq km">130647</land>
-         <water units="sq km">1310</water>
+         <total>131957 sq km</total>
+         <land>130647 sq km</land>
+         <water>1310 sq km</water>
          <comparative>slightly smaller than Alabama</comparative>
       </area>
       <border_countries>
-         <border with="Albania" units="km">212</border>
-         <border with="Bulgaria" units="km">472</border>
-         <border with="Macedonia" units="km">234</border>
-         <border with="Turkey" units="km">192</border>
+         <border with="Albania">212 km</border>
+         <border with="Bulgaria">472 km</border>
+         <border with="Macedonia">234 km</border>
+         <border with="Turkey">192 km</border>
       </border_countries>
-      <coastline units="km">13676</coastline>
+      <coastline>13676 km</coastline>
       <climate>temperate; mild, wet winters; hot, dry summers</climate>
       <terrain>mountainous with ranges extending into the sea as peninsulas or chains of islands</terrain>
       <elevation>
-         <mean_elevation units="m">498</mean_elevation>
-         <lowest_point name="Mediterranean Sea" units="m">0</lowest_point>
+         <mean_elevation>498 m</mean_elevation>
+         <lowest_point name="Mediterranean Sea">0 m</lowest_point>
          <highest_point>
             <name>Mount Olympus</name>
             <elevation>
@@ -51,15 +51,15 @@
       </natural_resources>
       <land_use>
          <by_sector>
-            <agricultural_land_total units="%">63.4</agricultural_land_total>
-            <arable_land units="%" note="/">19.7</arable_land>
-            <permanent_crops units="%" note="/">8.9</permanent_crops>
-            <permanent_pasture units="%">34.8</permanent_pasture>
-            <forest units="%">30.5</forest>
-            <other units="%">6.1</other>
+            <agricultural_land_total>63.4 %</agricultural_land_total>
+            <arable_land note="/">19.7 %</arable_land>
+            <permanent_crops note="/">8.9 %</permanent_crops>
+            <permanent_pasture>34.8 %</permanent_pasture>
+            <forest>30.5 %</forest>
+            <other>6.1 %</other>
          </by_sector>
       </land_use>
-      <irrigated_land units="sq km" date="2012">15550</irrigated_land>
+      <irrigated_land date="2012">15550 sq km</irrigated_land>
       <population_distribution>one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</population_distribution>
       <natural_hazards>
          <hazard type="hazard">severe earthquakes</hazard>
@@ -108,104 +108,104 @@
       <population>10607051</population>
       <nationality noun="Greek(s)">Greek</nationality>
       <ethnic_groups>
-         <group units="%" name="Greek">91.6</group>
-         <group units="%" name="Albanian">4.4</group>
-         <group units="%" name="other">4</group>
+         <group name="Greek">91.6 %</group>
+         <group name="Albanian">4.4 %</group>
+         <group name="other">4 %</group>
          <note>data represent citizenship; Greece does not collect data on ethnicity</note>
       </ethnic_groups>
       <languages>
-         <language units="%" name="Greek">99</language>
-         <language units="%" name="other">1</language>
+         <language name="Greek">99 %</language>
+         <language name="other">1 %</language>
       </languages>
       <religions>
-         <religion units="%" name="Greek Orthodox"/>
+         <religion name="Greek Orthodox"> %</religion>
       </religions>
       <dependency_ratios>
-         <ratio units="%" name="total_dependency_ratio">56.1</ratio>
-         <ratio units="%" name="youth_dependency_ratio">21.3</ratio>
-         <ratio units="%" name="elderly_dependency_ratio">34.8</ratio>
-         <ratio units="%" name="potential_support_ratio">2.9</ratio>
+         <ratio name="total_dependency_ratio">56.1 %</ratio>
+         <ratio name="youth_dependency_ratio">21.3 %</ratio>
+         <ratio name="elderly_dependency_ratio">34.8 %</ratio>
+         <ratio name="potential_support_ratio">2.9 %</ratio>
       </dependency_ratios>
       <median_age>
-         <total units="years">45.3</total>
-         <male units="years">43.7</male>
-         <female units="years">46.8</female>
+         <total>45.3 years</total>
+         <male>43.7 years</male>
+         <female>46.8 years</female>
       </median_age>
       <population_growth_rate>
       -0.31
     </population_growth_rate>
-      <birth_rate units="births per 1000 population">7.8</birth_rate>
-      <death_rate units="deaths per 1000 population">12</death_rate>
-      <net_migration_rate units="migrants per 1000 population">0.9</net_migration_rate>
+      <birth_rate>7.8 births per 1000 population</birth_rate>
+      <death_rate>12 deaths per 1000 population</death_rate>
+      <net_migration_rate>0.9 migrants per 1000 population</net_migration_rate>
       <population_distribution>one-third of the population lives in and around metropolitan Athens; the remainder of the country has moderate population density mixed with sizeable urban clusters</population_distribution>
       <urbanization>
-         <urban_population units="%" date="2020">79.7</urban_population>
-         <rate_of_urbanization units="%">0.22</rate_of_urbanization>
+         <urban_population date="2020">79.7 %</urban_population>
+         <rate_of_urbanization>0.22 %</rate_of_urbanization>
       </urbanization>
       <major_urban_areas>
-         <area name="Athens" population="3153000"/>
-         <area name="Thessaloniki" population="812000"/>
+         <area name="Athens">3153000 people</area>
+         <area name="Thessaloniki">812000 people</area>
       </major_urban_areas>
       <mothers_mean_age_at_first_birth>29.9</mothers_mean_age_at_first_birth>
-      <maternal_mortality_rate units="deaths per 100k live population">3</maternal_mortality_rate>
+      <maternal_mortality_rate>3 deaths per 100k live population</maternal_mortality_rate>
       <infant_mortality_rate>
-         <total units="deaths per 1000 live births">3.7</total>
-         <male units="deaths per 1000 live births">4</male>
-         <female units="deaths per 1000 live births">3.3</female>
+         <total>3.7 deaths per 1000 live births</total>
+         <male>4 deaths per 1000 live births</male>
+         <female>3.3 deaths per 1000 live births</female>
       </infant_mortality_rate>
       <life_expectancy_at_birth>
-         <total_population units="years">81.1</total_population>
-         <male units="years">78.5</male>
-         <female units="years">83.8</female>
+         <total_population>81.1 years</total_population>
+         <male>78.5 years</male>
+         <female>83.8 years</female>
       </life_expectancy_at_birth>
-      <total_fertility_rate units="children born per woman">1.38</total_fertility_rate>
-      <physicians_density units="physicians per 1000 population">5.48</physicians_density>
-      <hospital_bed_density units="beds per 1000 population">4.2</hospital_bed_density>
+      <total_fertility_rate>1.38 children born per woman</total_fertility_rate>
+      <physicians_density>5.48 physicians per 1000 population</physicians_density>
+      <hospital_bed_density>4.2 beds per 1000 population</hospital_bed_density>
       <drinking_water_source>
          <improved>
-            <urban units="percent of population">100</urban>
-            <rural units="percent of population">100</rural>
-            <total units="percent of population">100</total>
+            <urban>100 percent of population</urban>
+            <rural>100 percent of population</rural>
+            <total>100 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">0</urban>
-            <rural units="percent of population">0</rural>
-            <total units="percent of population">0</total>
+            <urban>0 percent of population</urban>
+            <rural>0 percent of population</rural>
+            <total>0 percent of population</total>
          </unimproved>
       </drinking_water_source>
       <sanitation_facility_access>
          <improved>
-            <urban units="percent of population">100</urban>
-            <rural units="percent of population">100</rural>
-            <total units="percent of population">100</total>
+            <urban>100 percent of population</urban>
+            <rural>100 percent of population</rural>
+            <total>100 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">0</urban>
-            <rural units="percent of population">0</rural>
-            <total units="percent of population">0</total>
+            <urban>0 percent of population</urban>
+            <rural>0 percent of population</rural>
+            <total>0 percent of population</total>
          </unimproved>
       </sanitation_facility_access>
       <hiv_aids>
-         <adult_prevalence_rate units="% of adults">0.2</adult_prevalence_rate>
+         <adult_prevalence_rate>0.2 % of adults</adult_prevalence_rate>
          <people_living_with_hiv_aids>14000</people_living_with_hiv_aids>
          <deaths>100</deaths>
       </hiv_aids>
-      <adult_obesity units="% of adults">24.9</adult_obesity>
+      <adult_obesity>24.9 % of adults</adult_obesity>
       <literacy>
          <definition>age 15 and over can read and write</definition>
-         <total_population units="%">97.7</total_population>
-         <male units="%">98.5</male>
-         <female units="%">96.9</female>
+         <total_population>97.7 %</total_population>
+         <male>98.5 %</male>
+         <female>96.9 %</female>
       </literacy>
       <school_life_expectancy>
-         <total units="years">20</total>
-         <male units="years">20</male>
-         <female units="years">20</female>
+         <total>20 years</total>
+         <male>20 years</male>
+         <female>20 years</female>
       </school_life_expectancy>
       <youth_unemployment>
-         <total units="%">39.9</total>
-         <male units="%">36.4</male>
-         <female units="%">43.9</female>
+         <total>39.9 %</total>
+         <male>36.4 %</male>
+         <female>43.9 %</female>
       </youth_unemployment>
    </people>
    <government>
@@ -221,8 +221,8 @@
       <capital>
          <name>Athens</name>
          <geographic_coordinates>
-            <latitude degrees="37" minutes="59" hemisphere="N"/>
-            <longitude degrees="23" minutes="44" hemisphere="E"/>
+            <latitude>37°59"N</latitude>
+            <longitude>23°44"E</longitude>
          </geographic_coordinates>
          <time_difference timezones="2">7 hours ahead of Washington, DC, during Standard Time</time_difference>
          <daylight_saving_time>+1hr, begins last Sunday in March; ends last Sunday in October</daylight_saving_time>
@@ -263,20 +263,19 @@
          <subordinate_courts>Courts of Appeal and Courts of First Instance (district courts)</subordinate_courts>
       </judicial_branch>
       <political_parties_and_leaders>
-         <party name="Anticapitalist Left Cooperation for the Overthrow"
-                leader="collective leadership"/>
-         <party name="Coalition of the Radical Left" leader="Alexios  TSIPRAS"/>
-         <party name="Communist Party of Greece" leader="Dimitrios KOUTSOUMBAS"/>
-         <party name="Democratic Left" leader="Athanasios  THEOCHAROPOULOS"/>
-         <party name="European Realistic Disobedience Front" leader="Yanis VAROUFAKIS"/>
-         <party name="Greek Solution" leader="Kyriakos VELOPOULOS"/>
-         <party name="Independent Greeks" leader="Panagiotis  KAMMENOS"/>
-         <party name="Movement for Change" leader="Foteini  GENIMMATA"/>
-         <party name="New Democracy" leader="Kyriakos MITSOTAKIS"/>
-         <party name="People's Association-Golden Dawn" leader="Nikolaos MICHALOLIAKOS"/>
-         <party name="Popular Unity" leader="Panagiotis LAFAZANIS"/>
-         <party name="The River " leader="Stavros THEODORAKIS"/>
-         <party name="Union of Centrists" leader="Vasileios  LEVENTIS"/>
+         <party leader="collective leadership">Anticapitalist Left Cooperation for the Overthrow</party>
+         <party leader="Alexios  TSIPRAS">Coalition of the Radical Left</party>
+         <party leader="Dimitrios KOUTSOUMBAS">Communist Party of Greece</party>
+         <party leader="Athanasios  THEOCHAROPOULOS">Democratic Left</party>
+         <party leader="Yanis VAROUFAKIS">European Realistic Disobedience Front</party>
+         <party leader="Kyriakos VELOPOULOS">Greek Solution</party>
+         <party leader="Panagiotis  KAMMENOS">Independent Greeks</party>
+         <party leader="Foteini  GENIMMATA">Movement for Change</party>
+         <party leader="Kyriakos MITSOTAKIS">New Democracy</party>
+         <party leader="Nikolaos MICHALOLIAKOS">People's Association-Golden Dawn</party>
+         <party leader="Panagiotis LAFAZANIS">Popular Unity</party>
+         <party leader="Stavros THEODORAKIS">The River </party>
+         <party leader="Vasileios  LEVENTIS">Union of Centrists</party>
       </political_parties_and_leaders>
       <diplomatic_representation>
          <in_united_states>
@@ -302,11 +301,11 @@
       </flag_description>
       <national_symbols>
          <symbols>
-            <symbol name="Greek cross "/>
+            <symbol>Greek cross </symbol>
          </symbols>
          <colors>
-            <color name="blue"/>
-            <color name="white"/>
+            <color>blue</color>
+            <color>white</color>
          </colors>
       </national_symbols>
       <national_anthem>
@@ -323,73 +322,73 @@
          <participation>accepts ICCt jurisdiction</participation>
       </international_law_organization_participation>
       <international_organization_participation>
-         <organization name="Australia Group"/>
-         <organization name="BIS"/>
-         <organization name="BSEC"/>
-         <organization name="CD"/>
-         <organization name="CE"/>
-         <organization name="CERN"/>
-         <organization name="EAPC"/>
-         <organization name="EBRD"/>
-         <organization name="ECB"/>
-         <organization name="EIB"/>
-         <organization name="EMU"/>
-         <organization name="ESA"/>
-         <organization name="EU"/>
-         <organization name="FAO"/>
-         <organization name="FATF"/>
-         <organization name="IAEA"/>
-         <organization name="IBRD"/>
-         <organization name="ICAO"/>
-         <organization name="ICC "/>
-         <organization name="ICCt"/>
-         <organization name="ICRM"/>
-         <organization name="IDA"/>
-         <organization name="IEA"/>
-         <organization name="IFAD"/>
-         <organization name="IFC"/>
-         <organization name="IFRCS"/>
-         <organization name="IGAD "/>
-         <organization name="IHO"/>
-         <organization name="ILO"/>
-         <organization name="IMF"/>
-         <organization name="IMO"/>
-         <organization name="IMSO"/>
-         <organization name="Interpol"/>
-         <organization name="IOC"/>
-         <organization name="IOM"/>
-         <organization name="IPU"/>
-         <organization name="ISO"/>
-         <organization name="ITSO"/>
-         <organization name="ITU"/>
-         <organization name="ITUC "/>
-         <organization name="MIGA"/>
-         <organization name="NATO"/>
-         <organization name="NEA"/>
-         <organization name="NSG"/>
-         <organization name="OAS "/>
-         <organization name="OECD"/>
-         <organization name="OIF"/>
-         <organization name="OPCW"/>
-         <organization name="OSCE"/>
-         <organization name="PCA"/>
-         <organization name="Schengen Convention"/>
-         <organization name="SELEC"/>
-         <organization name="UN"/>
-         <organization name="UNCTAD"/>
-         <organization name="UNESCO"/>
-         <organization name="UNHCR"/>
-         <organization name="UNIDO"/>
-         <organization name="UNIFIL"/>
-         <organization name="UNWTO"/>
-         <organization name="UPU"/>
-         <organization name="WCO"/>
-         <organization name="WFTU "/>
-         <organization name="WHO"/>
-         <organization name="WIPO"/>
-         <organization name="WMO"/>
-         <organization name="WTO"/>
-         <organization name="ZC"/>
+         <organization>Australia Group</organization>
+         <organization>BIS</organization>
+         <organization>BSEC</organization>
+         <organization>CD</organization>
+         <organization>CE</organization>
+         <organization>CERN</organization>
+         <organization>EAPC</organization>
+         <organization>EBRD</organization>
+         <organization>ECB</organization>
+         <organization>EIB</organization>
+         <organization>EMU</organization>
+         <organization>ESA</organization>
+         <organization>EU</organization>
+         <organization>FAO</organization>
+         <organization>FATF</organization>
+         <organization>IAEA</organization>
+         <organization>IBRD</organization>
+         <organization>ICAO</organization>
+         <organization>ICC </organization>
+         <organization>ICCt</organization>
+         <organization>ICRM</organization>
+         <organization>IDA</organization>
+         <organization>IEA</organization>
+         <organization>IFAD</organization>
+         <organization>IFC</organization>
+         <organization>IFRCS</organization>
+         <organization>IGAD </organization>
+         <organization>IHO</organization>
+         <organization>ILO</organization>
+         <organization>IMF</organization>
+         <organization>IMO</organization>
+         <organization>IMSO</organization>
+         <organization>Interpol</organization>
+         <organization>IOC</organization>
+         <organization>IOM</organization>
+         <organization>IPU</organization>
+         <organization>ISO</organization>
+         <organization>ITSO</organization>
+         <organization>ITU</organization>
+         <organization>ITUC </organization>
+         <organization>MIGA</organization>
+         <organization>NATO</organization>
+         <organization>NEA</organization>
+         <organization>NSG</organization>
+         <organization>OAS </organization>
+         <organization>OECD</organization>
+         <organization>OIF</organization>
+         <organization>OPCW</organization>
+         <organization>OSCE</organization>
+         <organization>PCA</organization>
+         <organization>Schengen Convention</organization>
+         <organization>SELEC</organization>
+         <organization>UN</organization>
+         <organization>UNCTAD</organization>
+         <organization>UNESCO</organization>
+         <organization>UNHCR</organization>
+         <organization>UNIDO</organization>
+         <organization>UNIFIL</organization>
+         <organization>UNWTO</organization>
+         <organization>UPU</organization>
+         <organization>WCO</organization>
+         <organization>WFTU </organization>
+         <organization>WHO</organization>
+         <organization>WIPO</organization>
+         <organization>WMO</organization>
+         <organization>WTO</organization>
+         <organization>ZC</organization>
       </international_organization_participation>
    </government>
    <economy>
@@ -401,43 +400,43 @@ Despite the nascent recovery, widespread discontent with austerity measures help
 In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic reforms, a massive non-performing loan problem, and ongoing uncertainty regarding the political direction of the country hold the economy back. Some estimates put Greece’s black market at 20- to 25% of GDP, as more people have stopped reporting their income to avoid paying taxes that, in some cases, have risen to 70% of an individual’s gross income.</overview>
       <gdp>
          <purchasing_power_parity>
-            <annual_values units="USD" date="2017">299300000000</annual_values>
-            <annual_values units="USD" date="2016">295300000000</annual_values>
-            <annual_values units="USD" date="2015">296000000000</annual_values>
+            <annual_values date="2017">299300000000 USD</annual_values>
+            <annual_values date="2016">295300000000 USD</annual_values>
+            <annual_values date="2015">296000000000 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </purchasing_power_parity>
          <official_exchange_rate>
-            <rate units="USD">200700000000</rate>
+            <rate>200700000000 USD</rate>
          </official_exchange_rate>
          <real_growth_rate>
-            <annual_values units="%" date="2019">1.87</annual_values>
-            <annual_values units="%" date="2018">1.91</annual_values>
-            <annual_values units="%" date="2017">1.44</annual_values>
+            <annual_values date="2019">1.87 %</annual_values>
+            <annual_values date="2018">1.91 %</annual_values>
+            <annual_values date="2017">1.44 %</annual_values>
          </real_growth_rate>
          <per_capita_purchasing_power_parity>
-            <annual_values units="USD" date="2017">27800</annual_values>
-            <annual_values units="USD" date="2016">27400</annual_values>
-            <annual_values units="USD" date="2015">27300</annual_values>
+            <annual_values date="2017">27800 USD</annual_values>
+            <annual_values date="2016">27400 USD</annual_values>
+            <annual_values date="2015">27300 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </per_capita_purchasing_power_parity>
          <end_uses>
-            <household_consumption units="%">69.6</household_consumption>
-            <government_consumption units="%">20.1</government_consumption>
-            <investment_in_fixed_capital units="%">12.5</investment_in_fixed_capital>
-            <investment_in_inventories units="%">-1</investment_in_inventories>
-            <exports_of_goods_and_services units="%">33.4</exports_of_goods_and_services>
-            <imports_of_goods_and_services units="%">-34.7</imports_of_goods_and_services>
+            <household_consumption>69.6 %</household_consumption>
+            <government_consumption>20.1 %</government_consumption>
+            <investment_in_fixed_capital>12.5 %</investment_in_fixed_capital>
+            <investment_in_inventories>-1 %</investment_in_inventories>
+            <exports_of_goods_and_services>33.4 %</exports_of_goods_and_services>
+            <imports_of_goods_and_services>-34.7 %</imports_of_goods_and_services>
          </end_uses>
          <sectors_of_origin>
-            <agriculture units="%">4.1</agriculture>
-            <industry units="%">16.9</industry>
-            <services units="%">79.1</services>
+            <agriculture>4.1 %</agriculture>
+            <industry>16.9 %</industry>
+            <services>79.1 %</services>
          </sectors_of_origin>
       </gdp>
       <gross_national_saving>
-         <annual_values units="percent of gdp" date="2017">10.9</annual_values>
-         <annual_values units="percent of gdp" date="2016">9.5</annual_values>
-         <annual_values units="percent of gdp" date="2015">9.6</annual_values>
+         <annual_values date="2017">10.9 percent of gdp</annual_values>
+         <annual_values date="2016">9.5 percent of gdp</annual_values>
+         <annual_values date="2015">9.6 percent of gdp</annual_values>
       </gross_national_saving>
       <agriculture_products>
          <product>wheat</product>
@@ -471,44 +470,44 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
          </total_size>
          <by_occupation>
             <occupation>
-               <agriculture units="%">12.6</agriculture>
-               <industry units="%">15</industry>
-               <services units="%">72.4</services>
+               <agriculture>12.6 %</agriculture>
+               <industry>15 %</industry>
+               <services>72.4 %</services>
             </occupation>
          </by_occupation>
       </labor_force>
       <unemployment_rate>
-         <annual_values units="%" date="2019">17.3</annual_values>
-         <annual_values units="%" date="2018">19.34</annual_values>
+         <annual_values date="2019">17.3 %</annual_values>
+         <annual_values date="2018">19.34 %</annual_values>
       </unemployment_rate>
-      <population_below_poverty_line units="%" date="2014">36</population_below_poverty_line>
+      <population_below_poverty_line date="2014">36 %</population_below_poverty_line>
       <household_income_by_percentage_share>
-         <lowest_ten_percent units="%">1.7</lowest_ten_percent>
-         <highest_ten_percent units="%">26.7</highest_ten_percent>
+         <lowest_ten_percent>1.7 %</lowest_ten_percent>
+         <highest_ten_percent>26.7 %</highest_ten_percent>
       </household_income_by_percentage_share>
       <budget>
-         <revenues units="USD">97990000000</revenues>
-         <expenditures units="USD">96350000000</expenditures>
+         <revenues>97990000000 USD</revenues>
+         <expenditures>96350000000 USD</expenditures>
       </budget>
-      <taxes_and_other_revenues units="% of gdp">48.8</taxes_and_other_revenues>
-      <budget_surplus_or_deficit units="% of gdp">0.8</budget_surplus_or_deficit>
+      <taxes_and_other_revenues>48.8 % of gdp</taxes_and_other_revenues>
+      <budget_surplus_or_deficit>0.8 % of gdp</budget_surplus_or_deficit>
       <public_debt>
-         <annual_values units="percent of gdp" date="2017">181.8</annual_values>
-         <annual_values units="percent of gdp" date="2016">183.5</annual_values>
+         <annual_values date="2017">181.8 percent of gdp</annual_values>
+         <annual_values date="2016">183.5 percent of gdp</annual_values>
       </public_debt>
       <fiscal_year start="1 January" end="31 December"/>
       <inflation_rate>
-         <annual_values units="%" date="2017">1.1</annual_values>
-         <annual_values units="%" date="2016">0</annual_values>
+         <annual_values date="2017">1.1 %</annual_values>
+         <annual_values date="2016">0 %</annual_values>
       </inflation_rate>
       <current_account_balance>
-         <annual_values units="USD" date="2019">-3114000000</annual_values>
-         <annual_values units="USD" date="2018">-6245000000</annual_values>
+         <annual_values date="2019">-3114000000 USD</annual_values>
+         <annual_values date="2018">-6245000000 USD</annual_values>
       </current_account_balance>
       <exports>
          <total_value>
-            <annual_values units="USD" date="2017">31540000000</annual_values>
-            <annual_values units="USD" date="2016">27100000000</annual_values>
+            <annual_values date="2017">31540000000 USD</annual_values>
+            <annual_values date="2016">27100000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>food</commodity>
@@ -519,18 +518,18 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <commodity>textiles</commodity>
          </commodities>
          <partners>
-            <partner name="Italy" units="%">10.6</partner>
-            <partner name="Germany" units="%">7.1</partner>
-            <partner name="Turkey" units="%">6.8</partner>
-            <partner name="Cyprus" units="%">6.5</partner>
-            <partner name="Bulgaria" units="%">4.9</partner>
-            <partner name="Lebanon" units="%">4.3</partner>
+            <partner name="Italy">10.6 %</partner>
+            <partner name="Germany">7.1 %</partner>
+            <partner name="Turkey">6.8 %</partner>
+            <partner name="Cyprus">6.5 %</partner>
+            <partner name="Bulgaria">4.9 %</partner>
+            <partner name="Lebanon">4.3 %</partner>
          </partners>
       </exports>
       <imports>
          <total_value>
-            <annual_values units="USD" date="2017">52270000000</annual_values>
-            <annual_values units="USD" date="2016">45450000000</annual_values>
+            <annual_values date="2017">52270000000 USD</annual_values>
+            <annual_values date="2016">45450000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>machinery</commodity>
@@ -539,70 +538,70 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
             <commodity>chemicals</commodity>
          </commodities>
          <partners>
-            <partner name="Germany" units="%">10.4</partner>
-            <partner name="Italy" units="%">8.2</partner>
-            <partner name="Russia" units="%">6.8</partner>
-            <partner name="Iraq" units="%">6.3</partner>
-            <partner name="South Korea" units="%">6.1</partner>
-            <partner name="China" units="%">5.4</partner>
-            <partner name="Netherlands" units="%">5.3</partner>
-            <partner name="France" units="%">4.3</partner>
+            <partner name="Germany">10.4 %</partner>
+            <partner name="Italy">8.2 %</partner>
+            <partner name="Russia">6.8 %</partner>
+            <partner name="Iraq">6.3 %</partner>
+            <partner name="South Korea">6.1 %</partner>
+            <partner name="China">5.4 %</partner>
+            <partner name="Netherlands">5.3 %</partner>
+            <partner name="France">4.3 %</partner>
          </partners>
       </imports>
       <reserves_of_foreign_exchange_and_gold>
-         <annual_values units="USD" date="2017-12-31">7807000000</annual_values>
-         <annual_values units="USD" date="2015-12-31">6026000000</annual_values>
+         <annual_values date="2017-12-31">7807000000 USD</annual_values>
+         <annual_values date="2015-12-31">6026000000 USD</annual_values>
       </reserves_of_foreign_exchange_and_gold>
       <external_debt>
-         <annual_values units="USD" date="2016-03-31">506600000000</annual_values>
-         <annual_values units="USD" date="2015-03-31">468200000000</annual_values>
+         <annual_values date="2016-03-31">506600000000 USD</annual_values>
+         <annual_values date="2015-03-31">468200000000 USD</annual_values>
       </external_debt>
       <exchange_rates>
-         <annual_values units="USD" date="2017">0.885</annual_values>
-         <annual_values units="USD" date="2016">0.903</annual_values>
-         <annual_values units="USD" date="2015">0.9214</annual_values>
-         <annual_values units="USD" date="2014">0.885</annual_values>
-         <annual_values units="USD" date="2013">0.7634</annual_values>
+         <annual_values date="2017">0.885 per USD</annual_values>
+         <annual_values date="2016">0.903 per USD</annual_values>
+         <annual_values date="2015">0.9214 per USD</annual_values>
+         <annual_values date="2014">0.885 per USD</annual_values>
+         <annual_values date="2013">0.7634 per USD</annual_values>
          <note>euros (EUR) per US dollar</note>
       </exchange_rates>
    </economy>
    <energy>
       <electricity>
          <access>
-            <total_electrification units="%">100</total_electrification>
+            <total_electrification>100 %</total_electrification>
          </access>
-         <production units="kWh">52050000000</production>
-         <consumption units="kWh">56890000000</consumption>
-         <exports units="kWh">1036999999.9999999</exports>
-         <imports units="kWh">9833000000</imports>
-         <installed_generating_capacity units="kW">19170000</installed_generating_capacity>
+         <production>52050000000 kWh</production>
+         <consumption>56890000000 kWh</consumption>
+         <exports>1036999999.9999999 kWh</exports>
+         <imports>9833000000 kWh</imports>
+         <installed_generating_capacity>19170000 kW</installed_generating_capacity>
          <source>
-            <fossil_fuels units="%">57</fossil_fuels>
-            <nuclear_fuels units="%">0</nuclear_fuels>
-            <hydroelectric_plants units="%">14</hydroelectric_plants>
-            <other_renewable_sources units="%">29</other_renewable_sources>
+            <fossil_fuels>57 %</fossil_fuels>
+            <nuclear_fuels>0 %</nuclear_fuels>
+            <hydroelectric_plants>14 %</hydroelectric_plants>
+            <other_renewable_sources>29 %</other_renewable_sources>
          </source>
       </electricity>
       <crude_oil>
-         <production units="bbl per day">4100</production>
-         <exports units="bbl per day">3229</exports>
-         <imports units="bbl per day">484300</imports>
-         <proved_reserves units="bbl">10000000</proved_reserves>
+         <production>4100 bbl per day</production>
+         <exports>3229 bbl per day</exports>
+         <imports>484300 bbl per day</imports>
+         <proved_reserves>10000000 bbl</proved_reserves>
       </crude_oil>
       <refined_petroleum_products>
-         <production units="bbl per day">655400</production>
-         <consumption units="bbl per day">304100</consumption>
-         <exports units="bbl per day">371900</exports>
-         <imports units="bbl per day">192200</imports>
+         <production>655400 bbl per day</production>
+         <consumption>304100 bbl per day</consumption>
+         <exports>371900 bbl per day</exports>
+         <imports>192200 bbl per day</imports>
       </refined_petroleum_products>
       <natural_gas>
-         <production units="cubic metres">8000000</production>
-         <consumption units="cubic metres">4927000000</consumption>
-         <exports units="cubic metres">0</exports>
-         <imports units="cubic metres">4984000000</imports>
-         <proved_reserves units="cubic metres">991100000</proved_reserves>
+         <production>8000000 cubic metres</production>
+         <consumption>4927000000 cubic metres</consumption>
+         <exports>0 cubic metres</exports>
+         <imports>4984000000 cubic metres</imports>
+         <proved_reserves>991100000 cubic metres</proved_reserves>
       </natural_gas>
-      <carbon_dioxide_emissions_from_consumption_of_energy units="megatonnes">69370000</carbon_dioxide_emissions_from_consumption_of_energy>
+      <carbon_dioxide_emissions_from_consumption_of_energy>69370000 megatonnes</carbon_dioxide_emissions_from_consumption_of_energy>
    </energy>
    <communications>
       <telephones>
@@ -617,20 +616,21 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
    </communications>
    <transportation>
       <pipelines>
-         <pipeline name="gas" units="km">1329</pipeline>
-         <pipeline name="oil" units="km">94</pipeline>
+         <pipeline name="gas">1329 km</pipeline>
+         <pipeline name="oil">94 km</pipeline>
       </pipelines>
       <railways>
-         <total units="km">2548</total>
-         <pipeline name="standard_gauge" units="km&#xA;1.435-m">1565</pipeline>
-         <pipeline name="narrow_gauge" units="km&#xA;1.000-m">961</pipeline>
+         <total>2548 km</total>
+         <pipeline name="standard_gauge">1565 km
+1.435-m</pipeline>
+         <pipeline name="narrow_gauge">961 km
+1.000-m</pipeline>
       </railways>
       <roadways>
-         <total units="km">117000</total>
+         <total>117000 km</total>
       </roadways>
-      <waterways units="km"
-                 date="2012"
-                 note="the 6-km-long Corinth Canal crosses the Isthmus of Corinth; it shortens a sea voyage by 325 km">6</waterways>
+      <waterways date="2012"
+                 note="the 6-km-long Corinth Canal crosses the Isthmus of Corinth; it shortens a sea voyage by 325 km">6 km</waterways>
       <merchant_marine>1308</merchant_marine>
       <major_seaports>
          <seaport>Aspropyrgos</seaport>
@@ -650,11 +650,11 @@ In 2017, Greece saw improvements in GDP and unemployment. Unfinished economic re
    </transportation>
    <military_and_security>
       <expenditures>
-         <annual_values units="percent of gdp" date="2019">2.28</annual_values>
-         <annual_values units="percent of gdp" date="2018">2.48</annual_values>
-         <annual_values units="percent of gdp" date="2017">2.34</annual_values>
-         <annual_values units="percent of gdp" date="2016">2.38</annual_values>
-         <annual_values units="percent of gdp" date="2015">2.3</annual_values>
+         <annual_values date="2019">2.28 percent of gdp</annual_values>
+         <annual_values date="2018">2.48 percent of gdp</annual_values>
+         <annual_values date="2017">2.34 percent of gdp</annual_values>
+         <annual_values date="2016">2.38 percent of gdp</annual_values>
+         <annual_values date="2015">2.3 percent of gdp</annual_values>
       </expenditures>
       <service_age_and_obligation>19-45 years of age for compulsory military service; during wartime the law allows for recruitment beginning January of the year of inductee's 18th birthday, thus including 17 year olds; 18 years of age for volunteers; conscript service obligation is 1 year for the Army and 9 months for the Air Force and Navy; women are eligible for voluntary military service</service_age_and_obligation>
    </military_and_security>

@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" encoding="utf-8" indent="yes"/>
-  <!--  <xsl:strip-space elements="*"/>-->
+
+  <xsl:template name="extra_conditional_text">
+    <xsl:param name="value"/>
+    <xsl:param name="extra"/>
+
+    <xsl:choose>
+      <xsl:when test="$extra = ''">
+        <xsl:value-of select="$value"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="concat($value, ' ', $extra)"/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <xsl:template name="humanize_text">
+    <xsl:param name="text"/>
+    <xsl:value-of select="translate($text, '_', ' ')"/>
+  </xsl:template>
 
   <!--  <xsl:template match="node()">-->
   <!--    <p>-->
@@ -75,7 +93,9 @@
   <!--  </xsl:template>-->
 
 
-  <!-- Glossaries -->
+  <!-- <><><><><><><><>< -->
+  <!-- GLOSSARY TEMPLATE -->
+  <!-- <><><><><><><><>< -->
 
   <xsl:template name="glossary">
     <xsl:param name="title" select="translate(name(), '_', ' ')"/>
@@ -87,6 +107,10 @@
     </glossary>
   </xsl:template>
 
+  <!-- <><><><><><><><><><><> -->
+  <!-- GLOSSARY ITEM TEMPLATE -->
+  <!-- <><><><><><><><><><><> -->
+
   <xsl:template name="glossary-term">
     <xsl:param name="name">
       <xsl:choose>
@@ -95,9 +119,6 @@
         </xsl:when>
         <xsl:when test="@type">
           <xsl:value-of select="@type"/>
-        </xsl:when>
-        <xsl:when test="@name">
-          <xsl:value-of select="@name"/>
         </xsl:when>
         <xsl:when test="@date">
           <xsl:value-of select="@date"/>
@@ -108,10 +129,20 @@
       </xsl:choose>
     </xsl:param>
 
-    <term name="{translate($name, '_', ' ')}">
+    <xsl:element name="term">
+      <xsl:attribute name="name">
+        <xsl:call-template name="humanize_text">
+          <xsl:with-param name="text" select="$name"/>
+        </xsl:call-template>
+      </xsl:attribute>
+
       <xsl:apply-templates select="."/>
-    </term>
+    </xsl:element>
   </xsl:template>
+
+  <!-- <><><><><> -->
+  <!-- GLOSSARIES -->
+  <!-- <><><><><> -->
 
   <xsl:template match="
       geographic_coordinates|
@@ -184,8 +215,27 @@
     <xsl:call-template name="glossary"/>
   </xsl:template>
 
+  <!-- <><><><><><><><><> -->
+  <!-- SPECIAL GLOSSARIES -->
+  <!-- <><><><><><><><><> -->
 
-  <!-- Lists -->
+  <xsl:template match="
+      stateless_persons|
+      waterways
+">
+    <xsl:variable name="name" select="name()"/>
+
+    <glossary>
+      <term name="{translate($name, '_', ' ')}">
+        <xsl:apply-templates />
+      </term>
+    </glossary>
+  </xsl:template>
+
+
+  <!-- <><><><><><>< -->
+  <!-- LIST TEMPLATE -->
+  <!-- <><><><><><>< -->
 
   <xsl:template name="list">
     <xsl:param name="title" select="name()"/>
@@ -203,6 +253,10 @@
     </item>
   </xsl:template>
 
+  <!-- <><>< -->
+  <!-- LISTS -->
+  <!-- <><>< -->
+
   <xsl:template match="
       geography/natural_resources|
       environment/issues|
@@ -215,20 +269,47 @@
       economy/agriculture_products|
       economy/industries|
       economy/exports/commodities|
-      economy/imports/commodities
+      economy/imports/commodities|
+
+      transportation/river_ports
 ">
-    <xsl:call-template name="list"/>
+<!--    <xsl:call-template name="list"/>-->
   </xsl:template>
 
-  <!-- sections -->
+  <!-- <><><><><><>< -->
+  <!-- SPECIAL LISTS -->
+  <!-- <><><><><><>< -->
+
+  <xsl:template match="political_parties_and_leaders/party[@leader]">
+    <xsl:call-template name="extra_conditional_text">
+      <xsl:with-param name="value" select="."/>
+      <xsl:with-param name="extra">
+        <xsl:value-of select="concat('(', @leader, ')')"/>
+      </xsl:with-param>
+    </xsl:call-template>
+  </xsl:template>
+
+  <!-- <><><><><><><><> -->
+  <!-- SECTION TEMPLATE -->
+  <!-- <><><><><><><><> -->
 
   <xsl:template name="section">
     <xsl:variable name="title" select="translate(name(), '_', ' ')"/>
 
-    <section title="{$title}" id="{name()}">
+    <section title="{$title}">
       <xsl:apply-templates select="."/>
     </section>
   </xsl:template>
+
+<!--  <xsl:template match="note">-->
+<!--    <note>-->
+<!--      <xsl:value-of select="."/>-->
+<!--    </note>-->
+<!--  </xsl:template>-->
+
+  <!-- <><><><> -->
+  <!-- SECTIONS -->
+  <!-- <><><><> -->
 
   <xsl:template match="
         introduction|
@@ -247,7 +328,8 @@
           <xsl:call-template name="section"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:call-template name="paragraph"/>
+<!--          <xsl:call-template name="paragraph"/>-->
+          <xsl:apply-templates select="."/>
         </xsl:otherwise>
       </xsl:choose>
     </xsl:for-each>
@@ -282,14 +364,14 @@
 
   <!-- paragraphs -->
 
-  <xsl:template name="paragraph">
-    <xsl:variable name="title" select="concat(translate(name(), '_', ' '), ': ')"/>
+<!--  <xsl:template name="paragraph">-->
+<!--    <xsl:variable name="title" select="concat(translate(name(), '_', ' '), ': ')"/>-->
 
-    <paragraph>
-      <xsl:value-of select="$title"/>
-      <xsl:apply-templates/>
-    </paragraph>
-  </xsl:template>
+<!--    <paragraph>-->
+<!--      <xsl:value-of select="$title"/>-->
+<!--      <xsl:apply-templates/>-->
+<!--    </paragraph>-->
+<!--  </xsl:template>-->
 
 
   <!--  <xsl:template match="population[not(*)]">-->
@@ -322,137 +404,45 @@
   <!--  </xsl:template>-->
 
 
-  <xsl:template match="*[@units]">
-    <xsl:variable name="extra">
-      <!--  TODO: dont use @name - change source data? e.g. elevation/lowest_point    -->
-      <xsl:choose>
-        <xsl:when test="@name and not(@note) and not(@date)">
-          <xsl:value-of select="concat('(', @name, ')')"/>
-        </xsl:when>
-        <xsl:when test="not(@name) and @note and not(@date)">
-          <xsl:value-of select="concat('(', @note, ')')"/>
-        </xsl:when>
-        <xsl:when test="not(@name) and not(@note) and @date">
-          <xsl:value-of select="concat('[', @date, ']')"/>
-        </xsl:when>
+<!--  <xsl:template match="*[@units]">-->
+<!--    <xsl:variable name="extra">-->
+<!--      &lt;!&ndash;  TODO: dont use @name - change source data? e.g. elevation/lowest_point    &ndash;&gt;-->
+<!--      <xsl:choose>-->
+<!--        <xsl:when test="@name and not(@note) and not(@date)">-->
+<!--          <xsl:value-of select="concat('(', @name, ')')"/>-->
+<!--        </xsl:when>-->
+<!--        <xsl:when test="not(@name) and @note and not(@date)">-->
+<!--          <xsl:value-of select="concat('(', @note, ')')"/>-->
+<!--        </xsl:when>-->
+<!--        <xsl:when test="not(@name) and not(@note) and @date">-->
+<!--          <xsl:value-of select="concat('[', @date, ']')"/>-->
+<!--        </xsl:when>-->
 
-        <xsl:when test="@name and @note and not(@date)">
-          <xsl:value-of select="concat('(', @name, ') ', ' [', @note, ']')"/>
-        </xsl:when>
-        <xsl:when test="@name and not(@note) and @date">
-          <xsl:value-of select="concat('(', @name, ') ', ' [', @date, ']')"/>
-        </xsl:when>
-        <xsl:when test="not(@name) and @note and @date">
-          <xsl:value-of select="concat('(', @note, ') ', ' [', @date, ']')"/>
-        </xsl:when>
+<!--        <xsl:when test="@name and @note and not(@date)">-->
+<!--          <xsl:value-of select="concat('(', @name, ') ', ' [', @note, ']')"/>-->
+<!--        </xsl:when>-->
+<!--        <xsl:when test="@name and not(@note) and @date">-->
+<!--          <xsl:value-of select="concat('(', @name, ') ', ' [', @date, ']')"/>-->
+<!--        </xsl:when>-->
+<!--        <xsl:when test="not(@name) and @note and @date">-->
+<!--          <xsl:value-of select="concat('(', @note, ') ', ' [', @date, ']')"/>-->
+<!--        </xsl:when>-->
 
-        <xsl:when test="@name and @note and @date">
-          <xsl:value-of select="concat('(', @name, ') ', ' (', @note, ') ', ' [', @date, ']')"/>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
+<!--        <xsl:when test="@name and @note and @date">-->
+<!--          <xsl:value-of select="concat('(', @name, ') ', ' (', @note, ') ', ' [', @date, ']')"/>-->
+<!--        </xsl:when>-->
+<!--      </xsl:choose>-->
+<!--    </xsl:variable>-->
 
-    <xsl:choose>
-      <xsl:when test="$extra = ''">
-        <xsl:value-of select="concat(., ' ', translate(@units, '_', ' '))"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="concat(., ' ', translate(@units, '_', ' '), ' ', translate($extra, '_', ' '))"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
+<!--    <xsl:choose>-->
+<!--      <xsl:when test="$extra = ''">-->
+<!--        <xsl:value-of select="concat(., ' ', translate(@units, '_', ' '))"/>-->
+<!--      </xsl:when>-->
+<!--      <xsl:otherwise>-->
+<!--        <xsl:value-of select="concat(., ' ', translate(@units, '_', ' '), ' ', translate($extra, '_', ' '))"/>-->
+<!--      </xsl:otherwise>-->
+<!--    </xsl:choose>-->
+<!--  </xsl:template>-->
 
-  <xsl:template match="*[@population]">
-    <xsl:value-of select="concat(@population, ' people')"/>
-  </xsl:template>
-
-  <xsl:template match="political_parties_and_leaders/party">
-    <xsl:variable name="extra">
-      <xsl:choose>
-        <xsl:when test="@leader">
-          <xsl:value-of select="concat('(', @leader, ')')"/>
-        </xsl:when>
-      </xsl:choose>
-    </xsl:variable>
-
-    <xsl:choose>
-      <xsl:when test="$extra = ''">
-        <xsl:value-of select="@name"/>
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:value-of select="concat(@name, ' ', $extra)"/>
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>
-
-  <xsl:template match="international_organization_participation/organization[@name]">
-    <xsl:value-of select="@name"/>
-  </xsl:template>
-
-  <!--  <xsl:template match="geography/border_countries/*[@units]">-->
-  <!--    <xsl:value-of select="concat(., ' ', @units)"/>-->
-  <!--  </xsl:template>-->
-
-  <!--  <xsl:template name="glossary">-->
-  <!--    <xsl:variable name="title">-->
-  <!--        <xsl:value-of select="name()"/>-->
-  <!--    </xsl:variable>-->
-
-  <!--    <xsl:variable name="sanitized-title">-->
-  <!--      <xsl:value-of select="translate($title, '_', ' ')"/>-->
-  <!--    </xsl:variable>-->
-
-  <!--    <glossary title="{$sanitized-title}">-->
-  <!--      <xsl:for-each select="*">-->
-  <!--        <xsl:call-template name="term"/>-->
-  <!--      </xsl:for-each>-->
-  <!--    </glossary>-->
-  <!--  </xsl:template>-->
-
-  <!--  <xsl:template name="term">-->
-  <!--    <xsl:variable name="name">-->
-
-  <!--    </xsl:variable>-->
-
-  <!--    <xsl:variable name="sanitized-name">-->
-  <!--      <xsl:value-of select="translate($name, '_', ' ')"/>-->
-  <!--    </xsl:variable>-->
-
-  <!--    <term name="{$sanitized-name}">-->
-  <!--      <xsl:apply-templates select="."/>-->
-  <!--    </term>-->
-  <!--  </xsl:template>-->
-
-  <!--  <xsl:template match="geography/elevation">-->
-  <!--    <glossary title="elevation">-->
-  <!--      <xsl:for-each select="*">-->
-  <!--        <xsl:call-template name="term"/>-->
-  <!--      </xsl:for-each>-->
-  <!--    </glossary>-->
-  <!--  </xsl:template>-->
-
-
-  <!-- Data-view formatting -->
-
-  <xsl:template match="*[@degrees and @minutes and @hemisphere]">
-    <xsl:variable name="degree">&#176;</xsl:variable>
-    <xsl:variable name="minute">&#34;</xsl:variable>
-
-    <xsl:value-of select="concat(@degrees, $degree, @minutes, $minute, @hemisphere)"/>
-  </xsl:template>
-
-  <!--  <xsl:template match="-->
-  <!--  geographic_coordinates|-->
-  <!--  area|-->
-  <!--  land_boundaries-->
-  <!--">-->
-  <!--    <glossary>-->
-
-  <!--    </glossary>-->
-  <!--  </xsl:template>-->
-
-  <!--  <xsl:template match="*[@units]">-->
-  <!--    <xsl:call-template name="element-to-title"/>-->
-  <!--  </xsl:template>-->
 
 </xsl:stylesheet>

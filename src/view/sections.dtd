@@ -1,6 +1,6 @@
 <!ELEMENT sections (section)*>
 
-<!ELEMENT section (section|paragraph|list|glossary)+>
+<!ELEMENT section (section|paragraph|list|note|glossary)+>
 <!ATTLIST section
   id CDATA #REQUIRED
   title CDATA #REQUIRED>
@@ -12,6 +12,8 @@
   title CDATA #REQUIRED>
 
 <!ELEMENT item (#PCDATA)>
+
+<!ELEMENT note (#PCDATA)>
 
 <!ELEMENT glossary (term)+>
 <!ATTLIST glossary

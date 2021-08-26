@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section id="czechia" title="Czechia">
-   <section title="introduction" id="introduction">
-      <paragraph>background: At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.</paragraph>
-   </section>
-   <section title="geography" id="geography">
-      <paragraph>location: Central Europe, between Germany, Poland, Slovakia, and Austria</paragraph>
-      <section title="geographic coordinates" id="geographic_coordinates">
+   <section title="introduction">At the close of World War I, the Czechs and Slovaks of the former Austro-Hungarian Empire merged to form Czechoslovakia. During the interwar years, having rejected a federal system, the new country's predominantly Czech leaders were frequently preoccupied with meeting the increasingly strident demands of other ethnic minorities within the republic, most notably the Slovaks, the Sudeten Germans, and the Ruthenians (Ukrainians). On the eve of World War II, Nazi Germany occupied the territory that today comprises Czechia, and Slovakia became an independent state allied with Germany. After the war, a reunited but truncated Czechoslovakia (less Ruthenia) fell within the Soviet sphere of influence. In 1968, an invasion by Warsaw Pact troops ended the efforts of the country's leaders to liberalize communist rule and create "socialism with a human face," ushering in a period of repression known as "normalization." The peaceful "Velvet Revolution" swept the Communist Party from power at the end of 1989 and inaugurated a return to democratic rule and a market economy. On 1 January 1993, the country underwent a nonviolent "velvet divorce" into its two national components, the Czech Republic and Slovakia. The Czech Republic joined NATO in 1999 and the European Union in 2004. The country added the short-form name Czechia in 2016, while continuing to use the full form name, Czech Republic.</section>
+   <section title="geography">Central Europe, between Germany, Poland, Slovakia, and Austria<section title="geographic coordinates">
          <glossary title="geographic coordinates">
             <term name="latitude">49°45"N</term>
             <term name="longitude">15°30"E</term>
          </glossary>
       </section>
-      <section title="area" id="area">
+      <section title="area">
          <glossary title="area">
             <term name="total">78867 sq km</term>
             <term name="land">77247 sq km</term>
@@ -19,167 +15,102 @@
             <term name="comparative">about two-thirds the size of Pennsylvania; slightly smaller than South Carolina</term>
          </glossary>
       </section>
-      <section title="border countries" id="border_countries">
+      <section title="border countries">
          <glossary title="border countries">
             <term name="Austria">402 km</term>
             <term name="Germany">704 km</term>
             <term name="Poland">796 km</term>
             <term name="Slovakia">241 km</term>
          </glossary>
-      </section>
-      <paragraph>coastline: 0</paragraph>
-      <paragraph>climate: temperate; cool summers; cold, cloudy, humid winters</paragraph>
-      <paragraph>terrain: Bohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country</paragraph>
-      <section title="elevation" id="elevation">
+      </section>0 kmtemperate; cool summers; cold, cloudy, humid wintersBohemia in the west consists of rolling plains, hills, and plateaus surrounded by low mountains; Moravia in the east consists of very hilly country<section title="elevation">
          <glossary title="elevation">
             <term name="mean elevation">433 m</term>
-            <term name="Labe (Elbe) River">115 m (Labe (Elbe) River)</term>
-            <term name="Snezka">1602 m (Snezka)</term>
+            <term name="lowest point">115 m</term>
+            <term name="highest point">1602 m</term>
          </glossary>
       </section>
-      <section title="natural resources" id="natural_resources">
-         <list title="natural resources">
-            <item>hard coal</item>
-            <item>soft coal</item>
-            <item>kaolin</item>
-            <item>clay</item>
-            <item>graphite</item>
-            <item>timber</item>
-            <item>arable land</item>
-         </list>
-      </section>
-      <section title="land use" id="land_use">
+      <section title="natural resources"/>
+      <section title="land use">
          <glossary title="by sector">
             <term name="agricultural land total">54.8 %</term>
-            <term name="arable land">41 % (/)</term>
-            <term name="permanent crops">1 % (/)</term>
+            <term name="arable land">41 %</term>
+            <term name="permanent crops">1 %</term>
             <term name="permanent pasture">12.8 %</term>
             <term name="forest">34.4 %</term>
             <term name="other">10.8 %</term>
          </glossary>
-      </section>
-      <paragraph>irrigated land: 320</paragraph>
-      <paragraph>population distribution: a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations</paragraph>
-      <section title="natural hazards" id="natural_hazards">
+      </section>320 sq kma fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations<section title="natural hazards">
          <glossary title="natural hazards">
             <term name="hazard">flooding</term>
          </glossary>
       </section>
-      <section title="environment" id="environment">
-         <list title="issues">
-            <item>air and water pollution in areas of northwest Bohemia and in northern Moravia around Ostrava present health risks</item>
-            <item>acid rain damaging forests</item>
-            <item>land pollution caused by industry</item>
-            <item>mining</item>
-            <item>and agriculture</item>
-         </list>
-         <list title="party to">
-            <item>Air Pollution</item>
-            <item>Air Pollution-Nitrogen Oxides</item>
-            <item>Air Pollution-Persistent Organic Pollutants</item>
-            <item>Air Pollution-Sulfur 85</item>
-            <item>Air Pollution-Sulfur 94</item>
-            <item>Air Pollution-Volatile Organic Compounds</item>
-            <item>Antarctic-Environmental Protocol</item>
-            <item>Antarctic Treaty</item>
-            <item>Biodiversity</item>
-            <item>Climate Change</item>
-            <item>Climate Change-Kyoto Protocol</item>
-            <item>Desertification</item>
-            <item>Endangered Species</item>
-            <item>Environmental Modification</item>
-            <item>Hazardous Wastes</item>
-            <item>Law of the Sea</item>
-            <item>Ozone Layer Protection</item>
-            <item>Ship Pollution</item>
-            <item>Wetlands</item>
-            <item>Whaling</item>
-         </list>
-         <list title="signed but not ratified">
-            <item/>
-         </list>
+      <section title="environment">
       </section>
    </section>
-   <section title="people" id="people">
-      <paragraph>population: 10702498</paragraph>
-      <paragraph>nationality: Czech</paragraph>
-      <section title="ethnic groups" id="ethnic_groups">
+   <section title="people">10702498Czech<section title="ethnic groups">
          <glossary title="ethnic groups">
-            <term name="Czech">64.3 % (Czech)</term>
-            <term name="Moravian">5 % (Moravian)</term>
-            <term name="Slovak">1.4 % (Slovak)</term>
-            <term name="other">1.8 % (other)</term>
-            <term name="unspecified">27.5 % (unspecified)</term>
+            <term name="group">64.3 %</term>
+            <term name="group">5 %</term>
+            <term name="group">1.4 %</term>
+            <term name="group">1.8 %</term>
+            <term name="group">27.5 %</term>
          </glossary>
       </section>
-      <section title="languages" id="languages">
+      <section title="languages">
          <glossary title="languages">
-            <term name="Czech">95.4 % (Czech)</term>
-            <term name="Slovak">1.6 % (Slovak)</term>
-            <term name="other">3 % (other)</term>
+            <term name="language">95.4 %</term>
+            <term name="language">1.6 %</term>
+            <term name="language">3 %</term>
          </glossary>
       </section>
-      <section title="religions" id="religions">
+      <section title="religions">
          <glossary title="religions">
-            <term name="Roman Catholic">10.4 % (Roman Catholic)</term>
-            <term name="Protestant">1.1 % (Protestant)</term>
-            <term name="other and unspecified">54 % (other and unspecified)</term>
-            <term name="none">34.5 % (none)</term>
+            <term name="religion">10.4 %</term>
+            <term name="religion">1.1 %</term>
+            <term name="religion">54 %</term>
+            <term name="religion">34.5 %</term>
          </glossary>
       </section>
-      <section title="dependency ratios" id="dependency_ratios">
+      <section title="dependency ratios">
          <glossary title="dependency ratios">
-            <term name="total dependency ratio">56 % (total dependency ratio)</term>
-            <term name="youth dependency ratio">24.6 % (youth dependency ratio)</term>
-            <term name="elderly dependency ratio">31.4 % (elderly dependency ratio)</term>
-            <term name="potential support ratio">3.2 % (potential support ratio)</term>
+            <term name="ratio">56 %</term>
+            <term name="ratio">24.6 %</term>
+            <term name="ratio">31.4 %</term>
+            <term name="ratio">3.2 %</term>
          </glossary>
       </section>
-      <section title="median age" id="median_age">
+      <section title="median age">
          <glossary title="median age">
             <term name="total">43.3 years</term>
             <term name="male">42 years</term>
             <term name="female">44.7 years</term>
          </glossary>
       </section>
-      <paragraph>population growth rate: 
       0.06
-    </paragraph>
-      <paragraph>birth rate: 8.9</paragraph>
-      <paragraph>death rate: 10.7</paragraph>
-      <paragraph>net migration rate: 2.3</paragraph>
-      <paragraph>population distribution: a fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations</paragraph>
-      <section title="urbanization" id="urbanization">
+    8.9 births per 1000 population10.7 deaths per 1000 population2.3 migrants per 1000 populationa fairly even distribution throughout most of the country, but the northern and eastern regions tend to have larger urban concentrations<section title="urbanization">
          <glossary title="urbanization">
-            <term name="2020">74.1 % [2020]</term>
+            <term name="2020">74.1 %</term>
             <term name="rate of urbanization">0.21 %</term>
          </glossary>
       </section>
-      <section title="major urban areas" id="major_urban_areas">
+      <section title="major urban areas">
          <glossary title="major urban areas">
-            <term name="Prague">1306000 people</term>
+            <term name="area">1306000 people</term>
          </glossary>
-      </section>
-      <paragraph>mothers mean age at first birth: 28.4</paragraph>
-      <paragraph>maternal mortality rate: 3</paragraph>
-      <section title="infant mortality rate" id="infant_mortality_rate">
+      </section>28.43 deaths per 100k live population<section title="infant mortality rate">
          <glossary title="infant mortality rate">
             <term name="total">2.6 deaths per 1000 live births</term>
             <term name="male">2.8 deaths per 1000 live births</term>
             <term name="female">2.5 deaths per 1000 live births</term>
          </glossary>
       </section>
-      <section title="life expectancy at birth" id="life_expectancy_at_birth">
+      <section title="life expectancy at birth">
          <glossary title="life expectancy at birth">
             <term name="total population">79.3 years</term>
             <term name="male">76.3 years</term>
             <term name="female">82.4 years</term>
          </glossary>
-      </section>
-      <paragraph>total fertility rate: 1.48</paragraph>
-      <paragraph>physicians density: 4.07</paragraph>
-      <paragraph>hospital bed density: 6.6</paragraph>
-      <section title="drinking water source" id="drinking_water_source">
+      </section>1.48 children born per woman4.07 physicians per 1000 population6.6 beds per 1000 population<section title="drinking water source">
          <glossary title="improved">
             <term name="urban">100 percent of population</term>
             <term name="rural">100 percent of population</term>
@@ -191,7 +122,7 @@
             <term name="total">0 percent of population</term>
          </glossary>
       </section>
-      <section title="sanitation facility access" id="sanitation_facility_access">
+      <section title="sanitation facility access">
          <glossary title="improved">
             <term name="urban">100 percent of population</term>
             <term name="rural">100 percent of population</term>
@@ -203,16 +134,13 @@
             <term name="total">0 percent of population</term>
          </glossary>
       </section>
-      <section title="hiv aids" id="hiv_aids">
+      <section title="hiv aids">
          <glossary title="hiv aids">
             <term name="adult prevalence rate">0.1 % of adults</term>
             <term name="people living with hiv aids">4400</term>
             <term name="deaths">100</term>
          </glossary>
-      </section>
-      <paragraph>adult obesity: 26</paragraph>
-      <paragraph>education expenditures: 5.6</paragraph>
-      <section title="literacy" id="literacy">
+      </section>26 % of adults5.6 % of gdp<section title="literacy">
          <glossary title="literacy">
             <term name="definition">NA</term>
             <term name="total population">99 %</term>
@@ -220,14 +148,14 @@
             <term name="female">99 %</term>
          </glossary>
       </section>
-      <section title="school life expectancy" id="school_life_expectancy">
+      <section title="school life expectancy">
          <glossary title="school life expectancy">
             <term name="total">16 years</term>
             <term name="male">16 years</term>
             <term name="female">17 years</term>
          </glossary>
       </section>
-      <section title="youth unemployment" id="youth_unemployment">
+      <section title="youth unemployment">
          <glossary title="youth unemployment">
             <term name="total">6.7 %</term>
             <term name="male">6.4 %</term>
@@ -235,8 +163,8 @@
          </glossary>
       </section>
    </section>
-   <section title="government" id="government">
-      <section title="country name" id="country_name">
+   <section title="government">
+      <section title="country name">
          <glossary title="country name">
             <term name="conventional long form">Czech Republic</term>
             <term name="conventional short form">Czechia</term>
@@ -244,9 +172,7 @@
             <term name="local short form">Cesko</term>
             <term name="etymology">name derives from the Czechs, a West Slavic tribe who rose to prominence in the late 9th century A.D.; the country officially adopted the English short-form name of Czechia on 1 July 2016</term>
          </glossary>
-      </section>
-      <paragraph>government type: parliamentary republic</paragraph>
-      <section title="capital" id="capital">
+      </section>parliamentary republic<section title="capital">
          Prague
          <glossary title="geographic coordinates">
             <term name="latitude">50°5"N</term>
@@ -256,25 +182,19 @@
          +1hr, begins last Sunday in March; ends last Sunday in October
          the name may derive from an old Slavic root "praga" or "prah", meaning "ford", and refer to the city's origin at a crossing point of the Vltava (Moldau) River
       </section>
-      <section title="administrative divisions" id="administrative_divisions">
+      <section title="administrative divisions">
          kraj) and 1 capital city
-      </section>
-      <paragraph>independence: 1993-01-01</paragraph>
-      <section title="constitution" id="constitution">
+      </section>1993-01-01<section title="constitution">
          previous 1960; latest ratified 16 December 1992, effective 1 January 1993
          passage requires at least three-fifths concurrence of members present in both houses of Parliament; amended several times, last in 2013
-      </section>
-      <paragraph>legal system: new civil code enacted in 2014, replacing civil code of 1964 - based on former Austro-Hungarian civil codes and socialist theory - and reintroducing former Czech legal terminology</paragraph>
-      <section title="citizenship" id="citizenship">
+      </section>new civil code enacted in 2014, replacing civil code of 1964 - based on former Austro-Hungarian civil codes and socialist theory - and reintroducing former Czech legal terminology<section title="citizenship">
          <glossary title="citizenship">
             <term name="citizenship by birth">no</term>
             <term name="citizenship by descent only">at least one parent must be a citizen of Czechia</term>
             <term name="dual citizenship recognized">no</term>
             <term name="residency requirement for naturalization">5 years</term>
          </glossary>
-      </section>
-      <paragraph>suffrage: 18</paragraph>
-      <section title="executive branch" id="executive_branch">
+      </section>18<section title="executive branch">
          <glossary title="executive branch">
             <term name="chief of state">President Milos ZEMAN (since 8 March 2013)</term>
             <term name="head of government">Prime Minister Andrej BABIS (since 13 December 2017); First Deputy Prime Minister Jan HAMACEK (since 27 June 2018), Deputy Prime Minister Alena SCHILLEROVA (since 30 April 2019)</term>
@@ -283,7 +203,7 @@
             <term name="election results">Milos ZEMAN reelected president in the second round; percent of vote - Milos ZEMAN (SPO) 51.4%, Jiri DRAHOS (independent) 48.6%</term>
          </glossary>
       </section>
-      <section title="legislative branch" id="legislative_branch">
+      <section title="legislative branch">
          <glossary title="legislative branch">
             <term name="description">bicameral Parliament or Parlament consists of: Senate or Senat (81 seats; members directly elected in single-seat constituencies by absolute majority vote in 2 rounds if needed; members serve 6-year terms with one-third of the membership renewed every 2 years)
 Chamber of Deputies or Poslanecka Snemovna (200 seats; members directly elected in 14 multi-seat constituencies by proportional representation vote with a 5% threshold required to fill a seat; members serve 4-year terms)</term>
@@ -293,30 +213,15 @@ Chamber of Deputies - last held on 20-21 October 2017 (next to be held by Octobe
 Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 10.8%, SPD 10.6%, KSCM 7.8%, CSSD 7.3%, KDU-CSL 5.8%, TOP 09 5.3%, STAN 5.2%, other 6.3%; seats by party - ANO 78, ODS 25, Pirates 22, SPD 22, CSSD 15, KSCM 15, KDU-CSL 10, TOP 09 7, STAN 6; composition - men 155, women 45, percent of women 24%; note - total Parliament percent of women 20.6%</term>
          </glossary>
       </section>
-      <section title="judicial branch" id="judicial_branch">
+      <section title="judicial branch">
          <glossary title="judicial branch">
             <term name="highest courts">Supreme Court (organized into Civil Law and Commercial Division, and Criminal Division each with a court chief justice, vice justice, and several judges); Constitutional Court (consists of 15 justices); Supreme Administrative Court (consists of 36 judges, including the court president and vice president, and organized into 6-, 7-, and 9-member chambers)</term>
             <term name="judge selection and term of office">Supreme Court judges proposed by the Chamber of Deputies and appointed by the president; judges appointed for life; Constitutional Court judges appointed by the president and confirmed by the Senate; judges appointed for 10-year, renewable terms; Supreme Administrative Court judges selected by the president of the Court; unlimited terms</term>
             <term name="subordinate courts">High Court; regional and district courts</term>
          </glossary>
       </section>
-      <section title="political parties and leaders"
-               id="political_parties_and_leaders">
-         <list title="political parties and leaders">
-            <item>Christian Democratic Union-Czechoslovak People's Party (Pavel BELOBRADEK)</item>
-            <item>Civic Democratic Party (Petr FIALA)</item>
-            <item>Communist Party of Bohemia and Moravia (Vojtech FILIP)</item>
-            <item>Czech Social Democratic Party (Jan HAMACEK)</item>
-            <item>Freedom and Direct Democracy (Tomio OKAMURA)</item>
-            <item>Green Party (Petr STEPANEK)</item>
-            <item>Mayors and Independents (Petr GAZDIK)</item>
-            <item>Movement of Dissatisfied Citizens (Andrej BABIS)</item>
-            <item>Party of Civic Rights (Lubomir NECAS)</item>
-            <item>Pirate Party (Ivan BARTOS)</item>
-            <item>Tradition Responsibility Prosperity 09 (Jiri POSPISIL)</item>
-         </list>
-      </section>
-      <section title="diplomatic representation" id="diplomatic_representation">
+      <section title="political parties and leaders"/>
+      <section title="diplomatic representation">
          <glossary title="in united states">
             <term name="chief of mission">Ambassador Hynek KMONICEK (since 24 April 2017)</term>
             <term name="chancery">3900 Spring of Freedom Street NW, Washington, DC 20008</term>
@@ -332,23 +237,23 @@ Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 1
             <term name="fax">[420] 257 022 809</term>
          </glossary>
       </section>
-      <section title="flag description" id="flag_description">
+      <section title="flag description">
          two equal horizontal bands of white (top) and red with a blue isosceles triangle based on the hoist side
          combines the white and red colors of Bohemia with blue from the arms of Moravia; is identical to the flag of the former Czechoslovakia
       </section>
-      <section title="national symbols" id="national_symbols">
+      <section title="national symbols">
          <glossary title="symbols">
-            <term name="silver "/>
-            <term name="double-tailed"/>
-            <term name="rampant lion"/>
+            <term name="symbol">silver </term>
+            <term name="symbol">double-tailed</term>
+            <term name="symbol">rampant lion</term>
          </glossary>
          <glossary title="colors">
-            <term name="white"/>
-            <term name="red"/>
-            <term name="blue"/>
+            <term name="color">white</term>
+            <term name="color">red</term>
+            <term name="color">blue</term>
          </glossary>
       </section>
-      <section title="national anthem" id="national_anthem">
+      <section title="national anthem">
          <glossary title="national anthem">
             <term name="name">"Kde domov muj?" (Where is My Home?)</term>
             <term name="lyrics music">Josef Kajetan TYL/Frantisek Jan SKROUP</term>
@@ -356,110 +261,35 @@ Chamber of Deputies - percent of vote by party - ANO 29.6%, ODS 11.3%, Pirates 1
             <term name="audio url">https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/EZ.mp3?1538604752</term>
          </glossary>
       </section>
-      <section title="national holidays" id="national_holidays">
+      <section title="national holidays">
          <glossary title="national holidays">
-            <term name="Czechoslovak Founding Day">28 October</term>
+            <term name="holiday">28 October</term>
          </glossary>
       </section>
-      <section title="international law organization participation"
-               id="international_law_organization_participation">
-         <list title="international law organization participation">
-            <item>has not submitted an ICJ jurisdiction declaration</item>
-            <item>accepts ICCt jurisdiction</item>
-         </list>
-      </section>
-      <section title="international organization participation"
-               id="international_organization_participation">
-         <list title="international organization participation">
-            <item>Australia Group</item>
-            <item>BIS</item>
-            <item>BSEC </item>
-            <item>CD</item>
-            <item>CE</item>
-            <item>CEI</item>
-            <item>CERN</item>
-            <item>EAPC</item>
-            <item>EBRD</item>
-            <item>ECB</item>
-            <item>EIB</item>
-            <item>ESA</item>
-            <item>EU</item>
-            <item>FAO</item>
-            <item>IAEA</item>
-            <item>IBRD</item>
-            <item>ICAO</item>
-            <item>ICC </item>
-            <item>ICCt</item>
-            <item>ICRM</item>
-            <item>IDA</item>
-            <item>IEA</item>
-            <item>IFC</item>
-            <item>IFRCS</item>
-            <item>ILO</item>
-            <item>IMF</item>
-            <item>IMO</item>
-            <item>IMSO</item>
-            <item>Interpol</item>
-            <item>IOC</item>
-            <item>IOM</item>
-            <item>IPU</item>
-            <item>ISO</item>
-            <item>ITSO</item>
-            <item>ITU</item>
-            <item>ITUC </item>
-            <item>MIGA</item>
-            <item>MONUSCO</item>
-            <item>NATO</item>
-            <item>NEA</item>
-            <item>NSG</item>
-            <item>OAS </item>
-            <item>OECD</item>
-            <item>OIF </item>
-            <item>OPCW</item>
-            <item>OSCE</item>
-            <item>PCA</item>
-            <item>Schengen Convention</item>
-            <item>SELEC</item>
-            <item>UN</item>
-            <item>UNCTAD</item>
-            <item>UNESCO</item>
-            <item>UNHCR</item>
-            <item>UNIDO</item>
-            <item>UNWTO</item>
-            <item>UPU</item>
-            <item>WCO</item>
-            <item>WFTU </item>
-            <item>WHO</item>
-            <item>WIPO</item>
-            <item>WMO</item>
-            <item>WTO</item>
-            <item>ZC</item>
-         </list>
-      </section>
+      <section title="international law organization participation"/>
+      <section title="international organization participation"/>
    </section>
-   <section title="economy" id="economy">
-      <paragraph>overview: Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.
+   <section title="economy">Czechia is a prosperous market economy that boasts one of the highest GDP growth rates and lowest unemployment levels in the EU, but its dependence on exports makes economic growth vulnerable to contractions in external demand. Czechia’s exports comprise some 80% of GDP and largely consist of automobiles, the country’s single largest industry. Czechia acceded to the EU in 2004 but has yet to join the euro-zone. While the flexible koruna helps Czechia weather external shocks, it was one of the world’s strongest performing currencies in 2017, appreciating approximately 16% relative to the US dollar after the central bank (Czech National Bank - CNB) ended its cap on the currency’s value in early April 2017, which it had maintained since November 2013. The CNB hiked rates in August and November 2017 - the first rate changes in nine years - to address rising inflationary pressures brought by strong economic growth and a tight labor market.
 Since coming to power in 2014, the new government has undertaken some reforms to try to reduce corruption, attract investment, and improve social welfare programs, which could help increase the government’s revenues and improve living conditions for Czechs. The government introduced in December 2016 an online tax reporting system intended to reduce tax evasion and increase revenues. The government also plans to remove labor market rigidities to improve the business climate, bring procurement procedures in line with EU best practices, and boost wages. The country's low unemployment rate has led to steady increases in salaries, and the government is facing pressure from businesses to allow greater migration of qualified workers, at least from Ukraine and neighboring Central European countries.
-Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.</paragraph>
-      <section title="gdp" id="gdp">
+Long-term challenges include dealing with a rapidly aging population, a shortage of skilled workers, a lagging education system, funding an unsustainable pension and health care system, and diversifying away from manufacturing and toward a more high-tech, services-based, knowledge economy.<section title="gdp">
          <glossary title="purchasing power parity">
-            <term name="2017">375900000000 USD [2017]</term>
-            <term name="2016">360500000000 USD [2016]</term>
-            <term name="2015">351900000000 USD [2015]</term>
+            <term name="2017">375900000000 USD</term>
+            <term name="2016">360500000000 USD</term>
+            <term name="2015">351900000000 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="official exchange rate">
             <term name="rate">215800000000 USD</term>
          </glossary>
          <glossary title="real growth rate">
-            <term name="2019">2.27 % [2019]</term>
-            <term name="2018">3.18 % [2018]</term>
-            <term name="2017">5.35 % [2017]</term>
+            <term name="2019">2.27 %</term>
+            <term name="2018">3.18 %</term>
+            <term name="2017">5.35 %</term>
          </glossary>
          <glossary title="per capita purchasing power parity">
-            <term name="2017">35500 USD [2017]</term>
-            <term name="2016">34200 USD [2016]</term>
-            <term name="2015">33400 USD [2015]</term>
+            <term name="2017">35500 USD</term>
+            <term name="2016">34200 USD</term>
+            <term name="2015">33400 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="end uses">
@@ -476,41 +306,21 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="services">60.8 %</term>
          </glossary>
       </section>
-      <section title="gross national saving" id="gross_national_saving">
+      <section title="gross national saving">
          <glossary title="gross national saving">
-            <term name="2017">26.9 percent of gdp [2017]</term>
-            <term name="2016">27.5 percent of gdp [2016]</term>
-            <term name="2015">28.2 percent of gdp [2015]</term>
+            <term name="2017">26.9 percent of gdp</term>
+            <term name="2016">27.5 percent of gdp</term>
+            <term name="2015">28.2 percent of gdp</term>
          </glossary>
       </section>
-      <section title="agriculture products" id="agriculture_products">
-         <list title="agriculture products">
-            <item>wheat</item>
-            <item>potatoes</item>
-            <item>sugar beets</item>
-            <item>hops</item>
-            <item>fruit</item>
-            <item>pigs</item>
-            <item>poultry</item>
-         </list>
-      </section>
-      <section title="industries" id="industries">
-         <list title="industries">
-            <item>motor vehicles</item>
-            <item>metallurgy</item>
-            <item>machinery</item>
-            <item>equipment</item>
-            <item>glass</item>
-            <item>armaments</item>
-         </list>
-      </section>
-      <section title="industrial production growth rate"
-               id="industrial_production_growth_rate">
+      <section title="agriculture products"/>
+      <section title="industries"/>
+      <section title="industrial production growth rate">
          <glossary title="industrial production growth rate">
             <term name="annual percentage increase">7.5</term>
          </glossary>
       </section>
-      <section title="labor force" id="labor_force">
+      <section title="labor force">
          <glossary title="total size">
             <term name="total people">5222000</term>
          </glossary>
@@ -520,110 +330,88 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="services">59.2 %</term>
          </glossary>
       </section>
-      <section title="unemployment rate" id="unemployment_rate">
+      <section title="unemployment rate">
          <glossary title="unemployment rate">
-            <term name="2019">2.8 % [2019]</term>
-            <term name="2018">3.18 % [2018]</term>
+            <term name="2019">2.8 %</term>
+            <term name="2018">3.18 %</term>
          </glossary>
-      </section>
-      <paragraph>population below poverty line: 9.7</paragraph>
-      <section title="household income by percentage share"
-               id="household_income_by_percentage_share">
+      </section>9.7 %<section title="household income by percentage share">
          <glossary title="household income by percentage share">
             <term name="lowest ten percent">4.1 %</term>
             <term name="highest ten percent">21.7 %</term>
          </glossary>
       </section>
-      <section title="budget" id="budget">
+      <section title="budget">
          <glossary title="budget">
             <term name="revenues">87370000000 USD</term>
             <term name="expenditures">83920000000 USD</term>
          </glossary>
+      </section>40.5 % of gdp1.6 % of gdp<section title="public debt">
+         34.7 percent of gdp
+         36.8 percent of gdp
       </section>
-      <paragraph>taxes and other revenues: 40.5</paragraph>
-      <paragraph>budget surplus or deficit: 1.6</paragraph>
-      <section title="public debt" id="public_debt">
-         34.7 percent of gdp [2017]
-         36.8 percent of gdp [2016]
+      <section title="inflation rate">
+         2.4 %
+         0.7 %
       </section>
-      <paragraph>fiscal year: </paragraph>
-      <section title="inflation rate" id="inflation_rate">
-         2.4 % [2017]
-         0.7 % [2016]
+      <section title="current account balance">
+         -678000000 USD
+         1259000000 USD
       </section>
-      <section title="current account balance" id="current_account_balance">
-         -678000000 USD [2019]
-         1259000000 USD [2018]
-      </section>
-      <section title="exports" id="exports">
+      <section title="exports">
          <glossary title="total value">
-            <term name="2017">144800000000 USD [2017]</term>
-            <term name="2016">131100000000 USD [2016]</term>
+            <term name="2017">144800000000 USD</term>
+            <term name="2016">131100000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>machinery</item>
-            <item>transport equipment</item>
-            <item>raw materials</item>
-            <item>fuel</item>
-            <item>chemicals</item>
-         </list>
          <glossary title="partners">
-            <term name="Germany">32.8 % (Germany)</term>
-            <term name="Slovakia">7.8 % (Slovakia)</term>
-            <term name="Poland">6.1 % (Poland)</term>
-            <term name="France">5.1 % (France)</term>
-            <term name="UK">4.9 % (UK)</term>
-            <term name="Austria">4.4 % (Austria)</term>
-            <term name="Italy">4.1 % (Italy)</term>
+            <term name="partner">32.8 %</term>
+            <term name="partner">7.8 %</term>
+            <term name="partner">6.1 %</term>
+            <term name="partner">5.1 %</term>
+            <term name="partner">4.9 %</term>
+            <term name="partner">4.4 %</term>
+            <term name="partner">4.1 %</term>
          </glossary>
       </section>
-      <section title="imports" id="imports">
+      <section title="imports">
          <glossary title="total value">
-            <term name="2017">134699999999.99998 USD [2017]</term>
-            <term name="2016">120500000000 USD [2016]</term>
+            <term name="2017">134699999999.99998 USD</term>
+            <term name="2016">120500000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>machinery</item>
-            <item>transport equipment</item>
-            <item>raw materials</item>
-            <item>fuels</item>
-            <item>chemicals</item>
-         </list>
          <glossary title="partners">
-            <term name="Germany">29.8 % (Germany)</term>
-            <term name="Poland">9.1 % (Poland)</term>
-            <term name="China">7.4 % (China)</term>
-            <term name="Slovakia">5.8 % (Slovakia)</term>
-            <term name="Netherlands">5.3 % (Netherlands)</term>
-            <term name="Italy">4 % (Italy)</term>
+            <term name="partner">29.8 %</term>
+            <term name="partner">9.1 %</term>
+            <term name="partner">7.4 %</term>
+            <term name="partner">5.8 %</term>
+            <term name="partner">5.3 %</term>
+            <term name="partner">4 %</term>
          </glossary>
       </section>
-      <section title="reserves of foreign exchange and gold"
-               id="reserves_of_foreign_exchange_and_gold">
+      <section title="reserves of foreign exchange and gold">
          <glossary title="reserves of foreign exchange and gold">
-            <term name="2017-12-31">148000000000 USD [2017-12-31]</term>
-            <term name="2016-12-31">85730000000 USD [2016-12-31]</term>
+            <term name="2017-12-31">148000000000 USD</term>
+            <term name="2016-12-31">85730000000 USD</term>
          </glossary>
       </section>
-      <section title="external debt" id="external_debt">
+      <section title="external debt">
          <glossary title="external debt">
-            <term name="2017-12-31">205200000000 USD [2017-12-31]</term>
-            <term name="2016-12-31">138000000000 USD [2016-12-31]</term>
+            <term name="2017-12-31">205200000000 USD</term>
+            <term name="2016-12-31">138000000000 USD</term>
          </glossary>
       </section>
-      <section title="exchange rates" id="exchange_rates">
+      <section title="exchange rates">
          <glossary title="exchange rates">
-            <term name="2017">23.34 USD [2017]</term>
-            <term name="2016">24.44 USD [2016]</term>
-            <term name="2015">24.44 USD [2015]</term>
-            <term name="2014">24.599 USD [2014]</term>
-            <term name="2013">20.758 USD [2013]</term>
+            <term name="2017">23.34 per USD</term>
+            <term name="2016">24.44 per USD</term>
+            <term name="2015">24.44 per USD</term>
+            <term name="2014">24.599 per USD</term>
+            <term name="2013">20.758 per USD</term>
             <term name="note">koruny (CZK) per US dollar</term>
          </glossary>
       </section>
    </section>
-   <section title="energy" id="energy">
-      <section title="electricity" id="electricity">
+   <section title="energy">
+      <section title="electricity">
          <glossary title="access">
             <term name="total electrification">100 %</term>
          </glossary>
@@ -639,7 +427,7 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="other renewable sources">16 %</term>
          </glossary>
       </section>
-      <section title="crude oil" id="crude_oil">
+      <section title="crude oil">
          <glossary title="crude oil">
             <term name="production">2000 bbl per day</term>
             <term name="exports">446 bbl per day</term>
@@ -647,7 +435,7 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="proved reserves">15000000 bbl</term>
          </glossary>
       </section>
-      <section title="refined petroleum products" id="refined_petroleum_products">
+      <section title="refined petroleum products">
          <glossary title="refined petroleum products">
             <term name="production">177500 bbl per day</term>
             <term name="consumption">213700 bbl per day</term>
@@ -655,7 +443,7 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="imports">83860 bbl per day</term>
          </glossary>
       </section>
-      <section title="natural gas" id="natural_gas">
+      <section title="natural gas">
          <glossary title="natural gas">
             <term name="production">229400000 cubic metres</term>
             <term name="consumption">8721000000 cubic metres</term>
@@ -663,73 +451,64 @@ Long-term challenges include dealing with a rapidly aging population, a shortage
             <term name="imports">8891000000 cubic metres</term>
             <term name="proved reserves">3964000000 cubic metres</term>
          </glossary>
-      </section>
-      <paragraph>carbon dioxide emissions from consumption of energy: 115800000</paragraph>
-   </section>
-   <section title="communications" id="communications">
-      <section title="telephones" id="telephones">
+      </section>115800000 megatonnes</section>
+   <section title="communications">
+      <section title="telephones">
          <glossary title="telephones">
             <term name="fixed lines">1473846</term>
             <term name="mobile cellular">13213279</term>
          </glossary>
-      </section>
-      <paragraph>broadcast media: 22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee (2019)</paragraph>
-      <section title="internet" id="internet">
+      </section>22 TV stations operate nationally, with 17 of them in private hands; publicly operated Czech Television has 5 national channels; throughout the country, there are some 350 TV channels in operation, many through cable, satellite, and IPTV subscription services; 63 radio broadcasters are registered, operating over 80 radio stations, including 7 multiregional radio stations or networks; publicly operated broadcaster Czech Radio operates 4 national, 14 regional, and 4 Internet stations; both Czech Radio and Czech Television are partially financed through a license fee (2019)<section title="internet">
          <glossary title="internet">
             <term name="country code">.cz</term>
             <term name="users">8622750</term>
          </glossary>
       </section>
    </section>
-   <section title="transportation" id="transportation">
-      <section title="pipelines" id="pipelines">
+   <section title="transportation">
+      <section title="pipelines">
          <glossary title="pipelines">
-            <term name="gas">160 km (gas)</term>
-            <term name="oil">675 km (oil)</term>
-            <term name="refined products">94 km (refined products)</term>
+            <term name="pipeline">160 km</term>
+            <term name="pipeline">675 km</term>
+            <term name="pipeline">94 km</term>
          </glossary>
       </section>
-      <section title="railways" id="railways">
+      <section title="railways">
          <glossary title="railways">
             <term name="total">9408 km</term>
-            <term name="standard gauge">9385 km
-1.435-m (standard gauge)</term>
-            <term name="narrow gauge">23 km
-0.760-m (narrow gauge)</term>
+            <term name="pipeline">9385 km
+1.435-m</term>
+            <term name="pipeline">23 km
+0.760-m</term>
          </glossary>
       </section>
-      <section title="roadways" id="roadways">
+      <section title="roadways">
          <glossary title="roadways">
-            <term name="total">55744 km (includes urban and category I, II, III roads)</term>
-            <term name="paved">55744 km (includes 1,252 km of expressways)</term>
+            <term name="total">55744 km</term>
+            <term name="paved">55744 km</term>
          </glossary>
       </section>
-      <paragraph>waterways: 664</paragraph>
-      <section title="river ports" id="river_ports">
-         Prague (Vltava)
-Decin
-         Usti nad Labem (Elbe)
-      </section>
+      <glossary>
+         <term name="waterways">664 km</term>
+      </glossary>
+      <section title="river ports"/>
    </section>
-   <section title="military and security" id="military_and_security">
-      <section title="expenditures" id="expenditures">
+   <section title="military and security">
+      <section title="expenditures">
          <glossary title="expenditures">
-            <term name="2019">1.19 percent of gdp [2019]</term>
-            <term name="2018">1.13 percent of gdp [2018]</term>
-            <term name="2017">1.04 percent of gdp [2017]</term>
-            <term name="2016">0.96 percent of gdp [2016]</term>
-            <term name="2015">1.03 percent of gdp [2015]</term>
+            <term name="2019">1.19 percent of gdp</term>
+            <term name="2018">1.13 percent of gdp</term>
+            <term name="2017">1.04 percent of gdp</term>
+            <term name="2016">0.96 percent of gdp</term>
+            <term name="2015">1.03 percent of gdp</term>
+         </glossary>
+      </section>18-28 years of age for male and female voluntary military service; no conscription</section>
+   <section title="transnational issues">none<section title="refugees and iternally displaced persons">
+         <glossary>
+            <term name="stateless persons">1394</term>
          </glossary>
       </section>
-      <paragraph>service age and obligation: 18-28 years of age for male and female voluntary military service; no conscription</paragraph>
-   </section>
-   <section title="transnational issues" id="transnational_issues">
-      <paragraph>disputes: none</paragraph>
-      <section title="refugees and iternally displaced persons"
-               id="refugees_and_iternally_displaced_persons">
-         1394
-      </section>
-      <section title="illicit drugs" id="illicit_drugs">
+      <section title="illicit drugs">
          transshipment point for Southwest Asian heroin and minor transit point for Latin American cocaine to Western Europe; producer of synthetic drugs for local and regional markets; susceptible to money laundering related to drug trafficking, organized crime; significant consumer of ecstasy
       </section>
    </section>

@@ -8,28 +8,28 @@ Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonst
    <geography>
       <location>Northern Africa, bordering the Mediterranean Sea, between Libya and the Gaza Strip, and the Red Sea north of Sudan, and includes the Asian Sinai Peninsula</location>
       <geographic_coordinates>
-         <latitude degrees="27" minutes="0" hemisphere="N"/>
-         <longitude degrees="30" minutes="0" hemisphere="E"/>
+         <latitude>27°0"N</latitude>
+         <longitude>30°0"E</longitude>
       </geographic_coordinates>
       <area>
-         <total units="sq km">1001450</total>
-         <land units="sq km">995450</land>
-         <water units="sq km">6000</water>
+         <total>1001450 sq km</total>
+         <land>995450 sq km</land>
+         <water>6000 sq km</water>
          <comparative>more than eight times the size of Ohio; slightly more than three times the size of New Mexico</comparative>
       </area>
       <border_countries>
-         <border with="Gaza Strip" units="km">13</border>
-         <border with="Israel" units="km">208</border>
-         <border with="Libya" units="km">1115</border>
-         <border with="Sudan" units="km">1276</border>
+         <border with="Gaza Strip">13 km</border>
+         <border with="Israel">208 km</border>
+         <border with="Libya">1115 km</border>
+         <border with="Sudan">1276 km</border>
       </border_countries>
-      <coastline units="km">2450</coastline>
+      <coastline>2450 km</coastline>
       <climate>desert; hot, dry summers with moderate winters</climate>
       <terrain>vast desert plateau interrupted by Nile valley and delta</terrain>
       <elevation>
-         <mean_elevation units="m">321</mean_elevation>
-         <lowest_point name="Qattara Depression" units="m">-133</lowest_point>
-         <highest_point name="Mount Catherine" units="m">2629</highest_point>
+         <mean_elevation>321 m</mean_elevation>
+         <lowest_point name="Qattara Depression">-133 m</lowest_point>
+         <highest_point name="Mount Catherine">2629 m</highest_point>
       </elevation>
       <natural_resources>
          <resources>petroleum</resources>
@@ -47,15 +47,15 @@ Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonst
       </natural_resources>
       <land_use>
          <by_sector>
-            <agricultural_land_total units="%">3.6</agricultural_land_total>
-            <arable_land units="%" note="/">2.8</arable_land>
-            <permanent_crops units="%" note="/">0.8</permanent_crops>
-            <permanent_pasture units="%">0</permanent_pasture>
-            <forest units="%">0.1</forest>
-            <other units="%">96.3</other>
+            <agricultural_land_total>3.6 %</agricultural_land_total>
+            <arable_land note="/">2.8 %</arable_land>
+            <permanent_crops note="/">0.8 %</permanent_crops>
+            <permanent_pasture>0 %</permanent_pasture>
+            <forest>0.1 %</forest>
+            <other>96.3 %</other>
          </by_sector>
       </land_use>
-      <irrigated_land units="sq km" date="2012">36500</irrigated_land>
+      <irrigated_land date="2012">36500 sq km</irrigated_land>
       <population_distribution>approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map</population_distribution>
       <natural_hazards>
          <hazard type="hazard">periodic droughts</hazard>
@@ -108,19 +108,19 @@ Inspired by the 2010 Tunisian revolution, Egyptian opposition groups led demonst
       <population>104124440</population>
       <nationality noun="Egyptian(s)">Egyptian</nationality>
       <ethnic_groups>
-         <group units="%" name="Egyptian">99.7</group>
-         <group units="%" name="other">0.3</group>
+         <group name="Egyptian">99.7 %</group>
+         <group name="other">0.3 %</group>
          <note>data represent respondents by nationality</note>
       </ethnic_groups>
       <languages>
-         <language units="%" name="Arabic"/>
-         <language units="%" name="Arabic"/>
-         <language units="%" name="English"/>
-         <language units="%" name="and French widely understood by educated classes"/>
+         <language name="Arabic"> %</language>
+         <language name="Arabic"> %</language>
+         <language name="English"> %</language>
+         <language name="and French widely understood by educated classes"> %</language>
       </languages>
       <religions>
-         <religion units="%" name="Muslim">90</religion>
-         <religion units="%" name="Christian">10</religion>
+         <religion name="Muslim">90 %</religion>
+         <religion name="Christian">10 %</religion>
          <m_e_n_a_religious_affiliation>PDF</m_e_n_a_religious_affiliation>
       </religions>
       <demographic_profile>Egypt is the most populous country in the Arab world and the third most populous country in Africa, behind Nigeria and Ethiopia. Most of the country is desert, so about 95% of the population is concentrated in a narrow strip of fertile land along the Nile River, which represents only about 5% of Egypt’s land area. Egypt’s rapid population growth – 46% between 1994 and 2014 – stresses limited natural resources, jobs, housing, sanitation, education, and health care.
@@ -131,73 +131,73 @@ Between 1970 and 1974 alone, Egyptian migrants in the Gulf countries increased f
 In the 2000s, Egypt began facilitating more labor migration through bilateral agreements, notably with Arab countries and Italy, but illegal migration to Europe through overstayed visas or maritime human smuggling via Libya also rose. The Egyptian Government estimated there were 6.5 million Egyptian migrants in 2009, with roughly 75% being temporary migrants in other Arab countries (Libya, Saudi Arabia, Jordan, Kuwait, and the United Arab Emirates) and 25% being predominantly permanent migrants in the West (US, UK, Italy, France, and Canada).
 During the 2000s, Egypt became an increasingly important transit and destination country for economic migrants and asylum seekers, including Palestinians, East Africans, and South Asians and, more recently, Iraqis and Syrians. Egypt draws many refugees because of its resettlement programs with the West; Cairo has one of the largest urban refugee populations in the world. Many East African migrants are interned or live in temporary encampments along the Egypt-Israel border, and some have been shot and killed by Egyptian border guards.</demographic_profile>
       <dependency_ratios>
-         <ratio units="%" name="total_dependency_ratio">64.6</ratio>
-         <ratio units="%" name="youth_dependency_ratio">55.8</ratio>
-         <ratio units="%" name="elderly_dependency_ratio">8.8</ratio>
-         <ratio units="%" name="potential_support_ratio">11.4</ratio>
+         <ratio name="total_dependency_ratio">64.6 %</ratio>
+         <ratio name="youth_dependency_ratio">55.8 %</ratio>
+         <ratio name="elderly_dependency_ratio">8.8 %</ratio>
+         <ratio name="potential_support_ratio">11.4 %</ratio>
       </dependency_ratios>
       <median_age>
-         <total units="years">24.1</total>
-         <male units="years">23.8</male>
-         <female units="years">24.5</female>
+         <total>24.1 years</total>
+         <male>23.8 years</male>
+         <female>24.5 years</female>
       </median_age>
       <population_growth_rate>
       2.28
     </population_growth_rate>
-      <birth_rate units="births per 1000 population">27.2</birth_rate>
-      <death_rate units="deaths per 1000 population">4.4</death_rate>
-      <net_migration_rate units="migrants per 1000 population">-0.3</net_migration_rate>
+      <birth_rate>27.2 births per 1000 population</birth_rate>
+      <death_rate>4.4 deaths per 1000 population</death_rate>
+      <net_migration_rate>-0.3 migrants per 1000 population</net_migration_rate>
       <population_distribution>approximately 95% of the population lives within 20 km of the Nile River and its delta; vast areas of the country remain sparsely populated or uninhabited as shown in this population distribution map</population_distribution>
       <urbanization>
-         <urban_population units="%" date="2020">42.8</urban_population>
-         <rate_of_urbanization units="%">1.86</rate_of_urbanization>
+         <urban_population date="2020">42.8 %</urban_population>
+         <rate_of_urbanization>1.86 %</rate_of_urbanization>
       </urbanization>
       <major_urban_areas>
-         <area name="Cairo" population="20901000"/>
-         <area name="Alexandria" population="5281000"/>
+         <area name="Cairo">20901000 people</area>
+         <area name="Alexandria">5281000 people</area>
       </major_urban_areas>
       <mothers_mean_age_at_first_birth>22.7</mothers_mean_age_at_first_birth>
-      <maternal_mortality_rate units="deaths per 100k live population">37</maternal_mortality_rate>
+      <maternal_mortality_rate>37 deaths per 100k live population</maternal_mortality_rate>
       <infant_mortality_rate>
-         <total units="deaths per 1000 live births">17.1</total>
-         <male units="deaths per 1000 live births">18.2</male>
-         <female units="deaths per 1000 live births">15.8</female>
+         <total>17.1 deaths per 1000 live births</total>
+         <male>18.2 deaths per 1000 live births</male>
+         <female>15.8 deaths per 1000 live births</female>
       </infant_mortality_rate>
       <life_expectancy_at_birth>
-         <total_population units="years">73.7</total_population>
-         <male units="years">72.3</male>
-         <female units="years">75.3</female>
+         <total_population>73.7 years</total_population>
+         <male>72.3 years</male>
+         <female>75.3 years</female>
       </life_expectancy_at_birth>
-      <total_fertility_rate units="children born per woman">3.29</total_fertility_rate>
-      <contraceptive_prevalence_rate units="%" date="2014">58.5</contraceptive_prevalence_rate>
-      <physicians_density units="physicians per 1000 population">0.8</physicians_density>
-      <hospital_bed_density units="beds per 1000 population">1.4</hospital_bed_density>
+      <total_fertility_rate>3.29 children born per woman</total_fertility_rate>
+      <contraceptive_prevalence_rate date="2014">58.5 %</contraceptive_prevalence_rate>
+      <physicians_density>0.8 physicians per 1000 population</physicians_density>
+      <hospital_bed_density>1.4 beds per 1000 population</hospital_bed_density>
       <drinking_water_source>
          <improved>
-            <urban units="percent of population">100</urban>
-            <rural units="percent of population">98.8</rural>
-            <total units="percent of population">100</total>
+            <urban>100 percent of population</urban>
+            <rural>98.8 percent of population</rural>
+            <total>100 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">0</urban>
-            <rural units="percent of population">1.2</rural>
-            <total units="percent of population">0.6</total>
+            <urban>0 percent of population</urban>
+            <rural>1.2 percent of population</rural>
+            <total>0.6 percent of population</total>
          </unimproved>
       </drinking_water_source>
       <sanitation_facility_access>
          <improved>
-            <urban units="percent of population">99.8</urban>
-            <rural units="percent of population">97.6</rural>
-            <total units="percent of population">98.5</total>
+            <urban>99.8 percent of population</urban>
+            <rural>97.6 percent of population</rural>
+            <total>98.5 percent of population</total>
          </improved>
          <unimproved>
-            <urban units="percent of population">0.2</urban>
-            <rural units="percent of population">2.4</rural>
-            <total units="percent of population">1.5</total>
+            <urban>0.2 percent of population</urban>
+            <rural>2.4 percent of population</rural>
+            <total>1.5 percent of population</total>
          </unimproved>
       </sanitation_facility_access>
       <hiv_aids>
-         <adult_prevalence_rate units="% of adults">0.1</adult_prevalence_rate>
+         <adult_prevalence_rate>0.1 % of adults</adult_prevalence_rate>
          <people_living_with_hiv_aids>26000</people_living_with_hiv_aids>
          <deaths>500</deaths>
       </hiv_aids>
@@ -209,25 +209,25 @@ During the 2000s, Egypt became an increasingly important transit and destination
          <water_contact_diseases>schistosomiasis</water_contact_diseases>
          <note>clusters of cases of a respiratory illness caused by the novel coronavirus (COVID-19) are occurring throughout Egypt; as of 10 November 2020, Egypt has reported a total of 108,962 cases of COVID-19 or 1,065 cumulative cases of COVID-19 per 1 million population with 62 cumulative deaths per 1 million population</note>
       </major_infectious_diseases>
-      <adult_obesity units="% of adults">32</adult_obesity>
+      <adult_obesity>32 % of adults</adult_obesity>
       <underweight_children>
          <percent_of_children_under_the_age_of_five>7</percent_of_children_under_the_age_of_five>
       </underweight_children>
       <literacy>
          <definition>age 15 and over can read and write</definition>
-         <total_population units="%">71.2</total_population>
-         <male units="%">76.5</male>
-         <female units="%">65.5</female>
+         <total_population>71.2 %</total_population>
+         <male>76.5 %</male>
+         <female>65.5 %</female>
       </literacy>
       <school_life_expectancy>
-         <total units="years">13</total>
-         <male units="years">13</male>
-         <female units="years">13</female>
+         <total>13 years</total>
+         <male>13 years</male>
+         <female>13 years</female>
       </school_life_expectancy>
       <youth_unemployment>
-         <total units="%">29.6</total>
-         <male units="%">25.7</male>
-         <female units="%">38.3</female>
+         <total>29.6 %</total>
+         <male>25.7 %</male>
+         <female>38.3 %</female>
       </youth_unemployment>
    </people>
    <government>
@@ -243,8 +243,8 @@ During the 2000s, Egypt became an increasingly important transit and destination
       <capital>
          <name>Cairo</name>
          <geographic_coordinates>
-            <latitude degrees="30" minutes="3" hemisphere="N"/>
-            <longitude degrees="31" minutes="15" hemisphere="E"/>
+            <latitude>30°3"N</latitude>
+            <longitude>31°15"E</longitude>
          </geographic_coordinates>
          <time_difference timezones="2">7 hours ahead of Washington, DC, during Standard Time</time_difference>
          <etymology>from the Arabic "al-Qahira," meaning "the victorious"</etymology>
@@ -283,26 +283,26 @@ House of Representatives (2015) - percent of vote by party - NA; seats by party 
          <subordinate_courts>Courts of Appeal; Courts of First Instance; courts of limited jurisdiction; Family Court (established in 2004)</subordinate_courts>
       </judicial_branch>
       <political_parties_and_leaders>
-         <party name="Al-Nour" leader="Yunis MAKHYUN"/>
-         <party name="Arab Democratic Nasserist Party" leader="Dr. Mohamed ABDUL ELLA "/>
-         <party name="Congress Party" leader="Omar Al-Mokhtar SEMIDA"/>
-         <party name="Conservative Party" leader="Akmal KOURTAM"/>
-         <party name="Democratic Peace Party" leader="Ahmed FADALY"/>
-         <party name="Egyptian National Movement Party" leader="Gen. Raouf EL SAYED"/>
-         <party name="Egyptian Social Democratic Party" leader="Farid ZAHRAN"/>
-         <party name="El Ghad Party" leader="Moussa Mostafa MOUSSA"/>
-         <party name="El Serh El Masry el Hor" leader="Tarek Ahmed Abbas NADIM"/>
-         <party name="Freedom Party" leader="Salah HASSABALAH"/>
-         <party name="Free Egyptians Party" leader="Essam KHALIL"/>
-         <party name="Homeland’s Protector Party" leader="Lt. Gen.  Galal AL-HARIDI"/>
-         <party name="Modern Egypt Party" leader="Nabil DEIBIS"/>
-         <party name="Nation's Future Party " leader="Mohamed Ashraf RASHAD"/>
-         <party name="My Homeland Egypt Party" leader="Gen. Seif El Islam ABDEL BARY "/>
-         <party name="National Progressive Unionist  Party" leader="Sayed Abdel AAL"/>
-         <party name="Reform and Development Party" leader="Mohamad Anwar al-SADAT"/>
-         <party name="Republican People’s Party" leader="Hazim AMR"/>
-         <party name="Revolutionary Guards Party" leader="Magdy EL-SHARIF"/>
-         <party name="Wafd Party" leader=""/>
+         <party leader="Yunis MAKHYUN">Al-Nour</party>
+         <party leader="Dr. Mohamed ABDUL ELLA ">Arab Democratic Nasserist Party</party>
+         <party leader="Omar Al-Mokhtar SEMIDA">Congress Party</party>
+         <party leader="Akmal KOURTAM">Conservative Party</party>
+         <party leader="Ahmed FADALY">Democratic Peace Party</party>
+         <party leader="Gen. Raouf EL SAYED">Egyptian National Movement Party</party>
+         <party leader="Farid ZAHRAN">Egyptian Social Democratic Party</party>
+         <party leader="Moussa Mostafa MOUSSA">El Ghad Party</party>
+         <party leader="Tarek Ahmed Abbas NADIM">El Serh El Masry el Hor</party>
+         <party leader="Salah HASSABALAH">Freedom Party</party>
+         <party leader="Essam KHALIL">Free Egyptians Party</party>
+         <party leader="Lt. Gen.  Galal AL-HARIDI">Homeland’s Protector Party</party>
+         <party leader="Nabil DEIBIS">Modern Egypt Party</party>
+         <party leader="Mohamed Ashraf RASHAD">Nation's Future Party </party>
+         <party leader="Gen. Seif El Islam ABDEL BARY ">My Homeland Egypt Party</party>
+         <party leader="Sayed Abdel AAL">National Progressive Unionist  Party</party>
+         <party leader="Mohamad Anwar al-SADAT">Reform and Development Party</party>
+         <party leader="Hazim AMR">Republican People’s Party</party>
+         <party leader="Magdy EL-SHARIF">Revolutionary Guards Party</party>
+         <party leader="">Wafd Party</party>
       </political_parties_and_leaders>
       <diplomatic_representation>
          <in_united_states>
@@ -326,13 +326,13 @@ House of Representatives (2015) - percent of vote by party - NA; seats by party 
       </flag_description>
       <national_symbols>
          <symbols>
-            <symbol name="golden eagle"/>
-            <symbol name="white lotus"/>
+            <symbol>golden eagle</symbol>
+            <symbol>white lotus</symbol>
          </symbols>
          <colors>
-            <color name="red"/>
-            <color name="white"/>
-            <color name="black"/>
+            <color>red</color>
+            <color>white</color>
+            <color>black</color>
          </colors>
       </national_symbols>
       <national_anthem>
@@ -349,73 +349,73 @@ House of Representatives (2015) - percent of vote by party - NA; seats by party 
          <participation>non-party state to the ICCt</participation>
       </international_law_organization_participation>
       <international_organization_participation>
-         <organization name="ABEDA"/>
-         <organization name="AfDB"/>
-         <organization name="AFESD"/>
-         <organization name="AMF"/>
-         <organization name="AU"/>
-         <organization name="BSEC "/>
-         <organization name="CAEU"/>
-         <organization name="CD"/>
-         <organization name="CICA"/>
-         <organization name="COMESA"/>
-         <organization name="D-8"/>
-         <organization name="EBRD"/>
-         <organization name="FAO"/>
-         <organization name="G-15"/>
-         <organization name="G-24"/>
-         <organization name="G-77"/>
-         <organization name="IAEA"/>
-         <organization name="IBRD"/>
-         <organization name="ICAO"/>
-         <organization name="ICC "/>
-         <organization name="ICRM"/>
-         <organization name="IDA"/>
-         <organization name="IDB"/>
-         <organization name="IFAD"/>
-         <organization name="IFC"/>
-         <organization name="IFRCS"/>
-         <organization name="IHO"/>
-         <organization name="ILO"/>
-         <organization name="IMF"/>
-         <organization name="IMO"/>
-         <organization name="IMSO"/>
-         <organization name="Interpol"/>
-         <organization name="IOC"/>
-         <organization name="IOM"/>
-         <organization name="IPU"/>
-         <organization name="ISO"/>
-         <organization name="ITSO"/>
-         <organization name="ITU"/>
-         <organization name="LAS"/>
-         <organization name="MIGA"/>
-         <organization name="MINURSO"/>
-         <organization name="MINUSMA"/>
-         <organization name="MONUSCO"/>
-         <organization name="NAM"/>
-         <organization name="OAPEC"/>
-         <organization name="OAS "/>
-         <organization name="OIC"/>
-         <organization name="OIF"/>
-         <organization name="OSCE "/>
-         <organization name="PCA"/>
-         <organization name="UN"/>
-         <organization name="UNAMID"/>
-         <organization name="UNCTAD"/>
-         <organization name="UNESCO"/>
-         <organization name="UNHCR"/>
-         <organization name="UNIDO"/>
-         <organization name="UNMISS"/>
-         <organization name="UNOCI"/>
-         <organization name="UNRWA"/>
-         <organization name="UNWTO"/>
-         <organization name="UPU"/>
-         <organization name="WCO"/>
-         <organization name="WFTU "/>
-         <organization name="WHO"/>
-         <organization name="WIPO"/>
-         <organization name="WMO"/>
-         <organization name="WTO"/>
+         <organization>ABEDA</organization>
+         <organization>AfDB</organization>
+         <organization>AFESD</organization>
+         <organization>AMF</organization>
+         <organization>AU</organization>
+         <organization>BSEC </organization>
+         <organization>CAEU</organization>
+         <organization>CD</organization>
+         <organization>CICA</organization>
+         <organization>COMESA</organization>
+         <organization>D-8</organization>
+         <organization>EBRD</organization>
+         <organization>FAO</organization>
+         <organization>G-15</organization>
+         <organization>G-24</organization>
+         <organization>G-77</organization>
+         <organization>IAEA</organization>
+         <organization>IBRD</organization>
+         <organization>ICAO</organization>
+         <organization>ICC </organization>
+         <organization>ICRM</organization>
+         <organization>IDA</organization>
+         <organization>IDB</organization>
+         <organization>IFAD</organization>
+         <organization>IFC</organization>
+         <organization>IFRCS</organization>
+         <organization>IHO</organization>
+         <organization>ILO</organization>
+         <organization>IMF</organization>
+         <organization>IMO</organization>
+         <organization>IMSO</organization>
+         <organization>Interpol</organization>
+         <organization>IOC</organization>
+         <organization>IOM</organization>
+         <organization>IPU</organization>
+         <organization>ISO</organization>
+         <organization>ITSO</organization>
+         <organization>ITU</organization>
+         <organization>LAS</organization>
+         <organization>MIGA</organization>
+         <organization>MINURSO</organization>
+         <organization>MINUSMA</organization>
+         <organization>MONUSCO</organization>
+         <organization>NAM</organization>
+         <organization>OAPEC</organization>
+         <organization>OAS </organization>
+         <organization>OIC</organization>
+         <organization>OIF</organization>
+         <organization>OSCE </organization>
+         <organization>PCA</organization>
+         <organization>UN</organization>
+         <organization>UNAMID</organization>
+         <organization>UNCTAD</organization>
+         <organization>UNESCO</organization>
+         <organization>UNHCR</organization>
+         <organization>UNIDO</organization>
+         <organization>UNMISS</organization>
+         <organization>UNOCI</organization>
+         <organization>UNRWA</organization>
+         <organization>UNWTO</organization>
+         <organization>UPU</organization>
+         <organization>WCO</organization>
+         <organization>WFTU </organization>
+         <organization>WHO</organization>
+         <organization>WIPO</organization>
+         <organization>WMO</organization>
+         <organization>WTO</organization>
       </international_organization_participation>
    </government>
    <economy>
@@ -424,43 +424,43 @@ Despite Egypt’s mixed record for attracting foreign investment over the past t
 In late 2016, persistent dollar shortages and waning aid from its Gulf allies led Cairo to turn to the IMF for a 3-year, $12 billion loan program. To secure the deal, Cairo floated its currency, introduced new taxes, and cut energy subsidies - all of which pushed inflation above 30% for most of 2017, a high that had not been seen in a generation. Since the currency float, foreign investment in Egypt’s high interest treasury bills has risen exponentially, boosting both dollar availability and central bank reserves. Cairo will be challenged to obtain foreign and local investment in manufacturing and other sectors without a sustained effort to implement a range of business reforms.</overview>
       <gdp>
          <purchasing_power_parity>
-            <annual_values units="USD" date="2017">1204000000000</annual_values>
-            <annual_values units="USD" date="2016">1155000000000</annual_values>
-            <annual_values units="USD" date="2015">1107000000000</annual_values>
+            <annual_values date="2017">1204000000000 USD</annual_values>
+            <annual_values date="2016">1155000000000 USD</annual_values>
+            <annual_values date="2015">1107000000000 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </purchasing_power_parity>
          <official_exchange_rate>
-            <rate units="USD">236500000000</rate>
+            <rate>236500000000 USD</rate>
          </official_exchange_rate>
          <real_growth_rate>
-            <annual_values units="%" date="2017">4.2</annual_values>
-            <annual_values units="%" date="2016">4.3</annual_values>
-            <annual_values units="%" date="2015">4.4</annual_values>
+            <annual_values date="2017">4.2 %</annual_values>
+            <annual_values date="2016">4.3 %</annual_values>
+            <annual_values date="2015">4.4 %</annual_values>
          </real_growth_rate>
          <per_capita_purchasing_power_parity>
-            <annual_values units="USD" date="2017">12700</annual_values>
-            <annual_values units="USD" date="2016">12800</annual_values>
-            <annual_values units="USD" date="2015">12400</annual_values>
+            <annual_values date="2017">12700 USD</annual_values>
+            <annual_values date="2016">12800 USD</annual_values>
+            <annual_values date="2015">12400 USD</annual_values>
             <note>data are in 2017 dollars</note>
          </per_capita_purchasing_power_parity>
          <end_uses>
-            <household_consumption units="%">86.8</household_consumption>
-            <government_consumption units="%">10.1</government_consumption>
-            <investment_in_fixed_capital units="%">14.8</investment_in_fixed_capital>
-            <investment_in_inventories units="%">0.5</investment_in_inventories>
-            <exports_of_goods_and_services units="%">16.3</exports_of_goods_and_services>
-            <imports_of_goods_and_services units="%">-28.5</imports_of_goods_and_services>
+            <household_consumption>86.8 %</household_consumption>
+            <government_consumption>10.1 %</government_consumption>
+            <investment_in_fixed_capital>14.8 %</investment_in_fixed_capital>
+            <investment_in_inventories>0.5 %</investment_in_inventories>
+            <exports_of_goods_and_services>16.3 %</exports_of_goods_and_services>
+            <imports_of_goods_and_services>-28.5 %</imports_of_goods_and_services>
          </end_uses>
          <sectors_of_origin>
-            <agriculture units="%">11.7</agriculture>
-            <industry units="%">34.3</industry>
-            <services units="%">54</services>
+            <agriculture>11.7 %</agriculture>
+            <industry>34.3 %</industry>
+            <services>54 %</services>
          </sectors_of_origin>
       </gdp>
       <gross_national_saving>
-         <annual_values units="percent of gdp" date="2017">9</annual_values>
-         <annual_values units="percent of gdp" date="2016">9.1</annual_values>
-         <annual_values units="percent of gdp" date="2015">10.6</annual_values>
+         <annual_values date="2017">9 percent of gdp</annual_values>
+         <annual_values date="2016">9.1 percent of gdp</annual_values>
+         <annual_values date="2015">10.6 percent of gdp</annual_values>
       </gross_national_saving>
       <agriculture_products>
          <product>cotton</product>
@@ -496,45 +496,45 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
          </total_size>
          <by_occupation>
             <occupation>
-               <agriculture units="%">25.8</agriculture>
-               <industry units="%">25.1</industry>
-               <services units="%">49.1</services>
+               <agriculture>25.8 %</agriculture>
+               <industry>25.1 %</industry>
+               <services>49.1 %</services>
             </occupation>
          </by_occupation>
       </labor_force>
       <unemployment_rate>
-         <annual_values units="%" date="2019">7.86</annual_values>
-         <annual_values units="%" date="2016">12.7</annual_values>
+         <annual_values date="2019">7.86 %</annual_values>
+         <annual_values date="2016">12.7 %</annual_values>
       </unemployment_rate>
-      <population_below_poverty_line units="%" date="2016">27.8</population_below_poverty_line>
+      <population_below_poverty_line date="2016">27.8 %</population_below_poverty_line>
       <household_income_by_percentage_share>
-         <lowest_ten_percent units="%">4</lowest_ten_percent>
-         <highest_ten_percent units="%">26.6</highest_ten_percent>
+         <lowest_ten_percent>4 %</lowest_ten_percent>
+         <highest_ten_percent>26.6 %</highest_ten_percent>
       </household_income_by_percentage_share>
       <budget>
-         <revenues units="USD">42320000000</revenues>
-         <expenditures units="USD">62610000000</expenditures>
+         <revenues>42320000000 USD</revenues>
+         <expenditures>62610000000 USD</expenditures>
       </budget>
-      <taxes_and_other_revenues units="% of gdp">17.9</taxes_and_other_revenues>
-      <budget_surplus_or_deficit units="% of gdp">-8.6</budget_surplus_or_deficit>
+      <taxes_and_other_revenues>17.9 % of gdp</taxes_and_other_revenues>
+      <budget_surplus_or_deficit>-8.6 % of gdp</budget_surplus_or_deficit>
       <public_debt>
-         <annual_values units="percent of gdp" date="2017">103</annual_values>
-         <annual_values units="percent of gdp" date="2016">96.8</annual_values>
+         <annual_values date="2017">103 percent of gdp</annual_values>
+         <annual_values date="2016">96.8 percent of gdp</annual_values>
          <note>data cover central government debt and include debt instruments issued (or owned) by government entities other than the treasury; the data include treasury debt held by foreign entities; the data include debt issued by subnational entities, as well as intragovernmental debt; intragovernmental debt consists of treasury borrowings from surpluses in the social funds, such as for retirement, medical care, and unemployment; debt instruments for the social funds are sold at public auctions</note>
       </public_debt>
       <fiscal_year start="1 July" end="30 June"/>
       <inflation_rate>
-         <annual_values units="%" date="2017">23.5</annual_values>
-         <annual_values units="%" date="2016">10.2</annual_values>
+         <annual_values date="2017">23.5 %</annual_values>
+         <annual_values date="2016">10.2 %</annual_values>
       </inflation_rate>
       <current_account_balance>
-         <annual_values units="USD" date="2019">-8915000000</annual_values>
-         <annual_values units="USD" date="2018">-7682000000</annual_values>
+         <annual_values date="2019">-8915000000 USD</annual_values>
+         <annual_values date="2018">-7682000000 USD</annual_values>
       </current_account_balance>
       <exports>
          <total_value>
-            <annual_values units="USD" date="2017">23300000000</annual_values>
-            <annual_values units="USD" date="2016">20020000000</annual_values>
+            <annual_values date="2017">23300000000 USD</annual_values>
+            <annual_values date="2016">20020000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>crude oil</commodity>
@@ -548,19 +548,19 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
             <commodity>processed food</commodity>
          </commodities>
          <partners>
-            <partner name="UAE" units="%">10.9</partner>
-            <partner name="Italy" units="%">10</partner>
-            <partner name="US" units="%">7.4</partner>
-            <partner name="UK" units="%">5.7</partner>
-            <partner name="Turkey" units="%">4.4</partner>
-            <partner name="Germany" units="%">4.3</partner>
-            <partner name="India" units="%">4.3</partner>
+            <partner name="UAE">10.9 %</partner>
+            <partner name="Italy">10 %</partner>
+            <partner name="US">7.4 %</partner>
+            <partner name="UK">5.7 %</partner>
+            <partner name="Turkey">4.4 %</partner>
+            <partner name="Germany">4.3 %</partner>
+            <partner name="India">4.3 %</partner>
          </partners>
       </exports>
       <imports>
          <total_value>
-            <annual_values units="USD" date="2017">59780000000</annual_values>
-            <annual_values units="USD" date="2016">57840000000</annual_values>
+            <annual_values date="2017">59780000000 USD</annual_values>
+            <annual_values date="2016">57840000000 USD</annual_values>
          </total_value>
          <commodities>
             <commodity>machinery</commodity>
@@ -571,68 +571,68 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
             <commodity>fuels</commodity>
          </commodities>
          <partners>
-            <partner name="China" units="%">7.9</partner>
-            <partner name="UAE" units="%">5.2</partner>
-            <partner name="Germany" units="%">4.8</partner>
-            <partner name="Saudi Arabia" units="%">4.6</partner>
-            <partner name="US" units="%">4.4</partner>
-            <partner name="Russia" units="%">4.3</partner>
+            <partner name="China">7.9 %</partner>
+            <partner name="UAE">5.2 %</partner>
+            <partner name="Germany">4.8 %</partner>
+            <partner name="Saudi Arabia">4.6 %</partner>
+            <partner name="US">4.4 %</partner>
+            <partner name="Russia">4.3 %</partner>
          </partners>
       </imports>
       <reserves_of_foreign_exchange_and_gold>
-         <annual_values units="USD" date="2017-12-31">35890000000</annual_values>
-         <annual_values units="USD" date="2016-12-31">23200000000</annual_values>
+         <annual_values date="2017-12-31">35890000000 USD</annual_values>
+         <annual_values date="2016-12-31">23200000000 USD</annual_values>
       </reserves_of_foreign_exchange_and_gold>
       <external_debt>
-         <annual_values units="USD" date="2017-12-31">77470000000</annual_values>
-         <annual_values units="USD" date="2016-12-31">62380000000</annual_values>
+         <annual_values date="2017-12-31">77470000000 USD</annual_values>
+         <annual_values date="2016-12-31">62380000000 USD</annual_values>
       </external_debt>
       <exchange_rates>
-         <annual_values units="USD" date="2017">18.05</annual_values>
-         <annual_values units="USD" date="2016">8.8</annual_values>
-         <annual_values units="USD" date="2015">10.07</annual_values>
-         <annual_values units="USD" date="2014">7.7133</annual_values>
-         <annual_values units="USD" date="2013">7.08</annual_values>
+         <annual_values date="2017">18.05 per USD</annual_values>
+         <annual_values date="2016">8.8 per USD</annual_values>
+         <annual_values date="2015">10.07 per USD</annual_values>
+         <annual_values date="2014">7.7133 per USD</annual_values>
+         <annual_values date="2013">7.08 per USD</annual_values>
          <note>Egyptian pounds (EGP) per US dollar</note>
       </exchange_rates>
    </economy>
    <energy>
       <electricity>
          <access>
-            <total_electrification units="%">100</total_electrification>
+            <total_electrification>100 %</total_electrification>
          </access>
-         <production units="kWh">183500000000</production>
-         <consumption units="kWh">159700000000</consumption>
-         <exports units="kWh">1158000000</exports>
-         <imports units="kWh">54000000</imports>
-         <installed_generating_capacity units="kW">45120000</installed_generating_capacity>
+         <production>183500000000 kWh</production>
+         <consumption>159700000000 kWh</consumption>
+         <exports>1158000000 kWh</exports>
+         <imports>54000000 kWh</imports>
+         <installed_generating_capacity>45120000 kW</installed_generating_capacity>
          <source>
-            <fossil_fuels units="%">91</fossil_fuels>
-            <nuclear_fuels units="%">0</nuclear_fuels>
-            <hydroelectric_plants units="%">6</hydroelectric_plants>
-            <other_renewable_sources units="%">2</other_renewable_sources>
+            <fossil_fuels>91 %</fossil_fuels>
+            <nuclear_fuels>0 %</nuclear_fuels>
+            <hydroelectric_plants>6 %</hydroelectric_plants>
+            <other_renewable_sources>2 %</other_renewable_sources>
          </source>
       </electricity>
       <crude_oil>
-         <production units="bbl per day">639000</production>
-         <exports units="bbl per day">246500</exports>
-         <imports units="bbl per day">64760</imports>
-         <proved_reserves units="bbl">4400000000</proved_reserves>
+         <production>639000 bbl per day</production>
+         <exports>246500 bbl per day</exports>
+         <imports>64760 bbl per day</imports>
+         <proved_reserves>4400000000 bbl</proved_reserves>
       </crude_oil>
       <refined_petroleum_products>
-         <production units="bbl per day">547500</production>
-         <consumption units="bbl per day">878000</consumption>
-         <exports units="bbl per day">47360</exports>
-         <imports units="bbl per day">280200</imports>
+         <production>547500 bbl per day</production>
+         <consumption>878000 bbl per day</consumption>
+         <exports>47360 bbl per day</exports>
+         <imports>280200 bbl per day</imports>
       </refined_petroleum_products>
       <natural_gas>
-         <production units="cubic metres">50860000000</production>
-         <consumption units="cubic metres">57710000000</consumption>
-         <exports units="cubic metres">212400000</exports>
-         <imports units="cubic metres">7079000000</imports>
-         <proved_reserves units="cubic metres">2186000000000</proved_reserves>
+         <production>50860000000 cubic metres</production>
+         <consumption>57710000000 cubic metres</consumption>
+         <exports>212400000 cubic metres</exports>
+         <imports>7079000000 cubic metres</imports>
+         <proved_reserves>2186000000000 cubic metres</proved_reserves>
       </natural_gas>
-      <carbon_dioxide_emissions_from_consumption_of_energy units="megatonnes">232700000</carbon_dioxide_emissions_from_consumption_of_energy>
+      <carbon_dioxide_emissions_from_consumption_of_energy>232700000 megatonnes</carbon_dioxide_emissions_from_consumption_of_energy>
    </energy>
    <communications>
       <telephones>
@@ -648,26 +648,26 @@ In late 2016, persistent dollar shortages and waning aid from its Gulf allies le
    </communications>
    <transportation>
       <pipelines>
-         <pipeline name="condensate" units="km">486</pipeline>
-         <pipeline name="condensate/gas" units="km">74</pipeline>
-         <pipeline name="gas" units="km">7986</pipeline>
-         <pipeline name="liquid petroleum gas" units="km">957</pipeline>
-         <pipeline name="oil" units="km">5225</pipeline>
-         <pipeline name="oil/gas/water" units="km">37</pipeline>
-         <pipeline name="refined products" units="km">895</pipeline>
-         <pipeline name="water" units="km">65</pipeline>
+         <pipeline name="condensate">486 km</pipeline>
+         <pipeline name="condensate/gas">74 km</pipeline>
+         <pipeline name="gas">7986 km</pipeline>
+         <pipeline name="liquid petroleum gas">957 km</pipeline>
+         <pipeline name="oil">5225 km</pipeline>
+         <pipeline name="oil/gas/water">37 km</pipeline>
+         <pipeline name="refined products">895 km</pipeline>
+         <pipeline name="water">65 km</pipeline>
       </pipelines>
       <railways>
-         <total units="km">5085</total>
-         <pipeline name="standard_gauge" units="km&#xA;1.435-m">5085</pipeline>
+         <total>5085 km</total>
+         <pipeline name="standard_gauge">5085 km
+1.435-m</pipeline>
       </railways>
       <roadways>
-         <total units="km">65050</total>
-         <paved units="km">48000</paved>
-         <unpaved units="km">17050</unpaved>
+         <total>65050 km</total>
+         <paved>48000 km</paved>
+         <unpaved>17050 km</unpaved>
       </roadways>
-      <waterways units="km"
-                 note="includes the Nile River, Lake Nasser, Alexandria-Cairo Waterway, and numerous smaller canals in Nile Delta; the Suez Canal (193.5 km including approaches; ; ">3500</waterways>
+      <waterways note="includes the Nile River, Lake Nasser, Alexandria-Cairo Waterway, and numerous smaller canals in Nile Delta; the Suez Canal (193.5 km including approaches; ; ">3500 km</waterways>
       <merchant_marine>393</merchant_marine>
       <major_seaports>
          <seaport>Mediterranean Sea - Alexandria</seaport>
@@ -691,11 +691,11 @@ Gulf of Suez - Suez</liquid_natural_gas_terminal>
    </transportation>
    <military_and_security>
       <expenditures>
-         <annual_values units="percent of gdp" date="2019">1.2</annual_values>
-         <annual_values units="percent of gdp" date="2018">1.2</annual_values>
-         <annual_values units="percent of gdp" date="2017">1.4</annual_values>
-         <annual_values units="percent of gdp" date="2016">1.7</annual_values>
-         <annual_values units="percent of gdp" date="2015">1.7</annual_values>
+         <annual_values date="2019">1.2 percent of gdp</annual_values>
+         <annual_values date="2018">1.2 percent of gdp</annual_values>
+         <annual_values date="2017">1.4 percent of gdp</annual_values>
+         <annual_values date="2016">1.7 percent of gdp</annual_values>
+         <annual_values date="2015">1.7 percent of gdp</annual_values>
       </expenditures>
       <service_age_and_obligation>18-30 years of age for male conscript military service; service obligation - 18-36 months, followed by a 9-year reserve obligation; voluntary enlistment possible from age 15</service_age_and_obligation>
       <note>since 2011, the Egyptian Armed Forces, police, and other security forces have been actively engaged in counterinsurgency and counter-terrorism operations in the North Sinai governorate against several militant groups, particularly the Islamic State of Iraq and ash-Sham – Sinai Province; as of early 2020, Egypt reportedly had over 40,000 troops plus thousands of police and other security personnel deployed to the Sinai for internal security duties where more than 1,000 have been killed

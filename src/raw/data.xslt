@@ -228,10 +228,11 @@
 
   <xsl:template match="government">
     <government>
-      <xsl:apply-templates select="*
-                                 except national_holidays
-                                 except international_law_organization_participation
-                                 except international_organization_participation"/>
+      <xsl:apply-templates select="
+          *
+           except national_holidays
+           except international_law_organization_participation
+           except international_organization_participation"/>
 
       <national_holidays>
         <xsl:apply-templates select="national_holidays"/>
@@ -531,7 +532,7 @@
 
   <xsl:template match="*[value and units]">
     <xsl:element name="{name()}">
-      <xsl:attribute name="units" select="units"/>
+      <xsl:attribute name="units" select="translate(units, '_', ' ')"/>
 
       <xsl:if test="name">
         <xsl:attribute name="name" select="name"/>

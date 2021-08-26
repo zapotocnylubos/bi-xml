@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <section id="italy" title="Italy">
-   <section title="introduction" id="introduction">
-      <paragraph>background: Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.</paragraph>
-   </section>
-   <section title="geography" id="geography">
-      <paragraph>location: Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia</paragraph>
-      <section title="geographic coordinates" id="geographic_coordinates">
+   <section title="introduction">Italy became a nation-state in 1861 when the regional states of the peninsula, along with Sardinia and Sicily, were united under King Victor EMMANUEL II. An era of parliamentary government came to a close in the early 1920s when Benito MUSSOLINI established a Fascist dictatorship. His alliance with Nazi Germany led to Italy's defeat in World War II. A democratic republic replaced the monarchy in 1946 and economic revival followed. Italy is a charter member of NATO and the European Economic Community (EEC) and its subsequent successors the EC and the EU. It has been at the forefront of European economic and political unification, joining the Economic and Monetary Union in 1999. Persistent problems include sluggish economic growth, high youth and female unemployment, organized crime, corruption, and economic disparities between southern Italy and the more prosperous north.</section>
+   <section title="geography">Southern Europe, a peninsula extending into the central Mediterranean Sea, northeast of Tunisia<section title="geographic coordinates">
          <glossary title="geographic coordinates">
             <term name="latitude">42°50"N</term>
             <term name="longitude">12°50"E</term>
          </glossary>
       </section>
-      <section title="area" id="area">
+      <section title="area">
          <glossary title="area">
             <term name="total">301340 sq km</term>
             <term name="land">294140 sq km</term>
@@ -20,7 +16,7 @@
             <term name="comparative">almost twice the size of Georgia; slightly larger than Arizona</term>
          </glossary>
       </section>
-      <section title="border countries" id="border_countries">
+      <section title="border countries">
          <glossary title="border countries">
             <term name="Austria">404 km</term>
             <term name="France">476 km</term>
@@ -29,179 +25,99 @@
             <term name="Slovenia">218 km</term>
             <term name="Switzerland">698 km</term>
          </glossary>
-      </section>
-      <paragraph>coastline: 7600</paragraph>
-      <paragraph>climate: predominantly Mediterranean; alpine in far north; hot, dry in south</paragraph>
-      <paragraph>terrain: mostly rugged and mountainous; some plains, coastal lowlands</paragraph>
-      <section title="elevation" id="elevation">
+      </section>7600 kmpredominantly Mediterranean; alpine in far north; hot, dry in southmostly rugged and mountainous; some plains, coastal lowlands<section title="elevation">
          <glossary title="elevation">
             <term name="mean elevation">538 m</term>
-            <term name="Mediterranean Sea">0 m (Mediterranean Sea)</term>
-            <term name="Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc)">4748 m (Mont Blanc (Monte Bianco) de Courmayeur (a secondary peak of Mont Blanc))</term>
+            <term name="lowest point">0 m</term>
+            <term name="highest point">4748 m</term>
          </glossary>
       </section>
-      <section title="natural resources" id="natural_resources">
-         <list title="natural resources">
-            <item>coal</item>
-            <item>antimony</item>
-            <item>mercury</item>
-            <item>zinc</item>
-            <item>potash</item>
-            <item>marble</item>
-            <item>barite</item>
-            <item>asbestos</item>
-            <item>pumice</item>
-            <item>fluorspar</item>
-            <item>feldspar</item>
-            <item>pyrite</item>
-            <item>sulfur</item>
-            <item>natural gas</item>
-            <item>crude oil reserves</item>
-            <item>fish</item>
-            <item>arable land</item>
-         </list>
-      </section>
-      <section title="land use" id="land_use">
+      <section title="natural resources"/>
+      <section title="land use">
          <glossary title="by sector">
             <term name="agricultural land total">47.1 %</term>
-            <term name="arable land">22.8 % (/)</term>
-            <term name="permanent crops">8.6 % (/)</term>
+            <term name="arable land">22.8 %</term>
+            <term name="permanent crops">8.6 %</term>
             <term name="permanent pasture">15.7 %</term>
             <term name="forest">31.4 %</term>
             <term name="other">21.5 %</term>
          </glossary>
-      </section>
-      <paragraph>irrigated land: 39500</paragraph>
-      <paragraph>population distribution: despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</paragraph>
-      <section title="natural hazards" id="natural_hazards">
+      </section>39500 sq kmdespite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations<section title="natural hazards">
          <glossary title="natural hazards">
             <term name="hazard">regional risks include landslides, mudflows, avalanches, earthquakes, volcanic eruptions, flooding</term>
             <term name="hazard">land subsidence in Venice</term>
             <term name="volcanism">significant volcanic activity; Etna (3,330 m), which is in eruption as of 2010, is Europe's most active volcano; flank eruptions pose a threat to nearby Sicilian villages; Etna, along with the famous Vesuvius, which remains a threat to the millions of nearby residents in the Bay of Naples area, have both been deemed Decade Volcanoes by the International Association of Volcanology and Chemistry of the Earth's Interior, worthy of study due to their explosive history and close proximity to human populations; Stromboli, on its namesake island, has also been continuously active with moderate volcanic activity; other historically active volcanoes include Campi Flegrei, Ischia, Larderello, Pantelleria, Vulcano, and Vulsini</term>
          </glossary>
       </section>
-      <section title="environment" id="environment">
-         <list title="issues">
-            <item>air pollution from industrial emissions such as sulfur dioxide</item>
-            <item>coastal and inland rivers polluted from industrial and agricultural effluents</item>
-            <item>acid rain damaging lakes</item>
-            <item>inadequate industrial waste treatment and disposal facilities</item>
-         </list>
-         <list title="party to">
-            <item>Air Pollution</item>
-            <item>Air Pollution-Nitrogen Oxides</item>
-            <item>Air Pollution-Persistent Organic Pollutants</item>
-            <item>Air Pollution-Sulfur 85</item>
-            <item>Air Pollution-Sulfur 94</item>
-            <item>Air Pollution-Volatile Organic Compounds</item>
-            <item>Antarctic-Environmental Protocol</item>
-            <item>Antarctic-Marine Living Resources</item>
-            <item>Antarctic Seals</item>
-            <item>Antarctic Treaty</item>
-            <item>Biodiversity</item>
-            <item>Climate Change</item>
-            <item>Climate Change-Kyoto Protocol</item>
-            <item>Desertification</item>
-            <item>Endangered Species</item>
-            <item>Environmental Modification</item>
-            <item>Hazardous Wastes</item>
-            <item>Law of the Sea</item>
-            <item>Marine Dumping</item>
-            <item>Ozone Layer Protection</item>
-            <item>Ship Pollution</item>
-            <item>Tropical Timber 83</item>
-            <item>Tropical Timber 94</item>
-            <item>Wetlands</item>
-            <item>Whaling</item>
-         </list>
-         <list title="signed but not ratified">
-            <item/>
-         </list>
+      <section title="environment">
       </section>
    </section>
-   <section title="people" id="people">
-      <paragraph>population: 62402659</paragraph>
-      <paragraph>nationality: Italian</paragraph>
-      <section title="ethnic groups" id="ethnic_groups">
+   <section title="people">62402659Italian<section title="ethnic groups">
          <glossary title="ethnic groups">
-            <term name="Italian"> % (Italian)</term>
+            <term name="group"> %</term>
          </glossary>
       </section>
-      <section title="languages" id="languages">
+      <section title="languages">
          <glossary title="languages">
-            <term name="Italian"> % (Italian)</term>
-            <term name="German"> % (German)</term>
-            <term name="French"> % (French)</term>
-            <term name="Slovene"> % (Slovene)</term>
+            <term name="language"> %</term>
+            <term name="language"> %</term>
+            <term name="language"> %</term>
+            <term name="language"> %</term>
          </glossary>
       </section>
-      <section title="religions" id="religions">
+      <section title="religions">
          <glossary title="religions">
-            <term name="Christian">83.3 % (Christian)</term>
-            <term name="Muslim">3.7 % (Muslim)</term>
-            <term name="unaffiliated">12.4 % (unaffiliated)</term>
-            <term name="other">0.6 % (other)</term>
+            <term name="religion">83.3 %</term>
+            <term name="religion">3.7 %</term>
+            <term name="religion">12.4 %</term>
+            <term name="religion">0.6 %</term>
          </glossary>
       </section>
-      <section title="dependency ratios" id="dependency_ratios">
+      <section title="dependency ratios">
          <glossary title="dependency ratios">
-            <term name="total dependency ratio">57 % (total dependency ratio)</term>
-            <term name="youth dependency ratio">20.4 % (youth dependency ratio)</term>
-            <term name="elderly dependency ratio">36.6 % (elderly dependency ratio)</term>
-            <term name="potential support ratio">2.7 % (potential support ratio)</term>
+            <term name="ratio">57 %</term>
+            <term name="ratio">20.4 %</term>
+            <term name="ratio">36.6 %</term>
+            <term name="ratio">2.7 %</term>
          </glossary>
       </section>
-      <section title="median age" id="median_age">
+      <section title="median age">
          <glossary title="median age">
             <term name="total">46.5 years</term>
             <term name="male">45.4 years</term>
             <term name="female">47.5 years</term>
          </glossary>
       </section>
-      <paragraph>population growth rate: 
       0.11
-    </paragraph>
-      <paragraph>birth rate: 8.4</paragraph>
-      <paragraph>death rate: 10.7</paragraph>
-      <paragraph>net migration rate: 3.2</paragraph>
-      <paragraph>population distribution: despite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations</paragraph>
-      <section title="urbanization" id="urbanization">
+    8.4 births per 1000 population10.7 deaths per 1000 population3.2 migrants per 1000 populationdespite a distinctive pattern with an industrial north and an agrarian south, a fairly even population distribution exists throughout most of the country, with coastal areas, the Po River Valley, and urban centers (particularly Milan, Rome, and Naples), attracting larger and denser populations<section title="urbanization">
          <glossary title="urbanization">
-            <term name="2020">71 % [2020]</term>
+            <term name="2020">71 %</term>
             <term name="rate of urbanization">0.29 %</term>
          </glossary>
       </section>
-      <section title="major urban areas" id="major_urban_areas">
+      <section title="major urban areas">
          <glossary title="major urban areas">
-            <term name="Rome">4257000 people</term>
-            <term name="Milan">3140000 people</term>
-            <term name="Naples">2187000 people</term>
-            <term name="Turin">1792000 people</term>
-            <term name="Bergamo">892000 people</term>
-            <term name="Palermo">851000 people</term>
+            <term name="area">4257000 people</term>
+            <term name="area">3140000 people</term>
+            <term name="area">2187000 people</term>
+            <term name="area">1792000 people</term>
+            <term name="area">892000 people</term>
+            <term name="area">851000 people</term>
          </glossary>
-      </section>
-      <paragraph>mothers mean age at first birth: 31.1</paragraph>
-      <paragraph>maternal mortality rate: 2</paragraph>
-      <section title="infant mortality rate" id="infant_mortality_rate">
+      </section>31.12 deaths per 100k live population<section title="infant mortality rate">
          <glossary title="infant mortality rate">
             <term name="total">3.2 deaths per 1000 live births</term>
             <term name="male">3.4 deaths per 1000 live births</term>
             <term name="female">3 deaths per 1000 live births</term>
          </glossary>
       </section>
-      <section title="life expectancy at birth" id="life_expectancy_at_birth">
+      <section title="life expectancy at birth">
          <glossary title="life expectancy at birth">
             <term name="total population">82.5 years</term>
             <term name="male">79.8 years</term>
             <term name="female">85.3 years</term>
          </glossary>
-      </section>
-      <paragraph>total fertility rate: 1.47</paragraph>
-      <paragraph>contraceptive prevalence rate: 65.1</paragraph>
-      <paragraph>physicians density: 3.98</paragraph>
-      <paragraph>hospital bed density: 3.2</paragraph>
-      <section title="drinking water source" id="drinking_water_source">
+      </section>1.47 children born per woman65.1 %3.98 physicians per 1000 population3.2 beds per 1000 population<section title="drinking water source">
          <glossary title="improved">
             <term name="urban">100 percent of population</term>
             <term name="rural">100 percent of population</term>
@@ -213,7 +129,7 @@
             <term name="total">0 percent of population</term>
          </glossary>
       </section>
-      <section title="sanitation facility access" id="sanitation_facility_access">
+      <section title="sanitation facility access">
          <glossary title="improved">
             <term name="urban">98.8 percent of population</term>
             <term name="rural">98.6 percent of population</term>
@@ -225,19 +141,16 @@
             <term name="total">1.2 percent of population</term>
          </glossary>
       </section>
-      <section title="hiv aids" id="hiv_aids">
+      <section title="hiv aids">
          <glossary title="hiv aids">
             <term name="adult prevalence rate">0.3 % of adults</term>
             <term name="people living with hiv aids">130000</term>
             <term name="deaths">1000</term>
          </glossary>
       </section>
-      <section title="major infectious diseases" id="major_infectious_diseases">
+      <section title="major infectious diseases">
          a new coronavirus is causing sustained community spread of respiratory illness (COVID-19) in Italy; sustained community spread means that people have been infected with the virus, but how or where they became infected is not known, and the spread is ongoing; illness with this virus has ranged from mild to severe with fatalities reported; as of 10 November 2020, Italy has reported a total of 902,490 cases of COVID-19 or 14,927 cumulative cases of COVID-19 per 1 million population with 679 cumulative deaths per 1 million population; the US Department of State has issued a Travel Advisory to reconsider travel to Italy due to the recent outbreak of COVID-19; the Centers for Disease Control and Prevention has also recommended postponing nonessential travel to Italy at this time and published additional guidance at https://wwwnc.cdc.gov/travel/notices/alert/coronavirus-italy; the US Department of Homeland Security has issued instructions requiring US passengers who have been in Italy to travel through select airports where the US Government has implemented enhanced screening procedures
-      </section>
-      <paragraph>adult obesity: 19.9</paragraph>
-      <paragraph>education expenditures: 3.8</paragraph>
-      <section title="literacy" id="literacy">
+      </section>19.9 % of adults3.8 % of gdp<section title="literacy">
          <glossary title="literacy">
             <term name="definition">age 15 and over can read and write</term>
             <term name="total population">99.2 %</term>
@@ -245,14 +158,14 @@
             <term name="female">99 %</term>
          </glossary>
       </section>
-      <section title="school life expectancy" id="school_life_expectancy">
+      <section title="school life expectancy">
          <glossary title="school life expectancy">
             <term name="total">16 years</term>
             <term name="male">16 years</term>
             <term name="female">17 years</term>
          </glossary>
       </section>
-      <section title="youth unemployment" id="youth_unemployment">
+      <section title="youth unemployment">
          <glossary title="youth unemployment">
             <term name="total">32.2 %</term>
             <term name="male">30.4 %</term>
@@ -260,8 +173,8 @@
          </glossary>
       </section>
    </section>
-   <section title="government" id="government">
-      <section title="country name" id="country_name">
+   <section title="government">
+      <section title="country name">
          <glossary title="country name">
             <term name="conventional long form">Italian Republic</term>
             <term name="conventional short form">Italy</term>
@@ -270,9 +183,7 @@
             <term name="former">Kingdom of Italy</term>
             <term name="etymology">derivation is unclear, but the Latin "Italia" may come from the Oscan "Viteliu" meaning "[Land] of Young Cattle" (the bull was a symbol of southern Italic tribes)</term>
          </glossary>
-      </section>
-      <paragraph>government type: parliamentary republic</paragraph>
-      <section title="capital" id="capital">
+      </section>parliamentary republic<section title="capital">
          Rome
          <glossary title="geographic coordinates">
             <term name="latitude">41°54"N</term>
@@ -282,29 +193,23 @@
          +1hr, begins last Sunday in March; ends last Sunday in October
          by tradition, named after Romulus, one of the legendary founders of the city and its first king
       </section>
-      <section title="administrative divisions" id="administrative_divisions">
+      <section title="administrative divisions">
          regione) and 5 autonomous regions (regioni autonome
       </section>
-      <section title="administrative divisions" id="administrative_divisions">
+      <section title="administrative divisions">
          singular - regione autonoma)
-      </section>
-      <paragraph>independence: 1861-03-17</paragraph>
-      <section title="constitution" id="constitution">
+      </section>1861-03-17<section title="constitution">
          previous 1848 (originally for the Kingdom of Sardinia and adopted by the Kingdom of Italy in 1861); latest enacted 22 December 1947, adopted 27 December 1947, entered into force 1 January 1948
          proposed by both houses of Parliament; passage requires two successive debates and approval by absolute majority of each house on the second vote; a referendum is only required when requested by one fifth of the members of either house, by voter petition, or by five Regional Councils (elected legislative assemblies of the 15 first-level administrative regions and 5 autonomous regions of Italy); referendum not required if an amendment has been approved by a two-thirds majority in each house in the second vote; amended many times, last in 2012
          a referendum held on 4 December 2016 on constitutional amendments was defeated
-      </section>
-      <paragraph>legal system: civil law system; judicial review of legislation under certain conditions in Constitutional Court</paragraph>
-      <section title="citizenship" id="citizenship">
+      </section>civil law system; judicial review of legislation under certain conditions in Constitutional Court<section title="citizenship">
          <glossary title="citizenship">
             <term name="citizenship by birth">no</term>
             <term name="citizenship by descent only">at least one parent must be a citizen of Italy</term>
             <term name="dual citizenship recognized">yes</term>
             <term name="residency requirement for naturalization">4 years for EU nationals, 5 years for refugees and specified exceptions, 10 years for all others</term>
          </glossary>
-      </section>
-      <paragraph>suffrage: 18</paragraph>
-      <section title="executive branch" id="executive_branch">
+      </section>18<section title="executive branch">
          <glossary title="executive branch">
             <term name="chief of state">President Sergio MATTARELLA (since 3 February 2015)</term>
             <term name="head of government">Prime Minister Giuseppe CONTE (since 1 June 2018); the prime minister's official title is President of the Council of Ministers; note - CONTE resigned on 20 August 2019 but returned as prime minister after PD and M5S agreed to form a new coalition government on 28 August 2019</term>
@@ -313,7 +218,7 @@
             <term name="election results">Sergio MATTARELLA (independent) elected president; electoral college vote count in fourth round - 665 out of 1,009 (505-vote threshold)</term>
          </glossary>
       </section>
-      <section title="legislative branch" id="legislative_branch">
+      <section title="legislative branch">
          <glossary title="legislative branch">
             <term name="description">bicameral Parliament or Parlamento consists of: Senate or Senato della Repubblica (321 seats; 116 members directly elected in single-seat constituencies by simple majority vote, 193 members in multi-seat constituencies and 6 members in multi-seat constituencies abroad directly elected by party-list proportional representation vote to serve 5-year terms and 6 ex-officio members appointed by the president of the Republic to serve for life)
 Chamber of Deputies or Camera dei Deputati (630 seats; 629 members directly elected in single- and multi-seat constituencies by proportional representation vote and 1 member from Valle d'Aosta elected by simple majority vote; members serve 5-year terms); note - a 29 March 2020 referendum on the proposed reduction of Parliament membership has been postponed indefinitely due to the COVID-19 pandemic</term>
@@ -324,32 +229,15 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
             <term name="note">in October 2019, Italy's Parliament voted to reduce the number of Senate seats from 315 to 200 and the number of Chamber of Deputies seats from 630 to 400; the law is subject to a referendum to be held between 15 April and 15 June 2020; changes will be effective for the 2023 election if the law is adopted</term>
          </glossary>
       </section>
-      <section title="judicial branch" id="judicial_branch">
+      <section title="judicial branch">
          <glossary title="judicial branch">
             <term name="highest courts">Supreme Court of Cassation or Corte Suprema di Cassazione (consists of the first president (chief justice), deputy president, 54 justices presiding over 6 civil and 7 criminal divisions, and 288 judges; an additional 30 judges of lower courts serve as supporting judges; cases normally heard by 5-judge panels; more complex cases heard by 9-judge panels); Constitutional Court or Corte Costituzionale (consists of the court president and 14 judges)</term>
             <term name="judge selection and term of office">Supreme Court judges appointed by the High Council of the Judiciary, headed by the president of the republic; judges may serve for life; Constitutional Court judges - 5 appointed by the president, 5 elected by Parliament, 5 elected by select higher courts; judges serve up to 9 years</term>
             <term name="subordinate courts">various lower civil and criminal courts (primary and secondary tribunals and courts of appeal)</term>
          </glossary>
       </section>
-      <section title="political parties and leaders"
-               id="political_parties_and_leaders">
-         <list title="political parties and leaders">
-            <item>Governing Coalition: Northern League (Matteo SALVINI)</item>
-            <item>Five Star Movement (Vito CRIMI acting leader)</item>
-            <item>Left-center-right opposition: Democratic Party (Nicola ZINGARETTI)</item>
-            <item>Forza Italia (Silvio BERLUSCONI)</item>
-            <item>Brothers of Italy (Giorgia MELONI)</item>
-            <item>Free and Equal (Pietro GRASSO)</item>
-            <item>More Europe (Emma BONINO)</item>
-            <item>Popular Civic List (Beatrice LORENZIN)</item>
-            <item>Possible (Beatrice BRIGNONE)</item>
-            <item>Us with Italy (Raffaele FITTO)</item>
-            <item>South Tyrolean People's Party (Philipp ACHAMMER)</item>
-            <item>Trentino Tyrolean Autonomist Party (Franco PANIZZA secretary)</item>
-            <item>Article One (Roberto SPERANZA)</item>
-         </list>
-      </section>
-      <section title="diplomatic representation" id="diplomatic_representation">
+      <section title="political parties and leaders"/>
+      <section title="diplomatic representation">
          <glossary title="in united states">
             <term name="chief of mission">Ambassador Armando VARRICCHIO (since 2 March 2016)</term>
             <term name="chancery">3000 Whitehaven Street NW, Washington, DC 20008</term>
@@ -367,22 +255,22 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
             <term name="consulates general">Florence, Milan, Naples</term>
          </glossary>
       </section>
-      <section title="flag description" id="flag_description">
+      <section title="flag description">
          three equal vertical bands of green (hoist side), white, and red; design inspired by the French flag brought to Italy by Napoleon in 1797; colors are those of Milan (red and white) combined with the green uniform color of the Milanese civic guard
          similar to the flag of Mexico, which is longer, uses darker shades of green and red, and has its coat of arms centered on the white band; Ireland, which is longer and is green (hoist side), white, and orange; also similar to the flag of the Cote d'Ivoire, which has the colors reversed - orange (hoist side), white, and green
       </section>
-      <section title="national symbols" id="national_symbols">
+      <section title="national symbols">
          <glossary title="symbols">
-            <term name="white"/>
-            <term name="five-pointed star "/>
+            <term name="symbol">white</term>
+            <term name="symbol">five-pointed star </term>
          </glossary>
          <glossary title="colors">
-            <term name="red"/>
-            <term name="white"/>
-            <term name="green"/>
+            <term name="color">red</term>
+            <term name="color">white</term>
+            <term name="color">green</term>
          </glossary>
       </section>
-      <section title="national anthem" id="national_anthem">
+      <section title="national anthem">
          <glossary title="national anthem">
             <term name="name">"Il Canto degli Italiani" (The Song of the Italians)</term>
             <term name="lyrics music">Goffredo MAMELI/Michele NOVARO</term>
@@ -390,134 +278,34 @@ Chamber of Deputies - percent of vote by party - center-right coalition 37% (L 1
             <term name="audio url">https://www.cia.gov/library/publications/the-world-factbook/attachments/audios/original/IT.mp3?1538604755</term>
          </glossary>
       </section>
-      <section title="national holidays" id="national_holidays">
+      <section title="national holidays">
          <glossary title="national holidays">
-            <term name="Republic Day">2 June</term>
+            <term name="holiday">2 June</term>
          </glossary>
       </section>
-      <section title="international law organization participation"
-               id="international_law_organization_participation">
-         <list title="international law organization participation">
-            <item>accepts compulsory ICJ jurisdiction with reservations</item>
-            <item>accepts ICCt jurisdiction</item>
-         </list>
-      </section>
-      <section title="international organization participation"
-               id="international_organization_participation">
-         <list title="international organization participation">
-            <item>ADB </item>
-            <item>AfDB </item>
-            <item>Arctic Council </item>
-            <item>Australia Group</item>
-            <item>BIS</item>
-            <item>BSEC </item>
-            <item>CBSS </item>
-            <item>CD</item>
-            <item>CDB</item>
-            <item>CE</item>
-            <item>CEI</item>
-            <item>CERN</item>
-            <item>EAPC</item>
-            <item>EBRD</item>
-            <item>ECB</item>
-            <item>EIB</item>
-            <item>EITI </item>
-            <item>EMU</item>
-            <item>ESA</item>
-            <item>EU</item>
-            <item>FAO</item>
-            <item>FATF</item>
-            <item>G-7</item>
-            <item>G-8</item>
-            <item>G-10</item>
-            <item>G-20</item>
-            <item>IADB</item>
-            <item>IAEA</item>
-            <item>IBRD</item>
-            <item>ICAO</item>
-            <item>ICC </item>
-            <item>ICCt</item>
-            <item>ICRM</item>
-            <item>IDA</item>
-            <item>IEA</item>
-            <item>IFAD</item>
-            <item>IFC</item>
-            <item>IFRCS</item>
-            <item>IGAD </item>
-            <item>IHO</item>
-            <item>ILO</item>
-            <item>IMF</item>
-            <item>IMO</item>
-            <item>IMSO</item>
-            <item>Interpol</item>
-            <item>IOC</item>
-            <item>IOM</item>
-            <item>IPU</item>
-            <item>ISO</item>
-            <item>ITSO</item>
-            <item>ITU</item>
-            <item>ITUC </item>
-            <item>LAIA </item>
-            <item>MIGA</item>
-            <item>MINURSO</item>
-            <item>MINUSMA</item>
-            <item>NATO</item>
-            <item>NEA</item>
-            <item>NSG</item>
-            <item>OAS </item>
-            <item>OECD</item>
-            <item>OPCW</item>
-            <item>OSCE</item>
-            <item>Pacific Alliance </item>
-            <item>Paris Club</item>
-            <item>PCA</item>
-            <item>PIF </item>
-            <item>Schengen Convention</item>
-            <item>SELEC </item>
-            <item>SICA </item>
-            <item>UN</item>
-            <item>UNCTAD</item>
-            <item>UNESCO</item>
-            <item>UNHCR</item>
-            <item>UNIDO</item>
-            <item>UNIFIL</item>
-            <item>Union Latina</item>
-            <item>UNMOGIP</item>
-            <item>UNRWA</item>
-            <item>UNTSO</item>
-            <item>UNWTO</item>
-            <item>UPU</item>
-            <item>WCO</item>
-            <item>WHO</item>
-            <item>WIPO</item>
-            <item>WMO</item>
-            <item>WTO</item>
-            <item>ZC</item>
-         </list>
-      </section>
+      <section title="international law organization participation"/>
+      <section title="international organization participation"/>
    </section>
-   <section title="economy" id="economy">
-      <paragraph>overview: Italy’s economy comprises a developed industrial north, dominated by private companies, and a less-developed, highly subsidized, agricultural south, with a legacy of unemployment and underdevelopment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family-owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 17% of GDP. These activities are most common within the agriculture, construction, and service sectors.
-Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.</paragraph>
-      <section title="gdp" id="gdp">
+   <section title="economy">Italy’s economy comprises a developed industrial north, dominated by private companies, and a less-developed, highly subsidized, agricultural south, with a legacy of unemployment and underdevelopment. The Italian economy is driven in large part by the manufacture of high-quality consumer goods produced by small and medium-sized enterprises, many of them family-owned. Italy also has a sizable underground economy, which by some estimates accounts for as much as 17% of GDP. These activities are most common within the agriculture, construction, and service sectors.
+Italy is the third-largest economy in the euro zone, but its exceptionally high public debt and structural impediments to growth have rendered it vulnerable to scrutiny by financial markets. Public debt has increased steadily since 2007, reaching 131% of GDP in 2017. Investor concerns about Italy and the broader euro-zone crisis eased in 2013, bringing down Italy's borrowing costs on sovereign government debt from euro-era records. The government still faces pressure from investors and European partners to sustain its efforts to address Italy's longstanding structural economic problems, including labor market inefficiencies, a sluggish judicial system, and a weak banking sector. Italy’s economy returned to modest growth in late 2014 for the first time since 2011. In 2015-16, Italy’s economy grew at about 1% each year, and in 2017 growth accelerated to 1.5% of GDP. In 2017, overall unemployment was 11.4%, but youth unemployment remained high at 37.1%. GDP growth is projected to slow slightly in 2018.<section title="gdp">
          <glossary title="purchasing power parity">
-            <term name="2017">2317000000000 USD [2017]</term>
-            <term name="2016">2282000000000 USD [2016]</term>
-            <term name="2015">2263000000000 USD [2015]</term>
+            <term name="2017">2317000000000 USD</term>
+            <term name="2016">2282000000000 USD</term>
+            <term name="2015">2263000000000 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="official exchange rate">
             <term name="rate">1939000000000 USD</term>
          </glossary>
          <glossary title="real growth rate">
-            <term name="2019">0.34 % [2019]</term>
-            <term name="2018">0.83 % [2018]</term>
-            <term name="2017">1.73 % [2017]</term>
+            <term name="2019">0.34 %</term>
+            <term name="2018">0.83 %</term>
+            <term name="2017">1.73 %</term>
          </glossary>
          <glossary title="per capita purchasing power parity">
-            <term name="2017">38200 USD [2017]</term>
-            <term name="2016">37600 USD [2016]</term>
-            <term name="2015">37200 USD [2015]</term>
+            <term name="2017">38200 USD</term>
+            <term name="2016">37600 USD</term>
+            <term name="2015">37200 USD</term>
             <term name="note">data are in 2017 dollars</term>
          </glossary>
          <glossary title="end uses">
@@ -534,50 +322,21 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="services">73.9 %</term>
          </glossary>
       </section>
-      <section title="gross national saving" id="gross_national_saving">
+      <section title="gross national saving">
          <glossary title="gross national saving">
-            <term name="2017">20.3 percent of gdp [2017]</term>
-            <term name="2016">19.7 percent of gdp [2016]</term>
-            <term name="2015">18.8 percent of gdp [2015]</term>
+            <term name="2017">20.3 percent of gdp</term>
+            <term name="2016">19.7 percent of gdp</term>
+            <term name="2015">18.8 percent of gdp</term>
          </glossary>
       </section>
-      <section title="agriculture products" id="agriculture_products">
-         <list title="agriculture products">
-            <item>fruits</item>
-            <item>vegetables</item>
-            <item>grapes</item>
-            <item>potatoes</item>
-            <item>sugar beets</item>
-            <item>soybeans</item>
-            <item>grain</item>
-            <item>olives</item>
-            <item>beef</item>
-            <item>dairy products</item>
-            <item>fish</item>
-         </list>
-      </section>
-      <section title="industries" id="industries">
-         <list title="industries">
-            <item>tourism</item>
-            <item>machinery</item>
-            <item>iron</item>
-            <item>steel</item>
-            <item>chemicals</item>
-            <item>food processing</item>
-            <item>textiles</item>
-            <item>motor vehicles</item>
-            <item>clothing</item>
-            <item>footwear</item>
-            <item>ceramics</item>
-         </list>
-      </section>
-      <section title="industrial production growth rate"
-               id="industrial_production_growth_rate">
+      <section title="agriculture products"/>
+      <section title="industries"/>
+      <section title="industrial production growth rate">
          <glossary title="industrial production growth rate">
             <term name="annual percentage increase">2.1</term>
          </glossary>
       </section>
-      <section title="labor force" id="labor_force">
+      <section title="labor force">
          <glossary title="total size">
             <term name="total people">22920000</term>
          </glossary>
@@ -587,123 +346,88 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="services">67.8 %</term>
          </glossary>
       </section>
-      <section title="unemployment rate" id="unemployment_rate">
+      <section title="unemployment rate">
          <glossary title="unemployment rate">
-            <term name="2019">9.88 % [2019]</term>
-            <term name="2018">10.63 % [2018]</term>
+            <term name="2019">9.88 %</term>
+            <term name="2018">10.63 %</term>
          </glossary>
-      </section>
-      <paragraph>population below poverty line: 29.9</paragraph>
-      <section title="household income by percentage share"
-               id="household_income_by_percentage_share">
+      </section>29.9 %<section title="household income by percentage share">
          <glossary title="household income by percentage share">
             <term name="lowest ten percent">2.3 %</term>
             <term name="highest ten percent">26.8 %</term>
          </glossary>
       </section>
-      <section title="budget" id="budget">
+      <section title="budget">
          <glossary title="budget">
             <term name="revenues">903300000000 USD</term>
             <term name="expenditures">948100000000 USD</term>
          </glossary>
-      </section>
-      <paragraph>taxes and other revenues: 46.6</paragraph>
-      <paragraph>budget surplus or deficit: -2.3</paragraph>
-      <section title="public debt" id="public_debt">
-         131.8 percent of gdp [2017]
-         132 percent of gdp [2016]
+      </section>46.6 % of gdp-2.3 % of gdp<section title="public debt">
+         131.8 percent of gdp
+         132 percent of gdp
          Italy reports its data on public debt according to guidelines set out in the Maastricht Treaty; general government gross debt is defined in the Maastricht Treaty as consolidated general government gross debt at nominal value, outstanding at the end of the year, in the following categories of government liabilities (as defined in ESA95): currency and deposits (AF.2), securities other than shares excluding financial derivatives (AF.3, excluding AF.34), and loans (AF.4); the general government sector comprises central, state, and local government and social security funds
       </section>
-      <paragraph>fiscal year: </paragraph>
-      <section title="inflation rate" id="inflation_rate">
-         1.3 % [2017]
-         -0.1 % [2016]
+      <section title="inflation rate">
+         1.3 %
+         -0.1 %
       </section>
-      <section title="current account balance" id="current_account_balance">
-         59517000000 USD [2019]
-         51735000000 USD [2018]
+      <section title="current account balance">
+         59517000000 USD
+         51735000000 USD
       </section>
-      <section title="exports" id="exports">
+      <section title="exports">
          <glossary title="total value">
-            <term name="2017">496300000000 USD [2017]</term>
-            <term name="2016">454100000000 USD [2016]</term>
+            <term name="2017">496300000000 USD</term>
+            <term name="2016">454100000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>engineering products</item>
-            <item>textiles</item>
-            <item>clothing</item>
-            <item>production machinery</item>
-            <item>motor vehicles</item>
-            <item>transport equipment</item>
-            <item>chemicals</item>
-            <item>foodstuffs</item>
-            <item>beverages</item>
-            <item>tobacco</item>
-            <item>minerals</item>
-            <item>nonferrous metals</item>
-         </list>
          <glossary title="partners">
-            <term name="Germany">12.5 % (Germany)</term>
-            <term name="France">10.3 % (France)</term>
-            <term name="US">9 % (US)</term>
-            <term name="Spain">5.2 % (Spain)</term>
-            <term name="UK">5.2 % (UK)</term>
-            <term name="Switzerland">4.6 % (Switzerland)</term>
+            <term name="partner">12.5 %</term>
+            <term name="partner">10.3 %</term>
+            <term name="partner">9 %</term>
+            <term name="partner">5.2 %</term>
+            <term name="partner">5.2 %</term>
+            <term name="partner">4.6 %</term>
          </glossary>
       </section>
-      <section title="imports" id="imports">
+      <section title="imports">
          <glossary title="total value">
-            <term name="2017">432900000000 USD [2017]</term>
-            <term name="2016">389800000000 USD [2016]</term>
+            <term name="2017">432900000000 USD</term>
+            <term name="2016">389800000000 USD</term>
          </glossary>
-         <list title="commodities">
-            <item>engineering products</item>
-            <item>chemicals</item>
-            <item>transport equipment</item>
-            <item>energy products</item>
-            <item>minerals</item>
-            <item>nonferrous metals</item>
-            <item>textiles</item>
-            <item>clothing</item>
-            <item>food</item>
-            <item>beverages</item>
-            <item>tobacco</item>
-         </list>
          <glossary title="partners">
-            <term name="Germany">16.3 % (Germany)</term>
-            <term name="France">8.8 % (France)</term>
-            <term name="China">7.1 % (China)</term>
-            <term name="Netherlands">5.6 % (Netherlands)</term>
-            <term name="Spain">5.3 % (Spain)</term>
-            <term name="Belgium">4.5 % (Belgium)</term>
+            <term name="partner">16.3 %</term>
+            <term name="partner">8.8 %</term>
+            <term name="partner">7.1 %</term>
+            <term name="partner">5.6 %</term>
+            <term name="partner">5.3 %</term>
+            <term name="partner">4.5 %</term>
          </glossary>
       </section>
-      <section title="reserves of foreign exchange and gold"
-               id="reserves_of_foreign_exchange_and_gold">
+      <section title="reserves of foreign exchange and gold">
          <glossary title="reserves of foreign exchange and gold">
-            <term name="2017-12-31">151200000000 USD [2017-12-31]</term>
-            <term name="2015-12-31">130600000000 USD [2015-12-31]</term>
+            <term name="2017-12-31">151200000000 USD</term>
+            <term name="2015-12-31">130600000000 USD</term>
          </glossary>
       </section>
-      <section title="external debt" id="external_debt">
+      <section title="external debt">
          <glossary title="external debt">
-            <term name="2016-03-31">2444000000000 USD [2016-03-31]</term>
-            <term name="2015-03-31">2300000000000 USD [2015-03-31]</term>
+            <term name="2016-03-31">2444000000000 USD</term>
+            <term name="2015-03-31">2300000000000 USD</term>
          </glossary>
       </section>
-      <section title="exchange rates" id="exchange_rates">
+      <section title="exchange rates">
          <glossary title="exchange rates">
-            <term name="2017">0.885 USD [2017]</term>
-            <term name="2016">0.903 USD [2016]</term>
-            <term name="2015">0.9214 USD [2015]</term>
-            <term name="2014">0.885 USD [2014]</term>
-            <term name="2013">0.7634 USD [2013]</term>
+            <term name="2017">0.885 per USD</term>
+            <term name="2016">0.903 per USD</term>
+            <term name="2015">0.9214 per USD</term>
+            <term name="2014">0.885 per USD</term>
+            <term name="2013">0.7634 per USD</term>
             <term name="note">euros (EUR) per US dollar</term>
          </glossary>
       </section>
    </section>
-   <section title="energy" id="energy">
-      <section title="electricity" id="electricity">
+   <section title="energy">
+      <section title="electricity">
          <glossary title="access">
             <term name="total electrification">100 %</term>
          </glossary>
@@ -719,7 +443,7 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="other renewable sources">32 %</term>
          </glossary>
       </section>
-      <section title="crude oil" id="crude_oil">
+      <section title="crude oil">
          <glossary title="crude oil">
             <term name="production">90000 bbl per day</term>
             <term name="exports">13790 bbl per day</term>
@@ -727,7 +451,7 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="proved reserves">487800000 bbl</term>
          </glossary>
       </section>
-      <section title="refined petroleum products" id="refined_petroleum_products">
+      <section title="refined petroleum products">
          <glossary title="refined petroleum products">
             <term name="production">1607000 bbl per day</term>
             <term name="consumption">1236000 bbl per day</term>
@@ -735,7 +459,7 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="imports">422500 bbl per day</term>
          </glossary>
       </section>
-      <section title="natural gas" id="natural_gas">
+      <section title="natural gas">
          <glossary title="natural gas">
             <term name="production">5550000000 cubic metres</term>
             <term name="consumption">75150000000 cubic metres</term>
@@ -743,50 +467,46 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
             <term name="imports">69660000000 cubic metres</term>
             <term name="proved reserves">38110000000 cubic metres</term>
          </glossary>
-      </section>
-      <paragraph>carbon dioxide emissions from consumption of energy: 351000000</paragraph>
-   </section>
-   <section title="communications" id="communications">
-      <section title="telephones" id="telephones">
+      </section>351000000 megatonnes</section>
+   <section title="communications">
+      <section title="telephones">
          <glossary title="telephones">
             <term name="fixed lines">20196475</term>
             <term name="mobile cellular">82955151</term>
          </glossary>
-      </section>
-      <paragraph>broadcast media: two Italian media giants dominate - the publicly owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately owned Mediaset with 3 national terrestrial stations; a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations</paragraph>
-      <section title="internet" id="internet">
+      </section>two Italian media giants dominate - the publicly owned Radiotelevisione Italiana (RAI) with 3 national terrestrial stations and privately owned Mediaset with 3 national terrestrial stations; a large number of private stations and Sky Italia - a satellite TV network; RAI operates 3 AM/FM nationwide radio stations; about 1,300 commercial radio stations<section title="internet">
          <glossary title="internet">
             <term name="country code">.it</term>
             <term name="users">46305301</term>
          </glossary>
       </section>
    </section>
-   <section title="transportation" id="transportation">
-      <section title="pipelines" id="pipelines">
+   <section title="transportation">
+      <section title="pipelines">
          <glossary title="pipelines">
-            <term name="gas">20223 km (gas)</term>
-            <term name="oil">1393 km (oil)</term>
-            <term name="refined products">1574 km (refined products)</term>
+            <term name="pipeline">20223 km</term>
+            <term name="pipeline">1393 km</term>
+            <term name="pipeline">1574 km</term>
          </glossary>
       </section>
-      <section title="railways" id="railways">
+      <section title="railways">
          <glossary title="railways">
             <term name="total">20182 km</term>
-            <term name="standard gauge">18770.1 km
-1.435-m (standard gauge)</term>
-            <term name="narrow gauge">122.3 km
-1.000-m (narrow gauge)</term>
+            <term name="pipeline">18770.1 km
+1.435-m</term>
+            <term name="pipeline">122.3 km
+1.000-m</term>
          </glossary>
       </section>
-      <section title="roadways" id="roadways">
+      <section title="roadways">
          <glossary title="roadways">
             <term name="total">487700 km</term>
-            <term name="paved">487700 km (includes 6,700 km of expressways)</term>
+            <term name="paved">487700 km</term>
          </glossary>
       </section>
-      <paragraph>waterways: 2400</paragraph>
-      <paragraph>merchant marine: 1353</paragraph>
-      <section title="major seaports" id="major_seaports">
+      <glossary>
+         <term name="waterways">2400 km</term>
+      </glossary>1353<section title="major seaports">
          Augusta
          Cagliari
          Genoa
@@ -795,57 +515,53 @@ Italy is the third-largest economy in the euro zone, but its exceptionally high 
          Trieste
          Venice
       </section>
-      <section title="container ports" id="container_ports">
+      <section title="container ports">
          Genoa
          Gioia Tauro
       </section>
-      <section title="oil terminals" id="oil_terminals">
+      <section title="oil terminals">
          Melilli (Santa Panagia) oil terminal
          Sarroch oil terminal
       </section>
-      <section title="liquid natural gas terminals import"
-               id="liquid_natural_gas_terminals_import">
+      <section title="liquid natural gas terminals import">
          La Spezia
          Panigaglia
          Porto Levante
       </section>
    </section>
-   <section title="military and security" id="military_and_security">
-      <section title="expenditures" id="expenditures">
+   <section title="military and security">
+      <section title="expenditures">
          <glossary title="expenditures">
-            <term name="2019">1.22 percent of gdp [2019]</term>
-            <term name="2018">1.21 percent of gdp [2018]</term>
-            <term name="2017">1.21 percent of gdp [2017]</term>
-            <term name="2016">1.18 percent of gdp [2016]</term>
-            <term name="2015">1.07 percent of gdp [2015]</term>
+            <term name="2019">1.22 percent of gdp</term>
+            <term name="2018">1.21 percent of gdp</term>
+            <term name="2017">1.21 percent of gdp</term>
+            <term name="2016">1.18 percent of gdp</term>
+            <term name="2015">1.07 percent of gdp</term>
          </glossary>
-      </section>
-      <paragraph>service age and obligation: 18-25 years of age for voluntary military service; women may serve in any military branch; Italian citizenship required; 1-year service obligation</paragraph>
-   </section>
-   <section title="transnational issues" id="transnational_issues">
-      <paragraph>disputes: Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa</paragraph>
-      <section title="refugees and iternally displaced persons"
-               id="refugees_and_iternally_displaced_persons">
+      </section>18-25 years of age for voluntary military service; women may serve in any military branch; Italian citizenship required; 1-year service obligation</section>
+   <section title="transnational issues">Italy's long coastline and developed economy entices tens of thousands of illegal immigrants from southeastern Europe and northern Africa<section title="refugees and iternally displaced persons">
          <glossary title="refugees">
-            <term name="Nigeria">25241</term>
-            <term name="Pakistan">20063</term>
-            <term name="Afghanistan">17849</term>
-            <term name="Mali">15842</term>
-            <term name="Somalia">14029</term>
-            <term name="Gambia">12968</term>
-            <term name="Bangladesh">8974</term>
-            <term name="Cote d'Ivoire">7659</term>
-            <term name="Senegal">7644</term>
-            <term name="Eritrea">7118</term>
-            <term name="Iraq">6995</term>
-            <term name="Ukraine">6353</term>
-            <term name="Ghana">5953</term>
-            <term name="">note - estimate for Ukraine represents asylum applicants since the beginning of the Ukraine crisis in 2014 to July 2018</term>
+            <term name="country of origin">25241</term>
+            <term name="country of origin">20063</term>
+            <term name="country of origin">17849</term>
+            <term name="country of origin">15842</term>
+            <term name="country of origin">14029</term>
+            <term name="country of origin">12968</term>
+            <term name="country of origin">8974</term>
+            <term name="country of origin">7659</term>
+            <term name="country of origin">7644</term>
+            <term name="country of origin">7118</term>
+            <term name="country of origin">6995</term>
+            <term name="country of origin">6353</term>
+            <term name="country of origin">5953</term>
+            <term name="country of origin">note - estimate for Ukraine represents asylum applicants since the beginning of the Ukraine crisis in 2014 to July 2018</term>
          </glossary>
-         15822
+         <glossary>
+            <term name="stateless persons">15822</term>
+         </glossary>
          520,474 estimated refugee and migrant arrivals by sea (January 2015-November 2020), hosts an estimated 96,862 migrants and asylum seekers as of the end of October 2019; 23,370 arrivals in 2018
       </section>
-      <section title="illicit drugs" id="illicit_drugs">
+      <section title="illicit drugs">
          important gateway for and consumer of Latin American cocaine and Southwest Asian heroin entering the European market; money laundering by organized crime and from smuggling
       </section>
    </section>
